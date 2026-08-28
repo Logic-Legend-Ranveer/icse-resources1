@@ -1,0 +1,46 @@
+name: Sync MEGA Manifests
+
+on:
+  # Run automatically every Sunday night at midnight UTC
+  schedule:
+    - cron: '0 0 * * 0'
+  
+  # Allow manual trigger from the GitHub Actions tab anytime
+  workflow_dispatch:
+
+jobs:
+  build-and-sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install MEGAcmd CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget
+          wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megacmd-xUbuntu_22.04_amd64.deb
+          sudo apt-get install -y ./megacmd-xUbuntu_22.04_amd64.deb
+
+      - name: Log in to MEGA
+        env:
+          MEGA_EMAIL: ${{ secrets.MEGA_EMAIL }}
+          MEGA_PASSWORD: ${{ secrets.MEGA_PASSWORD }}
+        run: |
+          mega-login "$MEGA_EMAIL" "$MEGA_PASSWORD"
+
+      - name: Run Manifest Generator
+        run: |
+          python generate_manifests_ci.py
+
+      - name: Commit and Push Updated Manifests
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "auto: update files.json and quizzes.json from MEGA"
+          file_pattern: "*.json"
