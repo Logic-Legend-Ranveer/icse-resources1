@@ -17,20 +17,38 @@ def run_cmd(cmd_list, timeout_sec=15):
         print(f"    ⚠️ Command failed/timed out: {e}")
         return ""
 
+# Global cache for existing links to avoid calling MEGA API repeatedly
+EXISTING_LINKS_CACHE = None
+
 def get_public_link(mega_path):
-    # 1. Check existing exports first (Fast - takes ~0.5 seconds)
-    export_list = run_cmd(["mega-export"], timeout_sec=10)
-    for line in export_list.splitlines():
-        if mega_path in line:
+    global EXISTING_LINKS_CACHE
+    
+    # 1. Fetch all existing exports ONCE (Takes ~1 second total for all files)
+    if EXISTING_LINKS_CACHE is None:
+        EXISTING_LINKS_CACHE = {}
+        raw_exports = run_cmd(["mega-export"], timeout_sec=15)
+        for line in raw_exports.splitlines():
+            # Line format usually contains the path and the URL
             match = re.search(r'https://mega\.nz/[^\s]+', line)
             if match:
-                return match.group(0)
+                url = match.group(0)
+                # Store by clean path
+                clean_path = line.split(url)[0].strip()
+                EXISTING_LINKS_CACHE[clean_path] = url
 
-    # 2. If no link exists yet, create one (Slower)
-    output = run_cmd(["mega-export", "-a", mega_path], timeout_sec=35)
+    # 2. Check if we already have a link in cache
+    for cached_path, url in EXISTING_LINKS_CACHE.items():
+        if mega_path in cached_path or cached_path in mega_path:
+            return url
+
+    # 3. ONLY if file has never been exported, generate a new link
+    print(f"    ⚡ Generating NEW link for: {mega_path}")
+    output = run_cmd(["mega-export", "-a", mega_path], timeout_sec=30)
     match = re.search(r'https://mega\.nz/[^\s]+', output)
     if match:
-        return match.group(0)
+        url = match.group(0)
+        EXISTING_LINKS_CACHE[mega_path] = url
+        return url
 
     return ""
 
