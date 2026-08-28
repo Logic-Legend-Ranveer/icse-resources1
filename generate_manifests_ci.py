@@ -74,11 +74,61 @@ def scan_folder(folder_path):
 RESOURCES_PATH = "/icse-resources-webpage-data/icse-resources-files"
 QUIZZES_PATH = "/icse-resources-webpage-data/quizzes"
 
+# --- Step 1: Scan Resources ---
 print(f"🚀 Scanning resource files from: {RESOURCES_PATH}")
 files_manifest = scan_folder(RESOURCES_PATH)
 
-# Save JSON manifest
-with open("files.json", "w", encoding="utf-8") as f:
+# --- Step 2: Scan Quizzes ---
+print(f"\n🚀 Scanning quizzes from: {QUIZZES_PATH}")
+quizzes_manifest = []
+quiz_output = run_cmd(["mega-ls", "-l", QUIZZES_PATH], timeout_sec=15)
+
+if quiz_output:
+    for line in quiz_output.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        parts = line.split(maxsplit=5)
+        if len(parts) >= 6:
+            is_dir = line.startswith('d')
+            name = parts[-1]
+            item_path = f"{QUIZZES_PATH}/{name}"
+            
+            if is_dir:
+                sub_output = run_cmd(["mega-ls", "-l", item_path], timeout_sec=15)
+                for sub_line in sub_output.splitlines():
+                    sub_line = sub_line.strip()
+                    if not sub_line:
+                        continue
+                    sub_parts = sub_line.split(maxsplit=5)
+                    if len(sub_parts) >= 6 and not sub_line.startswith('d'):
+                        file_name = sub_parts[-1]
+                        file_path = f"{item_path}/{file_name}"
+                        print(f"  📄 Processing Quiz: {file_path}")
+                        link = get_public_link(file_path)
+                        
+                        quizzes_manifest.append({
+                            "id": f"{name.lower()}-{file_name.replace('.txt', '').lower().replace(' ', '-')}",
+                            "subject": name,
+                            "title": file_name.replace('.txt', '').replace('_', ' ').title(),
+                            "url": link
+                        })
+            elif name.endswith('.txt'):
+                print(f"  📄 Processing Quiz: {item_path}")
+                link = get_public_link(item_path)
+                quizzes_manifest.append({
+                    "id": name.replace('.txt', '').lower().replace(' ', '-'),
+                    "title": name.replace('.txt', '').replace('_', ' ').title(),
+                    "url": link
+                })
+
+# --- Step 3: Ensure Output Directory Exists & Save Files ---
+os.makedirs("public", exist_ok=True)
+
+with open("public/files.json", "w", encoding="utf-8") as f:
     json.dump(files_manifest, f, indent=2)
 
-print("\n✅ Successfully updated manifests!")
+with open("public/quizzes.json", "w", encoding="utf-8") as f:
+    json.dump(quizzes_manifest, f, indent=2)
+
+print("\n✅ Successfully updated manifests in public/")
