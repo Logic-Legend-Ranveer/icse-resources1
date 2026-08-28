@@ -9,7 +9,8 @@
   <body>
     <canvas id="constellation-bg" class="fixed inset-0 pointer-events-none z-[-1]"></canvas>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+   <!-- ✅ Correct (relative path) -->
+<script type="module" src="./src/main.tsx"></script>
     <script>
     const canvas = document.getElementById('constellation-bg');
 const ctx = canvas.getContext('2d');
