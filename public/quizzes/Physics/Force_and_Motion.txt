@@ -1,0 +1,15 @@
+Q: What is the SI unit of Force?
+A) Joule
+B) Newton
+C) Watt
+D) Pascal
+CORRECT: B
+EXPLANATION: Newton (N) is the SI unit of force.
+
+Q: Which of the following is a scalar quantity?
+A) Velocity
+B) Acceleration
+C) Speed
+D) Displacement
+CORRECT: C
+EXPLANATION: Speed has only magnitude and no direction.

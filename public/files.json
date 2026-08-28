@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Class 10 ICSE",
+    "type": "folder",
+    "children": [
+      {
+        "name": "Physics",
+        "type": "folder",
+        "children": [
+          {
+            "name": "Force and Energy Notes.pdf",
+            "type": "pdf",
+            "url": "https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/examples/learning/helloworld.pdf"
+          },
+          {
+            "name": "Ray Diagram Reference.png",
+            "type": "image",
+            "url": "https://picsum.photos/1200/800"
+          }
+        ]
+      },
+      {
+        "name": "Chemistry",
+        "type": "folder",
+        "children": [
+          {
+            "name": "Periodic Table Summary.pdf",
+            "type": "pdf",
+            "url": "https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/examples/learning/helloworld.pdf"
+          }
+        ]
+      }
+    ]
+  }
+]
