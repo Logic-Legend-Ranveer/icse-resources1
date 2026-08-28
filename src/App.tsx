@@ -14,13 +14,13 @@ export default function App() {
   const [isQuizModalOpen, setIsQuizModalOpen] = useState(false);
 
   useEffect(() => {
-    fetch('/files.json')
-      .then((res) => res.json())
-      .then((data) => setFilesData(data))
-      .catch((err) => console.error('Failed to load files:', err));
+  fetch(`${import.meta.env.BASE_URL}files.json`)
+    .then((res) => res.json())
+    .then((data) => setFilesData(data))
+    .catch((err) => console.error('Failed to load files:', err));
 
-    fetch('/synonyms.txt')
-      .then((res) => res.text())
+  fetch(`${import.meta.env.BASE_URL}synonyms.txt`)
+    .then((res) => res.text())
       .then((text) => {
         const mapping: Record<string, string[]> = {};
         text.split('\n').forEach((line) => {
