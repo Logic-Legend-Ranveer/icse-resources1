@@ -35,7 +35,7 @@ def get_public_link(mega_path):
     return ""
 
 def scan_folder(folder_path):
-    """Recursively scans folders using mega-ls."""
+    """Recursively scans folders using mega-ls safely."""
     items = []
     print(f"\n🔍 Listing directory: {folder_path}")
     output = run_cmd(["mega-ls", "-l", folder_path], timeout_sec=15)
@@ -45,13 +45,15 @@ def scan_folder(folder_path):
 
     for line in output.splitlines():
         line = line.strip()
-        if not line:
+        
+        # Skip empty lines, summary lines, or directory headers ending in ':'
+        if not line or line.endswith(':') or line.startswith('FLAGS'):
             continue
         
         parts = line.split(maxsplit=5)
         if len(parts) >= 6:
             is_dir = line.startswith('d')
-            name = parts[-1]
+            name = parts[-1].rstrip(':')  # Clean any accidental colons
             item_path = f"{folder_path}/{name}"
             
             if is_dir:
@@ -59,7 +61,7 @@ def scan_folder(folder_path):
                 items.append({
                     "name": name,
                     "type": "folder",
-                    "url": "",  # Folders don't need export URLs
+                    "url": "",
                     "children": scan_folder(item_path)
                 })
             else:
@@ -71,7 +73,7 @@ def scan_folder(folder_path):
                     "url": link
                 })
     return items
-
+    
 RESOURCES_PATH = "/icse-resources-webpage-data/icse-resources-files"
 QUIZZES_PATH = "/icse-resources-webpage-data/quizzes"
 
