@@ -31,7 +31,8 @@ def get_public_link(mega_path):
             fallback = re.search(r'https://mega\.nz/[^\s]+', line)
             if fallback:
                 return fallback.group(0)
-    return None
+    # Return empty string instead of None to prevent null in generated JSON
+    return ""
 
 def scan_folder(folder_path):
     """Recursively scans folders using mega-ls."""
@@ -118,6 +119,7 @@ if quiz_output:
                 link = get_public_link(item_path)
                 quizzes_manifest.append({
                     "id": name.replace('.txt', '').lower().replace(' ', '-'),
+                    "subject": "General",
                     "title": name.replace('.txt', '').replace('_', ' ').title(),
                     "url": link
                 })
