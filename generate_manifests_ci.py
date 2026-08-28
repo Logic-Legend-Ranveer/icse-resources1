@@ -18,21 +18,21 @@ def run_cmd(cmd_list, timeout_sec=15):
         return ""
 
 def get_public_link(mega_path):
-    """Exports public link using mega-export."""
-    output = run_cmd(["mega-export", "-a", mega_path], timeout_sec=10)
+    # Increase timeout from 10s to 25s
+    output = run_cmd(["mega-export", "-a", mega_path], timeout_sec=25)
     match = re.search(r'https://mega\.nz/[^\s]+', output)
     if match:
         return match.group(0)
     
     # Fallback to checking existing exports
-    export_list = run_cmd(["mega-export"], timeout_sec=5)
+    export_list = run_cmd(["mega-export"], timeout_sec=10)
     for line in export_list.splitlines():
         if mega_path in line:
             fallback = re.search(r'https://mega\.nz/[^\s]+', line)
             if fallback:
                 return fallback.group(0)
-    # Return empty string instead of None to prevent null in generated JSON
     return ""
+
 
 def scan_folder(folder_path):
     """Recursively scans folders using mega-ls."""
