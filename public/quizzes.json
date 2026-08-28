@@ -1,11 +1,8 @@
 [
   {
+    "id": "physics-force",
     "subject": "Physics",
-    "chapters": [
-      {
-        "name": "Force and Motion",
-        "file": "/quizzes/Physics/Force_and_Motion.txt"
-      }
-    ]
+    "title": "Force",
+    "url": null
   }
 ]

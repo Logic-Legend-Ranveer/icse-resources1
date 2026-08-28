@@ -1,34 +1,1888 @@
 [
   {
-    "name": "Class 10 ICSE",
+    "name": "Official Data & Resources",
     "type": "folder",
+    "url": null,
     "children": [
       {
-        "name": "Physics",
+        "name": "CFQ Question bank(Official)",
         "type": "folder",
+        "url": null,
         "children": [
           {
-            "name": "Force and Energy Notes.pdf",
-            "type": "pdf",
-            "url": "https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/examples/learning/helloworld.pdf"
+            "name": "CFQs-ICSE_Computer-Application-Class-X.pdf",
+            "type": "file",
+            "url": null
           },
           {
-            "name": "Ray Diagram Reference.png",
-            "type": "image",
-            "url": "https://picsum.photos/1200/800"
+            "name": "ICSE_Economics-X.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE_History-and-Civics-X.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-Biology-X.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-Chemistry.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-Commercial-Applications-.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-Commercial-Studies-X.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-Economic-Applications-X.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-English-Language-X.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-Geography.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-Literature-in-English-X.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-Mathematics-X.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-Physical-Education-X.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-Physics-X-1.pdf",
+            "type": "file",
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "CISCE Class 10 2026-2027 Syllabus",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "10 2026-2027 Syllabus:",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "2.-English.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "9.-Mathematics.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "10.-Physics.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "11.-Chemistry.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "12.-Biology.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "13.-Economics.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "14.-Commercial-Studies.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "17.-Environmental-Science.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "18.-Computer-Applications.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "19.-Economic-Applications.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "20.-Commercial-Applications.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "21.-Art.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "29.-Environmental-Applications.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-Geography.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE-History-Civics.pdf",
+            "type": "file",
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "ICSE PYQ(Official)",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "New pattern(With CBQ)",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "pattern(With CBQ):",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "2024",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "pattern(With CBQ)/2024:",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2024 - 051 HIN.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2024 - 091 MAR.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2024 - 101 NEP.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2024 - 121 PUN.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2024 - 141 TEL.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2024 - 191 SAN.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2024 - 541 SPA.pdf",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "2025(Improvement examination)",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "pattern(With CBQ)/2025(Improvement examination):",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "2025(Main examination)",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "pattern(With CBQ)/2025(Main examination):",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2025 - 051 HIN - QP.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2025 - 221 ARB - QP.pdf",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "ICSE 2026 Improvement",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "pattern(With CBQ)/ICSE 2026 Improvement:",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "ICSE 2026 MAIN",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "pattern(With CBQ)/ICSE 2026 MAIN:",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "221 ARB - QP.pdf",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Old pattern(Without CBQ)",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "pattern(Without CBQ):",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "2017",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "pattern(Without CBQ)/2017:",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "601 ART PAPER 1 - 2017.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "603 ART PAPER 3 - 2017.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "871 EAS - 2017.pdf",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "2018",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "pattern(Without CBQ)/2018:",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "601 ART1 - 2018.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "602 ART2 - 2018.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "603 ART3 - 2018.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "604 ART4 - 2018.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "691 CKY - 2018.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "821 EVS - 2018.pdf",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "2019",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "pattern(Without CBQ)/2019:",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "051 HIN1 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "191 SAN1 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "601 ART1 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "602 ART2 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "603 ART3 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "604 ART4 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "631 CST1 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "641 ECO1 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "681 HSC1 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "691 CKY1 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "701 FAD1 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "821 EVS1 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "881 CAS1 - 2019.pdf",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "2020",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "pattern(Without CBQ)/2020:",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "601 ART PAPER 1 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "602 ART PAPER 2 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "603 ART PAPER 3 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "604 ART PAPER 4 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "641 ECO1 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "681 HSC1 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "691 CKY1 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "701 FAD1 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "721 PED1 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "821 EVS1 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "841 YOG1 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "871 EAS1 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "881 CAS1 - 2020.pdf",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "2023",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "pattern(Without CBQ)/2023:",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 011 ENG1.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 012 ENG2.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 191 SAN.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 271 FRE.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 361 SPA.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 401 GAR.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 431 POR.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 522 SCI2.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 531 FRE (GR-III).pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 541 SPA (Group-III).pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 551 GER (GR-III).pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 581 HGT1.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 582 HGT2.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 601 ART1.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 602 ART2.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 603 ART3.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 604 ART4.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 631 CST.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 641 ECO.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 681 HSC.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 691 CKY.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 701 FAD.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 721 PED.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 731 HPM.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 761 SAN (Group-II).pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 771 FRE (GR-II).pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 821 EVS.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 841 YOG.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 861 CTA.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 871 EAS.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 881 CAS.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 891 ENA.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 901 MMC.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 911 IMH.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 921 IMC.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 931 WMS.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "ICSE 2023 - 941 IND.pdf",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ICSE Specimen papers(Official)",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "papers(Official):",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "ICSE 2024 Specimen papers",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "papers(Official)/ICSE 2024 Specimen papers:",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2024-012-ENG2-SP.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2024-ENGLISH.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2024-HISTORY CIVICS & GEOGRAPHY.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2024-Maths.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2024-SPECIMEN-502-HCG2.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2024-SPECIMEN-521-SCI1.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2024-SPECIMEN-522-SCI2.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2024-SPECIMEN-523-SCI3-2.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2024-SPECIMEN-861-CTA.pdf",
+                "type": "file",
+                "url": null
+              }
+            ]
+          },
+          {
+            "name": "ICSE 2025 Specimen papers",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "papers(Official)/ICSE 2025 Specimen papers:",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE_2025_SPECIMEN_011_ENG1_QP_MS.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE_2025_SPECIMEN_012_ENG2_QP_MS_1.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE_2025_SPECIMEN_501_HCG1_QP_MS.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE_2025_SPECIMEN_502_HCG2_QP_MS.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE_2025_SPECIMEN_QP_MS_511_MAT_UPD.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE_2025_SPECIMEN_QP_MS_521_SCI1.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE_2025_SPECIMEN_QP_MS_522_SCI2.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE_2025_SPECIMEN_QP_MS_523_SCI3.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE_2025_SPECIMEN_QP_MS_861_CTA.pdf",
+                "type": "file",
+                "url": null
+              }
+            ]
+          },
+          {
+            "name": "ICSE 2026 Specimen papers",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "papers(Official)/ICSE 2026 Specimen papers:",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "HISTORY CIVICS & GEOGRAPHY.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2026-SPECIMEN-502-HCG2.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2026-SPECIMEN-511-MAT.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2026-SPECIMEN-521-SCI1.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2026-SPECIMEN-522-SCI2.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2026-SPECIMEN-523-SCI3.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "Specimen-Questions-ICSE-Examination-English-Language-English-Paper-1-2026.pdf",
+                "type": "file",
+                "url": null
+              }
+            ]
+          },
+          {
+            "name": "ICSE 2027 Specimen papers",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "papers(Official)/ICSE 2027 Specimen papers:",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2027-SPECIMEN-011-ENGLISH-LANGUAGE-QP-MS.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2027-SPECIMEN-012-LITERATURE-IN-ENGLISH-QP-MS.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2027-SPECIMEN-501-HISTORY-CIVICS-QP-MS.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2027-SPECIMEN-502-GEOGRAPHY-QP-MS.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2027-SPECIMEN-511-MATHEMATICS-QP-MS.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2027-SPECIMEN-521-PHYSICS-QP-MS.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2027-SPECIMEN-522-CHEMISTRY-QP-MS.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "ICSE-2027-SPECIMEN-523-BIOLOGY-QP-MS.pdf",
+                "type": "file",
+                "url": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Study Assets",
+    "type": "folder",
+    "url": null,
+    "children": [
+      {
+        "name": "Biology",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "Sample Papers",
+            "type": "folder",
+            "url": null,
+            "children": []
+          },
+          {
+            "name": "Biology - Chapterwise Weightage.jpg",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "Biology - Important Diagrams Sheet.jpeg",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "Biology - Important Diagrams.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "Biology - Location and Functions.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "Biology - Revision Notes.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "Biology - Short Notes - qw3rt0z.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "Biology - Suggestive Questions.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "Biology Question Bank - Goyal.pdf",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "Biology Question Bank - Nodia.pdf",
+            "type": "file",
+            "url": null
           }
         ]
       },
       {
         "name": "Chemistry",
         "type": "folder",
+        "url": null,
         "children": [
           {
-            "name": "Periodic Table Summary.pdf",
-            "type": "pdf",
-            "url": "https://raw.githubusercontent.com/mozilla/pdf.js/ba2edeae/examples/learning/helloworld.pdf"
+            "name": "Sample Papers",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Chemistry - Sample Paper - 02.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "Chemistry - Sample Paper - 05.pdf",
+                "type": "file",
+                "url": null
+              }
+            ]
+          },
+          {
+            "name": "Chemistry - Chapterwise Weightage.jpg",
+            "type": "file",
+            "url": null
           }
         ]
+      },
+      {
+        "name": "Commercial Applications",
+        "type": "folder",
+        "url": null,
+        "children": []
+      },
+      {
+        "name": "Computer Applications",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "Java_Complete_Topicwise_Notes_With_Practice_Questions",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Chapter 1-Variables and Datatypes",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "Datatypes:",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "Chapter 2-Operators & Expressions",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "Expressions:",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "Chapter 3-Strings",
+                "type": "folder",
+                "url": null,
+                "children": []
+              },
+              {
+                "name": "Chapter 4-Conditional Statements",
+                "type": "folder",
+                "url": null,
+                "children": []
+              },
+              {
+                "name": "Chapter 5-Loops",
+                "type": "folder",
+                "url": null,
+                "children": []
+              },
+              {
+                "name": "Chapter 6-Arrays",
+                "type": "folder",
+                "url": null,
+                "children": []
+              },
+              {
+                "name": "Chapter 7-Methods",
+                "type": "folder",
+                "url": null,
+                "children": []
+              },
+              {
+                "name": "Chapter 8-Introduction to OOP",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "OOP:",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "Chapter 9-Access Modifiers & Constructors",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "& Constructors:",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "Chapter 10-Inheritance",
+                "type": "folder",
+                "url": null,
+                "children": []
+              },
+              {
+                "name": "Chapter 11-Abstract Classes",
+                "type": "folder",
+                "url": null,
+                "children": []
+              },
+              {
+                "name": "Chapter 12-Packages in Java",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "Java:",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "Chapter 13-Multithreading",
+                "type": "folder",
+                "url": null,
+                "children": []
+              },
+              {
+                "name": "Chapter 14-Errors and Exceptions",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "Exceptions:",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "Chapter 15-Advanced Java",
+                "type": "folder",
+                "url": null,
+                "children": []
+              },
+              {
+                "name": "Type Conversion, Precedence and Associativity of Operators in C.gif",
+                "type": "file",
+                "url": null
+              }
+            ]
+          },
+          {
+            "name": "Sample Paper",
+            "type": "folder",
+            "url": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "English",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "Language",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Sample Papers",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "English Language - Sample Paper - 12.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "English Language - Sample Paper - 13.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "English Language - Sample Paper - 14.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "English Language - Sample Paper - 17.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "English Language - Sample Paper - 18.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "English Language - Sample Paper - 19.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "English Language - Sample Paper - 20.pdf",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "Study With Sudhir - Resources",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "Resources:",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "100 Most Important Phrasal Verbs.pdf",
+                "type": "file",
+                "url": null
+              },
+              {
+                "name": "English Language - Catchy Titles for Notice - 2.pdf",
+                "type": "file",
+                "url": null
+              }
+            ]
+          },
+          {
+            "name": "Literature",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Julius Caesar",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "ACT - III",
+                    "type": "folder",
+                    "url": null,
+                    "children": [
+                      {
+                        "name": "SCENE - I",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "- I:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "SCENE - II",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "- II:",
+                            "type": "file",
+                            "url": null
+                          },
+                          {
+                            "name": "Act - III, Scene - II - Brief.pdf",
+                            "type": "file",
+                            "url": null
+                          },
+                          {
+                            "name": "Act - III, Scene - II - Study Guide.pdf",
+                            "type": "file",
+                            "url": null
+                          },
+                          {
+                            "name": "Act - III, Scene - II - Timeline.pdf",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "SCENE - III",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "- III:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ACT - IV",
+                    "type": "folder",
+                    "url": null,
+                    "children": [
+                      {
+                        "name": "SCENE - I",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "- I:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "SCENE - II",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "- II:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "SCENE - III",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "- III:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "ACT - V",
+                    "type": "folder",
+                    "url": null,
+                    "children": [
+                      {
+                        "name": "SCENE - I",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "- I:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "SCENE - II",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "- II:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "SCENE - III",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "- III:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "SCENE - IV",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "- IV:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "SCENE - V",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "- V:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Sample Papers",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "English Literature - Sample Paper - 19.pdf",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "English Literature - Sample Paper - 20.pdf",
+                    "type": "file",
+                    "url": null
+                  }
+                ]
+              },
+              {
+                "name": "Study With Sudhir - Resources",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "Resources:",
+                    "type": "file",
+                    "url": null
+                  },
+                  {
+                    "name": "Julius Caesar",
+                    "type": "folder",
+                    "url": null,
+                    "children": [
+                      {
+                        "name": "Resources/Julius Caesar:",
+                        "type": "file",
+                        "url": null
+                      },
+                      {
+                        "name": "MCQs",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "Resources/Julius Caesar/MCQs:",
+                            "type": "file",
+                            "url": null
+                          },
+                          {
+                            "name": "ACT_3_SC_3.pdf",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "QnA",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "Resources/Julius Caesar/QnA:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Treasure Chest",
+                    "type": "folder",
+                    "url": null,
+                    "children": [
+                      {
+                        "name": "Resources/Treasure Chest:",
+                        "type": "file",
+                        "url": null
+                      },
+                      {
+                        "name": "MCQs",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "Resources/Treasure Chest/MCQs:",
+                            "type": "file",
+                            "url": null
+                          },
+                          {
+                            "name": "CONSIDERABLE_SPECK.pdf",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "QnA",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "Resources/Treasure Chest/QnA:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Treasure Chest",
+                "type": "folder",
+                "url": null,
+                "children": [
+                  {
+                    "name": "Poems",
+                    "type": "folder",
+                    "url": null,
+                    "children": [
+                      {
+                        "name": "A Considerable Speck",
+                        "type": "folder",
+                        "url": null,
+                        "children": []
+                      },
+                      {
+                        "name": "Haunted Houses",
+                        "type": "folder",
+                        "url": null,
+                        "children": []
+                      },
+                      {
+                        "name": "The Glove and the Lions",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "the Lions:",
+                            "type": "file",
+                            "url": null
+                          },
+                          {
+                            "name": "The Glove and the Lions - Brief.pdf",
+                            "type": "file",
+                            "url": null
+                          },
+                          {
+                            "name": "The Glove and the Lions - Questions.pdf",
+                            "type": "file",
+                            "url": null
+                          },
+                          {
+                            "name": "The Glove and the Lions - Timeline.pdf",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "The Power of Music",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "Music:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "When Great Trees Fall",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "Fall:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Stories",
+                    "type": "folder",
+                    "url": null,
+                    "children": [
+                      {
+                        "name": "The Elevator",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "The Elevator - Brief.pdf",
+                            "type": "file",
+                            "url": null
+                          },
+                          {
+                            "name": "The Elevator - Questions.pdf",
+                            "type": "file",
+                            "url": null
+                          },
+                          {
+                            "name": "The Elevator - Study Guide.pdf",
+                            "type": "file",
+                            "url": null
+                          },
+                          {
+                            "name": "The Elevator - Timeline.pdf",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "The Girl Who Can",
+                        "type": "folder",
+                        "url": null,
+                        "children": [
+                          {
+                            "name": "Can:",
+                            "type": "file",
+                            "url": null
+                          }
+                        ]
+                      },
+                      {
+                        "name": "The Last Lesson",
+                        "type": "folder",
+                        "url": null,
+                        "children": []
+                      },
+                      {
+                        "name": "The Pedestrian",
+                        "type": "folder",
+                        "url": null,
+                        "children": []
+                      },
+                      {
+                        "name": "With The Photographer",
+                        "type": "folder",
+                        "url": null,
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "English Literature - Command Words.pdf",
+                "type": "file",
+                "url": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Geography",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "Sample Papers",
+            "type": "folder",
+            "url": null,
+            "children": []
+          },
+          {
+            "name": "Geography - Largest Producer States.jpg",
+            "type": "file",
+            "url": null
+          },
+          {
+            "name": "Geography - Soil - Comparative Study.jpeg",
+            "type": "file",
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "Hindi",
+        "type": "folder",
+        "url": null,
+        "children": []
+      },
+      {
+        "name": "History & Civics Notes",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "Sample Papers",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Papers:",
+                "type": "file",
+                "url": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "ICSE Chapter wise PYQs(Unofficial)",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "Biology",
+            "type": "folder",
+            "url": null,
+            "children": []
+          },
+          {
+            "name": "Chemistry",
+            "type": "folder",
+            "url": null,
+            "children": []
+          },
+          {
+            "name": "Computer Applications",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Applications:",
+                "type": "file",
+                "url": null
+              }
+            ]
+          },
+          {
+            "name": "Geography",
+            "type": "folder",
+            "url": null,
+            "children": []
+          },
+          {
+            "name": "History and Civics",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "and Civics:",
+                "type": "file",
+                "url": null
+              }
+            ]
+          },
+          {
+            "name": "Mathematics",
+            "type": "folder",
+            "url": null,
+            "children": []
+          },
+          {
+            "name": "Physical Education",
+            "type": "folder",
+            "url": null,
+            "children": [
+              {
+                "name": "Education:",
+                "type": "file",
+                "url": null
+              }
+            ]
+          },
+          {
+            "name": "Physics",
+            "type": "folder",
+            "url": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Mathematics",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "Sample Papers",
+            "type": "folder",
+            "url": null,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Physics",
+        "type": "folder",
+        "url": null,
+        "children": [
+          {
+            "name": "Sample Papers",
+            "type": "folder",
+            "url": null,
+            "children": []
+          },
+          {
+            "name": "Physics - Chapterwise Weightage.jpg",
+            "type": "file",
+            "url": null
+          }
+        ]
+      },
+      {
+        "name": "Mock Test Papers.pdf",
+        "type": "file",
+        "url": null
+      },
+      {
+        "name": "PW Endgame Notes - 2026.pdf",
+        "type": "file",
+        "url": null
       }
     ]
   }
