@@ -37,7 +37,7 @@ jobs:
 
       - name: Run Manifest Generator
         run: |
-          python generate_manifests_ci.py
+          python -u generate_manifests_ci.py
 
       - name: Commit and Push Updated Manifests
         uses: stefanzweifel/git-auto-commit-action@v5
