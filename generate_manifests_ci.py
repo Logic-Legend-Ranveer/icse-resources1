@@ -18,13 +18,13 @@ def run_cmd(cmd_list, timeout_sec=15):
         return ""
 
 def get_public_link(mega_path):
-    # Increase timeout from 10s to 25s
+    """Forces generation of a public export link for a file."""
     output = run_cmd(["mega-export", "-a", mega_path], timeout_sec=25)
     match = re.search(r'https://mega\.nz/[^\s]+', output)
     if match:
         return match.group(0)
     
-    # Fallback to checking existing exports
+    # Fallback to checking existing exports if -a didn't print URL directly
     export_list = run_cmd(["mega-export"], timeout_sec=10)
     for line in export_list.splitlines():
         if mega_path in line:
@@ -32,7 +32,6 @@ def get_public_link(mega_path):
             if fallback:
                 return fallback.group(0)
     return ""
-
 
 def scan_folder(folder_path):
     """Recursively scans folders using mega-ls."""
@@ -54,17 +53,17 @@ def scan_folder(folder_path):
             name = parts[-1]
             item_path = f"{folder_path}/{name}"
             
-            print(f"  📄 Processing {'Folder' if is_dir else 'File'}: {item_path}")
-            link = get_public_link(item_path)
-            
             if is_dir:
+                print(f"  📁 Traversing Folder: {item_path}")
                 items.append({
                     "name": name,
                     "type": "folder",
-                    "url": link,
+                    "url": "",  # Folders don't need export URLs
                     "children": scan_folder(item_path)
                 })
             else:
+                print(f"  📄 Exporting File: {item_path}")
+                link = get_public_link(item_path)
                 items.append({
                     "name": name,
                     "type": "file",
@@ -105,7 +104,7 @@ if quiz_output:
                     if len(sub_parts) >= 6 and not sub_line.startswith('d'):
                         file_name = sub_parts[-1]
                         file_path = f"{item_path}/{file_name}"
-                        print(f"  📄 Processing Quiz: {file_path}")
+                        print(f"  📄 Processing Quiz File: {file_path}")
                         link = get_public_link(file_path)
                         
                         quizzes_manifest.append({
@@ -115,7 +114,7 @@ if quiz_output:
                             "url": link
                         })
             elif name.endswith('.txt'):
-                print(f"  📄 Processing Quiz: {item_path}")
+                print(f"  📄 Processing Quiz File: {item_path}")
                 link = get_public_link(item_path)
                 quizzes_manifest.append({
                     "id": name.replace('.txt', '').lower().replace(' ', '-'),
