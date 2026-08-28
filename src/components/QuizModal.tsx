@@ -34,7 +34,7 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
 
   useEffect(() => {
     if (isOpen) {
-      fetch('/quizzes.json')
+      fetch(`${import.meta.env.BASE_URL}quizzes.json`)
         .then((res) => {
           if (!res.ok) throw new Error('Failed to load quiz catalog manifest.');
           return res.json();
