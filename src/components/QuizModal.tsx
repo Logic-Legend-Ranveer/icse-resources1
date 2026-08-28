@@ -39,10 +39,35 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
           if (!res.ok) throw new Error('Failed to load quiz catalog manifest.');
           return res.json();
         })
-        .then((data: SubjectQuizData[]) => {
-          setQuizCatalog(data);
-          if (data.length > 0) {
-            setSelectedSubject(data[0].subject);
+        .then((data: any[]) => {
+          if (!Array.isArray(data)) {
+            setQuizCatalog([]);
+            return;
+          }
+
+          // Transform flat quiz array or raw manifest structure safely
+          const structuredCatalog: SubjectQuizData[] = [];
+          
+          data.forEach((item) => {
+            if (!item) return;
+            const subjectName = item.subject || 'General';
+            const chapterFile = item.url ?? item.file ?? '';
+            const chapterName = item.title ?? item.name ?? 'Untitled Chapter';
+
+            if (!chapterFile) return; // Skip entries without valid URL/file targets
+
+            let subjectObj = structuredCatalog.find((s) => s.subject === subjectName);
+            if (!subjectObj) {
+              subjectObj = { subject: subjectName, chapters: [] };
+              structuredCatalog.push(subjectObj);
+            }
+
+            subjectObj.chapters.push({ name: chapterName, file: chapterFile });
+          });
+
+          setQuizCatalog(structuredCatalog);
+          if (structuredCatalog.length > 0) {
+            setSelectedSubject(structuredCatalog[0].subject);
           }
         })
         .catch((err) => {
@@ -53,6 +78,7 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
   }, [isOpen]);
 
   const toggleSelectFile = (filePath: string) => {
+    if (!filePath) return;
     setSelectedFiles((prev) =>
       prev.includes(filePath) ? prev.filter((f) => f !== filePath) : [...prev, filePath]
     );
@@ -67,11 +93,14 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
 
     try {
       for (const filePath of selectedFiles) {
+        if (!filePath) continue;
         const res = await fetch(filePath);
         if (!res.ok) throw new Error(`Could not fetch file: ${filePath}`);
         const text = await res.text();
         const parsed = parseQuizTxt(text);
-        combinedQuestions = [...combinedQuestions, ...parsed];
+        if (Array.isArray(parsed)) {
+          combinedQuestions = [...combinedQuestions, ...parsed];
+        }
       }
 
       if (combinedQuestions.length === 0) {
@@ -88,14 +117,13 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
       setIsFinished(false);
     } catch (err: any) {
       console.error('Failed to parse quiz files:', err);
-      setErrorMsg('Failed to load the selected quiz text file. Please check file formatting.');
+      setErrorMsg('Failed to load the selected quiz text file. Please check file formatting or URL.');
     } finally {
       setIsLoading(false);
     }
   };
 
   const handleSelectOption = (optIdx: number) => {
-    // Prevent changing answer if already submitted
     if (submittedQuestions[currentIdx]) return;
     setUserAnswers((prev) => ({ ...prev, [currentIdx]: optIdx }));
   };
@@ -224,7 +252,7 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
               </h3>
 
               <div className="space-y-2.5">
-                {activeQuestions[currentIdx]?.options.map((opt, optIdx) => {
+                {activeQuestions[currentIdx]?.options?.map((opt, optIdx) => {
                   const isSelected = userAnswers[currentIdx] === optIdx;
                   const isCorrect = activeQuestions[currentIdx].correctAnswer === optIdx;
 
@@ -252,7 +280,6 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
                 })}
               </div>
 
-              {/* Submit Answer Button for current question */}
               {!isCurrentSubmitted && (
                 <div className="mt-4 flex justify-end">
                   <button
@@ -265,7 +292,6 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
                 </div>
               )}
 
-              {/* Explanation Box */}
               {isCurrentSubmitted && activeQuestions[currentIdx]?.explanation && (
                 <div className="mt-4 p-3 bg-amber-50 border border-amber-200 rounded-xl text-xs text-amber-800">
                   <span className="font-bold">Explanation: </span>
@@ -274,7 +300,6 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
               )}
             </div>
 
-            {/* Next / Finish Navigation */}
             <div className="flex justify-between items-center pt-2 border-t mt-4">
               <button
                 disabled={currentIdx === 0}
