@@ -18,19 +18,20 @@ def run_cmd(cmd_list, timeout_sec=15):
         return ""
 
 def get_public_link(mega_path):
-    """Forces generation of a public export link for a file."""
-    output = run_cmd(["mega-export", "-a", mega_path], timeout_sec=25)
-    match = re.search(r'https://mega\.nz/[^\s]+', output)
-    if match:
-        return match.group(0)
-    
-    # Fallback to checking existing exports if -a didn't print URL directly
+    # 1. Check existing exports first (Fast - takes ~0.5 seconds)
     export_list = run_cmd(["mega-export"], timeout_sec=10)
     for line in export_list.splitlines():
         if mega_path in line:
-            fallback = re.search(r'https://mega\.nz/[^\s]+', line)
-            if fallback:
-                return fallback.group(0)
+            match = re.search(r'https://mega\.nz/[^\s]+', line)
+            if match:
+                return match.group(0)
+
+    # 2. If no link exists yet, create one (Slower)
+    output = run_cmd(["mega-export", "-a", mega_path], timeout_sec=35)
+    match = re.search(r'https://mega\.nz/[^\s]+', output)
+    if match:
+        return match.group(0)
+
     return ""
 
 def scan_folder(folder_path):
