@@ -23,24 +23,31 @@ EXISTING_LINKS_CACHE = None
 def get_public_link(mega_path):
     global EXISTING_LINKS_CACHE
     
-    # 1. Fetch all existing exports ONCE
+    # 1. Fetch all existing exports ONCE into a reliable dictionary
     if EXISTING_LINKS_CACHE is None:
         EXISTING_LINKS_CACHE = {}
-        raw_exports = run_cmd(["mega-export"], timeout_sec=15)
+        raw_exports = run_cmd(["mega-export", "-q"], timeout_sec=15) # -q for quiet/clean list if supported, or standard mega-export
         for line in raw_exports.splitlines():
             match = re.search(r'https://mega\.nz/[^\s]+', line)
             if match:
                 url = match.group(0)
-                clean_path = line.split(url)[0].strip()
-                EXISTING_LINKS_CACHE[clean_path] = url
+                # Extract path portion from the line
+                path_part = line.replace(url, "").strip()
+                if path_part:
+                    EXISTING_LINKS_CACHE[path_part] = url
+                    # Also store by just the filename/endswith for robust matching
+                    EXISTING_LINKS_CACHE[path_part.split('/')[-1]] = url
 
-    # 2. Check cache
-    for cached_path, url in EXISTING_LINKS_CACHE.items():
-        if mega_path in cached_path or cached_path in mega_path:
-            return url
+    # 2. Check cache by exact path or filename match
+    if mega_path in EXISTING_LINKS_CACHE:
+        return EXISTING_LINKS_CACHE[mega_path]
+    
+    file_name_only = mega_path.split('/')[-1]
+    if file_name_only in EXISTING_LINKS_CACHE:
+        return EXISTING_LINKS_CACHE[file_name_only]
 
-    # 3. Try generating a new link, but don't let it crash the build if MEGA throttles it
-    print(f"    ⚡ Requesting link for: {mega_path}")
+    # 3. Only if it truly has no export link anywhere, create one
+    print(f"    ⚡ Generating NEW link for: {mega_path}")
     try:
         output = run_cmd(["mega-export", "-a", mega_path], timeout_sec=20)
         match = re.search(r'https://mega\.nz/[^\s]+', output)
@@ -51,7 +58,6 @@ def get_public_link(mega_path):
     except Exception:
         pass
     
-    print(f"    ⚠️ Rate-limited or timed out by MEGA for this file. Skipping link generation.")
     return ""
 
 def scan_folder(folder_path):
@@ -85,7 +91,7 @@ def scan_folder(folder_path):
                     "children": scan_folder(item_path)
                 })
             else:
-                print(f"  📄 Exporting File: {item_path}")
+                print(f"  📄 Processing File: {item_path}")
                 link = get_public_link(item_path)
                 items.append({
                     "name": name,
