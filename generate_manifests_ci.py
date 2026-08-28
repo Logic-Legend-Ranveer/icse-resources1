@@ -23,33 +23,35 @@ EXISTING_LINKS_CACHE = None
 def get_public_link(mega_path):
     global EXISTING_LINKS_CACHE
     
-    # 1. Fetch all existing exports ONCE (Takes ~1 second total for all files)
+    # 1. Fetch all existing exports ONCE
     if EXISTING_LINKS_CACHE is None:
         EXISTING_LINKS_CACHE = {}
         raw_exports = run_cmd(["mega-export"], timeout_sec=15)
         for line in raw_exports.splitlines():
-            # Line format usually contains the path and the URL
             match = re.search(r'https://mega\.nz/[^\s]+', line)
             if match:
                 url = match.group(0)
-                # Store by clean path
                 clean_path = line.split(url)[0].strip()
                 EXISTING_LINKS_CACHE[clean_path] = url
 
-    # 2. Check if we already have a link in cache
+    # 2. Check cache
     for cached_path, url in EXISTING_LINKS_CACHE.items():
         if mega_path in cached_path or cached_path in mega_path:
             return url
 
-    # 3. ONLY if file has never been exported, generate a new link
-    print(f"    ⚡ Generating NEW link for: {mega_path}")
-    output = run_cmd(["mega-export", "-a", mega_path], timeout_sec=30)
-    match = re.search(r'https://mega\.nz/[^\s]+', output)
-    if match:
-        url = match.group(0)
-        EXISTING_LINKS_CACHE[mega_path] = url
-        return url
-
+    # 3. Try generating a new link, but don't let it crash the build if MEGA throttles it
+    print(f"    ⚡ Requesting link for: {mega_path}")
+    try:
+        output = run_cmd(["mega-export", "-a", mega_path], timeout_sec=20)
+        match = re.search(r'https://mega\.nz/[^\s]+', output)
+        if match:
+            url = match.group(0)
+            EXISTING_LINKS_CACHE[mega_path] = url
+            return url
+    except Exception:
+        pass
+    
+    print(f"    ⚠️ Rate-limited or timed out by MEGA for this file. Skipping link generation.")
     return ""
 
 def scan_folder(folder_path):
