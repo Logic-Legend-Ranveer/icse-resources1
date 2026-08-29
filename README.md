@@ -1,75 +1,53 @@
-# React + TypeScript + Vite
+# ICSE Class 10 Resources
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, central place for **ICSE Class 10 students** to find useful study material without having to search across multiple websites and folders.
 
-Currently, two official plugins are available:
+The goal of this repository is to make revision easier: keep high-value resources together, organise them clearly, and make them quick to open when you need them.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What's available
 
-## React Compiler
+The resource collection currently includes:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Official CISCE syllabi** for Class 10 subjects
+- **Official specimen papers** from recent examination years
+- **Official previous-year question papers**, including both newer and older examination patterns
+- **CFQ question banks** for a range of subjects
+- **Supplementary study resources**, such as formula sheets, Java notes, practice questions, and literature material
 
-## Expanding the ESLint configuration
+Resources cover core subjects including English, Mathematics, Physics, Chemistry, Biology, History & Civics, Geography, Computer Applications, and more where available.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Browse the collection
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Open [index.html](index.html) in a browser to use the built-in file explorer. It lets you expand folders and open individual files without manually navigating the repository tree.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## How to use this repository
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+1. Start with the latest **syllabus** for each of your subjects so you know exactly what to prepare.
+2. Use **specimen papers** to understand the latest question style and paper format.
+3. Practise with **previous-year question papers** under timed conditions.
+4. Refer to the **CFQ question banks** and supplementary material for focused revision and extra practice.
 
-```
+## A note on the material
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+- Official resources are retained here for convenient access; their original source and ownership remain with CISCE and the respective publishers.
+- Supplementary resources are provided for study support. Always verify that a resource matches your current syllabus and examination pattern.
+- This is an independent student resource collection and is not an official CISCE website.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Contributing
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Helpful additions are welcome. If you find an accurate, relevant Class 10 ICSE resource, please open an issue or submit a pull request with:
 
-```
+- the resource name and subject
+- the examination year or syllabus it applies to
+- its original source, where available
+- a short description of how it helps students
+
+Please avoid uploading copyrighted material unless you have permission to share it, and keep submissions organised in the appropriate folder.
+
+## Keep learning, keep practising
+
+Use these resources steadily throughout the year: small, regular practice sessions are far more effective than last-minute preparation.
+
+
+## **Note**:
+The files listed as unofficial are not verified and the owner does not take any responsibility for their authenticity. 
