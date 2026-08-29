@@ -3,7 +3,10 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/u
 import type { Question } from '@/types/quiz';
 import { parseQuizTxt } from '@/lib/quizParser';
 import { BookOpen, CheckCircle, HelpCircle, XCircle, ArrowRight, RotateCcw, Check, AlertCircle } from 'lucide-react';
- 
+
+
+  const WORKER_URL = 'https://icse-file-proxy.bybro.workers.dev';
+
 interface QuizModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -31,7 +34,7 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
   const [isFinished, setIsFinished] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
-  const WORKER_URL = 'https://icse-file-proxy.bybro.workers.dev';
+ 
   useEffect(() => {
     if (isOpen) {
       fetch(`${import.meta.env.BASE_URL}quizzes.json`)
