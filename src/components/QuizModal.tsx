@@ -47,23 +47,25 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
 
           // Transform flat quiz array or raw manifest structure safely
           const structuredCatalog: SubjectQuizData[] = [];
-          
-          data.forEach((item) => {
-            if (!item) return;
-            const subjectName = item.subject || 'General';
-            const chapterFile = item.url ?? item.file ?? '';
-            const chapterName = item.title ?? item.name ?? 'Untitled Chapter';
+      const WORKER_URL = 'https://icse-file-proxy.bybro.workers.dev';
 
-            if (!chapterFile) return; // Skip entries without valid URL/file targets
+  // Inside your useEffect parsing loop:
+  data.forEach((item) => {
+    if (!item) return;
+    const subjectName = item.subject || 'General';
+    const chapterFileId = item.fileId || item.url ?? item.file ?? '';
+    const chapterName = item.title ?? item.name ?? 'Untitled Chapter';
 
-            let subjectObj = structuredCatalog.find((s) => s.subject === subjectName);
-            if (!subjectObj) {
-              subjectObj = { subject: subjectName, chapters: [] };
-              structuredCatalog.push(subjectObj);
-            }
+    if (!chapterFileId) return;
 
-            subjectObj.chapters.push({ name: chapterName, file: chapterFile });
-          });
+    let subjectObj = structuredCatalog.find((s) => s.subject === subjectName);
+    if (!subjectObj) {
+      subjectObj = { subject: subjectName, chapters: [] };
+      structuredCatalog.push(subjectObj);
+    }
+
+    subjectObj.chapters.push({ name: chapterName, file: chapterFileId });
+  });
 
           setQuizCatalog(structuredCatalog);
           if (structuredCatalog.length > 0) {
@@ -92,10 +94,17 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
     let combinedQuestions: Question[] = [];
 
     try {
-      for (const filePath of selectedFiles) {
-        if (!filePath) continue;
-        const res = await fetch(filePath);
-        if (!res.ok) throw new Error(`Could not fetch file: ${filePath}`);
+      for (const fileId of selectedFiles) {
+        if (!fileId) continue;
+        
+        // 1. Fetch the secure Google Drive URL from your Worker proxy
+        const proxyRes = await fetch(`${WORKER_URL}/file?id=${fileId}`);
+        if (!proxyRes.ok) throw new Error(`Could not authorize file ID: ${fileId}`);
+        const proxyData = await proxyRes.json();
+        
+        // 2. Fetch the actual text contents from the Google Drive URL
+        const res = await fetch(proxyData.url);
+        if (!res.ok) throw new Error(`Could not fetch quiz content for ID: ${fileId}`);
         const text = await res.text();
         const parsed = parseQuizTxt(text);
         if (Array.isArray(parsed)) {
@@ -117,7 +126,7 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
       setIsFinished(false);
     } catch (err: any) {
       console.error('Failed to parse quiz files:', err);
-      setErrorMsg('Failed to load the selected quiz text file. Please check file formatting or URL.');
+      setErrorMsg('Failed to load the selected quiz text file. Please check file formatting or permissions.');
     } finally {
       setIsLoading(false);
     }
