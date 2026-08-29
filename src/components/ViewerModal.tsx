@@ -38,7 +38,7 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
           <div className="flex items-center gap-3 pr-8">
             {embedUrl && (
               <>
-                
+                <a
                   href={`https://drive.google.com/file/d/${file.fileId}/view`}
                   target="_blank"
                   rel="noreferrer"
@@ -48,6 +48,7 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
                   <span>Open in Drive</span>
                 </a>
                 
+                <a
                   href={`https://drive.google.com/uc?export=download&id=${file.fileId}`}
                   className="p-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-600 rounded-lg transition-colors flex items-center gap-1.5 text-xs font-medium"
                 >
