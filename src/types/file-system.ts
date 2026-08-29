@@ -1,7 +1,7 @@
 export interface FileItem {
   name: string;
   type: 'pdf' | 'image' | 'file';
-  url: string;
+  fileId: string;
 }
 
 export interface FolderItem {
