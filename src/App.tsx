@@ -80,7 +80,8 @@ const filteredFiles = useMemo(() => {
     }
 
     const file = node as FileItem;
-    const fullPath = file.path || currentPath;
+    // Safely fallback to currentPath if path property is missing from the type definition
+    const fullPath = (file as FileItem & { path?: string }).path || currentPath;
 
     return matchesAllTerms(fullPath) ? file : null;
   };
@@ -89,7 +90,6 @@ const filteredFiles = useMemo(() => {
     .map((node) => filterNode(node))
     .filter((node): node is FileSystemNode => node !== null);
 }, [filesData, searchQuery, synonyms]);
-
   
   const stats = useMemo(() => {
     let fileCount = 0;
