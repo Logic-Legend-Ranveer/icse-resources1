@@ -138,8 +138,27 @@ def get_public_link(mega_path):
     print(f"    ❌ Failed to get link for: {mega_path}")
     return ""
 
+def parse_mega_ls(output):
+    """
+    Parses mega-ls -l output correctly, handling filenames with spaces.
+    Returns list of (is_dir, full_name) tuples.
+    """
+    results = []
+    for line in output.splitlines():
+        line = line.strip()
+        if not line or line.startswith('FLAGS') or line.endswith(':'):
+            continue
+        # mega-ls -l columns: FLAGS  VERSION  SIZE  DATE  TIME  NAME
+        # Split on whitespace, but only up to 5 splits so NAME captures everything
+        parts = line.split(None, 5)  # maxsplit=5 gives us 6 parts
+        if len(parts) < 6:
+            continue
+        is_dir = parts[0].startswith('d')
+        full_name = parts[5].strip()  # parts[5] = everything after the 5th space = full filename
+        results.append((is_dir, full_name))
+    return results
+
 def scan_folder(folder_path):
-    """Recursively scans folders using mega-ls safely."""
     items = []
     print(f"\n🔍 Listing directory: {folder_path}")
     output = run_cmd(["mega-ls", "-l", folder_path], timeout_sec=20)
@@ -148,21 +167,8 @@ def scan_folder(folder_path):
         print(f"    ⚠️ Empty or failed listing for: {folder_path}")
         return items
 
-    for line in output.splitlines():
-        line = line.strip()
-
-        # Skip empty lines, header lines, or directory label lines ending in ':'
-        if not line or line.endswith(':') or line.startswith('FLAGS'):
-            continue
-
-        parts = line.split(maxsplit=5)
-        if len(parts) < 6:
-            continue
-
-        is_dir = line.startswith('d')
-        name = parts[-1].rstrip(':')
+    for is_dir, name in parse_mega_ls(output):
         item_path = f"{folder_path}/{name}"
-
         if is_dir:
             print(f"  📁 Traversing folder: {item_path}")
             items.append({
@@ -174,11 +180,7 @@ def scan_folder(folder_path):
         else:
             print(f"  📄 Processing file: {item_path}")
             link = get_public_link(item_path)
-            items.append({
-                "name": name,
-                "type": "file",
-                "url": link
-            })
+            items.append({"name": name, "type": "file", "url": link})
 
     return items
 
