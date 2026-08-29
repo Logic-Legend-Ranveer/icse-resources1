@@ -76,7 +76,28 @@ def build_links_cache():
                 EXISTING_LINKS_CACHE[filename] = url
 
     print(f"    ✅ Cached {len(EXISTING_LINKS_CACHE)} existing export entries.")
-    
+
+def run_cmd_with_stderr(cmd_list, timeout_sec=30):
+    """Like run_cmd but returns combined stdout+stderr — needed because MEGAcmd 
+    sometimes prints links to stderr (e.g. on already-exported files)."""
+    try:
+        result = subprocess.run(
+            cmd_list,
+            capture_output=True,
+            text=True,
+            timeout=timeout_sec
+        )
+        combined = (result.stdout + "\n" + result.stderr).strip()
+        if result.returncode != 0:
+            print(f"    ⚠️ Exit {result.returncode}: {result.stderr.strip()[:120]}")
+        return combined
+    except subprocess.TimeoutExpired:
+        print(f"    ⚠️ Timed out after {timeout_sec}s: {' '.join(cmd_list)}")
+        return ""
+    except Exception as e:
+        print(f"    ⚠️ Command failed: {e}")
+        return ""
+
 def get_public_link(mega_path):
     """Returns public link for a MEGA path, using cache to avoid redundant API calls."""
     global EXISTING_LINKS_CACHE
@@ -93,10 +114,21 @@ def get_public_link(mega_path):
     if file_name_only in EXISTING_LINKS_CACHE:
         return EXISTING_LINKS_CACHE[file_name_only]
 
-    # No cached link — generate a new one
+    # Not in cache — try to read existing export first (no -a flag)
+    print(f"    🔎 Checking existing export for: {mega_path}")
+    read_output = run_cmd_with_stderr(["mega-export", mega_path], timeout_sec=30)
+    match = re.search(r'(https://mega\.nz/[^\s]+)', read_output)
+    if match:
+        url = match.group(1)
+        print(f"    ✅ Found existing link.")
+        EXISTING_LINKS_CACHE[mega_path] = url
+        EXISTING_LINKS_CACHE[file_name_only] = url
+        return url
+
+    # Truly no export yet — create one
     print(f"    ⚡ Generating NEW export link for: {mega_path}")
-    output = run_cmd(["mega-export", "-a", mega_path], timeout_sec=30)
-    match = re.search(r'(https://mega\.nz/[^\s]+)', output)
+    new_output = run_cmd_with_stderr(["mega-export", "-a", mega_path], timeout_sec=30)
+    match = re.search(r'(https://mega\.nz/[^\s]+)', new_output)
     if match:
         url = match.group(1)
         EXISTING_LINKS_CACHE[mega_path] = url
