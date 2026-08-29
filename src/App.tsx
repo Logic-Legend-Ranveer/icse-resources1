@@ -48,41 +48,49 @@ const filteredFiles = useMemo(() => {
 
   const terms = searchQuery.toLowerCase().trim().split(/\s+/);
 
-  // Checks if a name contains ALL search terms (or any of their synonyms)
-  const matchesAllTerms = (name: string): boolean => {
-    const lowerName = name.toLowerCase();
+  // Checks if the accumulated path string contains ALL search terms (or their synonyms)
+  const matchesAllTerms = (path: string): boolean => {
+    const lowerPath = path.toLowerCase();
     return terms.every((term) => {
       const variants = [term, ...(synonyms[term] || [])];
-      return variants.some((variant) => lowerName.includes(variant));
+      return variants.some((variant) => lowerPath.includes(variant));
     });
   };
 
-  const filterNode = (node: FileSystemNode): FileSystemNode | null => {
+  const filterNode = (node: FileSystemNode, parentPath = ''): FileSystemNode | null => {
+    // Build the full path for the current node (e.g. "notes/physics/force.pdf")
+    const currentPath = parentPath ? `${parentPath}/${node.name}` : node.name;
+
     if (node.type === 'folder') {
       const folder = node as FolderItem;
-      
+
+      // Filter children recursively, passing down the updated path
       const matchingChildren = folder.children
-        .map(filterNode)
+        .map((child) => filterNode(child, currentPath))
         .filter((child): child is FileSystemNode => child !== null);
 
-      const folderNameMatches = matchesAllTerms(folder.name);
-
-      if (folderNameMatches || matchingChildren.length > 0) {
+      // Keep the folder if any child inside it matched the path criteria
+      if (matchingChildren.length > 0) {
         return {
           ...folder,
-          children: folderNameMatches ? folder.children : matchingChildren,
+          children: matchingChildren,
         };
       }
       return null;
     }
 
     const file = node as FileItem;
-    return matchesAllTerms(file.name) ? file : null;
+    const fullPath = file.path || currentPath;
+
+    return matchesAllTerms(fullPath) ? file : null;
   };
 
-  return filesData.map(filterNode).filter((node): node is FileSystemNode => node !== null);
+  return filesData
+    .map((node) => filterNode(node))
+    .filter((node): node is FileSystemNode => node !== null);
 }, [filesData, searchQuery, synonyms]);
 
+  
   const stats = useMemo(() => {
     let fileCount = 0;
     let totalBytes = 0;
