@@ -3,8 +3,7 @@ import react from "@vitejs/plugin-react"
 import tailwindcss from "@tailwindcss/vite"
 import { defineConfig } from "vite"
 
-export default defineConfig(({ command, mode }) => {
-  // Cloudflare Pages automatically injects CF_PAGES during builds
+export default defineConfig(() => {
   const basepath = process.env.CF_PAGES ? '/' : '/icse-resources1/';
 
   return {
