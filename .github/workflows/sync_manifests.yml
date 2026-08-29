@@ -8,9 +8,13 @@ on:
   # Allow manual trigger from the GitHub Actions tab anytime
   workflow_dispatch:
 
+
 jobs:
   build-and-sync:
     runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout Repository
