@@ -97,25 +97,25 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
     let combinedQuestions: Question[] = [];
 
     try {
-      for (const fileId of selectedFiles) {
+     for (const fileId of selectedFiles) {
         if (!fileId) continue;
         
-        // 1. Get the proxy mapping response
-        const proxyRes = await fetch(`${WORKER_URL}/file?id=${fileId}`);
-        if (!proxyRes.ok) throw new Error(`Could not fetch proxy mapping for ID: ${fileId}`);
-        const proxyData = await proxyRes.json();
-        
-        // 2. Fetch the actual raw file content from the resolved URL
-        const res = await fetch(proxyData.url);
+        // Fetch the raw text content directly from your worker
+        const res = await fetch(`${WORKER_URL}/file?id=${fileId}`);
         if (!res.ok) throw new Error(`Could not download file content for ID: ${fileId}`);
         
         const text = await res.text();
         
         // Debug check to make sure it's not accidentally HTML
         if (text.trim().startsWith('<!DOCTYPE html>') || text.trim().startsWith('<html')) {
-          throw new Error('Proxy returned an HTML page instead of raw text. Check worker URL configuration.');
+          throw new Error('Worker returned an HTML page instead of raw text. Check worker deployment.');
         }
 
+        const parsed = parseQuizTxt(text);
+        if (Array.isArray(parsed)) {
+          combinedQuestions = [...combinedQuestions, ...parsed];
+        }
+      }
         const parsed = parseQuizTxt(text);
         if (Array.isArray(parsed)) {
           combinedQuestions = [...combinedQuestions, ...parsed];
