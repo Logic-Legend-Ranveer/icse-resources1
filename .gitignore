@@ -13,3 +13,8 @@ dist-ssr
 *.local
 
 
+credentials.json
+token.json
+known_ids.json
+.wrangler/
+wrangler/
