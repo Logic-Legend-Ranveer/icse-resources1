@@ -5,7 +5,7 @@ import { parseQuizTxt } from '@/lib/quizParser';
 import { BookOpen, CheckCircle, HelpCircle, XCircle, ArrowRight, RotateCcw, Check, AlertCircle } from 'lucide-react';
 
 
-  const WORKER_URL = 'https://icse-file-proxy.bybro.workers.dev';
+  const WORKER_URL = 'https://icse-file-proxy2.bybro.workers.dev';
 
 interface QuizModalProps {
   isOpen: boolean;
