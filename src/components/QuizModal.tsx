@@ -56,7 +56,7 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
   data.forEach((item) => {
     if (!item) return;
     const subjectName = item.subject || 'General';
-    const chapterFileId = item.fileId || item.url ?? item.file ?? '';
+    const chapterFileId = (item.fileId || item.url) ?? item.file ?? '';
     const chapterName = item.title ?? item.name ?? 'Untitled Chapter';
 
     if (!chapterFileId) return;
