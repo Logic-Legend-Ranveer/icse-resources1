@@ -8,28 +8,26 @@ const open = require('open');
 // ── CONFIG ──────────────────────────────────────────────────────
 const RESOURCES_FOLDER_NAME = 'icse-resources-files';
 const QUIZZES_FOLDER_NAME = 'quizzes';
-const PARENT_FOLDER_NAME = 'icse-resources-webpage';  // ← add this
+const PARENT_FOLDER_NAME = 'icse-resources-webpage';  
 const CREDENTIALS_FILE = 'credentials.json';
 const TOKEN_FILE = 'token.json';
 const SCOPES = ['https://www.googleapis.com/auth/drive.readonly'];
 // ────────────────────────────────────────────────────────────────
+
 async function authenticate() {
   const credentials = JSON.parse(fs.readFileSync(CREDENTIALS_FILE));
   const { client_secret, client_id, redirect_uris } = credentials.installed;
   const oauth2Client = new google.auth.OAuth2(client_id, client_secret, 'http://localhost:3000');
 
-  // If token already exists, use it
   if (fs.existsSync(TOKEN_FILE)) {
     const token = JSON.parse(fs.readFileSync(TOKEN_FILE));
     oauth2Client.setCredentials(token);
     return oauth2Client;
   }
 
-  // Otherwise open browser to get new token
   const authUrl = oauth2Client.generateAuthUrl({ access_type: 'offline', scope: SCOPES });
   console.log('\n🌐 Opening browser for Google login...');
   
-  // Start local server to catch the redirect
   const code = await new Promise((resolve) => {
     const server = http.createServer((req, res) => {
       const qs = url.parse(req.url, true).query;
@@ -38,7 +36,6 @@ async function authenticate() {
       resolve(qs.code);
     });
     server.listen(3000);
-    // Try to open browser automatically
     try { open(authUrl); } catch {
       console.log('Could not open browser automatically. Open this URL manually:\n', authUrl);
     }
@@ -67,7 +64,7 @@ async function scanFolder(drive, folderId, folderPath = '') {
   do {
     const res = await drive.files.list({
       q: `'${folderId}' in parents and trashed=false`,
-      fields: 'nextPageToken, files(id, name, mimeType,size)',
+      fields: 'nextPageToken, files(id, name, mimeType, size)',
       pageSize: 100,
       orderBy: 'name',
       ...(pageToken ? { pageToken } : {})
@@ -79,20 +76,25 @@ async function scanFolder(drive, folderId, folderPath = '') {
 
       if (isDir) {
         console.log(`  📁 ${itemPath}`);
+        const children = await scanFolder(drive, f.id, itemPath);
+        
+        // Sum up the size of all children for the folder's total size
+        const folderSize = children.reduce((acc, child) => acc + (child.size || 0), 0);
+        
         items.push({
           name: f.name,
           type: 'folder',
           fileId: '',
-          size: parseInt(f.size || '0')
-          children: await scanFolder(drive, f.id, itemPath)
+          size: folderSize, // <-- Added calculated size
+          children: children
         });
       } else {
         console.log(`  📄 ${itemPath}`);
         items.push({
           name: f.name,
           type: 'file',
-          fileId: f.id  // ← ID only, never the real URL
-          size: parseInt(f.size || '0')
+          fileId: f.id,
+          size: parseInt(f.size || '0', 10) // <-- Added missing comma previously here
         });
       }
     }
@@ -130,7 +132,7 @@ async function scanQuizzes(drive, quizzesFolderId) {
         id: `${subjectFolder.name.toLowerCase()}-${slug}`,
         subject: subjectFolder.name,
         title: qfile.name.replace('.txt', '').replace(/_/g, ' ').replace(/\b\w/g, c => c.toUpperCase()),
-        fileId: qfile.id  // ← ID only
+        fileId: qfile.id
       });
     }
   }
@@ -168,7 +170,6 @@ async function main() {
   console.log('\n🚀 Scanning quizzes...');
   const quizzesManifest = await scanQuizzes(drive, quizzesId);
 
-  // Collect all IDs for the Cloudflare Worker allowlist
   const allIds = collectAllIds(filesManifest);
   allIds.push(...quizzesManifest.map(q => q.fileId));
 
