@@ -36,6 +36,9 @@ jobs:
           mega-login "$MEGA_EMAIL" "$MEGA_PASSWORD"
 
       - name: Run Manifest Generator
+        env:
+          MEGA_EMAIL: ${{ secrets.MEGA_EMAIL }}
+          MEGA_PASSWORD: ${{ secrets.MEGA_PASSWORD }}
         run: |
           python -u generate_manifests_ci.py
 
