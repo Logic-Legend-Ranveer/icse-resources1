@@ -1,53 +1,51 @@
-name: Sync MEGA Manifests
+name: Sync Manifests
 
 on:
-  # Run automatically every Sunday night at midnight UTC
+  # Run automatically every day at midnight UTC
   schedule:
-    - cron: '0 0 * * 0'
+    - cron: '0 0 * * *'
   
   # Allow manual trigger from the GitHub Actions tab anytime
   workflow_dispatch:
 
-
 jobs:
   build-and-sync:
     runs-on: ubuntu-latest
-    
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.11'
+          node-version: '20' 
 
-      - name: Install MEGAcmd CLI
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y wget
-          wget https://mega.nz/linux/repo/xUbuntu_22.04/amd64/megacmd-xUbuntu_22.04_amd64.deb
-          sudo apt-get install -y ./megacmd-xUbuntu_22.04_amd64.deb
+      - name: Install Dependencies
+        run: npm install
 
-      - name: Log in to MEGA
+      - name: Recreate Google Drive Credentials
         env:
-          MEGA_EMAIL: ${{ secrets.MEGA_EMAIL }}
-          MEGA_PASSWORD: ${{ secrets.MEGA_PASSWORD }}
+          GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
+          GDRIVE_TOKEN: ${{ secrets.GDRIVE_TOKEN }}
         run: |
-          mega-login "$MEGA_EMAIL" "$MEGA_PASSWORD"
+          echo "$GDRIVE_CREDENTIALS" > credentials.json
+          echo "$GDRIVE_TOKEN" > token.json
 
       - name: Run Manifest Generator
-        env:
-          MEGA_EMAIL: ${{ secrets.MEGA_EMAIL }}
-          MEGA_PASSWORD: ${{ secrets.MEGA_PASSWORD }}
         run: |
-          python -u generate_manifests_ci.py
+          node generate_manifests.cjs
+
+      - name: Update Cloudflare KV Namespace
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npx wrangler kv:key put known_ids --binding FILE_IDS --path=known_ids.json
 
       - name: Commit and Push Updated Manifests
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "auto: update files.json and quizzes.json from MEGA"
-          file_pattern: "public/*.json"
+          commit_message: "auto: sync files from Google Drive and update manifests"
+          # Only commit the public JSON files. credentials.json, token.json, and known_ids.json stay ignored!
+          file_pattern: "public/files.json public/quizzes.json"
