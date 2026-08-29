@@ -7,7 +7,7 @@ export function parseQuizTxt(text: string): Question[] {
   const cleanText = text.replace(/^\uFEFF/, '').replace(/\r\n/g, '\n');
   const blocks = cleanText.split(/\n\s*\n/);
 
-  blocks.forEach((block, index) => {
+  blocks.forEach((block) => {
     const lines = block.split('\n').map((l) => l.trim()).filter(Boolean);
     let questionText = '';
     const options: string[] = [];
