@@ -14,13 +14,13 @@ export default function App() {
   const [isQuizModalOpen, setIsQuizModalOpen] = useState(false);
 
   useEffect(() => {
-  fetch(`${import.meta.env.BASE_URL}files.json`)
-    .then((res) => res.json())
-    .then((data) => setFilesData(data))
-    .catch((err) => console.error('Failed to load files:', err));
+    fetch(`${import.meta.env.BASE_URL}files.json`)
+      .then((res) => res.json())
+      .then((data) => setFilesData(data))
+      .catch((err) => console.error('Failed to load files:', err));
 
-  fetch(`${import.meta.env.BASE_URL}synonyms.txt`)
-    .then((res) => res.text())
+    fetch(`${import.meta.env.BASE_URL}synonyms.txt`)
+      .then((res) => res.text())
       .then((text) => {
         const mapping: Record<string, string[]> = {};
         text.split('\n').forEach((line) => {
@@ -72,27 +72,54 @@ export default function App() {
   }, [filesData, searchQuery, synonyms]);
 
   const stats = useMemo(() => {
-  let fileCount = 0;
-  let totalBytes = 0;
+    let fileCount = 0;
+    let totalBytes = 0;
 
-  const walk = (nodes: FileSystemNode[]) => {
-    for (const node of nodes) {
-      if (node.type === 'folder') {
-        walk((node as FolderItem).children);
-      } else {
-        fileCount++;
-        totalBytes += (node as FileItem).size ?? 0;
+    const parseSizeBytes = (node: any): number => {
+      const val = node.size ?? node.fileSize ?? node.bytes ?? 0;
+
+      if (typeof val === 'number') return val;
+
+      if (typeof val === 'string') {
+        const str = val.trim();
+        const num = Number(str);
+        if (!isNaN(num)) return num;
+
+        // Parse formatted strings like "1.5 MB", "500 KB", "1024 B"
+        const match = str.match(/^([\d.]+)\s*([a-zA-Z]+)?$/);
+        if (match) {
+          const amount = parseFloat(match[1]);
+          const unit = (match[2] || '').toLowerCase();
+          if (unit.startsWith('g')) return amount * 1024 * 1024 * 1024;
+          if (unit.startsWith('m')) return amount * 1024 * 1024;
+          if (unit.startsWith('k')) return amount * 1024;
+          if (unit.startsWith('b') || !unit) return amount;
+        }
       }
-    }
-  };
+      return 0;
+    };
 
-  walk(filesData); // use filesData not filteredFiles so count is always total
-  return {
-    fileCount,
-    totalMB: (totalBytes / (1024 * 1024)).toFixed(1)
-  };
-}, [filesData]);
-  
+    const walk = (nodes: FileSystemNode[]) => {
+      if (!Array.isArray(nodes)) return;
+      for (const node of nodes) {
+        if (node.type === 'folder') {
+          walk((node as FolderItem).children);
+        } else {
+          fileCount++;
+          totalBytes += parseSizeBytes(node);
+        }
+      }
+    };
+
+    walk(filesData);
+
+    const mb = totalBytes / (1024 * 1024);
+    return {
+      fileCount,
+      totalMB: mb < 0.1 && mb > 0 ? mb.toFixed(2) : mb.toFixed(1)
+    };
+  }, [filesData]);
+
   return (
     <div className="flex h-screen w-screen overflow-hidden bg-transparent font-sans">
       {/* Mobile Backdrop */}
@@ -184,24 +211,23 @@ export default function App() {
             </div>
           </div>
 
-            {/* Stats counter */}
-  {stats.fileCount > 0 && (
-    <div className="flex items-center gap-2 text-xs text-slate-500">
-      <div className="flex items-center gap-1.5 bg-indigo-50 text-indigo-700 px-3 py-1.5 rounded-full font-medium">
-        <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-        </svg>
-        <span>{stats.fileCount} files</span>
-      </div>
-      <div className="flex items-center gap-1.5 bg-violet-50 text-violet-700 px-3 py-1.5 rounded-full font-medium">
-        <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M4 7v10c0 2.21 3.582 3 8 3s8-.79 8-3V7M4 7c0 2.21 3.582 3 8 3s8-.79 8-3M4 7c0-2.21 3.582-3 8-3s8 .79 8 3" />
-        </svg>
-        <span>{stats.totalMB} MB</span>
-      </div>
-    </div>
-  )}
-
+          {/* Stats counter */}
+          {stats.fileCount > 0 && (
+            <div className="flex items-center gap-2 text-xs text-slate-500">
+              <div className="flex items-center gap-1.5 bg-indigo-50 text-indigo-700 px-3 py-1.5 rounded-full font-medium">
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                <span>{stats.fileCount} files</span>
+              </div>
+              <div className="flex items-center gap-1.5 bg-violet-50 text-violet-700 px-3 py-1.5 rounded-full font-medium">
+                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 7v10c0 2.21 3.582 3 8 3s8-.79 8-3V7M4 7c0 2.21 3.582 3 8 3s8-.79 8-3M4 7c0-2.21 3.582-3 8-3s8 .79 8 3" />
+                </svg>
+                <span>{stats.totalMB} MB</span>
+              </div>
+            </div>
+          )}
         </header>
 
         <main className="flex-1 flex flex-col items-center justify-center p-6 text-center overflow-y-auto">
