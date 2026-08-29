@@ -46,4 +46,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "auto: update files.json and quizzes.json from MEGA"
-          file_pattern: "*.json"
+          file_pattern: "public/*.json"
