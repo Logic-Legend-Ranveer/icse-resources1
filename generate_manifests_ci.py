@@ -54,12 +54,8 @@ def build_links_cache():
     EXISTING_LINKS_CACHE = {}
 
     print("\n📦 Fetching existing export links (bulk)...")
-    # mega-export with no args lists all existing exports in the account
-    raw_exports = run_cmd(["mega-export", "-a", "-f"], timeout_sec=60)
-
-    if not raw_exports:
-        # Fallback: try without flags
-        raw_exports = run_cmd(["mega-export"], timeout_sec=60)
+    # mega-export / correctly lists all existing exports in the account
+    raw_exports = run_cmd(["mega-export", "/"], timeout_sec=60)
 
     if not raw_exports:
         print("    ⚠️ Could not fetch existing exports. Will generate links individually.")
@@ -80,7 +76,7 @@ def build_links_cache():
                 EXISTING_LINKS_CACHE[filename] = url
 
     print(f"    ✅ Cached {len(EXISTING_LINKS_CACHE)} existing export entries.")
-
+    
 def get_public_link(mega_path):
     """Returns public link for a MEGA path, using cache to avoid redundant API calls."""
     global EXISTING_LINKS_CACHE
