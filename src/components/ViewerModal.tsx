@@ -4,7 +4,7 @@ import type { FileItem } from '@/types/file-system';
 import { Download, ExternalLink, Loader2 } from 'lucide-react';
 
 // ← Replace with your actual Cloudflare Worker URL
-const WORKER_URL = 'https://icse-file-proxy.YOUR-NAME.workers.dev';
+const WORKER_URL = 'https://icse-file-proxy.bybro.workers.dev';
 
 interface ViewerModalProps {
   file: FileItem | null;
