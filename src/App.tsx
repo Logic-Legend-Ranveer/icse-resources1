@@ -43,33 +43,45 @@ export default function App() {
     }
   };
 
-  const filteredFiles = useMemo(() => {
-    if (!searchQuery.trim()) return filesData;
+const filteredFiles = useMemo(() => {
+  if (!searchQuery.trim()) return filesData;
 
-    const terms = searchQuery.toLowerCase().trim().split(/\s+/);
-    const expandedTerms = terms.flatMap((term) => [term, ...(synonyms[term] || [])]);
+  const terms = searchQuery.toLowerCase().trim().split(/\s+/);
 
-    const filterNode = (node: FileSystemNode): FileSystemNode | null => {
-      if (node.type === 'folder') {
-        const folder = node as FolderItem;
-        const matchingChildren = folder.children
-          .map(filterNode)
-          .filter((child): child is FileSystemNode => child !== null);
+  // Checks if a name contains ALL search terms (or any of their synonyms)
+  const matchesAllTerms = (name: string): boolean => {
+    const lowerName = name.toLowerCase();
+    return terms.every((term) => {
+      const variants = [term, ...(synonyms[term] || [])];
+      return variants.some((variant) => lowerName.includes(variant));
+    });
+  };
 
-        const folderNameMatches = expandedTerms.some((term) => folder.name.toLowerCase().includes(term));
-        if (folderNameMatches || matchingChildren.length > 0) {
-          return { ...folder, children: folderNameMatches ? folder.children : matchingChildren };
-        }
-        return null;
+  const filterNode = (node: FileSystemNode): FileSystemNode | null => {
+    if (node.type === 'folder') {
+      const folder = node as FolderItem;
+      
+      const matchingChildren = folder.children
+        .map(filterNode)
+        .filter((child): child is FileSystemNode => child !== null);
+
+      const folderNameMatches = matchesAllTerms(folder.name);
+
+      if (folderNameMatches || matchingChildren.length > 0) {
+        return {
+          ...folder,
+          children: folderNameMatches ? folder.children : matchingChildren,
+        };
       }
+      return null;
+    }
 
-      const file = node as FileItem;
-      const fileMatches = expandedTerms.some((term) => file.name.toLowerCase().includes(term));
-      return fileMatches ? file : null;
-    };
+    const file = node as FileItem;
+    return matchesAllTerms(file.name) ? file : null;
+  };
 
-    return filesData.map(filterNode).filter((node): node is FileSystemNode => node !== null);
-  }, [filesData, searchQuery, synonyms]);
+  return filesData.map(filterNode).filter((node): node is FileSystemNode => node !== null);
+}, [filesData, searchQuery, synonyms]);
 
   const stats = useMemo(() => {
     let fileCount = 0;
