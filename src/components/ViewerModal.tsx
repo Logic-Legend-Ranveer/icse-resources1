@@ -3,7 +3,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/u
 import type { FileItem } from '@/types/file-system';
 import { Download, ExternalLink, Loader2 } from 'lucide-react';
 
-const WORKER_URL = 'https://icse-file-proxy.bybro.workers.dev';
+const WORKER_URL = 'https://icse-file-proxy1.bybro.workers.dev';
 
 interface ViewerModalProps {
   file: FileItem | null;
