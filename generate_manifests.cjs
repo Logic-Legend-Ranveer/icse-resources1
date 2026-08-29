@@ -67,7 +67,7 @@ async function scanFolder(drive, folderId, folderPath = '') {
   do {
     const res = await drive.files.list({
       q: `'${folderId}' in parents and trashed=false`,
-      fields: 'nextPageToken, files(id, name, mimeType)',
+      fields: 'nextPageToken, files(id, name, mimeType,size)',
       pageSize: 100,
       orderBy: 'name',
       ...(pageToken ? { pageToken } : {})
@@ -83,6 +83,7 @@ async function scanFolder(drive, folderId, folderPath = '') {
           name: f.name,
           type: 'folder',
           fileId: '',
+          size: parseInt(f.size || '0')
           children: await scanFolder(drive, f.id, itemPath)
         });
       } else {
@@ -91,6 +92,7 @@ async function scanFolder(drive, folderId, folderPath = '') {
           name: f.name,
           type: 'file',
           fileId: f.id  // ← ID only, never the real URL
+          size: parseInt(f.size || '0')
         });
       }
     }
