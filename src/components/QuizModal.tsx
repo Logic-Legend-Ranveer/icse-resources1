@@ -4,8 +4,7 @@ import type { Question } from '@/types/quiz';
 import { parseQuizTxt } from '@/lib/quizParser';
 import { BookOpen, CheckCircle, HelpCircle, XCircle, ArrowRight, RotateCcw, Check, AlertCircle } from 'lucide-react';
 
-
-  const WORKER_URL = 'https://icse-file-proxy2.bybro.workers.dev';
+const WORKER_URL = 'https://icse-file-proxy2.bybro.workers.dev';
 
 interface QuizModalProps {
   isOpen: boolean;
@@ -48,27 +47,24 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
             return;
           }
 
-          // Transform flat quiz array or raw manifest structure safely
           const structuredCatalog: SubjectQuizData[] = [];
-     
 
-  // Inside your useEffect parsing loop:
-  data.forEach((item) => {
-    if (!item) return;
-    const subjectName = item.subject || 'General';
-    const chapterFileId = (item.fileId || item.url) ?? item.file ?? '';
-    const chapterName = item.title ?? item.name ?? 'Untitled Chapter';
+          data.forEach((item) => {
+            if (!item) return;
+            const subjectName = item.subject || 'General';
+            const chapterFileId = (item.fileId || item.url) ?? item.file ?? '';
+            const chapterName = item.title ?? item.name ?? 'Untitled Chapter';
 
-    if (!chapterFileId) return;
+            if (!chapterFileId) return;
 
-    let subjectObj = structuredCatalog.find((s) => s.subject === subjectName);
-    if (!subjectObj) {
-      subjectObj = { subject: subjectName, chapters: [] };
-      structuredCatalog.push(subjectObj);
-    }
+            let subjectObj = structuredCatalog.find((s) => s.subject === subjectName);
+            if (!subjectObj) {
+              subjectObj = { subject: subjectName, chapters: [] };
+              structuredCatalog.push(subjectObj);
+            }
 
-    subjectObj.chapters.push({ name: chapterName, file: chapterFileId });
-  });
+            subjectObj.chapters.push({ name: chapterName, file: chapterFileId });
+          });
 
           setQuizCatalog(structuredCatalog);
           if (structuredCatalog.length > 0) {
@@ -97,25 +93,18 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
     let combinedQuestions: Question[] = [];
 
     try {
-     for (const fileId of selectedFiles) {
+      for (const fileId of selectedFiles) {
         if (!fileId) continue;
         
-        // Fetch the raw text content directly from your worker
         const res = await fetch(`${WORKER_URL}/file?id=${fileId}`);
         if (!res.ok) throw new Error(`Could not download file content for ID: ${fileId}`);
         
         const text = await res.text();
         
-        // Debug check to make sure it's not accidentally HTML
         if (text.trim().startsWith('<!DOCTYPE html>') || text.trim().startsWith('<html')) {
           throw new Error('Worker returned an HTML page instead of raw text. Check worker deployment.');
         }
 
-        const parsed = parseQuizTxt(text);
-        if (Array.isArray(parsed)) {
-          combinedQuestions = [...combinedQuestions, ...parsed];
-        }
-      }
         const parsed = parseQuizTxt(text);
         if (Array.isArray(parsed)) {
           combinedQuestions = [...combinedQuestions, ...parsed];
@@ -141,6 +130,7 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
       setIsLoading(false);
     }
   };
+
   const handleSelectOption = (optIdx: number) => {
     if (submittedQuestions[currentIdx]) return;
     setUserAnswers((prev) => ({ ...prev, [currentIdx]: optIdx }));
