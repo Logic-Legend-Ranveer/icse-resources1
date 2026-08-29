@@ -3122,6 +3122,11 @@
             "fileId": "1gSqk957o6ccQHKQMGcjpZLpxmmjtbPdF"
           },
           {
+            "name": "Computer Sample Papers - Arihant.pdf",
+            "type": "file",
+            "fileId": "1s8jblz8tjYhf5Xf94h1DRf9VYY9fJhvG"
+          },
+          {
             "name": "Java_Complete_Notes.pdf",
             "type": "file",
             "fileId": "1c5xiuT2vItcI3j9GVA5J7Q4vts_xdcuQ"
@@ -5081,6 +5086,16 @@
             "fileId": "1JtxPFWAABdmegRte2uDg989geyK63kBf"
           },
           {
+            "name": "History & Civics Question Bank - Goyal.pdf",
+            "type": "file",
+            "fileId": "1z1qI0ZY-qJXDhsOHe9i_gpGPeOBH3yC6"
+          },
+          {
+            "name": "History & Civics Question Bank - Oswal.pdf",
+            "type": "file",
+            "fileId": "1bi7VcRSsesNM2O4587IZunyOXtWXtVjH"
+          },
+          {
             "name": "History_Civics Notes and Mind maps.pdf",
             "type": "file",
             "fileId": "1LCGOuy_0iel5bl5xwB5Yba15pC5z8LQG"
@@ -5233,49 +5248,612 @@
             "name": "Biology",
             "type": "folder",
             "fileId": "",
-            "children": []
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Biology - Cell Cycle And Structure Of Chromosomes - PYQ.pdf",
+                "type": "file",
+                "fileId": "1xLzun9uDyj0POhlB4URfYQSgrhyuTu4J"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Biology - Genetics - PYQ.pdf",
+                "type": "file",
+                "fileId": "13eXEqj8J_RJ14uXjHlbfleFnaHl_tSP2"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Biology - Human Evolution - PYQ.pdf",
+                "type": "file",
+                "fileId": "1uHAu111R1kB6LoiBEPJitWxlZP3KE6Km"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Biology - Absorption By Roots - PYQ.pdf",
+                "type": "file",
+                "fileId": "1k4wWiL91Ea-Li4ktaLiSZRlZvrpSzruU"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Biology - Transpiration - PYQ.pdf",
+                "type": "file",
+                "fileId": "1ezSrOhK4zksJVUwHiEJIrT3zcOZOfr5r"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Biology - Photosynthesis - PYQ.pdf",
+                "type": "file",
+                "fileId": "1MahH87l9coBGXE4p_LzyaEVs43gObnuK"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Biology - Chemical Coordination In Plants - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Lu84wWO7FGmgOWceLfI4K-HeE0fLltIY"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Biology - The Circulatory System - PYQ.pdf",
+                "type": "file",
+                "fileId": "1c6CyvIKdMinEftKkWqiOKh5lcLDG0M8r"
+              },
+              {
+                "name": "09 - ICSE Class 10 - Biology - The Excretory System - PYQ.pdf",
+                "type": "file",
+                "fileId": "1m9_9m1mnjjkLFZapcn1Sd3lUtXmLDJBK"
+              },
+              {
+                "name": "10 - ICSE Class 10 - Biology - Nervous System And Sense Organs - PYQ.pdf",
+                "type": "file",
+                "fileId": "1N6zZMb_i2cOqNjWhoz-aHSqyx9G5rB3Y"
+              },
+              {
+                "name": "11 - ICSE Class 10 - Biology - The Endocrine System - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Lw5mAM2TRZMpYurRSFc3v3TAsh3f0ybq"
+              },
+              {
+                "name": "12 - ICSE Class 10 - Biology - The Reproductive System - PYQ.pdf",
+                "type": "file",
+                "fileId": "1nkBzcTTh-VpyeCW4t-04NVgcYYnRY8lT"
+              },
+              {
+                "name": "13 - ICSE Class 10 - Biology - Human Population - PYQ.pdf",
+                "type": "file",
+                "fileId": "1FbKR1zjBvPrhfS1mTMbnnY2ER9GO2DE1"
+              },
+              {
+                "name": "14 - ICSE Class 10 - Biology - Pollution - PYQ.pdf",
+                "type": "file",
+                "fileId": "1UvenqjAedt4_ka4WzklDoqPrnM25yTAl"
+              }
+            ]
           },
           {
             "name": "Chemistry",
             "type": "folder",
             "fileId": "",
-            "children": []
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Chemistry - Periodic Properties And Variations Of Properties - PYQ.pdf",
+                "type": "file",
+                "fileId": "1IgBqC_JLerlMbUgo2aNeu-INag9sQlAu"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Chemistry - Chemical Bonding - PYQ.pdf",
+                "type": "file",
+                "fileId": "1vKYfhfwMaLP_0Rl1H02q-WQ1rq-3r8QW"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Chemistry - Study Of Acids Bases And Salts - PYQ.pdf",
+                "type": "file",
+                "fileId": "1ExIK2RpODms5ivscaaSpIQ_-2Wkr5wJI"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Chemistry - Analytical Chemistry - PYQ.pdf",
+                "type": "file",
+                "fileId": "19MjzYffmhpEw1DXeawAf08T0v3Qg3Zc_"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Chemistry - Mole Concept And Stoichiometry - PYQ.pdf",
+                "type": "file",
+                "fileId": "16e4V1_0Tmfq_RQP18tuypldTS9UeUX08"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Chemistry - Electrolysis - PYQ.pdf",
+                "type": "file",
+                "fileId": "16mUU12hr9_M5hX8wn-r6wzqXv0HMI3Uh"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Chemistry - Metallurgy - PYQ.pdf",
+                "type": "file",
+                "fileId": "1nAav7V9pDJsMdSwEGGKRs9ft6F8qfK0e"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Chemistry - Hydrogen Chloride - PYQ.pdf",
+                "type": "file",
+                "fileId": "1k0B20VkPPg_VBuVvTY_wmeGpR8WcxAo2"
+              },
+              {
+                "name": "09 - ICSE Class 10 - Chemistry - Ammonia - PYQ.pdf",
+                "type": "file",
+                "fileId": "1U5UeuuNpi9Lc0LHv5hfiWMhDMQv6bqP2"
+              },
+              {
+                "name": "10 - ICSE Class 10 - Chemistry - Nitric Acid - PYQ.pdf",
+                "type": "file",
+                "fileId": "1eV_5E2luLR5n6iMrw_jtEumJy5c3V_Ln"
+              },
+              {
+                "name": "11 - ICSE Class 10 - Chemistry - Sulphuric Acid - PYQ.pdf",
+                "type": "file",
+                "fileId": "1aJL9faKPWFfUnW3wirXg6BPxE8EDgpu-"
+              },
+              {
+                "name": "12 - ICSE Class 10 - Chemistry - Organic Chemistry - PYQ.pdf",
+                "type": "file",
+                "fileId": "1RMkG8dbju2TV3wu9tVKz2nfAK3Gld6Ui"
+              }
+            ]
           },
           {
             "name": "Computer Applications",
             "type": "folder",
             "fileId": "",
-            "children": []
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Computer Applications - Class As The Basis Of All Computations - PYQ.pdf",
+                "type": "file",
+                "fileId": "16ffAnF703M8QzbAfhRZU2FlAuiuYn3ke"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Computer Applications - User Defined Methods - PYQ.pdf",
+                "type": "file",
+                "fileId": "1DbiTsFSbQkAKWd4JxI0Q-XzvbMws8GvL"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Computer Applications - Constructors - PYQ.pdf",
+                "type": "file",
+                "fileId": "1yog5vNn7ANOkc0FAjp5bUBcsqPy88Wmy"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Computer Applications - Library Classes - PYQ.pdf",
+                "type": "file",
+                "fileId": "1A-RIkTUbDvUmEM9Oyo6c1I5LrsWP_11e"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Computer Applications - Encapsulation - PYQ.pdf",
+                "type": "file",
+                "fileId": "1MunZcNj5z_IjNYqqeThXVvL669It3u9K"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Computer Applications - Arrays - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Ln097DItfyrRNiJ5OrB2KmDAtZPUM2ik"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Computer Applications - String Handling - PYQ.pdf",
+                "type": "file",
+                "fileId": "1vh6Tv11w1KXB0ginAljOKk8VF_hwe_p7"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Computer Applications - Revision - PYQ.pdf",
+                "type": "file",
+                "fileId": "1tzWZPc_7c2XV-78PB3971Hr9Qp7Z3-44"
+              }
+            ]
           },
           {
             "name": "Geography",
             "type": "folder",
             "fileId": "",
-            "children": []
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Geography - Interpretation Of Topographical Maps - PYQ.pdf",
+                "type": "file",
+                "fileId": "1RZINeMhYxc5yvCag9TGu2kCLV7hkejl3"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Geography - Map Of India - PYQ.pdf",
+                "type": "file",
+                "fileId": "1b7CKb_l-qud-Pv9N1y7pUtdUe9WmUWel"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Geography - Location Extent And Physical Features - PYQ.pdf",
+                "type": "file",
+                "fileId": "10qaZtIByNB4ZXIMt3tKKH7C_Zp0_Yr1o"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Geography - Climate - PYQ.pdf",
+                "type": "file",
+                "fileId": "1SOoH4Qec3jFZQRS4m4Kmh05kSSY7QMQs"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Geography - Soil Resources - PYQ.pdf",
+                "type": "file",
+                "fileId": "17opQkP0P0uAJO56-GsfcAqa1o1MKmlyd"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Geography - Natural Vegetation - PYQ.pdf",
+                "type": "file",
+                "fileId": "1to5ecv0so_zFhHEI9tSungmSCPMfdEIP"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Geography - Water Resources - PYQ.pdf",
+                "type": "file",
+                "fileId": "1HthGuDBalDjgsJe9JwG9SoDE_wEKYHlJ"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Geography - Mineral Resources - PYQ.pdf",
+                "type": "file",
+                "fileId": "1mDeKT5IGRFj7Cj58jaOrVk1m2Jx1P2Sx"
+              },
+              {
+                "name": "09 - ICSE Class 10 - Geography - Energy Resources - PYQ.pdf",
+                "type": "file",
+                "fileId": "1T4_i5O0sBKmzdjNK3MQ1cMlkMTOdaM2X"
+              },
+              {
+                "name": "10 - ICSE Class 10 - Geography - Agriculture - PYQ.pdf",
+                "type": "file",
+                "fileId": "1wUatVgHDFBLpTqNBAVBy5s0vXWZYJE2b"
+              },
+              {
+                "name": "11 - ICSE Class 10 - Geography - Manufacturing Industries - PYQ.pdf",
+                "type": "file",
+                "fileId": "1GZo9PyLvDs3sI6qXJS1JI66DE2Hw04rQ"
+              },
+              {
+                "name": "12 - ICSE Class 10 - Geography - Transport - PYQ.pdf",
+                "type": "file",
+                "fileId": "1ULOVpgR0j1eceUXPwZttqPTI3Y-3hwQS"
+              },
+              {
+                "name": "13 - ICSE Class 10 - Geography - Waste Management - PYQ.pdf",
+                "type": "file",
+                "fileId": "1k8j2oVCk604NMdpo_CNqEfX-1evX2WBp"
+              }
+            ]
           },
           {
             "name": "History and Civics",
             "type": "folder",
             "fileId": "",
-            "children": []
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - History and Civics - The Union Legislature - PYQ.pdf",
+                "type": "file",
+                "fileId": "1blh-81SuS8wf9vXxvcvY8KuDeYbpCeHl"
+              },
+              {
+                "name": "02 - ICSE Class 10 - History and Civics - President And Vice President - PYQ.pdf",
+                "type": "file",
+                "fileId": "1ly_nuupCscn7x97YmDWdrB3LXbEX8mUH"
+              },
+              {
+                "name": "03 - ICSE Class 10 - History and Civics - Prime Minister And Council Of Ministers - PYQ.pdf",
+                "type": "file",
+                "fileId": "1kTXMb7iSGNJ7tLNwnf5ZvxY6Hy23iMXU"
+              },
+              {
+                "name": "04 - ICSE Class 10 - History and Civics - The Supreme Court - PYQ.pdf",
+                "type": "file",
+                "fileId": "1dJA9ycx22Q45eoe5MnSL_oX9VN1_Y8IT"
+              },
+              {
+                "name": "05 - ICSE Class 10 - History and Civics - High Court And Subordinate Courts - PYQ.pdf",
+                "type": "file",
+                "fileId": "17HhltPeZrEtO0sL5rh6w6o9VRrZ12soJ"
+              },
+              {
+                "name": "06 - ICSE Class 10 - History and Civics - The First War Of Independence 1857 - PYQ.pdf",
+                "type": "file",
+                "fileId": "1xlRMmXD3AFDtI4IUOZiRky72VwZubyR1"
+              },
+              {
+                "name": "07 - ICSE Class 10 - History and Civics - Growth Of Nationalism - PYQ.pdf",
+                "type": "file",
+                "fileId": "1hGEiLKnVEEOYpMf-FAW_i1UYTgaURYEv"
+              },
+              {
+                "name": "08 - ICSE Class 10 - History and Civics - First Phase Of The Indian National Movement - PYQ.pdf",
+                "type": "file",
+                "fileId": "1UtHLeFbqXlt87AY-Xh_jwVWhvsOC1P0l"
+              },
+              {
+                "name": "09 - ICSE Class 10 - History and Civics - Second Phase Of Indian National Movement - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Zt04-vu5yDFgZGvT0DbPt6oHB88LXSfz"
+              },
+              {
+                "name": "10 - ICSE Class 10 - History and Civics - Gandhian Era And The Struggle For Independence - PYQ.pdf",
+                "type": "file",
+                "fileId": "12wmh55rAzvt0oDvShGcK6j8m6jXCy-fd"
+              },
+              {
+                "name": "11 - ICSE Class 10 - History and Civics - Forward Bloc And The Ina - PYQ.pdf",
+                "type": "file",
+                "fileId": "1AM0MiNn8vq73bB6XdiPhDnL8cXBtdc-v"
+              },
+              {
+                "name": "12 - ICSE Class 10 - History and Civics - Independence And Partition Of India - PYQ.pdf",
+                "type": "file",
+                "fileId": "184LvI8hxSXYk-TVExriBgLTl8z9k8CSq"
+              },
+              {
+                "name": "13 - ICSE Class 10 - History and Civics - The First World War - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Ia8Qh4Vd7puFrYlPbJMHITeqYNDFPiy0"
+              },
+              {
+                "name": "14 - ICSE Class 10 - History and Civics - Rise Of Dictatorships - PYQ.pdf",
+                "type": "file",
+                "fileId": "1bMarm39irqBZ6FwNeq_2ydt1wUn8g60r"
+              },
+              {
+                "name": "15 - ICSE Class 10 - History and Civics - The Second World War - PYQ.pdf",
+                "type": "file",
+                "fileId": "114tVhaNQiIqxVBA-AkTI_-krmTqEJPRc"
+              },
+              {
+                "name": "16 - ICSE Class 10 - History and Civics - The United Nation - PYQ.pdf",
+                "type": "file",
+                "fileId": "1ZmVFkKynlVB5WcwEpvwFYYmIRfDgUQry"
+              },
+              {
+                "name": "17 - ICSE Class 10 - History and Civics - Non Aligned Movement - PYQ.pdf",
+                "type": "file",
+                "fileId": "1NJoTX9RXPeIJ8AZVf6JmTX2oPT7aCsoX"
+              }
+            ]
           },
           {
             "name": "Mathematics",
             "type": "folder",
             "fileId": "",
-            "children": []
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Mathematics - Goods And Service Tax - PYQ.pdf",
+                "type": "file",
+                "fileId": "1VEjyzS2e9QnxGcGrdMCQzpD8MhxUbujB"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Mathematics - Banking - PYQ.pdf",
+                "type": "file",
+                "fileId": "1FecHhlEJKgmMIRlroQrZX9YJxJywu_jw"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Mathematics - Shares And Dividend - PYQ.pdf",
+                "type": "file",
+                "fileId": "1wuiTlawH4VCBH-p4WRo8ypseUd3T_Oun"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Mathematics - Linear In Equations In One Variable - PYQ.pdf",
+                "type": "file",
+                "fileId": "19KxWbd_Lu9dsUEPJs-JAkmOP6FLnifKS"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Mathematics - Quadratic Equation In One Variable - PYQ.pdf",
+                "type": "file",
+                "fileId": "1LyOPtS5PCsnE2IrElm35LiccPVcr4op2"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Mathematics - Factorization Of Polynomials - PYQ.pdf",
+                "type": "file",
+                "fileId": "1zF4NMth_l4AW4Gb-Neqd_dWQKfRMl203"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Mathematics - Ratio And Proportion - PYQ.pdf",
+                "type": "file",
+                "fileId": "14MdxcmB2weAPf0DIGiU2IqXi2-Gh4WYM"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Mathematics - Matrices - PYQ.pdf",
+                "type": "file",
+                "fileId": "17rrc5qeXIwprdA9d-ahgWX38crCK820D"
+              },
+              {
+                "name": "09 - ICSE Class 10 - Mathematics - Arithmetic Progression - PYQ.pdf",
+                "type": "file",
+                "fileId": "1F4E961pLccjpWxTFaDUkqH8P9QAuZSvd"
+              },
+              {
+                "name": "10 - ICSE Class 10 - Mathematics - Geometric Progression - PYQ.pdf",
+                "type": "file",
+                "fileId": "1eoboDmSyLmVfE_9Iayw-ugKuliNX2nF9"
+              },
+              {
+                "name": "11 - ICSE Class 10 - Mathematics - Reflection - PYQ.pdf",
+                "type": "file",
+                "fileId": "1jWmpaPvSdHNdXz_JPl5Tqy2ud7oDKhNc"
+              },
+              {
+                "name": "12 - ICSE Class 10 - Mathematics - Section Formula And Mid Point - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Pp1_HmEvIh90AeqqsFCDvwGvvVW1eG2p"
+              },
+              {
+                "name": "13 - ICSE Class 10 - Mathematics - Equation Of A Straight Line - PYQ.pdf",
+                "type": "file",
+                "fileId": "1YPgkCM2wluW2mEkL9xnJHKiAfWOigGuB"
+              },
+              {
+                "name": "14 - ICSE Class 10 - Mathematics - Similarity Of Triangles - PYQ.pdf",
+                "type": "file",
+                "fileId": "1gdeg32RaU5iswWRP0SvML94-gn0oWeuX"
+              },
+              {
+                "name": "15 - ICSE Class 10 - Mathematics - Locus - PYQ.pdf",
+                "type": "file",
+                "fileId": "1FpskBUcO6SAyuHsgMRpY4LfxAea0TzUj"
+              },
+              {
+                "name": "16 - ICSE Class 10 - Mathematics - Angle Properties Of Circle - PYQ.pdf",
+                "type": "file",
+                "fileId": "1lm9cDoDOFQ5KrEy6NvbiuO27TSKHQl7D"
+              },
+              {
+                "name": "17 - ICSE Class 10 - Mathematics - Cyclic Properties Of Circle - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Wtbl-Y0nRYiXQbyrL4E49sOwCw4zQeTS"
+              },
+              {
+                "name": "18 - ICSE Class 10 - Mathematics - Tangent Of Circle - PYQ.pdf",
+                "type": "file",
+                "fileId": "10tH_sgXd5_FRfQDLWvGj6uf4xSuoE020"
+              },
+              {
+                "name": "19 - ICSE Class 10 - Mathematics - Constructions - PYQ.pdf",
+                "type": "file",
+                "fileId": "1R4ywSPm2RQ52pjkZ66jbR-fGrPCLZE9x"
+              },
+              {
+                "name": "20 - ICSE Class 10 - Mathematics - Surface Area And Volume - PYQ.pdf",
+                "type": "file",
+                "fileId": "16CWlh4BZ_28s6r6gkqcBAFaPa-kAIU68"
+              },
+              {
+                "name": "21 - ICSE Class 10 - Mathematics - Trigonometric Identities - PYQ.pdf",
+                "type": "file",
+                "fileId": "169p0oBjRTvmWKS1Ai6Imud8aDNSQKdGP"
+              },
+              {
+                "name": "22 - ICSE Class 10 - Mathematics - Height And Distance - PYQ.pdf",
+                "type": "file",
+                "fileId": "1LbmLFrmnie-GEJ8j7KvGVDyq2kfX4uCq"
+              },
+              {
+                "name": "23 - ICSE Class 10 - Mathematics - Measure Of Central Tendency - PYQ.pdf",
+                "type": "file",
+                "fileId": "1_NpctKAB3TP9YTG7xk5plrpDahUOiseu"
+              },
+              {
+                "name": "24 - ICSE Class 10 - Mathematics - Histogram And Ogive - PYQ.pdf",
+                "type": "file",
+                "fileId": "1HEWHBRKU-nEsviglIs_ueUCM93BR6es9"
+              },
+              {
+                "name": "25 - ICSE Class 10 - Mathematics - Probability - PYQ.pdf",
+                "type": "file",
+                "fileId": "1QLTTj1L75YVfZEsoj8MYJdaQlb_TwjKZ"
+              }
+            ]
           },
           {
             "name": "Physical Education",
             "type": "folder",
             "fileId": "",
-            "children": []
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Physical Education - Physical Education - PYQ.pdf",
+                "type": "file",
+                "fileId": "15KrLs_7VqfTnKDuO-ctyi_AUCWkPHIxu"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Physical Education - Human Growth And Development - PYQ.pdf",
+                "type": "file",
+                "fileId": "1OGmShimUlvHQKMmO6KGO93HtNyPktHoz"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Physical Education - Physical Fitness - PYQ.pdf",
+                "type": "file",
+                "fileId": "1iMu4Q-gqp3VjjXfiMmJKbBNGuuGKh5fe"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Physical Education - Body Types - PYQ.pdf",
+                "type": "file",
+                "fileId": "1GbxD1mbC999Ga29rYmnglx6BMWPXg0bF"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Physical Education - Health Education - PYQ.pdf",
+                "type": "file",
+                "fileId": "1vb-Ab_sSMjZnbOJ274gUEUC6e41985C3"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Physical Education - Sports Training - PYQ.pdf",
+                "type": "file",
+                "fileId": "1G9Ysm7WTyITSBIt5pX4Chde74ELPTjpZ"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Physical Education - Safety In Sports - PYQ.pdf",
+                "type": "file",
+                "fileId": "135uArtU0pq-lWYoyeDyqGFCx1C4h6-ua"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Physical Education - Careers In Physical Education - PYQ.pdf",
+                "type": "file",
+                "fileId": "15xKjIGj8uXztAMQfnH-wKYFvu52QSJn7"
+              },
+              {
+                "name": "09 - ICSE Class 10 - Physical Education - Cricket - PYQ.pdf",
+                "type": "file",
+                "fileId": "1wBL3GvwY9TbgRbOGpB5yBTFsUUGl3PkV"
+              },
+              {
+                "name": "10 - ICSE Class 10 - Physical Education - Football - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Fx3vubDSBDUH0WeszFnIU0YHmKlhH1Ip"
+              },
+              {
+                "name": "11 - ICSE Class 10 - Physical Education - Hockey - PYQ.pdf",
+                "type": "file",
+                "fileId": "12GeRdQlu0R9-wNSiJC_2kFeo1i-cWoKs"
+              },
+              {
+                "name": "12 - ICSE Class 10 - Physical Education - Basketball - PYQ.pdf",
+                "type": "file",
+                "fileId": "1COGpcq3T3vCEEHTTpH-lG6r1v-8rjxTO"
+              },
+              {
+                "name": "13 - ICSE Class 10 - Physical Education - Volleyball - PYQ.pdf",
+                "type": "file",
+                "fileId": "13NPgW8iXa3WNSPQrIetDHbG1gP8iKLZS"
+              },
+              {
+                "name": "14 - ICSE Class 10 - Physical Education - Badminton - PYQ.pdf",
+                "type": "file",
+                "fileId": "18lDrDsGdO7PW3unAOLp99jLQLTonpqrJ"
+              }
+            ]
           },
           {
             "name": "Physics",
             "type": "folder",
             "fileId": "",
-            "children": []
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Physics - Mechanics - PYQ.pdf",
+                "type": "file",
+                "fileId": "1lzb-sWL46ltOfWOmQyK9ml4Il5FARzjt"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Physics - Force Turning Forces And Uniform Circular Motion - PYQ.pdf",
+                "type": "file",
+                "fileId": "1ltnyFzD-VRZgAFflaAchKYbu8JR0bA9b"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Physics - Work Power And Energy - PYQ.pdf",
+                "type": "file",
+                "fileId": "1eenlM-GvnK5U8TO0zYszMsw7Kwxkex-9"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Physics - Light - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Qpu1HA3hgri--6CliOW249-EmoaBXkt1"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Physics - Sound - PYQ.pdf",
+                "type": "file",
+                "fileId": "1GcSSVuP_nejkaq2a_GRPdrn_5L8WN_iv"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Physics - Electricity And Magnetism - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Z39O7_LX5xmA69k4gpZIiURqu5gIVtYJ"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Physics - Heat - PYQ.pdf",
+                "type": "file",
+                "fileId": "1wRnyA5H1ts7ZHsDSrZX0vcdPL4u37FaT"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Physics - Modern Physics - PYQ.pdf",
+                "type": "file",
+                "fileId": "1pkrP2KV0fYU9g5B0JEbNWb6mALyNNAdE"
+              }
+            ]
           }
         ]
       },
@@ -5298,6 +5876,11 @@
             "name": "Maths - Revision Notes.pdf",
             "type": "file",
             "fileId": "15zgrBY7n5MPv4-RRT9qlrjOygsDGhXUu"
+          },
+          {
+            "name": "Maths Class 10th Formula Sheet .pdf",
+            "type": "file",
+            "fileId": "1AwXinM0-k29xjSrLUX7B1X69gXFlNnms"
           },
           {
             "name": "Maths Question Bank - Goyal.pdf",
@@ -5459,10 +6042,35 @@
             "fileId": "1xVlI9k61d4mf-DHSOTWnvDsCS1gVjYj9"
           },
           {
+            "name": "Physics Question Bank - Arun Deep.pdf",
+            "type": "file",
+            "fileId": "1Uf_DlyvuBWdxb1_C1MfLaPwr7Ah9MWml"
+          },
+          {
+            "name": "Physics Revision Notes and Mind maps.pdf",
+            "type": "file",
+            "fileId": "1mOA4qj6Nuv0ZoAiY7AKfD6xZiG2JpI-I"
+          },
+          {
+            "name": "Physics Solved PYQ - Arihant.pdf",
+            "type": "file",
+            "fileId": "1I-0D2JOg0MxdVdPIvMQJxsqu6c1YQ6Lt"
+          },
+          {
             "name": "Sample Papers",
             "type": "folder",
             "fileId": "",
             "children": [
+              {
+                "name": "Physics - Model Test Paper - 1.pdf",
+                "type": "file",
+                "fileId": "1OXlKkAVWT1mUs2rQ8zoxoLmC4jGkmWPw"
+              },
+              {
+                "name": "Physics - Model Test Paper - 2.pdf",
+                "type": "file",
+                "fileId": "1CTZls8TjZywE1fNX4knz2j7mnBKvJUFM"
+              },
               {
                 "name": "Physics - Sample Paper - 01.pdf",
                 "type": "file",
@@ -5532,6 +6140,31 @@
                 "name": "Physics - Sample Paper - 15.pdf",
                 "type": "file",
                 "fileId": "1swwNIqj6jPgeQja4ESk7DZbDOSfmoq5S"
+              },
+              {
+                "name": "Physics - Sample Paper - 16.pdf",
+                "type": "file",
+                "fileId": "1PPl4SOrZbmezycXC3Y-fSpOOLwe-M7Rk"
+              },
+              {
+                "name": "Physics - Sample Paper - 17.pdf",
+                "type": "file",
+                "fileId": "1SYSCW1SagCBuzxfW89t_LNj-jNzTdYEg"
+              },
+              {
+                "name": "Physics - Sample Paper - 18.pdf",
+                "type": "file",
+                "fileId": "1S_bQQGZdcqZfEHiHbfFqVc4QeZXh7cLe"
+              },
+              {
+                "name": "Physics - Sample Paper - 19.pdf",
+                "type": "file",
+                "fileId": "1A1FDL-rcOd9Pwu5kF4sRA0Vqvegs7d-V"
+              },
+              {
+                "name": "Physics - Sample Paper - 20.pdf",
+                "type": "file",
+                "fileId": "1aYT2K9ZbG8UjR6nqbmrT0mJSYYeg8PL6"
               }
             ]
           }
