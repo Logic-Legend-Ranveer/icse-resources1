@@ -3,7 +3,6 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/u
 import type { FileItem } from '@/types/file-system';
 import { Download, ExternalLink, Loader2 } from 'lucide-react';
 
-// ← Replace with your actual Cloudflare Worker URL
 const WORKER_URL = 'https://icse-file-proxy.bybro.workers.dev';
 
 interface ViewerModalProps {
@@ -21,17 +20,10 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
     setEmbedUrl(null);
     setError(false);
     setLoading(true);
-
     fetch(`${WORKER_URL}/file?id=${file.fileId}`)
       .then(res => res.json())
-      .then(data => {
-        setEmbedUrl(data.url);
-        setLoading(false);
-      })
-      .catch(() => {
-        setError(true);
-        setLoading(false);
-      });
+      .then(data => { setEmbedUrl(data.url); setLoading(false); })
+      .catch(() => { setError(true); setLoading(false); });
   }, [file]);
 
   if (!file) return null;
@@ -66,7 +58,6 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
             )}
           </div>
         </DialogHeader>
-
         <div className="flex-1 w-full h-full min-h-0 pt-3">
           {loading && (
             <div className="w-full h-full flex flex-col items-center justify-center text-slate-400 gap-3">
