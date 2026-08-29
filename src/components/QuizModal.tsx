@@ -100,15 +100,22 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
       for (const fileId of selectedFiles) {
         if (!fileId) continue;
         
-        // 1. Fetch the secure Google Drive URL from your Worker proxy
+        // 1. Get the proxy mapping response
         const proxyRes = await fetch(`${WORKER_URL}/file?id=${fileId}`);
-        if (!proxyRes.ok) throw new Error(`Could not authorize file ID: ${fileId}`);
+        if (!proxyRes.ok) throw new Error(`Could not fetch proxy mapping for ID: ${fileId}`);
         const proxyData = await proxyRes.json();
         
-        // 2. Fetch the actual text contents from the Google Drive URL
+        // 2. Fetch the actual raw file content from the resolved URL
         const res = await fetch(proxyData.url);
-        if (!res.ok) throw new Error(`Could not fetch quiz content for ID: ${fileId}`);
+        if (!res.ok) throw new Error(`Could not download file content for ID: ${fileId}`);
+        
         const text = await res.text();
+        
+        // Debug check to make sure it's not accidentally HTML
+        if (text.trim().startsWith('<!DOCTYPE html>') || text.trim().startsWith('<html')) {
+          throw new Error('Proxy returned an HTML page instead of raw text. Check worker URL configuration.');
+        }
+
         const parsed = parseQuizTxt(text);
         if (Array.isArray(parsed)) {
           combinedQuestions = [...combinedQuestions, ...parsed];
@@ -129,12 +136,11 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
       setIsFinished(false);
     } catch (err: any) {
       console.error('Failed to parse quiz files:', err);
-      setErrorMsg('Failed to load the selected quiz text file. Please check file formatting or permissions.');
+      setErrorMsg(err.message || 'Failed to load the selected quiz text file.');
     } finally {
       setIsLoading(false);
     }
   };
-
   const handleSelectOption = (optIdx: number) => {
     if (submittedQuestions[currentIdx]) return;
     setUserAnswers((prev) => ({ ...prev, [currentIdx]: optIdx }));
