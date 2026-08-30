@@ -2,10 +2,14 @@
   <style>
     /* Default → for LIGHT mode (dark icon) */
     path {
-      fill: #111;
+      fill: #8B5CF6;
     }
 
-  
+    /* When browser is in DARK mode */
+    @media (prefers-color-scheme: dark) {
+      path {
+        fill: #eee;
+      }
     
   </style>
 
