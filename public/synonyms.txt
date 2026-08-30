@@ -4,6 +4,11 @@
 # ==========================================
 
 pyq = previous year question, past paper, specimen paper, board paper, solved
+previous = past paper, specimen paper, board paper, solved, pyq, last year
+"last year" = past paper, specimen paper, board paper, solved, pyq, previous
+cfq = competency based, competency focused, competency, cbq
+cbq = competency based, competency focused, competency, cfq
+competency = cfq, cbq
 ch = chapter, unit, topic
 phy = physics, SCI1
 chem = chemistry, sc2
