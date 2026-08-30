@@ -1,17 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <!-- Purple Book Outline -->
+  <style>
+    /* Default (Light Mode) */
+    .inner-line {
+      stroke: #000000;
+    }
+    
+    /* Dark Mode Theme Adaptive */
+    @media (prefers-color-scheme: dark) {
+      .inner-line {
+        stroke: #FFFFFF;
+      }
+    }
+  </style>
+
+  <!-- Purple Book Outer Outline -->
   <path d="M 6 18 C 18 12, 28 16, 32 20 C 36 16, 46 12, 58 18 L 58 50 C 46 44, 36 48, 32 52 C 28 48, 18 44, 6 50 Z" 
         stroke="#8B5CF6" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
   
-  <!-- Center Spine -->
+  <!-- Purple Center Spine -->
   <path d="M 32 20 L 32 52" 
         stroke="#8B5CF6" stroke-width="3.5" stroke-linecap="round" />
 
-  <!-- Left Page Text Lines (Black) -->
-  <path d="M 12 26 H 26 M 12 33 H 26 M 12 40 H 22" 
-        stroke="#000000" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Left Page Lines (Edge to Edge) -->
+  <path class="inner-line" d="M 9 24.5 H 29 M 9 31.5 H 29 M 9 38.5 H 29 M 9 45.5 H 29" 
+        stroke-width="2" stroke-linecap="round" />
 
-  <!-- Right Page Text Lines (Black) -->
-  <path d="M 38 26 H 52 M 38 33 H 52 M 38 40 H 48" 
-        stroke="#000000" stroke-width="2.5" stroke-linecap="round" />
+  <!-- Right Page Lines (Edge to Edge) -->
+  <path class="inner-line" d="M 35 24.5 H 55 M 35 31.5 H 55 M 35 38.5 H 55 M 35 45.5 H 55" 
+        stroke-width="2" stroke-linecap="round" />
 </svg>
