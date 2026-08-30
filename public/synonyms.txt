@@ -35,4 +35,4 @@ eng2 = "english literature" , "literature", lit
 english = eng
 formula = "masterkey"
 short = notes, short notes
-notes = explaination
+notes = explaination, brief
