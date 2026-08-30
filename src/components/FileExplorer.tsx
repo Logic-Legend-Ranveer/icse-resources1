@@ -27,17 +27,19 @@ const NodeItem: React.FC<{
     if (folderNode.children.length === 0) return null;
 
     return (
-      <div className="pl-3">
+      // REDUCED: Changed pl-3 to pl-1
+      <div className="pl-1">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="flex items-center gap-2 w-full text-left py-1.5 px-2 hover:bg-slate-100 rounded-md text-sm font-medium text-slate-700 transition-colors cursor-pointer"
+          className="flex items-center gap-1.5 w-full text-left py-1.5 px-1 hover:bg-slate-100 rounded-md text-sm font-medium text-slate-700 transition-colors cursor-pointer"
         >
           {isOpen ? <ChevronDown className="w-4 h-4 text-slate-400 shrink-0" /> : <ChevronRight className="w-4 h-4 text-slate-400 shrink-0" />}
           {isOpen ? <FolderOpen className="w-4 h-4 text-amber-500 fill-amber-500/20 shrink-0" /> : <Folder className="w-4 h-4 text-amber-500 fill-amber-500/20 shrink-0" />}
           <span className="truncate">{folderNode.name}</span>
         </button>
         {isOpen && (
-          <div className="border-l border-slate-200 ml-4">
+          // REDUCED: Changed ml-4 to ml-2
+          <div className="border-l border-slate-200 ml-2">
             {folderNode.children.map((child, idx) => (
               <NodeItem key={idx} node={child} onSelectFile={onSelectFile} searchQuery={searchQuery} />
             ))}
@@ -49,10 +51,11 @@ const NodeItem: React.FC<{
 
   const fileNode = node as FileItem;
   return (
-    <div className="pl-3">
+    // REDUCED: Changed pl-3 to pl-1
+    <div className="pl-1">
       <button
         onClick={() => onSelectFile(fileNode)}
-        className="flex items-center gap-2 w-full text-left py-1.5 px-2 hover:bg-indigo-50 hover:text-indigo-600 rounded-md text-sm text-slate-600 transition-colors cursor-pointer group"
+        className="flex items-center gap-1.5 w-full text-left py-1.5 px-1 ml-2 hover:bg-indigo-50 hover:text-indigo-600 rounded-md text-sm text-slate-600 transition-colors cursor-pointer group"
       >
         {fileNode.type === 'pdf' && <FileText className="w-4 h-4 text-red-500 shrink-0" />}
         {fileNode.type === 'image' && <ImageIcon className="w-4 h-4 text-blue-500 shrink-0" />}
