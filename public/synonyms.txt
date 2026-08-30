@@ -5,6 +5,8 @@
 
 pyq = previous year question, past paper, specimen paper, board paper, solved
 pre = past paper, specimen paper, board paper, solved, pyq, last year
+prev = past paper, specimen paper, board paper, solved, pyq, last year
+previous = past paper, specimen paper, board paper, solved, pyq, last year
 "last year" = past paper, specimen paper, board paper, solved, pyq, previous
 cfq = competency based, competency focused, competency, cbq
 cbq = competency based, competency focused, competency, cfq
