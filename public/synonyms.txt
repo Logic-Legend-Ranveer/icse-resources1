@@ -1,0 +1,23 @@
+# ==========================================
+# ICSE Smart Search Synonym Mapping
+# Format: shortcut = full word 1, full word 2
+# ==========================================
+
+pyq = previous year question, past paper, specimen paper, board paper, solved
+ch = chapter, unit, topic
+phy = physics, SCI1
+chem = chemistry, sc2
+bio = biology, sci3
+math = mathematics, maths, mat
+sol = solution, answer key, solved
+notes = summary, revision, formula sheet
+imp = important, expected questions
+hist = history, hcg1, civics
+geo = geography, hcg2
+eng = english
+lit = "english literature", "English 2", literature
+lang = "english language", "English grammar", "english 1"
+"english grammar" = language , "English language" , "english 1"
+"english 1" = language , "English language" , "english grammar"
+english 2 = "english literature" , "literature", lit
+formula = "masterkey"
