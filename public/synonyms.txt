@@ -34,3 +34,5 @@ eng1 = language , "English language" , "english grammar"
 eng2 = "english literature" , "literature", lit
 english = eng
 formula = "masterkey"
+short = notes, short notes
+notes = explaination
