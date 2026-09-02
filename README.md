@@ -18,7 +18,7 @@ Resources cover core subjects including English, Mathematics, Physics, Chemistry
 
 ## Browse the collection
 
-Open [index.html](index.html) in a browser to use the built-in file explorer. It lets you expand folders and open individual files without manually navigating the repository tree.
+Visit [icse-resources1](https://icse-resources1.pages.dev) in a browser to use the built-in file explorer. It lets you expand folders and open individual files without manually navigating the repository tree.
 
 ## How to use this repository
 
