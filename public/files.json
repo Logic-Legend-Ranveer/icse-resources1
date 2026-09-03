@@ -6020,16 +6020,60 @@
         ]
       },
       {
-        "name": "History & Civics Notes",
+        "name": "History & Civics",
         "type": "folder",
         "fileId": "",
         "size": 184340439,
         "children": [
           {
-            "name": "Growth of Nationalism Notes.pdf",
-            "type": "file",
-            "fileId": "1REMHDmcYu8f-zfCpWqxACxg8UNDhp5dT",
-            "size": 559824
+            "name": "Chapterwise notes",
+            "type": "folder",
+            "fileId": "",
+            "size": 16717249,
+            "children": [
+              {
+                "name": "Growth of Nationalism Notes.pdf",
+                "type": "file",
+                "fileId": "1REMHDmcYu8f-zfCpWqxACxg8UNDhp5dT",
+                "size": 559824
+              },
+              {
+                "name": "History & Civics - Notes.pdf",
+                "type": "file",
+                "fileId": "15sWcGwyGeDVtHc-G7L30PPCvRqJys37a",
+                "size": 14645126
+              },
+              {
+                "name": "Programmes and Acievements of the Early Nationalists Notes.pdf",
+                "type": "file",
+                "fileId": "1aJmwKCblGeL90VfA1KAHC4oDfgHO8QJO",
+                "size": 347865
+              },
+              {
+                "name": "The First War of Independence Notes.pdf",
+                "type": "file",
+                "fileId": "1hKUfUIoR9nqCaRLU-lbZMF_qaAXBvk6L",
+                "size": 344267
+              },
+              {
+                "name": "The Muslim League Notes.pdf",
+                "type": "file",
+                "fileId": "18R8B-xWXri_UnkVUHOS6Z-uSllqy_aw1",
+                "size": 301004
+              },
+              {
+                "name": "The Rise of Assertive Nationsalists Notes.pdf",
+                "type": "file",
+                "fileId": "1pJeYPu8iixRYkCdaeE_TRaLL0YO0DyH2",
+                "size": 297867
+              },
+              {
+                "name": "The Union Parliament Notes.pdf",
+                "type": "file",
+                "fileId": "12KgKgwD_bPDcbHgt9JjMit7f3sCx39MF",
+                "size": 221296
+              }
+            ]
           },
           {
             "name": "History & Civics - Cheatsheet for Civics.pdf",
@@ -6038,16 +6082,10 @@
             "size": 173415
           },
           {
-            "name": "History & Civics - Handwritten Notes.pdf",
+            "name": "History & Civics - Handwritten Notes + Analysis.pdf",
             "type": "file",
-            "fileId": "1Goo6sUYbGw1RBrf6KHbwdS6R9v8VjNHV",
+            "fileId": "1Y7PjSjHCkOehf1FPjN33bmtNdZpf3J04",
             "size": 51669718
-          },
-          {
-            "name": "History & Civics - Notes.pdf",
-            "type": "file",
-            "fileId": "15sWcGwyGeDVtHc-G7L30PPCvRqJys37a",
-            "size": 14645126
           },
           {
             "name": "History & Civics - Revision Notes.pdf",
@@ -6084,12 +6122,6 @@
             "type": "file",
             "fileId": "1LCGOuy_0iel5bl5xwB5Yba15pC5z8LQG",
             "size": 12732101
-          },
-          {
-            "name": "Programmes and Acievements of the Early Nationalists Notes.pdf",
-            "type": "file",
-            "fileId": "1aJmwKCblGeL90VfA1KAHC4oDfgHO8QJO",
-            "size": 347865
           },
           {
             "name": "Sample Papers",
@@ -6224,30 +6256,6 @@
                 "size": 187191
               }
             ]
-          },
-          {
-            "name": "The First War of Independence Notes.pdf",
-            "type": "file",
-            "fileId": "1hKUfUIoR9nqCaRLU-lbZMF_qaAXBvk6L",
-            "size": 344267
-          },
-          {
-            "name": "The Muslim League Notes.pdf",
-            "type": "file",
-            "fileId": "18R8B-xWXri_UnkVUHOS6Z-uSllqy_aw1",
-            "size": 301004
-          },
-          {
-            "name": "The Rise of Assertive Nationsalists Notes.pdf",
-            "type": "file",
-            "fileId": "1pJeYPu8iixRYkCdaeE_TRaLL0YO0DyH2",
-            "size": 297867
-          },
-          {
-            "name": "The Union Parliament Notes.pdf",
-            "type": "file",
-            "fileId": "12KgKgwD_bPDcbHgt9JjMit7f3sCx39MF",
-            "size": 221296
           }
         ]
       },
