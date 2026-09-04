@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://icse-file-proxy1.bybro.workers.dev/sitemap.xml
