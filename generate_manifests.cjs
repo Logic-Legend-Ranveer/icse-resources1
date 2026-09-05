@@ -184,4 +184,7 @@ async function main() {
   console.log('   known_ids.json       ← paste into Cloudflare Worker env var');
 }
 
-main().catch(console.error);
+main().catch((err) => {
+  console.error('❌ Script failed:', err);
+  process.exit(1); // Ensures GitHub Actions halts here if authentication or scanning fails
+});
