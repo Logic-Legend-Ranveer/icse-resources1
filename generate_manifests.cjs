@@ -16,7 +16,8 @@ const SCOPES = ['https://www.googleapis.com/auth/drive.readonly'];
 
 async function authenticate() {
   const credentials = JSON.parse(fs.readFileSync(CREDENTIALS_FILE));
-  const { client_secret, client_id, redirect_uris } = credentials.installed;
+  const clientConfig = credentials.installed || credentials.web;
+  const { client_secret, client_id, redirect_uris } = clientConfig;
   const oauth2Client = new google.auth.OAuth2(client_id, client_secret, 'http://localhost:3000');
 
   if (fs.existsSync(TOKEN_FILE)) {
