@@ -1,4 +1,5 @@
 import { useEffect, useState, useMemo } from 'react';
+import './App.css'; 
 import { FileExplorer } from '@/components/FileExplorer';
 import { ViewerModal } from '@/components/ViewerModal';
 import { QuizModal } from '@/components/QuizModal';
@@ -157,29 +158,30 @@ const handleOpenSocials = async () => {
   setSocialLoading(true);
   setSocialError(null);
 
-  try {
-    const response = await fetch('/socials.txt');
-    if (!response.ok) throw new Error('Failed to load file');
+ try {
+      // <-- 2. USE BASE_URL FOR VITE FETCH
+      const response = await fetch(`${import.meta.env.BASE_URL}socials.txt`);
+      if (!response.ok) throw new Error('Failed to load file');
 
-    const text = await response.text();
-    const lines = text.split('\n').filter((line) => line.trim() !== '');
+      const text = await response.text();
+      const lines = text.split('\n').filter((line) => line.trim() !== '');
 
-    const parsedLinks: SocialLink[] = lines.map((line) => {
-      let label = 'Visit Link';
-      let url = line.trim();
+      const parsedLinks: SocialLink[] = lines.map((line) => {
+        let label = 'Visit Link';
+        let url = line.trim();
 
-      if (line.includes(': http')) {
-        const parts = line.split(/:(.+)/);
-        label = parts[0].trim();
-        url = parts[1].trim();
-      } else {
-        try {
-          const parsedUrl = new URL(url);
-          label = parsedUrl.hostname.replace('www.', '');
-        } catch {
-          label = url;
+        if (line.includes(': http')) {
+          const parts = line.split(/:(.+)/);
+          label = parts[0].trim();
+          url = parts[1].trim();
+        } else {
+          try {
+            const parsedUrl = new URL(url);
+            label = parsedUrl.hostname.replace('www.', '');
+          } catch {
+            label = url;
+          }
         }
-      }
       return { label, url };
     });
 
