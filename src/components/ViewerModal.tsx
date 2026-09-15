@@ -28,15 +28,11 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
 
   if (!file) return null;
 
-  // Use direct embedUrl if available, otherwise fallback to drive preview
   const documentUrl = embedUrl || `https://drive.google.com/file/d/${file.fileId}/preview`;
 
   return (
     <Dialog open={!!file} onOpenChange={() => onClose()}>
-      <DialogContent 
-        className="!max-w-[92vw] w-[92vw] h-[90vh] flex flex-col p-4 bg-white border-none shadow-2xl"
-        onOpenAutoFocus={(e) => e.preventDefault()} // Prevents Radix from stealing focus from iframe text selection
-      >
+      <DialogContent className="!max-w-[92vw] w-[92vw] h-[90vh] flex flex-col p-4 bg-white border-none shadow-2xl">
         <DialogHeader className="flex flex-row items-center justify-between border-b pb-3 space-y-0">
           <DialogTitle className="text-lg font-semibold truncate max-w-[80%] text-slate-800">
             {file.name ?? 'Untitled File'}
