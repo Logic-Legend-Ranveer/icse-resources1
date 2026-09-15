@@ -9,6 +9,7 @@ import { BookOpen, FolderTree, Menu, Search, X, Sparkles } from 'lucide-react';
 interface SocialLink {
   label: string;
   url: string;
+  iconUrl: string;
 }
 
 export default function App() {
@@ -19,12 +20,17 @@ export default function App() {
   const [synonyms, setSynonyms] = useState<Record<string, string[]>>({});
   const [isQuizModalOpen, setIsQuizModalOpen] = useState(false);
 
+  // Social Links State
+  const [socialLinks, setSocialLinks] = useState<SocialLink[]>([]);
+
   useEffect(() => {
+    // 1. Fetch Files
     fetch(`${import.meta.env.BASE_URL}files.json`)
       .then((res) => res.json())
       .then((data) => setFilesData(data))
       .catch((err) => console.error('Failed to load files:', err));
 
+    // 2. Fetch Synonyms
     fetch(`${import.meta.env.BASE_URL}synonyms.txt`)
       .then((res) => res.text())
       .then((text) => {
@@ -40,6 +46,44 @@ export default function App() {
         setSynonyms(mapping);
       })
       .catch((err) => console.error('Failed to load synonyms:', err));
+
+    // 3. Fetch Social Links & Favicons
+    fetch(`${import.meta.env.BASE_URL}socials.txt`)
+      .then((res) => res.text())
+      .then((text) => {
+        const lines = text.split('\n').filter((line) => line.trim() !== '');
+        const parsed: SocialLink[] = lines.map((line) => {
+          let label = 'Link';
+          let url = line.trim();
+
+          if (line.includes(': http')) {
+            const parts = line.split(/:(.+)/);
+            label = parts[0].trim();
+            url = parts[1].trim();
+          } else {
+            try {
+              const parsedUrl = new URL(url);
+              label = parsedUrl.hostname.replace('www.', '');
+            } catch {
+              label = url;
+            }
+          }
+
+          let domain = '';
+          try {
+            domain = new URL(url).hostname;
+          } catch {
+            domain = url;
+          }
+
+          const iconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=64`;
+
+          return { label, url, iconUrl };
+        });
+
+        setSocialLinks(parsed);
+      })
+      .catch((err) => console.error('Failed to load socials:', err));
   }, []);
 
   const handleSelectFile = (file: FileItem) => {
@@ -49,54 +93,49 @@ export default function App() {
     }
   };
 
-const filteredFiles = useMemo(() => {
-  if (!searchQuery.trim()) return filesData;
+  const filteredFiles = useMemo(() => {
+    if (!searchQuery.trim()) return filesData;
 
-  const terms = searchQuery.toLowerCase().trim().split(/\s+/);
+    const terms = searchQuery.toLowerCase().trim().split(/\s+/);
 
-  // Checks if the accumulated path string contains ALL search terms (or their synonyms)
-  const matchesAllTerms = (path: string): boolean => {
-    const lowerPath = path.toLowerCase();
-    return terms.every((term) => {
-      const variants = [term, ...(synonyms[term] || [])];
-      return variants.some((variant) => lowerPath.includes(variant));
-    });
-  };
+    const matchesAllTerms = (path: string): boolean => {
+      const lowerPath = path.toLowerCase();
+      return terms.every((term) => {
+        const variants = [term, ...(synonyms[term] || [])];
+        return variants.some((variant) => lowerPath.includes(variant));
+      });
+    };
 
-  const filterNode = (node: FileSystemNode, parentPath = ''): FileSystemNode | null => {
-    // Build the full path for the current node (e.g. "notes/physics/force.pdf")
-    const currentPath = parentPath ? `${parentPath}/${node.name}` : node.name;
+    const filterNode = (node: FileSystemNode, parentPath = ''): FileSystemNode | null => {
+      const currentPath = parentPath ? `${parentPath}/${node.name}` : node.name;
 
-    if (node.type === 'folder') {
-      const folder = node as FolderItem;
+      if (node.type === 'folder') {
+        const folder = node as FolderItem;
 
-      // Filter children recursively, passing down the updated path
-      const matchingChildren = folder.children
-        .map((child) => filterNode(child, currentPath))
-        .filter((child): child is FileSystemNode => child !== null);
+        const matchingChildren = folder.children
+          .map((child) => filterNode(child, currentPath))
+          .filter((child): child is FileSystemNode => child !== null);
 
-      // Keep the folder if any child inside it matched the path criteria
-      if (matchingChildren.length > 0) {
-        return {
-          ...folder,
-          children: matchingChildren,
-        };
+        if (matchingChildren.length > 0) {
+          return {
+            ...folder,
+            children: matchingChildren,
+          };
+        }
+        return null;
       }
-      return null;
-    }
 
-    const file = node as FileItem;
-    // Safely fallback to currentPath if path property is missing from the type definition
-    const fullPath = (file as FileItem & { path?: string }).path || currentPath;
+      const file = node as FileItem;
+      const fullPath = (file as FileItem & { path?: string }).path || currentPath;
 
-    return matchesAllTerms(fullPath) ? file : null;
-  };
+      return matchesAllTerms(fullPath) ? file : null;
+    };
 
-  return filesData
-    .map((node) => filterNode(node))
-    .filter((node): node is FileSystemNode => node !== null);
-}, [filesData, searchQuery, synonyms]);
-  
+    return filesData
+      .map((node) => filterNode(node))
+      .filter((node): node is FileSystemNode => node !== null);
+  }, [filesData, searchQuery, synonyms]);
+    
   const stats = useMemo(() => {
     let fileCount = 0;
     let totalBytes = 0;
@@ -111,7 +150,6 @@ const filteredFiles = useMemo(() => {
         const num = Number(str);
         if (!isNaN(num)) return num;
 
-        // Parse formatted strings like "1.5 MB", "500 KB", "1024 B"
         const match = str.match(/^([\d.]+)\s*([a-zA-Z]+)?$/);
         if (match) {
           const amount = parseFloat(match[1]);
@@ -145,53 +183,6 @@ const filteredFiles = useMemo(() => {
       totalMB: mb < 0.1 && mb > 0 ? mb.toFixed(2) : mb.toFixed(1)
     };
   }, [filesData]);
-  // --- Social Modal State & Fetch Logic ---
-const [isSocialOpen, setIsSocialOpen] = useState(false);
-const [socialLinks, setSocialLinks] = useState<SocialLink[]>([]);
-const [socialLoading, setSocialLoading] = useState(false);
-const [socialError, setSocialError] = useState<string | null>(null);
-
-const handleOpenSocials = async () => {
-  setIsSocialOpen(true);
-  if (socialLinks.length > 0) return; // Avoid refetching if links exist
-
-  setSocialLoading(true);
-  setSocialError(null);
-
- try {
-      // <-- 2. USE BASE_URL FOR VITE FETCH
-      const response = await fetch(`${import.meta.env.BASE_URL}socials.txt`);
-      if (!response.ok) throw new Error('Failed to load file');
-
-      const text = await response.text();
-      const lines = text.split('\n').filter((line) => line.trim() !== '');
-
-      const parsedLinks: SocialLink[] = lines.map((line) => {
-        let label = 'Visit Link';
-        let url = line.trim();
-
-        if (line.includes(': http')) {
-          const parts = line.split(/:(.+)/);
-          label = parts[0].trim();
-          url = parts[1].trim();
-        } else {
-          try {
-            const parsedUrl = new URL(url);
-            label = parsedUrl.hostname.replace('www.', '');
-          } catch {
-            label = url;
-          }
-        }
-      return { label, url };
-    });
-
-    setSocialLinks(parsedLinks);
-  } catch (err) {
-    setSocialError('Failed to load links.');
-  } finally {
-    setSocialLoading(false);
-  }
-};
 
   return (
     <div className="flex h-screen w-screen overflow-hidden bg-transparent font-sans">
@@ -315,70 +306,31 @@ const handleOpenSocials = async () => {
           </div>
         </main>
       </div>
-{/* --- Floating Social Button & Overlay --- */}
-  <button
-    className="social-fab"
-    onClick={handleOpenSocials}
-    aria-label="Open Social Links"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <circle cx="18" cy="5" r="3"></circle>
-      <circle cx="6" cy="12" r="3"></circle>
-      <circle cx="18" cy="19" r="3"></circle>
-      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
-      <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
-    </svg>
-  </button>
 
-  {isSocialOpen && (
-    <div className="social-overlay active" onClick={() => setIsSocialOpen(false)}>
-      <div className="social-modal" onClick={(e) => e.stopPropagation()}>
-        <button
-          className="close-btn"
-          onClick={() => setIsSocialOpen(false)}
-          aria-label="Close"
-        >
-          &times;
-        </button>
-        <h3 className="modal-title">Social Links</h3>
-
-        <div className="social-links-container">
-          {socialLoading && <p className="loading-text">Loading socials...</p>}
-          {socialError && <p className="error-text">{socialError}</p>}
-          {!socialLoading &&
-            !socialError &&
-            socialLinks.map((item, index) => (
-              <a
-                key={index}
-                href={item.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="social-link-btn"
-              >
-                {item.label}
-              </a>
-            ))}
+      {/* Floating Social Icons Bar */}
+      {socialLinks.length > 0 && (
+        <div className="social-bar">
+          {socialLinks.map((item, index) => (
+            <a
+              key={index}
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-bar-icon"
+              title={item.label}
+              aria-label={item.label}
+            >
+              <img src={item.iconUrl} alt={item.label} />
+            </a>
+          ))}
         </div>
-      </div>
-    </div>
-  )}
+      )}
+
       {/* Popup File Viewer Modal */}
       <ViewerModal file={selectedFile} onClose={() => setSelectedFile(null)} />
 
       {/* Experimental Interactive Quiz Modal */}
       <QuizModal isOpen={isQuizModalOpen} onClose={() => setIsQuizModalOpen(false)} />
     </div>
-    
   );
-  
 }
