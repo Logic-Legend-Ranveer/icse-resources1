@@ -53,32 +53,44 @@ export default function App() {
       .then((text) => {
         const lines = text.split('\n').filter((line) => line.trim() !== '');
         const parsed: SocialLink[] = lines.map((line) => {
-          let label = 'Link';
+          let label = '';
           let url = line.trim();
 
-          if (line.includes(': http')) {
-            const parts = line.split(/:(.+)/);
-            label = parts[0].trim();
-            url = parts[1].trim();
-          } else {
-            try {
-              const parsedUrl = new URL(url);
-              label = parsedUrl.hostname.replace('www.', '');
-            } catch {
-              label = url;
+          // Parse "Label: URL" or "Label: mailto:..." format
+          if (line.includes(':')) {
+            const match = line.match(/^([^:]+):\s*(.*)$/);
+            if (match && (match[2].startsWith('http') || match[2].startsWith('mailto:'))) {
+              label = match[1].trim();
+              url = match[2].trim();
             }
           }
 
-          let domain = '';
-          try {
-            domain = new URL(url).hostname;
-          } catch {
-            domain = url;
+          // Handle mailto: links
+          if (url.startsWith('mailto:')) {
+            const domain = url.split('@')[1] || 'gmail.com';
+            return {
+              label: label || 'Email',
+              url,
+              iconUrl: `https://www.google.com/s2/favicons?domain=${domain}&sz=64`,
+            };
           }
 
-          const iconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=64`;
-
-          return { label, url, iconUrl };
+          // Handle HTTP / HTTPS links
+          try {
+            const parsedUrl = new URL(url);
+            const domain = parsedUrl.hostname;
+            return {
+              label: label || domain.replace('www.', ''),
+              url,
+              iconUrl: `https://www.google.com/s2/favicons?domain=${domain}&sz=64`,
+            };
+          } catch {
+            return {
+              label: label || url,
+              url,
+              iconUrl: `https://www.google.com/s2/favicons?domain=${url}&sz=64`,
+            };
+          }
         });
 
         setSocialLinks(parsed);
