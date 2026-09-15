@@ -182,112 +182,49 @@
     border-right-color: var(--border);
   }
 }
-/* Circular Floating Button */
-.social-fab {
+
+/* Floating Social Bar Container */
+.social-bar {
   position: fixed;
   bottom: 24px;
   right: 24px;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  background-color: #0066cc;
-  color: #ffffff;
-  border: none;
-  cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  transition: transform 0.2s ease, background-color 0.2s ease;
-  z-index: 1000;
-}
-
-.social-fab:hover {
-  transform: scale(1.08);
-  background-color: #0052a3;
-}
-
-/* Modal Backdrop Overlay */
-.social-overlay {
-  position: fixed;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(4px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-  z-index: 1001;
-}
-
-.social-overlay.active {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-/* Centered Content Box */
-.social-modal {
-  background: #ffffff;
-  color: #1a1a1a;
-  width: 90%;
-  max-width: 400px;
-  padding: 24px;
-  border-radius: 12px;
-  position: relative;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-  transform: translateY(20px);
-  transition: transform 0.3s ease;
-}
-
-.social-overlay.active .social-modal {
-  transform: translateY(0);
-}
-
-.close-btn {
-  position: absolute;
-  top: 12px;
-  right: 16px;
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-  color: #666666;
-}
-
-.modal-title {
-  margin: 0 0 16px 0;
-  font-size: 1.25rem;
-  text-align: center;
-}
-
-/* Dynamic Links Styling */
-.social-links-container {
-  display: flex;
-  flex-direction: column;
   gap: 10px;
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  border-radius: 9999px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: all 0.3s ease;
 }
 
-.social-link-btn {
-  display: block;
-  padding: 10px 16px;
-  background-color: #f3f4f6;
-  color: #1f2937;
+/* Individual Social Icon Button */
+.social-bar-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
   text-decoration: none;
-  text-align: center;
-  border-radius: 8px;
-  font-weight: 500;
-  transition: background-color 0.2s ease;
-  word-break: break-all;
 }
 
-.social-link-btn:hover {
-  background-color: #e5e7eb;
+.social-bar-icon:hover {
+  transform: translateY(-3px) scale(1.08);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+  background: #f8fafc;
 }
 
-.loading-text, .error-text {
-  text-align: center;
-  color: #666666;
-  font-size: 0.9rem;
+.social-bar-icon img {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  object-fit: contain;
 }
