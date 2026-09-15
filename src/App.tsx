@@ -5,6 +5,11 @@ import { QuizModal } from '@/components/QuizModal';
 import type { FileItem, FileSystemNode, FolderItem } from '@/types/file-system';
 import { BookOpen, FolderTree, Menu, Search, X, Sparkles } from 'lucide-react';
 
+interface SocialLink {
+  label: string;
+  url: string;
+}
+
 export default function App() {
   const [filesData, setFilesData] = useState<FileSystemNode[]>([]);
   const [selectedFile, setSelectedFile] = useState<FileItem | null>(null);
@@ -139,6 +144,52 @@ const filteredFiles = useMemo(() => {
       totalMB: mb < 0.1 && mb > 0 ? mb.toFixed(2) : mb.toFixed(1)
     };
   }, [filesData]);
+  // --- Social Modal State & Fetch Logic ---
+const [isSocialOpen, setIsSocialOpen] = useState(false);
+const [socialLinks, setSocialLinks] = useState<SocialLink[]>([]);
+const [socialLoading, setSocialLoading] = useState(false);
+const [socialError, setSocialError] = useState<string | null>(null);
+
+const handleOpenSocials = async () => {
+  setIsSocialOpen(true);
+  if (socialLinks.length > 0) return; // Avoid refetching if links exist
+
+  setSocialLoading(true);
+  setSocialError(null);
+
+  try {
+    const response = await fetch('/socials.txt');
+    if (!response.ok) throw new Error('Failed to load file');
+
+    const text = await response.text();
+    const lines = text.split('\n').filter((line) => line.trim() !== '');
+
+    const parsedLinks: SocialLink[] = lines.map((line) => {
+      let label = 'Visit Link';
+      let url = line.trim();
+
+      if (line.includes(': http')) {
+        const parts = line.split(/:(.+)/);
+        label = parts[0].trim();
+        url = parts[1].trim();
+      } else {
+        try {
+          const parsedUrl = new URL(url);
+          label = parsedUrl.hostname.replace('www.', '');
+        } catch {
+          label = url;
+        }
+      }
+      return { label, url };
+    });
+
+    setSocialLinks(parsedLinks);
+  } catch (err) {
+    setSocialError('Failed to load links.');
+  } finally {
+    setSocialLoading(false);
+  }
+};
 
   return (
     <div className="flex h-screen w-screen overflow-hidden bg-transparent font-sans">
@@ -262,12 +313,70 @@ const filteredFiles = useMemo(() => {
           </div>
         </main>
       </div>
+{/* --- Floating Social Button & Overlay --- */}
+  <button
+    className="social-fab"
+    onClick={handleOpenSocials}
+    aria-label="Open Social Links"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <circle cx="18" cy="5" r="3"></circle>
+      <circle cx="6" cy="12" r="3"></circle>
+      <circle cx="18" cy="19" r="3"></circle>
+      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+      <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+    </svg>
+  </button>
 
+  {isSocialOpen && (
+    <div className="social-overlay active" onClick={() => setIsSocialOpen(false)}>
+      <div className="social-modal" onClick={(e) => e.stopPropagation()}>
+        <button
+          className="close-btn"
+          onClick={() => setIsSocialOpen(false)}
+          aria-label="Close"
+        >
+          &times;
+        </button>
+        <h3 className="modal-title">Social Links</h3>
+
+        <div className="social-links-container">
+          {socialLoading && <p className="loading-text">Loading socials...</p>}
+          {socialError && <p className="error-text">{socialError}</p>}
+          {!socialLoading &&
+            !socialError &&
+            socialLinks.map((item, index) => (
+              <a
+                key={index}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="social-link-btn"
+              >
+                {item.label}
+              </a>
+            ))}
+        </div>
+      </div>
+    </div>
+  )}
       {/* Popup File Viewer Modal */}
       <ViewerModal file={selectedFile} onClose={() => setSelectedFile(null)} />
 
       {/* Experimental Interactive Quiz Modal */}
       <QuizModal isOpen={isQuizModalOpen} onClose={() => setIsQuizModalOpen(false)} />
     </div>
+    
   );
+  
 }
