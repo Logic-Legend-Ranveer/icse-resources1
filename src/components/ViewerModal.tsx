@@ -28,9 +28,15 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
 
   if (!file) return null;
 
+  // Use direct embedUrl if available, otherwise fallback to drive preview
+  const documentUrl = embedUrl || `https://drive.google.com/file/d/${file.fileId}/preview`;
+
   return (
     <Dialog open={!!file} onOpenChange={() => onClose()}>
-      <DialogContent className="!max-w-[92vw] w-[92vw] h-[90vh] flex flex-col p-4 bg-white border-none shadow-2xl">
+      <DialogContent 
+        className="!max-w-[92vw] w-[92vw] h-[90vh] flex flex-col p-4 bg-white border-none shadow-2xl"
+        onOpenAutoFocus={(e) => e.preventDefault()} // Prevents Radix from stealing focus from iframe text selection
+      >
         <DialogHeader className="flex flex-row items-center justify-between border-b pb-3 space-y-0">
           <DialogTitle className="text-lg font-semibold truncate max-w-[80%] text-slate-800">
             {file.name ?? 'Untitled File'}
@@ -71,17 +77,20 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
               Could not load file. Try opening in Drive directly.
             </div>
           )}
-          {embedUrl && file.type === 'image' ? (
-            <div className="w-full h-full flex items-center justify-center bg-slate-900/5 rounded-xl overflow-hidden border border-slate-200 p-4">
-              <img src={embedUrl} alt={file.name ?? 'Image'} className="max-h-full max-w-full object-contain rounded-md shadow-sm" />
-            </div>
-          ) : embedUrl ? (
-            <iframe
-              src={`https://drive.google.com/file/d/${file.fileId}/preview`}
-              className="w-full h-full rounded-xl border border-slate-200 bg-slate-50 shadow-inner"
-              title={file.name ?? 'Document'}
-            />
-          ) : null}
+          {!loading && !error && (
+            file.type === 'image' ? (
+              <div className="w-full h-full flex items-center justify-center bg-slate-900/5 rounded-xl overflow-hidden border border-slate-200 p-4">
+                <img src={embedUrl!} alt={file.name ?? 'Image'} className="max-h-full max-w-full object-contain rounded-md shadow-sm" />
+              </div>
+            ) : (
+              <iframe
+                src={documentUrl}
+                className="w-full h-full rounded-xl border border-slate-200 bg-slate-50 shadow-inner"
+                title={file.name ?? 'Document'}
+                allow="autoplay; clipboard-write"
+              />
+            )
+          )}
         </div>
       </DialogContent>
     </Dialog>
