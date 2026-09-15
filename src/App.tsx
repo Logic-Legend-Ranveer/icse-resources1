@@ -1,9 +1,16 @@
 import { useEffect, useState, useMemo } from 'react';
+import './App.css'; 
 import { FileExplorer } from '@/components/FileExplorer';
 import { ViewerModal } from '@/components/ViewerModal';
 import { QuizModal } from '@/components/QuizModal';
 import type { FileItem, FileSystemNode, FolderItem } from '@/types/file-system';
 import { BookOpen, FolderTree, Menu, Search, X, Sparkles } from 'lucide-react';
+
+interface SocialLink {
+  label: string;
+  url: string;
+  iconUrl: string;
+}
 
 export default function App() {
   const [filesData, setFilesData] = useState<FileSystemNode[]>([]);
@@ -13,12 +20,17 @@ export default function App() {
   const [synonyms, setSynonyms] = useState<Record<string, string[]>>({});
   const [isQuizModalOpen, setIsQuizModalOpen] = useState(false);
 
+  // Social Links State
+  const [socialLinks, setSocialLinks] = useState<SocialLink[]>([]);
+
   useEffect(() => {
+    // 1. Fetch Files
     fetch(`${import.meta.env.BASE_URL}files.json`)
       .then((res) => res.json())
       .then((data) => setFilesData(data))
       .catch((err) => console.error('Failed to load files:', err));
 
+    // 2. Fetch Synonyms
     fetch(`${import.meta.env.BASE_URL}synonyms.txt`)
       .then((res) => res.text())
       .then((text) => {
@@ -34,6 +46,44 @@ export default function App() {
         setSynonyms(mapping);
       })
       .catch((err) => console.error('Failed to load synonyms:', err));
+
+    // 3. Fetch Social Links & Favicons
+    fetch(`${import.meta.env.BASE_URL}socials.txt`)
+      .then((res) => res.text())
+      .then((text) => {
+        const lines = text.split('\n').filter((line) => line.trim() !== '');
+        const parsed: SocialLink[] = lines.map((line) => {
+          let label = 'Link';
+          let url = line.trim();
+
+          if (line.includes(': http')) {
+            const parts = line.split(/:(.+)/);
+            label = parts[0].trim();
+            url = parts[1].trim();
+          } else {
+            try {
+              const parsedUrl = new URL(url);
+              label = parsedUrl.hostname.replace('www.', '');
+            } catch {
+              label = url;
+            }
+          }
+
+          let domain = '';
+          try {
+            domain = new URL(url).hostname;
+          } catch {
+            domain = url;
+          }
+
+          const iconUrl = `https://www.google.com/s2/favicons?domain=${domain}&sz=64`;
+
+          return { label, url, iconUrl };
+        });
+
+        setSocialLinks(parsed);
+      })
+      .catch((err) => console.error('Failed to load socials:', err));
   }, []);
 
   const handleSelectFile = (file: FileItem) => {
@@ -43,54 +93,49 @@ export default function App() {
     }
   };
 
-const filteredFiles = useMemo(() => {
-  if (!searchQuery.trim()) return filesData;
+  const filteredFiles = useMemo(() => {
+    if (!searchQuery.trim()) return filesData;
 
-  const terms = searchQuery.toLowerCase().trim().split(/\s+/);
+    const terms = searchQuery.toLowerCase().trim().split(/\s+/);
 
-  // Checks if the accumulated path string contains ALL search terms (or their synonyms)
-  const matchesAllTerms = (path: string): boolean => {
-    const lowerPath = path.toLowerCase();
-    return terms.every((term) => {
-      const variants = [term, ...(synonyms[term] || [])];
-      return variants.some((variant) => lowerPath.includes(variant));
-    });
-  };
+    const matchesAllTerms = (path: string): boolean => {
+      const lowerPath = path.toLowerCase();
+      return terms.every((term) => {
+        const variants = [term, ...(synonyms[term] || [])];
+        return variants.some((variant) => lowerPath.includes(variant));
+      });
+    };
 
-  const filterNode = (node: FileSystemNode, parentPath = ''): FileSystemNode | null => {
-    // Build the full path for the current node (e.g. "notes/physics/force.pdf")
-    const currentPath = parentPath ? `${parentPath}/${node.name}` : node.name;
+    const filterNode = (node: FileSystemNode, parentPath = ''): FileSystemNode | null => {
+      const currentPath = parentPath ? `${parentPath}/${node.name}` : node.name;
 
-    if (node.type === 'folder') {
-      const folder = node as FolderItem;
+      if (node.type === 'folder') {
+        const folder = node as FolderItem;
 
-      // Filter children recursively, passing down the updated path
-      const matchingChildren = folder.children
-        .map((child) => filterNode(child, currentPath))
-        .filter((child): child is FileSystemNode => child !== null);
+        const matchingChildren = folder.children
+          .map((child) => filterNode(child, currentPath))
+          .filter((child): child is FileSystemNode => child !== null);
 
-      // Keep the folder if any child inside it matched the path criteria
-      if (matchingChildren.length > 0) {
-        return {
-          ...folder,
-          children: matchingChildren,
-        };
+        if (matchingChildren.length > 0) {
+          return {
+            ...folder,
+            children: matchingChildren,
+          };
+        }
+        return null;
       }
-      return null;
-    }
 
-    const file = node as FileItem;
-    // Safely fallback to currentPath if path property is missing from the type definition
-    const fullPath = (file as FileItem & { path?: string }).path || currentPath;
+      const file = node as FileItem;
+      const fullPath = (file as FileItem & { path?: string }).path || currentPath;
 
-    return matchesAllTerms(fullPath) ? file : null;
-  };
+      return matchesAllTerms(fullPath) ? file : null;
+    };
 
-  return filesData
-    .map((node) => filterNode(node))
-    .filter((node): node is FileSystemNode => node !== null);
-}, [filesData, searchQuery, synonyms]);
-  
+    return filesData
+      .map((node) => filterNode(node))
+      .filter((node): node is FileSystemNode => node !== null);
+  }, [filesData, searchQuery, synonyms]);
+    
   const stats = useMemo(() => {
     let fileCount = 0;
     let totalBytes = 0;
@@ -105,7 +150,6 @@ const filteredFiles = useMemo(() => {
         const num = Number(str);
         if (!isNaN(num)) return num;
 
-        // Parse formatted strings like "1.5 MB", "500 KB", "1024 B"
         const match = str.match(/^([\d.]+)\s*([a-zA-Z]+)?$/);
         if (match) {
           const amount = parseFloat(match[1]);
@@ -262,6 +306,25 @@ const filteredFiles = useMemo(() => {
           </div>
         </main>
       </div>
+
+      {/* Floating Social Icons Bar */}
+      {socialLinks.length > 0 && (
+        <div className="social-bar">
+          {socialLinks.map((item, index) => (
+            <a
+              key={index}
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-bar-icon"
+              title={item.label}
+              aria-label={item.label}
+            >
+              <img src={item.iconUrl} alt={item.label} />
+            </a>
+          ))}
+        </div>
+      )}
 
       {/* Popup File Viewer Modal */}
       <ViewerModal file={selectedFile} onClose={() => setSelectedFile(null)} />

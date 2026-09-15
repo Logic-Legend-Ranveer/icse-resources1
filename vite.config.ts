@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite"
 import { defineConfig } from "vite"
 
 export default defineConfig(() => {
-  const basepath = process.env.CF_PAGES ? '/' : '/icse-resources1/';
+  const basepath = process.env.CF_PAGES ? '/' : '/';
 
   return {
     plugins: [react(), tailwindcss()],
