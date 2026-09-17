@@ -4,7 +4,7 @@ import { FileExplorer } from '@/components/FileExplorer';
 import { ViewerModal } from '@/components/ViewerModal';
 import { QuizModal } from '@/components/QuizModal';
 import type { FileItem, FileSystemNode, FolderItem } from '@/types/file-system';
-import { BookOpen, FolderTree, Menu, Search, X, Sparkles, Moon, Sun } from 'lucide-react';
+import { BookOpen, FolderTree, Menu, Search, X, Sparkles, Moon, Sun, Info } from 'lucide-react';
 import { RecentAdditionsButton } from './components/RecentAdditionsButton';
 
 interface SocialLink {
@@ -46,7 +46,6 @@ function ConstellationBackground() {
     const render = () => {
       ctx.clearRect(0, 0, width, height);
 
-      // Draw particles & links
       for (let i = 0; i < particles.length; i++) {
         const p1 = particles[i];
         p1.x += p1.vx;
@@ -277,7 +276,6 @@ export default function App() {
   return (
     <div className="relative flex h-screen w-screen overflow-hidden bg-slate-50 dark:bg-slate-950 font-sans transition-colors duration-300">
       
-      {/* Background Modes: Constellation for Light Theme, Ambient Orbs for Dark Theme */}
       {!isDarkMode ? (
         <ConstellationBackground />
       ) : (
@@ -296,7 +294,7 @@ export default function App() {
         />
       )}
 
-      {/* Sidebar with High-Contrast Professional Text Colors */}
+      {/* Sidebar */}
       <aside
         className={`fixed md:static inset-y-0 left-0 z-40 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-r border-slate-200 dark:border-slate-800 flex flex-col h-full transition-all duration-300 ease-in-out ${
           isSidebarOpen ? 'w-80 translate-x-0' : '-translate-x-full md:translate-x-0 md:w-0 md:border-r-0 overflow-hidden'
@@ -338,8 +336,8 @@ export default function App() {
           </div>
         </div>
 
-        {/* Scrollable File Tree with enhanced visibility text */}
-        <div className="flex-1 overflow-y-auto p-2 pb-16 text-slate-900 dark:text-slate-100 font-medium">
+        {/* Scrollable File Tree */}
+        <div className="flex-1 overflow-y-auto p-2 pb-16">
           <FileExplorer data={filteredFiles} onSelectFile={handleSelectFile} searchQuery={searchQuery} />
         </div>
 
@@ -379,14 +377,14 @@ export default function App() {
 
           {/* Stats counter */}
           {stats.fileCount > 0 && (
-            <div className="flex items-center gap-1.5 md:gap-2 text-xs text-slate-500">
-              <div className="flex items-center gap-1 bg-indigo-50 text-indigo-700 px-2.5 py-1.5 rounded-full font-medium whitespace-nowrap">
+            <div className="flex items-center gap-1.5 md:gap-2 text-xs text-slate-500 dark:text-slate-300">
+              <div className="flex items-center gap-1 bg-indigo-50 dark:bg-indigo-950/85 text-indigo-700 dark:text-indigo-300 px-2.5 py-1.5 rounded-full font-medium whitespace-nowrap border border-indigo-100/50 dark:border-indigo-900/50">
                 <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
                 <span>{stats.fileCount} files</span>
               </div>
-              <div className="flex items-center gap-1 bg-violet-50 text-violet-700 px-2.5 py-1.5 rounded-full font-medium whitespace-nowrap">
+              <div className="flex items-center gap-1 bg-violet-50 dark:bg-violet-950/85 text-violet-700 dark:text-violet-300 px-2.5 py-1.5 rounded-full font-medium whitespace-nowrap border border-violet-100/50 dark:border-violet-900/50">
                 <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4 7v10c0 2.21 3.582 3 8 3s8-.79 8-3V7M4 7c0-2.21 3.582-3 8-3s8 .79 8-3M4 7c0-2.21 3.582-3 8-3s8 .79 8-3" />
                 </svg>
@@ -395,6 +393,7 @@ export default function App() {
             </div>
           )}
         </header>
+
         <main className="flex-1 flex flex-col items-center justify-center p-6 text-center overflow-y-auto">
           <div className="max-w-md space-y-3 bg-white/85 dark:bg-slate-900/85 backdrop-blur-md p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 transition-colors">
             <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 rounded-xl flex items-center justify-center mx-auto">
@@ -411,6 +410,16 @@ export default function App() {
       {/* Floating Action Buttons */}
       <div className="fixed top-16 right-4 z-20 md:top-16 md:right-6 flex flex-col items-center gap-2.5">
         <RecentAdditionsButton />
+
+        {/* Info Button with proper dark mode styling */}
+        <button
+          onClick={() => {}}
+          className="w-10 h-10 rounded-full bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border border-slate-200 dark:border-slate-800 shadow-md flex items-center justify-center text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all cursor-pointer"
+          title="Information"
+          aria-label="Information"
+        >
+          <Info className="w-5 h-5" />
+        </button>
         
         <button
           onClick={() => setIsDarkMode(!isDarkMode)}
@@ -426,20 +435,20 @@ export default function App() {
         </button>
       </div>
 
-      {/* Floating Social Icons Bar */}
+      {/* Floating Social Icons Bar with dark mode background and borders */}
       {socialLinks.length > 0 && (
-        <div className="social-bar">
+        <div className="fixed bottom-6 right-6 z-20 flex items-center gap-2 p-2 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-full shadow-lg">
           {socialLinks.map((item, index) => (
             <a
               key={index}
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="social-bar-icon"
+              className="w-8 h-8 rounded-full flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors p-1.5"
               title={item.label}
               aria-label={item.label}
             >
-              <img src={item.iconUrl} alt={item.label} />
+              <img src={item.iconUrl} alt={item.label} className="w-full h-full object-contain rounded-full" />
             </a>
           ))}
         </div>
