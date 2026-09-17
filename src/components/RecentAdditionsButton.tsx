@@ -2,32 +2,42 @@ import React, { useState } from 'react';
 import { Info, Sparkles, FileText } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 
-// Relative path from src/components/ to public/files.json
+// Import JSON file data
 import filesData from '../../public/files.json';
 
 interface FileData {
   fileId?: string;
   name?: string;
   type?: string;
+  size?: number;
   addedAt?: string;
-  [key: string]: any;
+  children?: FileData[];
+}
+
+// Recursive helper to extract all files from nested folders
+function getAllFiles(nodes: FileData[]): FileData[] {
+  let result: FileData[] = [];
+  for (const node of nodes) {
+    if (node.type === 'folder' && node.children) {
+      result = result.concat(getAllFiles(node.children));
+    } else if (node.type !== 'folder') {
+      result.push(node);
+    }
+  }
+  return result;
 }
 
 export const RecentAdditionsButton: React.FC = () => {
   const [open, setOpen] = useState(false);
 
-  // Method 2: Sort by 'addedAt' timestamp (newest first) and take the top 5
-  const recentFiles: FileData[] = Array.isArray(filesData)
-    ? [...filesData]
-        .filter(f => f.type !== 'folder')
-        .sort((a, b) => {
-          if (a.addedAt && b.addedAt) {
-            return new Date(b.addedAt).getTime() - new Date(a.addedAt).getTime();
-          }
-          return 0; // maintain default order if timestamps are missing
-        })
-        .slice(0, 5)
-    : [];
+  // 1. Flatten nested folders into a single file list
+  const allFiles = getAllFiles(filesData as FileData[]);
+
+  // 2. Filter files with addedAt dates, sort newest first, take top 5
+  const recentFiles = allFiles
+    .filter((file) => Boolean(file.addedAt))
+    .sort((a, b) => new Date(b.addedAt!).getTime() - new Date(a.addedAt!).getTime())
+    .slice(0, 5);
 
   return (
     <>
