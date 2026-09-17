@@ -32,9 +32,14 @@
       body {
         margin: 0;
         min-height: 100vh;
-        /* Radial gradient: Pure white in center -> subtle soft gray (slate-200) at corners */
+        /* Light mode: Pure white center -> soft slate gray corners */
         background: radial-gradient(ellipse at center, #ffffff 40%, #cbd5e1 100%);
         background-attachment: fixed;
+        transition: background 0.3s ease;
+      }
+      /* Dark mode: Slate 900 center -> Dark slate 950 corners */
+      html.dark body {
+        background: radial-gradient(ellipse at center, #0f172a 40%, #020617 100%);
       }
       .sr-only {
         position: absolute;
@@ -94,8 +99,9 @@
           if (this.x < 0 || this.x > width) this.vx = -this.vx;
           if (this.y < 0 || this.y > height) this.vy = -this.vy;
         }
-        draw() {
-          ctx.fillStyle = 'rgba(79, 70, 229, 0.85)';
+        draw(isDark) {
+          /* Light mode: Indigo/Purple | Dark mode: Orange */
+          ctx.fillStyle = isDark ? 'rgba(249, 115, 22, 0.85)' : 'rgba(79, 70, 229, 0.85)';
           ctx.beginPath();
           ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
           ctx.fill();
@@ -106,10 +112,13 @@
 
       function animate() {
         ctx.clearRect(0, 0, width, height);
+        
+        // Detect theme state dynamically
+        const isDark = document.documentElement.classList.contains('dark');
 
         for (let i = 0; i < particles.length; i++) {
           particles[i].update();
-          particles[i].draw();
+          particles[i].draw(isDark);
 
           for (let j = i + 1; j < particles.length; j++) {
             const dx = particles[i].x - particles[j].x;
@@ -117,7 +126,11 @@
             const dist = Math.sqrt(dx * dx + dy * dy);
 
             if (dist < 130) {
-              ctx.strokeStyle = `rgba(79, 70, 229, ${0.45 * (1 - dist / 130)})`;
+              const alpha = 1 - dist / 130;
+              /* Light mode: Purple lines | Dark mode: Orange lines */
+              ctx.strokeStyle = isDark 
+                ? `rgba(249, 115, 22, ${0.45 * alpha})` 
+                : `rgba(79, 70, 229, ${0.45 * alpha})`;
               ctx.lineWidth = 0.7;
               ctx.beginPath();
               ctx.moveTo(particles[i].x, particles[i].y);
@@ -131,7 +144,11 @@
             const mdy = particles[i].y - mouse.y;
             const mdist = Math.sqrt(mdx * mdx + mdy * mdy);
             if (mdist < mouse.radius) {
-              ctx.strokeStyle = `rgba(234, 88, 12, ${0.65 * (1 - mdist / mouse.radius)})`;
+              const mAlpha = 1 - mdist / mouse.radius;
+              /* Mouse interaction line colors */
+              ctx.strokeStyle = isDark
+                ? `rgba(251, 146, 60, ${0.65 * mAlpha})`
+                : `rgba(234, 88, 12, ${0.65 * mAlpha})`;
               ctx.lineWidth = 0.9;
               ctx.beginPath();
               ctx.moveTo(particles[i].x, particles[i].y);
@@ -145,6 +162,5 @@
 
       animate();
     </script>
-
   </body>
 </html>
