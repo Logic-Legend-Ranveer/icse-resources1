@@ -1,13 +1,5 @@
-
 {
-  
-  
   "compilerOptions": {
-    
-
-  
-
-
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "es2023",
     "lib": ["ES2023", "DOM"],
@@ -15,7 +7,8 @@
     "types": ["vite/client"],
     "allowArbitraryExtensions": true,
     "skipLibCheck": true,
-  
+    "resolveJsonModule": true,
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
@@ -30,7 +23,6 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
 
-    
     "paths": {
       "@/*": [
         "./src/*"
