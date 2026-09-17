@@ -228,3 +228,20 @@
   border-radius: 4px;
   object-fit: contain;
 }
+@keyframes rainbowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.rainbow-badge {
+  background: linear-gradient(135deg, #f43f5e, #8b5cf6, #06b6d4, #10b981, #f59e0b, #f43f5e);
+  background-size: 300% 300%;
+  animation: rainbowShift 6s ease infinite;
+}
+
+.rainbow-text-gradient {
+  background: linear-gradient(135deg, #ec4899, #6366f1, #0ea5e9, #10b981, #f59e0b);
+  background-size: 300% 300%;
+  animation: rainbowShift 6s ease infinite;
+}
