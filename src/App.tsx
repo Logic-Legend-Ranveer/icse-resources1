@@ -11,7 +11,7 @@ interface SocialLink {
   label: string;
   url: string;
   iconUrl: string;
-}
+}https://avatars.githubusercontent.com/u/281029874?v=4&size=64
 
 export default function App() {
   const [filesData, setFilesData] = useState<FileSystemNode[]>([]);
@@ -271,43 +271,60 @@ export default function App() {
         </div>
       </aside>
 
-      {/* Main Workspace Area */}
-      <div className="flex-1 flex flex-col h-full min-w-0 bg-transparent">
-        <header className="h-14 border-b border-slate-200/80 bg-white/90 backdrop-blur-md px-4 flex items-center justify-between shrink-0">
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => setIsSidebarOpen(!isSidebarOpen)}
-              className="p-2 rounded-lg hover:bg-slate-100 text-slate-700 transition-colors cursor-pointer"
-              title={isSidebarOpen ? "Collapse sidebar" : "Expand sidebar"}
-            >
-              <Menu className="w-5 h-5" />
-            </button>
-            <div className="flex items-center gap-2">
-              <BookOpen className="w-5 h-5 text-indigo-600 md:hidden" />
-              <span className="font-semibold text-slate-800 text-sm md:text-base">Resource Portal</span>
+    {/* Main Workspace Area */}
+        <div className="flex-1 flex flex-col h-full min-w-0 bg-transparent">
+          <header className="h-14 border-b border-slate-200/80 bg-white/90 backdrop-blur-md px-4 flex items-center justify-between shrink-0">
+            <div className="flex items-center gap-3">
+              <button
+                onClick={() => setIsSidebarOpen(!isSidebarOpen)}
+                className="p-2 rounded-lg hover:bg-slate-100 text-slate-700 transition-colors cursor-pointer"
+                title={isSidebarOpen ? "Collapse sidebar" : "Expand sidebar"}
+              >
+                <Menu className="w-5 h-5" />
+              </button>
+              <div className="flex items-center gap-2">
+                <BookOpen className="w-5 h-5 text-indigo-600 md:hidden" />
+                <span className="font-semibold text-slate-800 text-sm md:text-base">Resource Portal</span>
+              </div>
             </div>
-          </div>
-         <div className="flex items-center gap-3">
-  {/* Stats counter */}
-  {stats.fileCount > 0 && (
-    <div className="flex items-center gap-2 text-xs text-slate-500">
-      <div className="flex items-center gap-1.5 bg-indigo-50 text-indigo-700 px-3 py-1.5 rounded-full font-medium">
-        <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-        </svg>
-        <span>{stats.fileCount} files</span>
-      </div>
-      <div className="flex items-center gap-1.5 bg-violet-50 text-violet-700 px-3 py-1.5 rounded-full font-medium">
-        <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-          <path strokeLinecap="round" strokeLinejoin="round" d="M4 7v10c0 2.21 3.582 3 8 3s8-.79 8-3V7M4 7c0 2.21 3.582 3 8 3s8-.79 8-3M4 7c0-2.21 3.582-3 8-3s8 .79 8 3" />
-        </svg>
-        <span>{stats.totalMB} MB</span>
-      </div>
-    </div>
-  )}
-  <RecentAdditionsButton />
-</div>
-        </header>
+
+            {/* Stats counter - forcing items side-by-side with whitespace-nowrap */}
+            {stats.fileCount > 0 && (
+              <div className="flex items-center gap-1.5 md:gap-2 text-xs text-slate-500">
+                <div className="flex items-center gap-1 bg-indigo-50 text-indigo-700 px-2.5 py-1.5 rounded-full font-medium whitespace-nowrap">
+                  <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  <span>{stats.fileCount} files</span>
+                </div>
+                <div className="flex items-center gap-1 bg-violet-50 text-violet-700 px-2.5 py-1.5 rounded-full font-medium whitespace-nowrap">
+                  <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M4 7v10c0 2.21 3.582 3 8 3s8-.79 8-3V7M4 7c0-2.21 3.582-3 8-3s8 .79 8-3M4 7c0-2.21 3.582-3 8-3s8 .79 8-3" />
+                  </svg>
+                  <span>{stats.totalMB} MB</span>
+                </div>
+              </div>
+            )}
+          </header>
+
+          <main className="flex-1 flex flex-col items-center justify-center p-6 text-center overflow-y-auto">
+            <div className="max-w-md space-y-3 bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-sm border border-slate-200/60">
+              <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-xl flex items-center justify-center mx-auto">
+                <FolderTree className="w-6 h-6" />
+              </div>
+              <h2 className="text-xl font-semibold text-slate-800">Select a document to view</h2>
+              <p className="text-sm text-slate-500">
+                Use the sidebar search or browse subjects to view built-in PDFs, images, and notes.
+              </p>
+            </div>
+          </main>
+        </div>
+
+        {/* Floating Recent Additions Button (Positioned top-right or floating near socials) */}
+        <div className="fixed top-20 right-4 z-20 md:top-auto md:bottom-24 md:right-7">
+          <RecentAdditionsButton />
+        </div>
+    </header>
 
         <main className="flex-1 flex flex-col items-center justify-center p-6 text-center overflow-y-auto">
           <div className="max-w-md space-y-3 bg-white/80 backdrop-blur-sm p-8 rounded-2xl shadow-sm border border-slate-200/60">
