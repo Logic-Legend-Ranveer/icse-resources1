@@ -3,25 +3,904 @@
     "name": "Official Data & Resources",
     "type": "folder",
     "fileId": "",
-    "size": 133627331,
+    "size": 275161897,
     "children": [
+      {
+        "name": "CFQ Question bank(Official)",
+        "type": "folder",
+        "fileId": "",
+        "size": 17406455,
+        "children": [
+          {
+            "name": "CFQs-ICSE_Computer-Application-Class-X.pdf",
+            "type": "file",
+            "fileId": "1f7SUc9hBEMZleDeEhOZqcKemu4JkDmSy",
+            "size": 942708,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Biology-X.pdf",
+            "type": "file",
+            "fileId": "1Aaosg4_1J7mMBBFVC262swm-4BzZ2iFn",
+            "size": 919031,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Chemistry.pdf",
+            "type": "file",
+            "fileId": "1lf5j_IkF2GP4kVLtgT9qyu-y8zPXf4_I",
+            "size": 1423040,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Commercial-Applications-.pdf",
+            "type": "file",
+            "fileId": "1V_pUjVs4j8mt6aZ7Cu1I_nrncqyolEWV",
+            "size": 1021791,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Commercial-Studies-X.pdf",
+            "type": "file",
+            "fileId": "1Vc5vEQnf42NEPgqxOLKcDNJYeRf8nu-o",
+            "size": 893958,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Economic-Applications-X.pdf",
+            "type": "file",
+            "fileId": "1B72vkzoXfQlP4bABP-j2-FHy24rtvMNZ",
+            "size": 1241421,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-English-Language-X.pdf",
+            "type": "file",
+            "fileId": "1DRVCrBLsAIihqSRVl5Z-Q0NIWyrfn1Kd",
+            "size": 734942,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Geography.pdf",
+            "type": "file",
+            "fileId": "1vSBmX5osN6c2wpiU1svZxDT4O8qSWP-0",
+            "size": 1941427,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Literature-in-English-X.pdf",
+            "type": "file",
+            "fileId": "1fQFsnk4Tg4P20y9X04_YCbWlmxmo6rgB",
+            "size": 873794,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Mathematics-X.pdf",
+            "type": "file",
+            "fileId": "1TZnYzT6I9gCs8GHJ-N3BULAfHmrvMl0o",
+            "size": 1684905,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Physical-Education-X.pdf",
+            "type": "file",
+            "fileId": "1fnduetIyUpQ2qQC0jjpLjVT1YB_O_KxR",
+            "size": 1045290,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Physics-X-1.pdf",
+            "type": "file",
+            "fileId": "1ShHcQgWzhgSp8iNPSF0xNAqP__tCo1-K",
+            "size": 2346974,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE_Economics-X.pdf",
+            "type": "file",
+            "fileId": "17z3yJzoZHb9IdiwapXiOudqyHdS3x9w9",
+            "size": 1021723,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE_History-and-Civics-X.pdf",
+            "type": "file",
+            "fileId": "1O2GjoWd2fqei6e3golhYxoDKzlXm_0mK",
+            "size": 1315451,
+            "addedAt": "2026-09-17"
+          }
+        ]
+      },
+      {
+        "name": "CISCE Class 10 2026-2027 Syllabus",
+        "type": "folder",
+        "fileId": "",
+        "size": 55491545,
+        "children": [
+          {
+            "name": "10.-Physics.pdf",
+            "type": "file",
+            "fileId": "1gMwbffPKgPfD_3G6FtqLsI-a4tkl2PuO",
+            "size": 3756112,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "11.-Chemistry.pdf",
+            "type": "file",
+            "fileId": "1l4njcw53b76OjAz_Dr7RptH29Dnk7nHB",
+            "size": 3907440,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "12.-Biology.pdf",
+            "type": "file",
+            "fileId": "1WKcU2rA96XyfN3XscjFJy4LbgH9GB3uG",
+            "size": 3718583,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "13.-Economics.pdf",
+            "type": "file",
+            "fileId": "1AhBTy9OwB6OcoRsX8FasPGk1qrUNc5yL",
+            "size": 4303836,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "14.-Commercial-Studies.pdf",
+            "type": "file",
+            "fileId": "1F39uJugeAfqyd7E0yhgbrSbMVEKEg5Ah",
+            "size": 3664256,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "17.-Environmental-Science.pdf",
+            "type": "file",
+            "fileId": "1LPhOeJrz73FXhBVoAx6HVvsx8cucY0ap",
+            "size": 3663623,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "18.-Computer-Applications.pdf",
+            "type": "file",
+            "fileId": "1r8jE6D8gYHMq-qT_lmL9sEB-hlDxbE79",
+            "size": 3704004,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "19.-Economic-Applications.pdf",
+            "type": "file",
+            "fileId": "1R8ZxZSr_w3xHWmtm-XgeazQPFQxXrVx1",
+            "size": 3683684,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "2.-English.pdf",
+            "type": "file",
+            "fileId": "1zcx_7wUaad5PlWv0YXWocBq4IzCezBaA",
+            "size": 3852996,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "20.-Commercial-Applications.pdf",
+            "type": "file",
+            "fileId": "1avGXuREdtIrXKr91F3_iIyTa6Ft9BVyc",
+            "size": 3765848,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "21.-Art.pdf",
+            "type": "file",
+            "fileId": "1jWcCbzQfZ21PPZUsU1aTOcaZMSyPZ5IS",
+            "size": 3624362,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "29.-Environmental-Applications.pdf",
+            "type": "file",
+            "fileId": "1-Zu-srqDGF9OLr5zt1wyTf51EgOwQ8Zr",
+            "size": 3761070,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "9.-Mathematics.pdf",
+            "type": "file",
+            "fileId": "1z1_8gS69BzSHrIw2sCy6QIoAH-t-0wwz",
+            "size": 3779431,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Geography.pdf",
+            "type": "file",
+            "fileId": "1IM37sWv3clPiJlGqmvuYe0TNqmXaXlev",
+            "size": 3138098,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-History-Civics.pdf",
+            "type": "file",
+            "fileId": "1odFkTvRNj8PuRX_vvCd0JL8Zz8eEsG7Z",
+            "size": 3168202,
+            "addedAt": "2026-09-17"
+          }
+        ]
+      },
       {
         "name": "ICSE PYQ(Official)",
         "type": "folder",
         "fileId": "",
-        "size": 109129595,
+        "size": 177766161,
         "children": [
           {
             "name": "New pattern(With CBQ)",
             "type": "folder",
             "fileId": "",
-            "size": 73800086,
+            "size": 142436652,
             "children": [
+              {
+                "name": "2024",
+                "type": "folder",
+                "fileId": "",
+                "size": 35345799,
+                "children": [
+                  {
+                    "name": "ICSE 2024 - 011 ENG1.pdf",
+                    "type": "file",
+                    "fileId": "1q5pmtF6KveLg87qvZ5ZPQzsMKDVOIRck",
+                    "size": 318975,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 012 ENG2.pdf",
+                    "type": "file",
+                    "fileId": "1LlRZHt_uhPxcqnd6cBt7TtpBxL4Hm1GR",
+                    "size": 201411,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 021 ASM.pdf",
+                    "type": "file",
+                    "fileId": "1tzKezC28XhheEZVgs3F0INrfC2OuzIhl",
+                    "size": 138339,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 031 BEN.pdf",
+                    "type": "file",
+                    "fileId": "1WKPSt_cq6VgLOw63k56S9LM-F78K7l_G",
+                    "size": 142960,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 041 GUJ.pdf",
+                    "type": "file",
+                    "fileId": "1Ymw0qx9JJHNWx4OYxYQblQDxSLIjKmhE",
+                    "size": 374494,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 051 HIN.pdf",
+                    "type": "file",
+                    "fileId": "1ZHHBirCajXKK7nbSGcPJJe_7e7yEmkHx",
+                    "size": 112718,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 061 KAN.pdf",
+                    "type": "file",
+                    "fileId": "11ava3InekaQvhKs6jNeqXEBMqR3OQN6o",
+                    "size": 133102,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 071 KHA.pdf",
+                    "type": "file",
+                    "fileId": "1g_peKpGBTeGB_ADTUceA8pr1qDoqn7BY",
+                    "size": 976482,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 081 MAL.pdf",
+                    "type": "file",
+                    "fileId": "1uLPXqdqllNBuCx8Cs0_7ZgSo1JMkiY5W",
+                    "size": 7833892,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 091 MAR.pdf",
+                    "type": "file",
+                    "fileId": "1Y0YYAkjPw6AbmnhNiraio92VnxTaWqoK",
+                    "size": 112677,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 101 NEP.pdf",
+                    "type": "file",
+                    "fileId": "12KTtFvKziwg3ixIhpoQxZqFEQQNYvJxa",
+                    "size": 106924,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 111 ODI.pdf",
+                    "type": "file",
+                    "fileId": "1hKNXNoyVX28MuHDtJ6yENprbBU2R3L3E",
+                    "size": 137822,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 121 PUN.pdf",
+                    "type": "file",
+                    "fileId": "11b9OwFjao9nqS2QbDCFuIrtL7hJlkUpw",
+                    "size": 113100,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 131 TAM.pdf",
+                    "type": "file",
+                    "fileId": "1G65lCSrG6GRlcLDoIyszF_aUK5--Z3KJ",
+                    "size": 131421,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 141 TEL.pdf",
+                    "type": "file",
+                    "fileId": "1mOKy3_1ZRRgcZOYP7v98LDB8Kd77Wn0m",
+                    "size": 128470,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 161 URD.pdf",
+                    "type": "file",
+                    "fileId": "1T2SFNREkdzH1HEfq_BopNxrWmglHdDOx",
+                    "size": 934498,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 171 MIZ.pdf",
+                    "type": "file",
+                    "fileId": "1_kDbEhWP8fil8Y9__YcF6XRBg8JGa0ZY",
+                    "size": 1226624,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 191 SAN.pdf",
+                    "type": "file",
+                    "fileId": "1wBenLvwwP9ttCyfMozj8nFRYpAM27LzK",
+                    "size": 103835,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 221 ARB.pdf",
+                    "type": "file",
+                    "fileId": "1ncsHQq_wAL-u7F2saxL0G9-6AR1sqY9N",
+                    "size": 211867,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 271 FRE.pdf",
+                    "type": "file",
+                    "fileId": "12YYez4Ze56f6Px_-f16npY6v53ENHdgo",
+                    "size": 374796,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 281 GER.pdf",
+                    "type": "file",
+                    "fileId": "1-NWuKjsEFOthTkGXwByQn5uowpo7P0ob",
+                    "size": 373488,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 361 SPA.pdf",
+                    "type": "file",
+                    "fileId": "1tvn9n2Ux_0jwYDZCxFHVdN6QrtRsKBoN",
+                    "size": 2772541,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 401 GAR.pdf",
+                    "type": "file",
+                    "fileId": "13M03p1Z9W9fsOLOftYbqPt3C-ppmGhR0",
+                    "size": 1082123,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 402 ANG.pdf",
+                    "type": "file",
+                    "fileId": "1EEHBcTdXLsjVpDT_KZlxAgGLW9TtcsoP",
+                    "size": 1085771,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 431 POR.pdf",
+                    "type": "file",
+                    "fileId": "1YeCbrOSpyvmAQaq3UsEqkuZuNA__u7ZM",
+                    "size": 2775430,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 471 TAN.pdf",
+                    "type": "file",
+                    "fileId": "1S9lKx-yZW9rjQTX_ndLFGeGiwfIg4Oi8",
+                    "size": 1015030,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 501 HCG1.pdf",
+                    "type": "file",
+                    "fileId": "1bic7pHIl7jEJS11lb5q2HNrj7KoyfMsD",
+                    "size": 426645,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 502 HCG2.pdf",
+                    "type": "file",
+                    "fileId": "1_ar75dUnGO1FTx5JxlsT_EWC7yC-Jebn",
+                    "size": 595526,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 511 MAT.pdf",
+                    "type": "file",
+                    "fileId": "1p0vcP6Eyt8EXdwFA6s5msOsk7VEC6aYn",
+                    "size": 1097868,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 521 SCI1.pdf",
+                    "type": "file",
+                    "fileId": "1kUBkzGLsJp_ka9ScTXd8pU_NOOvQFgh8",
+                    "size": 816311,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 522 SCI2.pdf",
+                    "type": "file",
+                    "fileId": "1fcT6eA39-win-5i_uctpLm7NJwVi5-Uh",
+                    "size": 316066,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 523 SCI3.pdf",
+                    "type": "file",
+                    "fileId": "1auzQbtstZEK7RNLz3xefvo1ugOkytHje",
+                    "size": 537943,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 531 FRE.pdf",
+                    "type": "file",
+                    "fileId": "1ZWpeqzjppTQl3GXP164TyCMhsv3Zg0sw",
+                    "size": 207573,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 541 SPA.pdf",
+                    "type": "file",
+                    "fileId": "1yx4klAGvK8BKx0dVmBYefV-y_lFWK-uA",
+                    "size": 29997,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 551 GER.pdf",
+                    "type": "file",
+                    "fileId": "1sb1ybyzCpeLsMSPAaTHgC6AGxH2QsWV8",
+                    "size": 185122,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 581 HGT1.pdf",
+                    "type": "file",
+                    "fileId": "10s5F_b6YbrG6J1I4n9Pp9imhvN73mPJt",
+                    "size": 298522,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 582 HGT2.pdf",
+                    "type": "file",
+                    "fileId": "1pQYE6R6ZQg1w6GYf87EnS-m7ayFYhkIv",
+                    "size": 423786,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 601 ART1.pdf",
+                    "type": "file",
+                    "fileId": "1k-NLshiXzWGV_vWOTyU8lS_IU4DnDq7d",
+                    "size": 141085,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 602 ART2.pdf",
+                    "type": "file",
+                    "fileId": "1MsLjnzjZt5MHveknxYFi-m8Q4FZCdUv6",
+                    "size": 138089,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 603 ART3.pdf",
+                    "type": "file",
+                    "fileId": "1Ri7ca30ML57QqC1-aU_1cp6TKGpY9RVx",
+                    "size": 163797,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 604 ART4.pdf",
+                    "type": "file",
+                    "fileId": "1maz2Ta3B6bVJZfkJXteLWos-fkamGRAA",
+                    "size": 161953,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 631 CST.pdf",
+                    "type": "file",
+                    "fileId": "1JpQQNW0mxfo0pYgVBGdckAACB8EcohT3",
+                    "size": 262009,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 641 ECO.pdf",
+                    "type": "file",
+                    "fileId": "1eakGXfox-WVvpOtSuUH_o5QxwzNZYLiK",
+                    "size": 217789,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 651 TDA.pdf",
+                    "type": "file",
+                    "fileId": "15FdLdByN3gyIHt-K7iC-TyYOpyskpYoQ",
+                    "size": 548810,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 681 HSC.pdf",
+                    "type": "file",
+                    "fileId": "1VsUszcywFbktGWLvLaURJ-urHf21ZsnI",
+                    "size": 178818,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 691 CKY.pdf",
+                    "type": "file",
+                    "fileId": "17V5mqXy6s54o5gOXxO65SXgeKG-uYcz9",
+                    "size": 251609,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 701 FAD.pdf",
+                    "type": "file",
+                    "fileId": "1nQPnXGpflla7Yne2UEjM7sI5geUUeJf1",
+                    "size": 229932,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 721 PED.pdf",
+                    "type": "file",
+                    "fileId": "1ZY-iKBuBIeSVWvJVmIVSb0EyhbppB0Ql",
+                    "size": 248599,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 731 HPM.pdf",
+                    "type": "file",
+                    "fileId": "1tQ5jUjh0WIn43HuioLaxQeZXtlql4hGR",
+                    "size": 179630,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 771 FRE.pdf",
+                    "type": "file",
+                    "fileId": "1V0GR3CXItYxdX1Y8WXKIRO8DSfVCe1F2",
+                    "size": 271093,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 821 EVS.pdf",
+                    "type": "file",
+                    "fileId": "1DTDF2b72C4lcv_gMemqO0VRWDGUKpscg",
+                    "size": 415047,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 841 YOG.pdf",
+                    "type": "file",
+                    "fileId": "1RAmGnxn0gHJ4m5-aOmk3pxdS6RXXcQN9",
+                    "size": 438884,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 861 CTA.pdf",
+                    "type": "file",
+                    "fileId": "1WTDBaQG5a_8FVItrXpGm5EtBQb0cQczz",
+                    "size": 280236,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 871 EAS.pdf",
+                    "type": "file",
+                    "fileId": "1YnoPImbeHI4IgRFFtplR5uzpuwEVH2nx",
+                    "size": 515242,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 881 CAS.pdf",
+                    "type": "file",
+                    "fileId": "16sfS5qh6DHLNKyYTBsxiZCL-qCCxTP8w",
+                    "size": 235746,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 891 ENA.pdf",
+                    "type": "file",
+                    "fileId": "1qtq8ustmmgk2OCQwG6JLER_IQ4k64NiT",
+                    "size": 365958,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 901 MMC.pdf",
+                    "type": "file",
+                    "fileId": "1zLtFCAxU_DrvIso-4-j7aVcqdFCYa-sD",
+                    "size": 305311,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 911 IMH.pdf",
+                    "type": "file",
+                    "fileId": "1Erngse8B2T80m7iFFXTnolaayMe1qEJd",
+                    "size": 213050,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 921 IMC.pdf",
+                    "type": "file",
+                    "fileId": "1GxrNfR_TA8LPXtCK-YVUN8x0G0WXohvt",
+                    "size": 263011,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 931 WMS.pdf",
+                    "type": "file",
+                    "fileId": "1s--ps1UrRyvW0te8r_Ge08HeDzuNkW_L",
+                    "size": 231243,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 941 IND.pdf",
+                    "type": "file",
+                    "fileId": "1uJI-kyu83cM_nPifiwngZ5b7ZPGU4sFt",
+                    "size": 227935,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2024 - 951 DMA.pdf",
+                    "type": "file",
+                    "fileId": "1GVRVeIjKss2savKYZfuKfU6eVNSorlmC",
+                    "size": 1006774,
+                    "addedAt": "2026-09-17"
+                  }
+                ]
+              },
+              {
+                "name": "2025(Improvement examination)",
+                "type": "folder",
+                "fileId": "",
+                "size": 20407790,
+                "children": [
+                  {
+                    "name": "ICSE 2025 Improvement - 011 - ENG1.pdf",
+                    "type": "file",
+                    "fileId": "1PqPHyGU5dviYEUfmtPZBslH1ZnxGpeU2",
+                    "size": 329107,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 012 - ENG2.pdf",
+                    "type": "file",
+                    "fileId": "1iCOWzReLdhwXoV7xolnDAjZtIakMhkPh",
+                    "size": 205242,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 031 - BEN.pdf",
+                    "type": "file",
+                    "fileId": "10XTr08hSm7n8o72BNSORNwB4aaSMBVrP",
+                    "size": 586306,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 041 - GUJ.pdf",
+                    "type": "file",
+                    "fileId": "1Yet06tK5ReFVjzazC-7YHCR44cjR8EHX",
+                    "size": 471821,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 051 - HIN.pdf",
+                    "type": "file",
+                    "fileId": "1-n8_-8rB__NX_4mj73aW4oYRJ9dn8OLY",
+                    "size": 676530,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 081 - MAL.pdf",
+                    "type": "file",
+                    "fileId": "17Lmen1QUbvgzQHNFgAGkxtHgNMuclDzZ",
+                    "size": 573861,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 101 - NEP.pdf",
+                    "type": "file",
+                    "fileId": "1ipvHeC4xGNKiXgLgnaLNrOo7EpaTZuD2",
+                    "size": 448313,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 111 - ODI.pdf",
+                    "type": "file",
+                    "fileId": "1_wG9q3y60B1OYBzT9wNJi0-PLzpSU-wD",
+                    "size": 742144,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 121 - PUN.pdf",
+                    "type": "file",
+                    "fileId": "16mEYdKySwJHT-YNShMAJWVE2SyCaHJOK",
+                    "size": 1484662,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 141 - TEL.pdf",
+                    "type": "file",
+                    "fileId": "1KnpEiIoh0-_OK4pnNbexAV8ltXGB-1oF",
+                    "size": 1672270,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 161 - URD.pdf",
+                    "type": "file",
+                    "fileId": "1Lz4fN-jPohjNF6ghuOjnxwlksVjO-_PS",
+                    "size": 470950,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 271 - FRE27.pdf",
+                    "type": "file",
+                    "fileId": "1Uf7xn6bCbkaZfjC-DUH13J5qP_to2g9L",
+                    "size": 355540,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 281 - GER28.pdf",
+                    "type": "file",
+                    "fileId": "1fBizGCse8weE_Nh1iQ8C2_5XopwwUwXT",
+                    "size": 335101,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 361 - SPA36.pdf",
+                    "type": "file",
+                    "fileId": "1f_3wjx5Tu_LZrYl4i85KlhKTJCr_QUBI",
+                    "size": 1240721,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 501 - HCG1.pdf",
+                    "type": "file",
+                    "fileId": "1hlBwgAb2pKAO9XiA4MnsUK_rbdyw_9z-",
+                    "size": 1072834,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 502 - HCG2.pdf",
+                    "type": "file",
+                    "fileId": "1oFyg2sx-SQcs3XiD0CdFq2l86wNH6_h2",
+                    "size": 676061,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 IMPROVEMENT - 511 MAT.pdf",
+                    "type": "file",
+                    "fileId": "1K7m_vusRuDv8pzeNvjSpvFJYmvcdzGqs",
+                    "size": 756785,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 IMPROVEMENT - 521 - SCI1.pdf",
+                    "type": "file",
+                    "fileId": "1b6HEXrjCa21QY3_xQ1939pAuuLFQsNbp",
+                    "size": 666604,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 522 - SCI2.pdf",
+                    "type": "file",
+                    "fileId": "1kxyehw-_Qy7PtuSx0Sc4vTBIYpdWR-tR",
+                    "size": 461628,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 523 - SCI3.pdf",
+                    "type": "file",
+                    "fileId": "1i8_L9fCiEmajQTr4eNrJysunKbibwLEA",
+                    "size": 1401221,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 631 - CST.pdf",
+                    "type": "file",
+                    "fileId": "1SBseYBdDpt8aWP7fiFY7KGPThTqN6ZDK",
+                    "size": 337970,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 641 - ECO.pdf",
+                    "type": "file",
+                    "fileId": "10XyziJxCtegLVEod_UjZ8WoTsMUAGb4Q",
+                    "size": 582888,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 681 - HSC.pdf",
+                    "type": "file",
+                    "fileId": "1uOx0h47lFqqFysKpkvi-HdqmEjhfPAKJ",
+                    "size": 845279,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 701 - FAD.pdf",
+                    "type": "file",
+                    "fileId": "12cypk7gOgB-6Vgp5aFQuDZR5hByUqvNN",
+                    "size": 361682,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 721 - PED.pdf",
+                    "type": "file",
+                    "fileId": "1X8aBiPPk2MvUzZLs47luYC9rm9o4tqt5",
+                    "size": 323686,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 821 - EVS.pdf",
+                    "type": "file",
+                    "fileId": "1m1cudpIEbc0wgy49Orj5h4kBZY3oA6A4",
+                    "size": 410313,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 861 - CTA.pdf",
+                    "type": "file",
+                    "fileId": "18ad3g4-6QB_So99h78w8EDcEuOlakaM9",
+                    "size": 310643,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 871 - EAS.pdf",
+                    "type": "file",
+                    "fileId": "1x_eaa6My65Q8Bjc16_vOcdE__6kn56IO",
+                    "size": 760407,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 881 - CAS.pdf",
+                    "type": "file",
+                    "fileId": "1U2PM7cKx_jn1i2bcfDPTZPwOvtWyLVxT",
+                    "size": 615900,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 Improvement - 891 - ENA.pdf",
+                    "type": "file",
+                    "fileId": "1jj5dq80vNeKTQqPHoz6LKqC5vQhxjhKr",
+                    "size": 1231321,
+                    "addedAt": "2026-09-17"
+                  }
+                ]
+              },
               {
                 "name": "2025(Main examination)",
                 "type": "folder",
                 "fileId": "",
-                "size": 20679765,
+                "size": 33562742,
                 "children": [
                   {
                     "name": "ICSE 2025 - 011 ENG1 - QP.pdf",
@@ -77,6 +956,27 @@
                     "type": "file",
                     "fileId": "1US9UB3dVfKx4DxAXCtZlmqCfKdfcBGzk",
                     "size": 877336,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 081 MAL - QP.pdf",
+                    "type": "file",
+                    "fileId": "1XS2PWlSNVUiCXnX9jEI9jZCdC5G6pC5_",
+                    "size": 295297,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 091 MAR - QP.pdf",
+                    "type": "file",
+                    "fileId": "18y5ucSEbUTZH582IJu00kzB0GWcMDGFc",
+                    "size": 212623,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 101 NEP - QP.pdf",
+                    "type": "file",
+                    "fileId": "1jwTZNXH8p2Ah_TSZeichqmJ37C0QqS-X",
+                    "size": 209879,
                     "addedAt": "2026-09-17"
                   },
                   {
@@ -136,10 +1036,31 @@
                     "addedAt": "2026-09-17"
                   },
                   {
+                    "name": "ICSE 2025 - 201 LEP - QP.pdf",
+                    "type": "file",
+                    "fileId": "1sDlASifHalX4K9jRk7WNG3vW_vXi09b4",
+                    "size": 741642,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 221 ARB - QP.pdf",
+                    "type": "file",
+                    "fileId": "1Uw8SkVUmdfXdLd5Tl5USPulBcNvguWzK",
+                    "size": 63882,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
                     "name": "ICSE 2025 - 231 ARM - QP.pdf",
                     "type": "file",
                     "fileId": "1baymm8ABLBOCEGiNzhn8XPDVM1BQqolx",
                     "size": 298905,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 251 CHI - QP.pdf",
+                    "type": "file",
+                    "fileId": "1LD1i2Iyxkok1_T5_Q0wo4D6xjrMzLGTw",
+                    "size": 312247,
                     "addedAt": "2026-09-17"
                   },
                   {
@@ -150,10 +1071,24 @@
                     "addedAt": "2026-09-17"
                   },
                   {
+                    "name": "ICSE 2025 - 271 FRE - QP.pdf",
+                    "type": "file",
+                    "fileId": "11SDpt9ckk9fc1OeBbaISmLO4gTNrNlak",
+                    "size": 265214,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
                     "name": "ICSE 2025 - 281 GER - QP.pdf",
                     "type": "file",
                     "fileId": "1LT4QCAoWcBjLYue-4CWUQtZlEXFv2KNZ",
                     "size": 321802,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 351 RUS - QP.pdf",
+                    "type": "file",
+                    "fileId": "1B8-_SJYZqKmFeEUTdpovlft8oeVliBtz",
+                    "size": 205422,
                     "addedAt": "2026-09-17"
                   },
                   {
@@ -168,6 +1103,20 @@
                     "type": "file",
                     "fileId": "18ZCCgN4ZnqVzXzlRQrrncmSTHhMjiGow",
                     "size": 720977,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 401 GAR - QP.pdf",
+                    "type": "file",
+                    "fileId": "1stemSw0CRZb3UlgrRYxgyFIjuhLMwZI6",
+                    "size": 195816,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 421 ANG - QP.pdf",
+                    "type": "file",
+                    "fileId": "1GQ8TNSrF9gV583CFHweuv0n2lNkjMXsw",
+                    "size": 910253,
                     "addedAt": "2026-09-17"
                   },
                   {
@@ -213,6 +1162,13 @@
                     "addedAt": "2026-09-17"
                   },
                   {
+                    "name": "ICSE 2025 - 522 SCI2 - QP.pdf",
+                    "type": "file",
+                    "fileId": "1J_bowHZhOtaMBhCHSxhXrXv9Zdg5Rr_u",
+                    "size": 484650,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
                     "name": "ICSE 2025 - 523 SCI3 - QP.pdf",
                     "type": "file",
                     "fileId": "19TJgldQYyqkQZyQCGtubpnT5ZLq0c7ro",
@@ -248,6 +1204,13 @@
                     "addedAt": "2026-09-17"
                   },
                   {
+                    "name": "ICSE 2025 - 582 HGT2 - QP.pdf",
+                    "type": "file",
+                    "fileId": "1Zf0uzJda4TW8eL1FxXuc2lYUcyVULQS4",
+                    "size": 508225,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
                     "name": "ICSE 2025 - 601 ART1 - QP.pdf",
                     "type": "file",
                     "fileId": "1UQdV7iq1A1modlAlaWztYAe1EEP-rG_t",
@@ -262,6 +1225,41 @@
                     "addedAt": "2026-09-17"
                   },
                   {
+                    "name": "ICSE 2025 - 603 ART3 - QP.pdf",
+                    "type": "file",
+                    "fileId": "1xzGNewQQm6slRP68GlxMMQrnUeN_Soge",
+                    "size": 165742,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 604 ART4 - QP.pdf",
+                    "type": "file",
+                    "fileId": "1P0yks5wCCy4Atu7f1CzqHFB1HavVJgIr",
+                    "size": 169376,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 631 CST - QP.pdf",
+                    "type": "file",
+                    "fileId": "1Z2WVoShF8j4lUfKoCjiMn_BRkdH_UOg9",
+                    "size": 481462,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 641 ECO - QP.pdf",
+                    "type": "file",
+                    "fileId": "1-Lt2W0861yRsEE2W3TmOlVVTp_74eLAa",
+                    "size": 886073,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 651 TDA - QP.pdf",
+                    "type": "file",
+                    "fileId": "1ve3C1uNWnjWsOsr8xUn-ibPya3xU2moj",
+                    "size": 339820,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
                     "name": "ICSE 2025 - 661 RAI - QP.pdf",
                     "type": "file",
                     "fileId": "1l6ko_HdukYm8iLjElIn0j8W9PrQKUKK1",
@@ -269,10 +1267,38 @@
                     "addedAt": "2026-09-17"
                   },
                   {
+                    "name": "ICSE 2025 - 671 BDE - QP.pdf",
+                    "type": "file",
+                    "fileId": "18O9y39QFXVqlxAZw23XSO2MhAzebbTxu",
+                    "size": 375264,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 681 HSC - QP.pdf",
+                    "type": "file",
+                    "fileId": "14vqBc_76Z7-xfkFF5ToHkSVUuhJlfTRb",
+                    "size": 594202,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 691 CKY - QP.pdf",
+                    "type": "file",
+                    "fileId": "1lGJ6JzKFSakeduS7GHPmrkzWsRRKdmG5",
+                    "size": 362925,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
                     "name": "ICSE 2025 - 701 FAD - QP.pdf",
                     "type": "file",
                     "fileId": "1rOHNxQT-RuK15ejGn3gxAcK3WqcmmFl1",
                     "size": 309617,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 711 DTE - QP.pdf",
+                    "type": "file",
+                    "fileId": "1HvMnZhSmGXVyteYbFTsbjmx1DXq6PxLG",
+                    "size": 796289,
                     "addedAt": "2026-09-17"
                   },
                   {
@@ -290,6 +1316,62 @@
                     "addedAt": "2026-09-17"
                   },
                   {
+                    "name": "ICSE 2025 - 741 CSH - QP.pdf",
+                    "type": "file",
+                    "fileId": "14I4PRIhnU_bNqbzkFigGLPaMdO7ZbeL2",
+                    "size": 187853,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 751 PAF - QP.pdf",
+                    "type": "file",
+                    "fileId": "1r52B1soahZoQX6LaqtROpX7LiXPl46p8",
+                    "size": 260902,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 771 FRE - QP.pdf",
+                    "type": "file",
+                    "fileId": "1gI01mMiTOvToY1zjzniBbRgoCEZ2I0rN",
+                    "size": 204769,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 821 EVS - QP.pdf",
+                    "type": "file",
+                    "fileId": "1Sln6Ck7DNEp0DPxoLm08BrhUUsdPJWFD",
+                    "size": 702535,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 841 YOG - QP.pdf",
+                    "type": "file",
+                    "fileId": "11uC6pmPKfRvnZly-5AaiMbVKhM3uD1Q2",
+                    "size": 313535,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 861 CTA - QP.pdf",
+                    "type": "file",
+                    "fileId": "1f7aT5aXJEWy4_5SIUWzBv8zZAtGvzKrV",
+                    "size": 385203,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 871 EAS - QP.pdf",
+                    "type": "file",
+                    "fileId": "1a_YTT_ztVqksD4384qNQk_i6bz5i-usg",
+                    "size": 575609,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 881 CAS - QP.pdf",
+                    "type": "file",
+                    "fileId": "1fn9Tt6LtcM7usfU_YAMRxeM0q_GC6Zyr",
+                    "size": 441091,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
                     "name": "ICSE 2025 - 891 ENA - QP.pdf",
                     "type": "file",
                     "fileId": "1DWOItsh26vVXMrTFMHN2UqRS39VHXfdb",
@@ -304,6 +1386,27 @@
                     "addedAt": "2026-09-17"
                   },
                   {
+                    "name": "ICSE 2025 - 911 IMH - QP.pdf",
+                    "type": "file",
+                    "fileId": "1WuB694trAMnIp1i8hyLy6AbGSVHP3UY3",
+                    "size": 353954,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 921 IMC - QP.pdf",
+                    "type": "file",
+                    "fileId": "1E-GcSNy8VKkIbGBDSpdDji5DiYrkRZHM",
+                    "size": 352895,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 931 WMS - QP.pdf",
+                    "type": "file",
+                    "fileId": "1Pfp4QreOIA4sSoY86-P_IgyAvMNhHGwQ",
+                    "size": 253199,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
                     "name": "ICSE 2025 - 941 IND - QP.pdf",
                     "type": "file",
                     "fileId": "1Jwvc198tkcPX8IxtqA7FZTnk-puL_dH8",
@@ -315,6 +1418,13 @@
                     "type": "file",
                     "fileId": "123gj08MyTkJNVJIVhk4G_EgeqD_kdlc6",
                     "size": 576835,
+                    "addedAt": "2026-09-17"
+                  },
+                  {
+                    "name": "ICSE 2025 - 961 AST - QP.pdf",
+                    "type": "file",
+                    "fileId": "1-1F7d-RPHc1x6M2AmXXklSC5Ilxi1tUw",
+                    "size": 275129,
                     "addedAt": "2026-09-17"
                   }
                 ]
