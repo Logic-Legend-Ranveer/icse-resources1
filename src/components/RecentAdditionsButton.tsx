@@ -3,7 +3,7 @@ import { Info, Sparkles, FileText } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 
 // Import your files.json data
-import filesData from '@/data/files.json'; 
+import filesData from '@/public/files.json'; 
 
 interface FileData {
   fileId?: string;
