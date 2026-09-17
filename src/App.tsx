@@ -419,9 +419,9 @@ export default function App() {
 
       {/* Body Area */}
       <div className="relative flex-1 flex overflow-hidden w-full">
-        {/* Sidebar without redundant header */}
+        {/* Sidebar with fixed z-50 on mobile so it sits above the z-40 backdrop */}
         <aside
-          className={`absolute md:relative inset-y-0 left-0 z-20 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-r border-slate-200 dark:border-slate-800 flex flex-col h-full transition-transform duration-300 ease-in-out shadow-2xl md:shadow-none ${
+          className={`absolute md:relative inset-y-0 left-0 z-50 md:z-20 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-r border-slate-200 dark:border-slate-800 flex flex-col h-full transition-transform duration-300 ease-in-out shadow-2xl md:shadow-none ${
             isSidebarOpen ? 'w-80 translate-x-0' : '-translate-x-full md:-ml-80 md:w-80'
           }`}
         >
