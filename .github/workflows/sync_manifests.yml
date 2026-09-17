@@ -31,6 +31,36 @@ jobs:
         run: |
           echo "$GDRIVE_CREDENTIALS" > credentials.json
           echo "$GDRIVE_TOKEN" > token.json
+
+      - name: Print Account Email
+        run: |
+          python3 -c "
+          import requests, json
+          with open('token.json') as f:
+          token_data = json.load(f)
+          refresh_token = token_data.get('refresh_token')
+      
+            # Get credentials json if needed, or read from credentials.json
+          with open('credentials.json') as f:
+            cred_data = json.load(f)
+              # Handle installed or web app client structure
+              client_info = cred_data.get('installed', cred_data.get('web', {}))
+      
+            res = requests.post('https://oauth2.googleapis.com/token', data={
+          'client_id': client_info['client_id'],
+            'client_secret': client_info['client_secret'],
+            'refresh_token': refresh_token,
+          'grant_type': 'refresh_token'
+            }).json()
+      
+            access_token = res.get('access_token')
+           if access_token:
+              user = requests.get('https://www.googleapis.com/drive/v3/about?fields=user', 
+                              headers={'Authorization': f'Bearer {access_token}'}).json()
+                print('YOUR GOOGLE ACCOUNT EMAIL IS:', user.get('user', {}).get('emailAddress'))
+              else:
+            print('Error response:', res)
+          "
    
       - name: Run Manifest Generator
         run: |
