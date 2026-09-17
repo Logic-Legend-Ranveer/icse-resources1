@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Info, Sparkles, FileText } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 
-// Import your files.json data
-import filesData from '/public/files.json'; 
+// Relative path from src/components/ to public/files.json
+import filesData from '../../public/files.json';
 
 interface FileData {
   fileId?: string;
@@ -16,14 +16,21 @@ interface FileData {
 export const RecentAdditionsButton: React.FC = () => {
   const [open, setOpen] = useState(false);
 
-  // Extract latest 5 files from files.json
+  // Method 2: Sort by 'addedAt' timestamp (newest first) and take the top 5
   const recentFiles: FileData[] = Array.isArray(filesData)
-    ? [...filesData].filter(f => f.type !== 'folder').slice(-5).reverse()
+    ? [...filesData]
+        .filter(f => f.type !== 'folder')
+        .sort((a, b) => {
+          if (a.addedAt && b.addedAt) {
+            return new Date(b.addedAt).getTime() - new Date(a.addedAt).getTime();
+          }
+          return 0; // maintain default order if timestamps are missing
+        })
+        .slice(0, 5)
     : [];
 
   return (
     <>
-      {/* Floating Circle Info Button */}
       <button
         onClick={() => setOpen(true)}
         className="w-10 h-10 bg-white/90 backdrop-blur-md hover:bg-white border border-slate-200 rounded-full shadow-md hover:shadow-lg text-slate-700 hover:text-indigo-600 transition-all flex items-center justify-center cursor-pointer"
@@ -33,7 +40,6 @@ export const RecentAdditionsButton: React.FC = () => {
         <Info className="w-5 h-5" />
       </button>
 
-      {/* Centered Modal */}
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="max-w-md w-[90vw] bg-white rounded-2xl p-6 shadow-2xl border border-slate-100">
           <DialogHeader className="flex flex-row items-center gap-2 border-b pb-3 space-y-0">
