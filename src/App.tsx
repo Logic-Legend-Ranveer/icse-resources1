@@ -5,6 +5,7 @@ import { ViewerModal } from '@/components/ViewerModal';
 import { QuizModal } from '@/components/QuizModal';
 import type { FileItem, FileSystemNode, FolderItem } from '@/types/file-system';
 import { BookOpen, FolderTree, Menu, Search, X, Sparkles } from 'lucide-react';
+import { RecentAdditionsButton } from './components/RecentAdditionsButton';
 
 interface SocialLink {
   label: string;
