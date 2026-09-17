@@ -22,7 +22,6 @@ interface FileData {
   children?: FileData[];
 }
 
-// Recursive helper to extract all files from nested folders
 function getAllFiles(nodes: FileData[]): FileData[] {
   let result: FileData[] = [];
   for (const node of nodes) {
@@ -103,7 +102,6 @@ export function RecentAdditionsButton() {
   );
 }
 
-/* Light Theme Constellation Canvas */
 function ConstellationBackground() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
@@ -384,7 +382,7 @@ export default function App() {
         />
       )}
 
-      {/* Top Bar - Now spans full width independently and stays fixed across top */}
+      {/* Main Top Bar - Spans full screen width */}
       <header className="relative z-30 h-14 border-b border-slate-200 dark:border-slate-800 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md px-4 flex items-center justify-between shrink-0 transition-colors">
         <div className="flex items-center gap-3">
           <button
@@ -395,7 +393,7 @@ export default function App() {
             <Menu className="w-5 h-5" />
           </button>
           <div className="flex items-center gap-2">
-            <BookOpen className="w-5 h-5 text-indigo-600 dark:text-indigo-400 md:hidden" />
+            <BookOpen className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />
             <span className="font-semibold text-slate-900 dark:text-slate-100 text-sm md:text-base">ICSE Resources</span>
           </div>
         </div>
@@ -419,29 +417,15 @@ export default function App() {
         )}
       </header>
 
-      {/* Main Body Layout containing Sidebar and Workspace */}
+      {/* Body Area */}
       <div className="relative flex-1 flex overflow-hidden w-full">
-        {/* Sidebar - Positioned as absolute/fixed overlay below top bar with higher z-index */}
+        {/* Sidebar without redundant header */}
         <aside
-          className={`absolute md:relative inset-y-0 left-0 z-50 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-r border-slate-200 dark:border-slate-800 flex flex-col h-full transition-transform duration-300 ease-in-out shadow-2xl md:shadow-none ${
+          className={`absolute md:relative inset-y-0 left-0 z-20 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md border-r border-slate-200 dark:border-slate-800 flex flex-col h-full transition-transform duration-300 ease-in-out shadow-2xl md:shadow-none ${
             isSidebarOpen ? 'w-80 translate-x-0' : '-translate-x-full md:-ml-80 md:w-80'
           }`}
         >
-          <div className="p-4 border-b border-slate-200 dark:border-slate-800 flex items-center justify-between shrink-0">
-            <div className="flex items-center gap-2">
-              <BookOpen className="w-6 h-6 text-indigo-600 dark:text-indigo-400 shrink-0" />
-              <h1 className="font-bold text-lg text-slate-900 dark:text-slate-50 truncate">ICSE Resources</h1>
-            </div>
-            <button
-              onClick={() => setIsSidebarOpen(false)}
-              className="p-1.5 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-600 dark:text-slate-300 transition-colors cursor-pointer"
-              title="Collapse sidebar"
-            >
-              <X className="w-5 h-5" />
-            </button>
-          </div>
-
-          {/* Search Bar */}
+          {/* Search Bar at the top of Sidebar */}
           <div className="p-3 border-b border-slate-200 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-900/70 shrink-0">
             <div className="relative">
               <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 dark:text-slate-400" />
@@ -485,7 +469,7 @@ export default function App() {
           </div>
         </aside>
 
-        {/* Main Workspace Area */}
+        {/* Workspace */}
         <main className="relative z-10 flex-1 flex flex-col items-center justify-center p-6 text-center overflow-y-auto bg-transparent">
           <div className="max-w-md space-y-3 bg-white/85 dark:bg-slate-900/85 backdrop-blur-md p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 transition-colors">
             <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 rounded-xl flex items-center justify-center mx-auto">
@@ -499,7 +483,7 @@ export default function App() {
         </main>
       </div>
 
-      {/* Floating Action Buttons */}
+      {/* Action Buttons */}
       <div className="fixed top-16 right-4 z-30 md:top-16 md:right-6 flex flex-col items-center gap-2.5">
         <RecentAdditionsButton />
         
@@ -517,7 +501,7 @@ export default function App() {
         </button>
       </div>
 
-      {/* Floating Social Icons Bar with interactive hover pop-out effects */}
+      {/* Social Links */}
       {socialLinks.length > 0 && (
         <div className="fixed bottom-6 right-6 z-30 flex items-center gap-2 p-2 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-full shadow-lg">
           {socialLinks.map((item, index) => (
