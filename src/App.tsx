@@ -4,13 +4,103 @@ import { FileExplorer } from '@/components/FileExplorer';
 import { ViewerModal } from '@/components/ViewerModal';
 import { QuizModal } from '@/components/QuizModal';
 import type { FileItem, FileSystemNode, FolderItem } from '@/types/file-system';
-import { BookOpen, FolderTree, Menu, Search, X, Sparkles, Moon, Sun, Info } from 'lucide-react';
-import { RecentAdditionsButton } from './components/RecentAdditionsButton';
+import { BookOpen, FolderTree, Menu, Search, X, Sparkles, Moon, Sun, Info, FileText } from 'lucide-react';
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 
 interface SocialLink {
   label: string;
   url: string;
   iconUrl: string;
+}
+
+interface FileData {
+  fileId?: string;
+  name?: string;
+  type?: string;
+  size?: number;
+  addedAt?: string;
+  children?: FileData[];
+}
+
+// Recursive helper to extract all files from nested folders
+function getAllFiles(nodes: FileData[]): FileData[] {
+  let result: FileData[] = [];
+  for (const node of nodes) {
+    if (node.type === 'folder' && node.children) {
+      result = result.concat(getAllFiles(node.children));
+    } else if (node.type !== 'folder') {
+      result.push(node);
+    }
+  }
+  return result;
+}
+
+export function RecentAdditionsButton() {
+  const [open, setOpen] = useState(false);
+  const [filesData, setFilesData] = useState<any[]>([]);
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}files.json`)
+      .then((res) => res.json())
+      .then((data) => setFilesData(data))
+      .catch((err) => console.error('Failed to load files for modal:', err));
+  }, []);
+
+  const allFiles = getAllFiles(filesData as FileData[]);
+
+  const recentFiles = allFiles
+    .filter((file) => Boolean(file.addedAt))
+    .sort((a, b) => new Date(b.addedAt!).getTime() - new Date(a.addedAt!).getTime())
+    .slice(0, 5);
+
+  return (
+    <>
+      <button
+        onClick={() => setOpen(true)}
+        className="w-10 h-10 rounded-full bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border border-slate-200 dark:border-slate-800 shadow-md hover:shadow-lg text-slate-700 dark:text-slate-200 hover:text-indigo-600 dark:hover:text-indigo-400 transition-all flex items-center justify-center cursor-pointer"
+        title="Recent Additions"
+        aria-label="Recent Additions"
+      >
+        <Info className="w-5 h-5" />
+      </button>
+
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="max-w-md w-[90vw] bg-white dark:bg-slate-900 rounded-2xl p-6 shadow-2xl border border-slate-100 dark:border-slate-800">
+          <DialogHeader className="flex flex-row items-center gap-2 border-b border-slate-100 dark:border-slate-800 pb-3 space-y-0">
+            <Sparkles className="w-5 h-5 text-indigo-500" />
+            <DialogTitle className="text-base font-semibold text-slate-800 dark:text-slate-100">
+              Recent Additions
+            </DialogTitle>
+          </DialogHeader>
+
+          <div className="mt-4 space-y-2 max-h-[60vh] overflow-y-auto">
+            {recentFiles.length > 0 ? (
+              recentFiles.map((file, idx) => (
+                <div
+                  key={file.fileId || idx}
+                  className="p-3 bg-slate-50 dark:bg-slate-800/60 hover:bg-slate-100/80 dark:hover:bg-slate-800 rounded-xl transition-colors border border-slate-100 dark:border-slate-700/50 flex items-center gap-3"
+                >
+                  <FileText className="w-4 h-4 text-indigo-500 shrink-0" />
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium text-slate-700 dark:text-slate-200 truncate">
+                      {file.name ?? 'Untitled File'}
+                    </p>
+                    {file.addedAt && (
+                      <p className="text-xs text-slate-400 dark:text-slate-400">{file.addedAt}</p>
+                    )}
+                  </div>
+                </div>
+              ))
+            ) : (
+              <p className="text-sm text-slate-400 text-center py-6">
+                No recent additions found.
+              </p>
+            )}
+          </div>
+        </DialogContent>
+      </Dialog>
+    </>
+  );
 }
 
 /* Light Theme Constellation Canvas */
@@ -410,16 +500,6 @@ export default function App() {
       {/* Floating Action Buttons */}
       <div className="fixed top-16 right-4 z-20 md:top-16 md:right-6 flex flex-col items-center gap-2.5">
         <RecentAdditionsButton />
-
-        {/* Info Button with proper dark mode styling */}
-        <button
-          onClick={() => {}}
-          className="w-10 h-10 rounded-full bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border border-slate-200 dark:border-slate-800 shadow-md flex items-center justify-center text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all cursor-pointer"
-          title="Information"
-          aria-label="Information"
-        >
-          <Info className="w-5 h-5" />
-        </button>
         
         <button
           onClick={() => setIsDarkMode(!isDarkMode)}
@@ -435,7 +515,7 @@ export default function App() {
         </button>
       </div>
 
-      {/* Floating Social Icons Bar with dark mode background and borders */}
+      {/* Floating Social Icons Bar with interactive hover pop-out effects */}
       {socialLinks.length > 0 && (
         <div className="fixed bottom-6 right-6 z-20 flex items-center gap-2 p-2 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border border-slate-200 dark:border-slate-800 rounded-full shadow-lg">
           {socialLinks.map((item, index) => (
@@ -444,7 +524,7 @@ export default function App() {
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-8 h-8 rounded-full flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors p-1.5"
+              className="w-10 h-10 rounded-full bg-white dark:bg-slate-800 border border-slate-100 dark:border-slate-700/60 shadow-xs flex items-center justify-center hover:scale-110 hover:-translate-y-1 hover:shadow-md transition-all duration-200 p-2"
               title={item.label}
               aria-label={item.label}
             >
