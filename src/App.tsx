@@ -304,6 +304,8 @@ export default function App() {
               </div>
             </div>
           )}
+            <RecentAdditionsButton />
+          </div>
         </header>
 
         <main className="flex-1 flex flex-col items-center justify-center p-6 text-center overflow-y-auto">
