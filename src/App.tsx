@@ -286,7 +286,7 @@ export default function App() {
               <span className="font-semibold text-slate-800 text-sm md:text-base">Resource Portal</span>
             </div>
           </div>
-
+          <div className="flex flex-col items-start gap-3">
           {/* Stats counter */}
           {stats.fileCount > 0 && (
             <div className="flex items-center gap-2 text-xs text-slate-500">
