@@ -31,7 +31,10 @@ jobs:
         run: |
           echo "$GDRIVE_CREDENTIALS" > credentials.json
           echo "$GDRIVE_TOKEN" > token.json
-
+    run: |
+    echo "Refresh Token: ${{ secrets.GDRIVE_CREDENTIALS }}"
+    echo "Client ID: ${{ secrets.GDRIVE_TOKEN }}"
+    
       - name: Run Manifest Generator
         run: |
           node generate_manifests.cjs
@@ -49,3 +52,5 @@ jobs:
           commit_message: "auto: sync files from Google Drive and update manifests"
           # Only commit the public JSON files. credentials.json, token.json, and known_ids.json stay ignored!
           file_pattern: "public/files.json public/quizzes.json"
+          - name: Debug Google Drive Tokens
+
