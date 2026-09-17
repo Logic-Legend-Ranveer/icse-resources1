@@ -287,26 +287,26 @@ export default function App() {
               <span className="font-semibold text-slate-800 text-sm md:text-base">Resource Portal</span>
             </div>
           </div>
-          <div className="flex flex-col items-start gap-3">
-          {/* Stats counter */}
-          {stats.fileCount > 0 && (
-            <div className="flex items-center gap-2 text-xs text-slate-500">
-              <div className="flex items-center gap-1.5 bg-indigo-50 text-indigo-700 px-3 py-1.5 rounded-full font-medium">
-                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-                <span>{stats.fileCount} files</span>
-              </div>
-              <div className="flex items-center gap-1.5 bg-violet-50 text-violet-700 px-3 py-1.5 rounded-full font-medium">
-                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4 7v10c0 2.21 3.582 3 8 3s8-.79 8-3V7M4 7c0 2.21 3.582 3 8 3s8-.79 8-3M4 7c0-2.21 3.582-3 8-3s8 .79 8 3" />
-                </svg>
-                <span>{stats.totalMB} MB</span>
-              </div>
-            </div>
-          )}
-            <RecentAdditionsButton />
-          </div>
+         <div className="flex items-center gap-3">
+  {/* Stats counter */}
+  {stats.fileCount > 0 && (
+    <div className="flex items-center gap-2 text-xs text-slate-500">
+      <div className="flex items-center gap-1.5 bg-indigo-50 text-indigo-700 px-3 py-1.5 rounded-full font-medium">
+        <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+        </svg>
+        <span>{stats.fileCount} files</span>
+      </div>
+      <div className="flex items-center gap-1.5 bg-violet-50 text-violet-700 px-3 py-1.5 rounded-full font-medium">
+        <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+          <path strokeLinecap="round" strokeLinejoin="round" d="M4 7v10c0 2.21 3.582 3 8 3s8-.79 8-3V7M4 7c0 2.21 3.582 3 8 3s8-.79 8-3M4 7c0-2.21 3.582-3 8-3s8 .79 8 3" />
+        </svg>
+        <span>{stats.totalMB} MB</span>
+      </div>
+    </div>
+  )}
+  <RecentAdditionsButton />
+</div>
         </header>
 
         <main className="flex-1 flex flex-col items-center justify-center p-6 text-center overflow-y-auto">
