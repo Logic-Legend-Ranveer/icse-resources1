@@ -320,8 +320,8 @@ export default function App() {
         </main>
       </div>
 
-      {/* Floating Recent Additions Button */}
-      <div className="fixed top-20 right-4 z-20 md:top-auto md:bottom-24 md:right-7">
+      {/* Floating Recent Additions Button (Positioned cleanly below header on both mobile & desktop) */}
+      <div className="fixed top-16 right-4 z-20 md:top-16 md:right-6">
         <RecentAdditionsButton />
       </div>
 
