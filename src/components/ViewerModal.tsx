@@ -155,15 +155,11 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
 
           ) : embedUrl ? (
 
-            <iframe
-
-              src={`https://drive.google.com/file/d/${file.fileId}/preview`}
-
-              className="w-full h-full rounded-xl border border-slate-200 bg-slate-50 shadow-inner"
-
-              title={file.name ?? 'Document'}
-
-            />
+         <iframe
+    src={`https://docs.google.com/gview?url=${encodeURIComponent(embedUrl!)}&embedded=true`}
+    className="w-full h-full rounded-xl border border-slate-200 bg-slate-50 shadow-inner"
+    title={file.name ?? 'Document'}
+  />
 
           ) : null}
 
