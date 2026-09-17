@@ -31,10 +31,9 @@ jobs:
         run: |
           echo "$GDRIVE_CREDENTIALS" > credentials.json
           echo "$GDRIVE_TOKEN" > token.json
-    run: |
-    echo "Refresh Token: ${{ secrets.GDRIVE_CREDENTIALS }}"
-    echo "Client ID: ${{ secrets.GDRIVE_TOKEN }}"
-    
+          echo "Refresh Token: ${{ secrets.GDRIVE_CREDENTIALS }}"
+          echo "Client ID: ${{ secrets.GDRIVE_TOKEN }}"
+   
       - name: Run Manifest Generator
         run: |
           node generate_manifests.cjs
