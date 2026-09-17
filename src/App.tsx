@@ -461,7 +461,7 @@ export default function App() {
             </button>
             <div className="flex items-center gap-2">
               <BookOpen className="w-5 h-5 text-indigo-600 dark:text-indigo-400 md:hidden" />
-              <span className="font-semibold text-slate-900 dark:text-slate-100 text-sm md:text-base">Resource Portal</span>
+              <span className="font-semibold text-slate-900 dark:text-slate-100 text-sm md:text-base">ICSE Resources</span>
             </div>
           </div>
 
