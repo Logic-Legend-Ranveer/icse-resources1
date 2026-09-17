@@ -37,7 +37,178 @@ export default function App() {
     }
   }, [isDarkMode]);
 
-  // ... (keep existing useEffects and useMemos for files, synonyms, socials, stats) ...
+  useEffect(() => {
+    // 1. Fetch Files
+    fetch(`${import.meta.env.BASE_URL}files.json`)
+      .then((res) => res.json())
+      .then((data) => setFilesData(data))
+      .catch((err) => console.error('Failed to load files:', err));
+
+    // 2. Fetch Synonyms
+    fetch(`${import.meta.env.BASE_URL}synonyms.txt`)
+      .then((res) => res.text())
+      .then((text) => {
+        const mapping: Record<string, string[]> = {};
+        text.split('\n').forEach((line) => {
+          const trimmed = line.trim();
+          if (!trimmed || trimmed.startsWith('#')) return;
+          const [key, values] = trimmed.split('=');
+          if (key && values) {
+            mapping[key.trim().toLowerCase()] = values.split(',').map((v) => v.trim().toLowerCase());
+          }
+        });
+        setSynonyms(mapping);
+      })
+      .catch((err) => console.error('Failed to load synonyms:', err));
+
+    // 3. Fetch Social Links & Favicons
+    fetch(`${import.meta.env.BASE_URL}socials.txt`)
+      .then((res) => res.text())
+      .then((text) => {
+        const lines = text.split('\n').filter((line) => line.trim() !== '');
+        const parsed: SocialLink[] = lines.map((line) => {
+          let label = '';
+          let url = line.trim();
+
+          // Parse "Label: URL" or "Label: mailto:..." format
+          if (line.includes(':')) {
+            const match = line.match(/^([^:]+):\s*(.*)$/);
+            if (match && (match[2].startsWith('http') || match[2].startsWith('mailto:'))) {
+              label = match[1].trim();
+              url = match[2].trim();
+            }
+          }
+
+          // Handle mailto: links
+          if (url.startsWith('mailto:')) {
+            const domain = url.split('@')[1] || 'gmail.com';
+            return {
+              label: label || 'Email',
+              url,
+              iconUrl: `https://www.google.com/s2/favicons?domain=${domain}&sz=64`,
+            };
+          }
+
+          // Handle HTTP / HTTPS links
+          try {
+            const parsedUrl = new URL(url);
+            const domain = parsedUrl.hostname;
+            return {
+              label: label || domain.replace('www.', ''),
+              url,
+              iconUrl: `https://www.google.com/s2/favicons?domain=${domain}&sz=64`,
+            };
+          } catch {
+            return {
+              label: label || url,
+              url,
+              iconUrl: `https://www.google.com/s2/favicons?domain=${url}&sz=64`,
+            };
+          }
+        });
+
+        setSocialLinks(parsed);
+      })
+      .catch((err) => console.error('Failed to load socials:', err));
+  }, []);
+
+  const handleSelectFile = (file: FileItem) => {
+    setSelectedFile(file);
+    if (window.innerWidth < 768) {
+      setIsSidebarOpen(false);
+    }
+  };
+
+  const filteredFiles = useMemo(() => {
+    if (!searchQuery.trim()) return filesData;
+
+    const terms = searchQuery.toLowerCase().trim().split(/\s+/);
+
+    const matchesAllTerms = (path: string): boolean => {
+      const lowerPath = path.toLowerCase();
+      return terms.every((term) => {
+        const variants = [term, ...(synonyms[term] || [])];
+        return variants.some((variant) => lowerPath.includes(variant));
+      });
+    };
+
+    const filterNode = (node: FileSystemNode, parentPath = ''): FileSystemNode | null => {
+      const currentPath = parentPath ? `${parentPath}/${node.name}` : node.name;
+
+      if (node.type === 'folder') {
+        const folder = node as FolderItem;
+
+        const matchingChildren = folder.children
+          .map((child) => filterNode(child, currentPath))
+          .filter((child): child is FileSystemNode => child !== null);
+
+        if (matchingChildren.length > 0) {
+          return {
+            ...folder,
+            children: matchingChildren,
+          };
+        }
+        return null;
+      }
+
+      const file = node as FileItem;
+      const fullPath = (file as FileItem & { path?: string }).path || currentPath;
+
+      return matchesAllTerms(fullPath) ? file : null;
+    };
+
+    return filesData
+      .map((node) => filterNode(node))
+      .filter((node): node is FileSystemNode => node !== null);
+  }, [filesData, searchQuery, synonyms]);
+
+  const stats = useMemo(() => {
+    let fileCount = 0;
+    let totalBytes = 0;
+
+    const parseSizeBytes = (node: any): number => {
+      const val = node.size ?? node.fileSize ?? node.bytes ?? 0;
+
+      if (typeof val === 'number') return val;
+
+      if (typeof val === 'string') {
+        const str = val.trim();
+        const num = Number(str);
+        if (!isNaN(num)) return num;
+
+        const match = str.match(/^([\d.]+)\s*([a-zA-Z]+)?$/);
+        if (match) {
+          const amount = parseFloat(match[1]);
+          const unit = (match[2] || '').toLowerCase();
+          if (unit.startsWith('g')) return amount * 1024 * 1024 * 1024;
+          if (unit.startsWith('m')) return amount * 1024 * 1024;
+          if (unit.startsWith('k')) return amount * 1024;
+          if (unit.startsWith('b') || !unit) return amount;
+        }
+      }
+      return 0;
+    };
+
+    const walk = (nodes: FileSystemNode[]) => {
+      if (!Array.isArray(nodes)) return;
+      for (const node of nodes) {
+        if (node.type === 'folder') {
+          walk((node as FolderItem).children);
+        } else {
+          fileCount++;
+          totalBytes += parseSizeBytes(node);
+        }
+      }
+    };
+
+    walk(filesData);
+
+    const mb = totalBytes / (1024 * 1024);
+    return {
+      fileCount,
+      totalMB: mb < 0.1 && mb > 0 ? mb.toFixed(2) : mb.toFixed(1)
+    };
+  }, [filesData]);
 
   return (
     <div className="flex h-screen w-screen overflow-hidden bg-slate-50 dark:bg-slate-950 font-sans transition-colors duration-300">
