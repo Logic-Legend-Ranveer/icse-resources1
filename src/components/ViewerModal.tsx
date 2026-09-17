@@ -63,7 +63,7 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
 
     <Dialog open={!!file} onOpenChange={() => onClose()}>
 
-      <DialogContent className="!max-w-[92vw] w-[92vw] h-[90vh] flex flex-col p-4 bg-white border-none shadow-2xl">
+      <DialogContent className="!max-w-[92vw] w-[92vw] h-[90vh] flex flex-col p-4 bg-amber border-none shadow-2xl">
 
         <DialogHeader className="flex flex-row items-center justify-between border-b pb-3 space-y-0">
 
