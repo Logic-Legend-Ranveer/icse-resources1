@@ -5,7 +5,9 @@
     "lib": ["ES2023"],
     "types": ["node"],
     "skipLibCheck": true,
-
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  
     /* Bundler mode */
     "module": "nodenext",
     "allowImportingTsExtensions": true,
