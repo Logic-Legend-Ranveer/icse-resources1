@@ -289,7 +289,7 @@ export default function App() {
   return (
     <div className="relative flex flex-col h-screen w-screen overflow-hidden bg-transparent dark:bg-slate-950 font-sans transition-colors duration-300">
       
-      {!isDarkMode && (
+      {isDarkMode && (
         <div className="pointer-events-none absolute inset-0 overflow-hidden z-0">
           <div className="absolute -top-32 -left-32 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl animate-pulse" />
           <div className="absolute top-1/3 -right-32 w-96 h-96 bg-violet-500/20 rounded-full blur-3xl animate-pulse [animation-delay:2s]" />
