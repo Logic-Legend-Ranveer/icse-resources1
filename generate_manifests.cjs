@@ -65,7 +65,8 @@ async function scanFolder(drive, folderId, folderPath = '') {
   do {
     const res = await drive.files.list({
       q: `'${folderId}' in parents and trashed=false`,
-      fields: 'nextPageToken, files(id, name, mimeType, size)',
+      // Added createdTime to fields
+      fields: 'nextPageToken, files(id, name, mimeType, size, createdTime)',
       pageSize: 100,
       orderBy: 'name',
       ...(pageToken ? { pageToken } : {})
@@ -86,7 +87,7 @@ async function scanFolder(drive, folderId, folderPath = '') {
           name: f.name,
           type: 'folder',
           fileId: '',
-          size: folderSize, // <-- Added calculated size
+          size: folderSize,
           children: children
         });
       } else {
@@ -95,7 +96,9 @@ async function scanFolder(drive, folderId, folderPath = '') {
           name: f.name,
           type: 'file',
           fileId: f.id,
-          size: parseInt(f.size || '0', 10) // <-- Added missing comma previously here
+          size: parseInt(f.size || '0', 10),
+          // Added addedAt date formatted as YYYY-MM-DD
+          addedAt: f.createdTime ? f.createdTime.split('T')[0] : ''
         });
       }
     }
@@ -187,5 +190,5 @@ async function main() {
 
 main().catch((err) => {
   console.error('❌ Script failed:', err);
-  process.exit(1); // Ensures GitHub Actions halts here if authentication or scanning fails
+  process.exit(1);
 });

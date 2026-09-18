@@ -3,6 +3,7 @@ export interface FileItem {
   type: 'pdf' | 'image' | 'file';
   fileId: string;
   size?: number; // in bytes, optional so old data doesn't break
+  addedAt?: string;
 }
 
 export interface FolderItem {

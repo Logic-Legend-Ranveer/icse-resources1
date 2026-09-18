@@ -49,3 +49,4 @@ jobs:
           commit_message: "auto: sync files from Google Drive and update manifests"
           # Only commit the public JSON files. credentials.json, token.json, and known_ids.json stay ignored!
           file_pattern: "public/files.json public/quizzes.json"
+
