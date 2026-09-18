@@ -374,7 +374,7 @@ export default function App() {
         </div>
       )}
 
-      {/* Main Top Bar - Spans full screen width */}
+      {/* Main Top Bar */}
       <header className="relative z-30 h-14 border-b border-slate-200 dark:border-slate-800 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md px-4 flex items-center justify-between shrink-0 transition-colors">
         <div className="flex items-center gap-3">
           <button
@@ -411,7 +411,7 @@ export default function App() {
 
       {/* Body Area */}
       <div className="relative flex-1 flex overflow-hidden w-full">
-        {/* Mobile Backdrop - strictly overlays only the body region below the header */}
+        {/* Mobile Backdrop */}
         {isSidebarOpen && (
           <div
             className="absolute inset-0 bg-slate-900/40 z-40 md:hidden backdrop-blur-xs"
@@ -425,7 +425,7 @@ export default function App() {
             isSidebarOpen ? 'w-80 translate-x-0' : '-translate-x-full md:-ml-80 md:w-80'
           }`}
         >
-          {/* Search Bar at the top of Sidebar */}
+          {/* Search Bar */}
           <div className="p-3 border-b border-slate-200 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-900/70 shrink-0">
             <div className="relative">
               <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 dark:text-slate-400" />
@@ -469,10 +469,10 @@ export default function App() {
           </div>
         </aside>
 
-        {/* Workspace */}
+        {/* Workspace - Updated Card Shadow and Borders for Light Theme */}
         <main className="relative z-10 flex-1 flex flex-col items-center justify-center p-6 text-center overflow-y-auto bg-transparent">
-          <div className="max-w-md space-y-3 bg-white/85 dark:bg-slate-900/85 backdrop-blur-md p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 transition-colors">
-            <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 rounded-xl flex items-center justify-center mx-auto">
+          <div className="max-w-md space-y-3 bg-white/90 dark:bg-slate-900/85 backdrop-blur-xl p-8 rounded-2xl border border-slate-200/80 dark:border-slate-800 shadow-xl shadow-indigo-950/5 dark:shadow-none transition-colors">
+            <div className="w-12 h-12 bg-indigo-100/80 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 rounded-xl flex items-center justify-center mx-auto border border-indigo-200/60 dark:border-indigo-900/40 shadow-sm shadow-indigo-100 dark:shadow-none">
               <FolderTree className="w-6 h-6" />
             </div>
             <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100">Select a document to view</h2>
