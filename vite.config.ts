@@ -2,62 +2,13 @@ import path from "path"
 import react from "@vitejs/plugin-react"
 import tailwindcss from "@tailwindcss/vite"
 import { defineConfig } from "vite"
-import * as prerender from "vite-plugin-prerender"
 
-export default defineConfig(() => {
-  let basepath = '/';
-
-  if (process.env.GITHUB_REPOSITORY) {
-    const repoName = process.env.GITHUB_REPOSITORY.split('/')[1];
-    basepath = `/${repoName}/`;
-  }
-
-  return {
-    plugins: [
-      react(),
-      tailwindcss(),import path from "path"
-import react from "@vitejs/plugin-react"
-import tailwindcss from "@tailwindcss/vite"
-import { defineConfig } from "vite"
-import * as prerender from "vite-plugin-prerender"
-
-export default defineConfig(() => {
-  let basepath = '/';
-
-  if (process.env.GITHUB_REPOSITORY) {
-    const repoName = process.env.GITHUB_REPOSITORY.split('/')[1];
-    basepath = `/${repoName}/`;
-  }
-
-  const prerenderPlugin = (prerender as any).default || prerender;
-
-  return {
-    plugins: [
-      react(),
-      tailwindcss(),
-      prerenderPlugin({
-        staticDir: path.join(__dirname, 'dist'),
-        routes: ['/'],
-      }),
-    ],
-    base: basepath,
-    resolve: {
-      alias: {
-        "@": path.resolve(import.meta.dirname, "./src"),
-      },
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+  base: './',
+  resolve: {
+    alias: {
+      "@": path.resolve(import.meta.dirname, "./src"),
     },
-  }
-})
-      prerender({
-        staticDir: path.join(__dirname, 'dist'),
-        routes: ['/'],
-      }),
-    ],
-    base: basepath,
-    resolve: {
-      alias: {
-        "@": path.resolve(import.meta.dirname, "./src"),
-      },
-    },
-  }
+  },
 })
