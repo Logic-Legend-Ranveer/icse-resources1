@@ -362,7 +362,7 @@ export default function App() {
   }, [filesData]);
 
   return (
-    <div className="relative flex flex-col h-screen w-screen overflow-hidden bg-slate-50 dark:bg-slate-950 font-sans transition-colors duration-300">
+    <div className="relative flex flex-col h-screen w-screen overflow-hidden bg-transparent dark:bg-slate-950 font-sans transition-colors duration-300">
       
       {!isDarkMode ? (
         <ConstellationBackground />
