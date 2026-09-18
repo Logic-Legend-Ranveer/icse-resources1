@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo, useRef } from 'react';
+import { useEffect, useState, useMemo} from 'react';
 import './App.css'; 
 import { FileExplorer } from '@/components/FileExplorer';
 import { ViewerModal } from '@/components/ViewerModal';
