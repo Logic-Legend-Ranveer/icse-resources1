@@ -175,8 +175,9 @@ function ConstellationBackground() {
     };
   }, []);
 
-  return <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none z-0" />;
+  return <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none z-0 bg-transparent" />;
 }
+
 
 export default function App() {
   const [filesData, setFilesData] = useState<FileSystemNode[]>([]);
