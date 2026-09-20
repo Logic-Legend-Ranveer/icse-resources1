@@ -1,2 +1,3 @@
 Add detailed analysis in Quizzes- 1
 Add an option for the users to contribute resources through an easily navigable interface. - 9
+increase the size of the pdf viewer as it wastes too much space and users get too much small window.
