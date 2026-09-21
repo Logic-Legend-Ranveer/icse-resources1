@@ -164,36 +164,40 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
 
   return (
     <Dialog open={isOpen} onOpenChange={() => { onClose(); resetState(); }}>
-      <DialogContent className="!max-w-[85vw] md:!max-w-3xl w-[90vw] max-h-[85vh] flex flex-col p-6 bg-white dark:bg-slate-900 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-800">
-        <DialogHeader className="border-b border-slate-200 dark:border-slate-800 pb-3">
-          <DialogTitle className="flex items-center gap-2 text-xl font-bold text-slate-800 dark:text-slate-100">
-            <HelpCircle className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
+      <DialogContent className="w-[calc(100vw-8px)] sm:w-[90vw] md:!max-w-3xl max-h-[92vh] sm:max-h-[85vh] flex flex-col p-3 sm:p-6 bg-white dark:bg-slate-900 rounded-2xl shadow-2xl border border-slate-200 dark:border-slate-800 my-auto mb-1 sm:mb-auto overflow-hidden">
+        
+        {/* Modal Header */}
+        <DialogHeader className="border-b border-slate-200 dark:border-slate-800 pb-2.5 sm:pb-3 shrink-0">
+          <DialogTitle className="flex items-center gap-2 text-base sm:text-xl font-bold text-slate-800 dark:text-slate-100">
+            <HelpCircle className="w-5 h-5 sm:w-6 sm:h-6 text-indigo-600 dark:text-indigo-400 shrink-0" />
             <span>ICSE Interactive Quiz Engine</span>
-            <span className="text-[10px] bg-indigo-100 text-indigo-700 dark:bg-indigo-950/80 dark:text-indigo-300 px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">
+            <span className="text-[9px] sm:text-[10px] bg-indigo-100 text-indigo-700 dark:bg-indigo-950/80 dark:text-indigo-300 px-2 py-0.5 rounded-full font-bold uppercase tracking-wider">
               Experimental
             </span>
           </DialogTitle>
         </DialogHeader>
 
+        {/* Error Banner */}
         {errorMsg && (
-          <div className="p-3 bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900/50 text-rose-700 dark:text-rose-300 rounded-xl text-xs flex items-center gap-2 mt-2">
+          <div className="p-2.5 sm:p-3 bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-900/50 text-rose-700 dark:text-rose-300 rounded-xl text-xs flex items-center gap-2 mt-1 shrink-0">
             <AlertCircle className="w-4 h-4 shrink-0 text-rose-600 dark:text-rose-400" />
             <span>{errorMsg}</span>
           </div>
         )}
 
         {!isAttempting ? (
-          <div className="flex-1 flex flex-col min-h-0 space-y-4 pt-2">
+          <div className="flex-1 flex flex-col min-h-0 gap-2.5 sm:gap-4 pt-1 sm:pt-2 overflow-hidden">
             {quizCatalog.length > 0 ? (
               <>
-                <div className="flex gap-2 border-b border-slate-200 dark:border-slate-800 pb-2 overflow-x-auto">
+                {/* Fixed Subject Tabs Header */}
+                <div className="flex gap-1.5 sm:gap-2 overflow-x-auto pb-1 scrollbar-none shrink-0 border-b border-slate-100 dark:border-slate-800/60 pb-2.5">
                   {quizCatalog.map((item) => (
                     <button
                       key={item.subject}
                       onClick={() => { setSelectedSubject(item.subject); setSelectedFiles([]); }}
-                      className={`px-4 py-2 rounded-lg text-sm font-semibold transition-all cursor-pointer whitespace-nowrap ${
+                      className={`px-3 sm:px-4 py-1.5 sm:py-2 rounded-lg text-xs sm:text-sm font-semibold transition-all cursor-pointer whitespace-nowrap shrink-0 ${
                         selectedSubject === item.subject
-                          ? 'bg-indigo-600 text-white shadow-md'
+                          ? 'bg-indigo-600 text-white shadow-sm'
                           : 'bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700'
                       }`}
                     >
@@ -202,29 +206,30 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
                   ))}
                 </div>
 
-                <div className="flex-1 overflow-y-auto grid grid-cols-1 sm:grid-cols-2 gap-3 p-1">
+                {/* Restricted Scrollable Chapter Grid */}
+                <div className="flex-1 overflow-y-auto min-h-0 grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 p-0.5 pr-1">
                   {currentSubjectData?.chapters.map((chapter) => {
                     const isSelected = selectedFiles.includes(chapter.file);
                     return (
                       <div
                         key={chapter.file}
                         onClick={() => toggleSelectFile(chapter.file)}
-                        className={`p-4 rounded-xl border-2 transition-all cursor-pointer flex items-center justify-between ${
+                        className={`p-3 sm:p-4 rounded-xl border transition-all cursor-pointer flex items-center justify-between ${
                           isSelected
                             ? 'border-indigo-600 bg-indigo-50/50 dark:border-indigo-500 dark:bg-indigo-950/40 shadow-sm'
                             : 'border-slate-200 hover:border-slate-300 bg-white dark:border-slate-800 dark:hover:border-slate-700 dark:bg-slate-900/50'
                         }`}
                       >
-                        <div className="flex items-center gap-3">
-                          <BookOpen className={`w-5 h-5 ${isSelected ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-400 dark:text-slate-500'}`} />
-                          <span className="font-medium text-slate-700 dark:text-slate-200 text-sm">{chapter.name}</span>
+                        <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 pr-2">
+                          <BookOpen className={`w-4 h-4 sm:w-5 sm:h-5 shrink-0 ${isSelected ? 'text-indigo-600 dark:text-indigo-400' : 'text-slate-400 dark:text-slate-500'}`} />
+                          <span className="font-medium text-slate-700 dark:text-slate-200 text-xs sm:text-sm truncate">{chapter.name}</span>
                         </div>
                         <div
-                          className={`w-6 h-6 rounded-full flex items-center justify-center border ${
+                          className={`w-5 h-5 sm:w-6 sm:h-6 rounded-full flex items-center justify-center border shrink-0 ${
                             isSelected ? 'bg-indigo-600 border-indigo-600 text-white' : 'border-slate-300 bg-white dark:border-slate-700 dark:bg-slate-800'
                           }`}
                         >
-                          {isSelected && <Check className="w-4 h-4 stroke-[3]" />}
+                          {isSelected && <Check className="w-3.5 h-3.5 stroke-[3]" />}
                         </div>
                       </div>
                     );
@@ -237,11 +242,12 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
               </div>
             )}
 
-            <div className="pt-2 flex justify-center border-t border-slate-100 dark:border-slate-800">
+            {/* Fixed Bottom Footer Action */}
+            <div className="pt-2 flex justify-center border-t border-slate-100 dark:border-slate-800 shrink-0">
               <button
                 disabled={selectedFiles.length === 0 || isLoading}
                 onClick={handleStartQuiz}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 disabled:bg-slate-300 dark:disabled:bg-slate-800 dark:disabled:text-slate-500 text-white font-semibold text-sm rounded-xl shadow-lg transition-all flex items-center gap-2 cursor-pointer"
+                className="w-full sm:w-auto px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 disabled:bg-slate-300 dark:disabled:bg-slate-800 dark:disabled:text-slate-500 text-white font-semibold text-xs sm:text-sm rounded-xl shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer"
               >
                 <span>{isLoading ? 'Loading Quiz...' : `Attempt Quiz (${selectedFiles.length} Selected)`}</span>
                 <ArrowRight className="w-4 h-4" />
@@ -255,11 +261,11 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
                 <span>QUESTION {currentIdx + 1} OF {activeQuestions.length}</span>
                 <span>{selectedSubject}</span>
               </div>
-              <h3 className="text-lg font-semibold text-slate-800 dark:text-slate-100 mb-4">
+              <h3 className="text-base sm:text-lg font-semibold text-slate-800 dark:text-slate-100 mb-3 sm:mb-4">
                 {activeQuestions[currentIdx]?.question}
               </h3>
 
-              <div className="space-y-2.5">
+              <div className="space-y-2">
                 {activeQuestions[currentIdx]?.options?.map((opt, optIdx) => {
                   const isSelected = userAnswers[currentIdx] === optIdx;
                   const isCorrect = activeQuestions[currentIdx].correctAnswer === optIdx;
@@ -278,18 +284,18 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
                       key={optIdx}
                       onClick={() => handleSelectOption(optIdx)}
                       disabled={isCurrentSubmitted}
-                      className={`w-full text-left p-3 rounded-xl border text-sm transition-all flex items-center justify-between cursor-pointer ${btnStyle}`}
+                      className={`w-full text-left p-2.5 sm:p-3 rounded-xl border text-xs sm:text-sm transition-all flex items-center justify-between cursor-pointer ${btnStyle}`}
                     >
                       <span>{String.fromCharCode(65 + optIdx)}. {opt}</span>
-                      {isCurrentSubmitted && isCorrect && <CheckCircle className="w-5 h-5 text-emerald-600 dark:text-emerald-400" />}
-                      {isCurrentSubmitted && isSelected && !isCorrect && <XCircle className="w-5 h-5 text-rose-600 dark:text-rose-400" />}
+                      {isCurrentSubmitted && isCorrect && <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 text-emerald-600 dark:text-emerald-400" />}
+                      {isCurrentSubmitted && isSelected && !isCorrect && <XCircle className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 text-rose-600 dark:text-rose-400" />}
                     </button>
                   );
                 })}
               </div>
 
               {!isCurrentSubmitted && (
-                <div className="mt-4 flex justify-end">
+                <div className="mt-3 sm:mt-4 flex justify-end">
                   <button
                     disabled={!hasSelectedOption}
                     onClick={handleSubmitCurrentAnswer}
@@ -301,18 +307,18 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
               )}
 
               {isCurrentSubmitted && activeQuestions[currentIdx]?.explanation && (
-                <div className="mt-4 p-3 bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/50 rounded-xl text-xs text-amber-800 dark:text-amber-300">
+                <div className="mt-3 sm:mt-4 p-3 bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900/50 rounded-xl text-xs text-amber-800 dark:text-amber-300">
                   <span className="font-bold">Explanation: </span>
                   {activeQuestions[currentIdx].explanation}
                 </div>
               )}
             </div>
 
-            <div className="flex justify-between items-center pt-2 border-t border-slate-100 dark:border-slate-800 mt-4">
+            <div className="flex justify-between items-center pt-2 border-t border-slate-100 dark:border-slate-800 mt-2 sm:mt-4">
               <button
                 disabled={currentIdx === 0}
                 onClick={() => setCurrentIdx(currentIdx - 1)}
-                className="px-4 py-2 text-sm text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800 rounded-lg disabled:opacity-40"
+                className="px-3 sm:px-4 py-2 text-xs sm:text-sm text-slate-600 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800 rounded-lg disabled:opacity-40"
               >
                 Previous
               </button>
@@ -320,7 +326,7 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
                 <button
                   disabled={!isCurrentSubmitted}
                   onClick={() => setCurrentIdx(currentIdx + 1)}
-                  className="px-5 py-2 bg-indigo-600 text-white rounded-lg text-sm font-semibold hover:bg-indigo-700 disabled:bg-slate-300 dark:disabled:bg-slate-800 dark:disabled:text-slate-500"
+                  className="px-4 sm:px-5 py-2 bg-indigo-600 text-white rounded-lg text-xs sm:text-sm font-semibold hover:bg-indigo-700 disabled:bg-slate-300 dark:disabled:bg-slate-800 dark:disabled:text-slate-500"
                 >
                   Next
                 </button>
@@ -328,7 +334,7 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
                 <button
                   disabled={!isCurrentSubmitted}
                   onClick={() => setIsFinished(true)}
-                  className="px-5 py-2 bg-emerald-600 text-white rounded-lg text-sm font-semibold hover:bg-emerald-700 disabled:bg-slate-300 dark:disabled:bg-slate-800 dark:disabled:text-slate-500"
+                  className="px-4 sm:px-5 py-2 bg-emerald-600 text-white rounded-lg text-xs sm:text-sm font-semibold hover:bg-emerald-700 disabled:bg-slate-300 dark:disabled:bg-slate-800 dark:disabled:text-slate-500"
                 >
                   Finish & See Score
                 </button>
@@ -336,18 +342,18 @@ export const QuizModal: React.FC<QuizModalProps> = ({ isOpen, onClose }) => {
             </div>
           </div>
         ) : (
-          <div className="flex-1 flex flex-col items-center justify-center text-center py-8 space-y-4">
-            <div className="w-16 h-16 bg-indigo-100 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-400 rounded-full flex items-center justify-center">
-              <CheckCircle className="w-8 h-8" />
+          <div className="flex-1 flex flex-col items-center justify-center text-center py-6 sm:py-8 space-y-4">
+            <div className="w-14 h-14 sm:w-16 sm:h-16 bg-indigo-100 dark:bg-indigo-950/80 text-indigo-600 dark:text-indigo-400 rounded-full flex items-center justify-center">
+              <CheckCircle className="w-7 h-7 sm:w-8 sm:h-8" />
             </div>
-            <h3 className="text-2xl font-bold text-slate-800 dark:text-slate-100">Quiz Completed!</h3>
-            <p className="text-lg text-slate-600 dark:text-slate-300">
+            <h3 className="text-xl sm:text-2xl font-bold text-slate-800 dark:text-slate-100">Quiz Completed!</h3>
+            <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300">
               You scored <span className="font-bold text-indigo-600 dark:text-indigo-400">{calculateScore()}</span> out of{' '}
               <span className="font-bold">{activeQuestions.length}</span>
             </p>
             <button
               onClick={resetState}
-              className="px-6 py-2.5 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 flex items-center gap-2"
+              className="px-5 py-2.5 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 flex items-center gap-2 text-xs sm:text-sm"
             >
               <RotateCcw className="w-4 h-4" />
               <span>Back to Selection</span>
