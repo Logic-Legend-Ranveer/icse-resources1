@@ -3720,13 +3720,13 @@
     "name": "Study Assets",
     "type": "folder",
     "fileId": "",
-    "size": 2677870490,
+    "size": 2620157831,
     "children": [
       {
         "name": "Biology",
         "type": "folder",
         "fileId": "",
-        "size": 250125924,
+        "size": 243212713,
         "children": [
           {
             "name": "Biology - Chapterwise Weightage.jpg",
@@ -3987,105 +3987,6 @@
                 "addedAt": "2026-09-17"
               }
             ]
-          },
-          {
-            "name": "Selina-ICSE-Biology-solutions",
-            "type": "folder",
-            "fileId": "",
-            "size": 6913211,
-            "children": [
-              {
-                "name": "01_1 Cell Cycle, Cell Division and Structure Of Chromosomes.pdf",
-                "type": "file",
-                "fileId": "19WxmVLfI20psRdGXWStMboaqrDIQKjyy",
-                "size": 554659,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "02_2 Genetics.pdf",
-                "type": "file",
-                "fileId": "1aDqzhVgCGVZvP9s2JjFq7_NIzrXgHSk5",
-                "size": 388299,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "03_3 Absorption By Roots.pdf",
-                "type": "file",
-                "fileId": "1VHiaiJWcXQEw1Lx-gTYhNzscZR8NcJKl",
-                "size": 609234,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "04_4 Transpiration.pdf",
-                "type": "file",
-                "fileId": "14rQZTNKaSiGZr1ENUtgH8iZ-EKlsVyqG",
-                "size": 385987,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "05_5 Photosynthesis.pdf",
-                "type": "file",
-                "fileId": "1MLpYUAGBkY4gPdd2Q8ymcicGIMKLpia4",
-                "size": 632657,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "06_6 Circulatory System.pdf",
-                "type": "file",
-                "fileId": "1llx2QDZJIuPfAGwDIYEpApnT4SZlMdLj",
-                "size": 617730,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "07_7 Excretory System.pdf",
-                "type": "file",
-                "fileId": "1eaEY5aLSbbOXRaH7EeA_WVB30RMWRSm4",
-                "size": 415171,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "08_8 Nervous System.pdf",
-                "type": "file",
-                "fileId": "19cKvwmLMZ8ZV1OOqYM0cf0baggCWYbiV",
-                "size": 839408,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "09_9 Endocrine Glands.pdf",
-                "type": "file",
-                "fileId": "1QQeZOz1XFEiakzRRd9tObunLM_TXYXIL",
-                "size": 572259,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "11_11 Population.pdf",
-                "type": "file",
-                "fileId": "1sqAhQD1HXQVBIk0KB6Bd3TWlHgg0HW9R",
-                "size": 334967,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "12_12 Aids to Health.pdf",
-                "type": "file",
-                "fileId": "19KrabEVlbt9JkSX8aqbi08LWTf_-7Oz1",
-                "size": 567028,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "13_13 Health Organisations.pdf",
-                "type": "file",
-                "fileId": "1aNML2AdDkgMJOiPnFWPf6OxuJrard6ZN",
-                "size": 546477,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "14_14 Pollution.pdf",
-                "type": "file",
-                "fileId": "1LuiT2axUiPVMrzGNfUXde8HWlCfG_5mI",
-                "size": 449335,
-                "addedAt": "2026-09-20"
-              }
-            ]
           }
         ]
       },
@@ -4093,7 +3994,7 @@
         "name": "Chemistry",
         "type": "folder",
         "fileId": "",
-        "size": 271019593,
+        "size": 262177350,
         "children": [
           {
             "name": "Chemistry - Chapterwise Weightage.jpg",
@@ -4352,105 +4253,6 @@
                 "fileId": "11tBxn7RYcUzY5ElTkL0f8DEkEQlIZ1tw",
                 "size": 214688,
                 "addedAt": "2026-09-17"
-              }
-            ]
-          },
-          {
-            "name": "Selina-ICSE-Chemistry-solutions",
-            "type": "folder",
-            "fileId": "",
-            "size": 8842243,
-            "children": [
-              {
-                "name": "01_1 Periodic Table.pdf",
-                "type": "file",
-                "fileId": "1d2gZzpvFp1WE4M7hMCYCkLoMxmlT5pIm",
-                "size": 620210,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "02_2 Chemical Bonding.pdf",
-                "type": "file",
-                "fileId": "13f55KAxUZoqxv8rlmKRn6OMWCGd-6ZJ2",
-                "size": 446797,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "03_3 Acids, Bases and Salts.pdf",
-                "type": "file",
-                "fileId": "1OlPE5BNT1OQwYpfaLE8G6Ld3yzYcFOIl",
-                "size": 533511,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "04_4 Analytical Chemistry.pdf",
-                "type": "file",
-                "fileId": "1rWFv5bcYs5rtiye9I5IqCKMzL-zzNM4u",
-                "size": 362008,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "05_5 Mole Concept and Stoichiometry.pdf",
-                "type": "file",
-                "fileId": "1PU0qIoN0qTdQzdlRkWKAyFZAyeCJf2Fi",
-                "size": 1949237,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "06_6 Electrolysis.pdf",
-                "type": "file",
-                "fileId": "1-dFn3rTugCQm_jyAUb2p1zhj1mXWO12g",
-                "size": 580616,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "07_7 Metallurgy.pdf",
-                "type": "file",
-                "fileId": "1IqOheiwIF5txCYnpAw1A0BqV8q696uv-",
-                "size": 614043,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "08_8 Study of Compounds - Hydrogen Chloride.pdf",
-                "type": "file",
-                "fileId": "1UEKMdBvKNSlYPivc0HuQmSVLqwDqLyC_",
-                "size": 455844,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "09_9 Ammonia.pdf",
-                "type": "file",
-                "fileId": "1-SDWmOrIoQ4lJk3fqI6Y9aJz6YtBdh_G",
-                "size": 526455,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "10_10 Nitric Acid.pdf",
-                "type": "file",
-                "fileId": "143daoPQPA3r11LcDHROEf_cIIzcdmyL2",
-                "size": 479511,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "11_11 Sulphuric Acid.pdf",
-                "type": "file",
-                "fileId": "1iMlohMZfZ7u2-LKK2wtOfneSCQu9NS_O",
-                "size": 453949,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "12_12 Organic Chemistry.pdf",
-                "type": "file",
-                "fileId": "1Z4nZGd8i3fblKrBCvblDoAzQy1I4f9Ka",
-                "size": 1243466,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "13_13 Practical Work.pdf",
-                "type": "file",
-                "fileId": "16-pxkQAV2nPpU1UtgkXtspEhA-O5aa-k",
-                "size": 576596,
-                "addedAt": "2026-09-20"
               }
             ]
           }
@@ -8231,7 +8033,7 @@
         "name": "Mathematics",
         "type": "folder",
         "fileId": "",
-        "size": 373196618,
+        "size": 341855979,
         "children": [
           {
             "name": "Maths - 100 MCQs Practice Set.pdf",
@@ -8450,189 +8252,6 @@
                 "addedAt": "2026-09-17"
               }
             ]
-          },
-          {
-            "name": "Selina-ICSE-Mathematics-solutions",
-            "type": "folder",
-            "fileId": "",
-            "size": 31340639,
-            "children": [
-              {
-                "name": "01_1 GST.pdf",
-                "type": "file",
-                "fileId": "1IQeqgkY4SpRrnbw75nFssEA4r1RWPyOy",
-                "size": 368663,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "02_2 Banking.pdf",
-                "type": "file",
-                "fileId": "19SLIyoSLn0QlhrqqVm8LKLC_6qZs2vIp",
-                "size": 477523,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "03_3 Shares and Dividend.pdf",
-                "type": "file",
-                "fileId": "10Tv8fNRyFRGoULeZlLjLNWKyWSq9ebyr",
-                "size": 975433,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "04_4 Linear Inequations.pdf",
-                "type": "file",
-                "fileId": "1QLUchI6dJQhQS9kWaV4fHpE8GKqanXgc",
-                "size": 1051893,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "05_5 Quadratic Equations.pdf",
-                "type": "file",
-                "fileId": "1yc2YVcnRWKuUPIKzdTr1V4ZN_AwZnzNw",
-                "size": 1896403,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "06_6 Solving Problems.pdf",
-                "type": "file",
-                "fileId": "1Qi028u23mcGE3FiC7nB1cyNSpVhOK6qb",
-                "size": 1052581,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "07_7 Ratio and Proportion.pdf",
-                "type": "file",
-                "fileId": "1Aa6TTJQq03CXjKVmrG1UW6TBruKmk2nq",
-                "size": 2077002,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "08_8 Remainder and Factor Theorems.pdf",
-                "type": "file",
-                "fileId": "1UjjcbSgCGkdaNKJmpP5w46Ba-zPYxIXL",
-                "size": 914749,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "09_9 Matrices.pdf",
-                "type": "file",
-                "fileId": "1N_aZpoPZ2tP_ifeDmxloRxMqjSd7r7TM",
-                "size": 1779839,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "10_10 Arithmetic Progression.pdf",
-                "type": "file",
-                "fileId": "1_6L61jLTl1_KXlaRim_ANGnucqyKwyrI",
-                "size": 688422,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "11_11 Geometric Progression.pdf",
-                "type": "file",
-                "fileId": "1PlAv6wF7m9COWvfzSEHc_qgKluM4rhOC",
-                "size": 545995,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "12_12 Reflection.pdf",
-                "type": "file",
-                "fileId": "1UXZfutkv9-HTpQC6EMUAruS-S60XCMNg",
-                "size": 828295,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "13_13 Section and Mid-Point Formula.pdf",
-                "type": "file",
-                "fileId": "1MdZAQldtRz6MMtKIQCbLDvFDDR-LqP4y",
-                "size": 1305260,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "14_14 Equation of a Line.pdf",
-                "type": "file",
-                "fileId": "1zrRHukU3H3CMKsjLma-Tn8N7g-Wx19jV",
-                "size": 1680607,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "15_15 Similarity.pdf",
-                "type": "file",
-                "fileId": "1_vZYXBwfuoi1EfISvRhzpHfsffZE3Q6V",
-                "size": 1415141,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "16_16 Loci.pdf",
-                "type": "file",
-                "fileId": "1gerxhlu0p_hYOEgvf8LDk4igTuQJX376",
-                "size": 878512,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "17_17 Circles.pdf",
-                "type": "file",
-                "fileId": "1GcLoK2ciwhHfdyy1-hG0L9MvynEY_z_N",
-                "size": 3153392,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "18_18 Tangents and Intersecting Chords.pdf",
-                "type": "file",
-                "fileId": "1rbFVMMQsnVBjcYmK4i8fOPmYYHCUnHd6",
-                "size": 1801656,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "19_19 Constructions.pdf",
-                "type": "file",
-                "fileId": "1o_V4ugJyJgV3t8FXEvmOtRnh4lwEvqA7",
-                "size": 460065,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "20_20 Cylinder, Cone and Sphere.pdf",
-                "type": "file",
-                "fileId": "17BA_CTqEVcZToZK9uICQyyfHbyWK8vaD",
-                "size": 1700733,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "21_21 Trigonometrical Identities.pdf",
-                "type": "file",
-                "fileId": "1rA0VHQtsGAtx6a-ydYSeRGjsqqeOV8kK",
-                "size": 944066,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "22_22 Heights and Distances.pdf",
-                "type": "file",
-                "fileId": "15QMmbuDmaZ_PbzcDr4oqyJO4HPrSVY45",
-                "size": 1111816,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "23_23 Graphical Representation.pdf",
-                "type": "file",
-                "fileId": "1ZZdpH2ni9CqE6BlwbCz77i-lBoFqWcT7",
-                "size": 890622,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "24_24 Measures of Central Tendency.pdf",
-                "type": "file",
-                "fileId": "1cE5yVwh2mVONjFXsbXWChI62AqkgL-f0",
-                "size": 1984866,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "25 Probability.pdf",
-                "type": "file",
-                "fileId": "1ncHTOxbDiQfmboIVNo7cNCqTJsCjLyjx",
-                "size": 1357105,
-                "addedAt": "2026-09-20"
-              }
-            ]
           }
         ]
       },
@@ -8647,7 +8266,7 @@
         "name": "Physics",
         "type": "folder",
         "fileId": "",
-        "size": 385570803,
+        "size": 374954237,
         "children": [
           {
             "name": "Physics - Chapterwise Weightage.jpg",
@@ -8906,98 +8525,6 @@
                 "fileId": "1GOeP9g_gBWbHxOFmgt_PaiSuxoCA3jST",
                 "size": 253104,
                 "addedAt": "2026-09-17"
-              }
-            ]
-          },
-          {
-            "name": "Selina-ICSE-Physics-Solutions",
-            "type": "folder",
-            "fileId": "",
-            "size": 10616566,
-            "children": [
-              {
-                "name": "01_1 Force.pdf",
-                "type": "file",
-                "fileId": "1bWL_Xq3d8q5jLGBbuO-xLSAZd9SN_Lvl",
-                "size": 913127,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "02_2 Work, Energy and Power.pdf",
-                "type": "file",
-                "fileId": "1A38jX2OnS8nrtmhEgvimUzXRQNzx5NEo",
-                "size": 870803,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "03_3 Machines.pdf",
-                "type": "file",
-                "fileId": "15e8PxxYPfv6fxSrFK35tTVKw-33vZEPc",
-                "size": 1043255,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "04_4 Refraction of Light at Plane Surfaces.pdf",
-                "type": "file",
-                "fileId": "1fuoI7s5xIXmCcoO6ifTMEEa9y2o7YMqI",
-                "size": 1085595,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "05_5 Refraction Through a Lens.pdf",
-                "type": "file",
-                "fileId": "1j22MkJ97aaxW36GnJBAqddTaD8Cs_wa_",
-                "size": 1230645,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "06_6 Spectrum.pdf",
-                "type": "file",
-                "fileId": "1HL8dz8_xG-ImK8qE7KMxpI7rzGMdz6uj",
-                "size": 591804,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "07_7 Sound.pdf",
-                "type": "file",
-                "fileId": "1kdgWRdX0LqUaOgAJOQe_GmUT_He9dUTs",
-                "size": 626989,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "08_8 Current Electricity.pdf",
-                "type": "file",
-                "fileId": "1VcxvF9fdsq_YYak_QQmMz4DiahKIb5Kx",
-                "size": 1000230,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "09_9 Household Circuits.pdf",
-                "type": "file",
-                "fileId": "1glxtUWYiwipsHkalXW_YoSDDf21BwSSz",
-                "size": 741851,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "10_10 Electro-Magnetism.pdf",
-                "type": "file",
-                "fileId": "12CHyezEMdCXDN7ww_yRGR4ia0_3wcZh1",
-                "size": 1047064,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "11_11 Calorimetry Solutions.pdf",
-                "type": "file",
-                "fileId": "1wnxKSNfDtXYpM7OKfB88ZA1_RP-DGVve",
-                "size": 701164,
-                "addedAt": "2026-09-20"
-              },
-              {
-                "name": "12_12 Radioactivity.pdf",
-                "type": "file",
-                "fileId": "1goT072ambLMfB-sKN9OXtMM9YXo08l5C",
-                "size": 764039,
-                "addedAt": "2026-09-20"
               }
             ]
           }
