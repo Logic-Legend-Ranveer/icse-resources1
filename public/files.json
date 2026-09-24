@@ -1,229 +1,123 @@
 [
   {
-    "name": "Official Data & Resources",
+    "name": "ICSE 2027 Syllabus",
     "type": "folder",
     "fileId": "",
-    "size": 275161897,
+    "size": 55491545,
     "children": [
       {
-        "name": "CFQ Question bank(Official)",
-        "type": "folder",
-        "fileId": "",
-        "size": 17406455,
-        "children": [
-          {
-            "name": "CFQs-ICSE_Computer-Application-Class-X.pdf",
-            "type": "file",
-            "fileId": "1f7SUc9hBEMZleDeEhOZqcKemu4JkDmSy",
-            "size": 942708,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Biology-X.pdf",
-            "type": "file",
-            "fileId": "1Aaosg4_1J7mMBBFVC262swm-4BzZ2iFn",
-            "size": 919031,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Chemistry.pdf",
-            "type": "file",
-            "fileId": "1lf5j_IkF2GP4kVLtgT9qyu-y8zPXf4_I",
-            "size": 1423040,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Commercial-Applications-.pdf",
-            "type": "file",
-            "fileId": "1V_pUjVs4j8mt6aZ7Cu1I_nrncqyolEWV",
-            "size": 1021791,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Commercial-Studies-X.pdf",
-            "type": "file",
-            "fileId": "1Vc5vEQnf42NEPgqxOLKcDNJYeRf8nu-o",
-            "size": 893958,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Economic-Applications-X.pdf",
-            "type": "file",
-            "fileId": "1B72vkzoXfQlP4bABP-j2-FHy24rtvMNZ",
-            "size": 1241421,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-English-Language-X.pdf",
-            "type": "file",
-            "fileId": "1DRVCrBLsAIihqSRVl5Z-Q0NIWyrfn1Kd",
-            "size": 734942,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Geography.pdf",
-            "type": "file",
-            "fileId": "1vSBmX5osN6c2wpiU1svZxDT4O8qSWP-0",
-            "size": 1941427,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Literature-in-English-X.pdf",
-            "type": "file",
-            "fileId": "1fQFsnk4Tg4P20y9X04_YCbWlmxmo6rgB",
-            "size": 873794,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Mathematics-X.pdf",
-            "type": "file",
-            "fileId": "1TZnYzT6I9gCs8GHJ-N3BULAfHmrvMl0o",
-            "size": 1684905,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Physical-Education-X.pdf",
-            "type": "file",
-            "fileId": "1fnduetIyUpQ2qQC0jjpLjVT1YB_O_KxR",
-            "size": 1045290,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Physics-X-1.pdf",
-            "type": "file",
-            "fileId": "1ShHcQgWzhgSp8iNPSF0xNAqP__tCo1-K",
-            "size": 2346974,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE_Economics-X.pdf",
-            "type": "file",
-            "fileId": "17z3yJzoZHb9IdiwapXiOudqyHdS3x9w9",
-            "size": 1021723,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE_History-and-Civics-X.pdf",
-            "type": "file",
-            "fileId": "1O2GjoWd2fqei6e3golhYxoDKzlXm_0mK",
-            "size": 1315451,
-            "addedAt": "2026-09-17"
-          }
-        ]
+        "name": "10.-Physics.pdf",
+        "type": "file",
+        "fileId": "1gMwbffPKgPfD_3G6FtqLsI-a4tkl2PuO",
+        "size": 3756112,
+        "addedAt": "2026-09-17"
       },
       {
-        "name": "CISCE Class 10 2026-2027 Syllabus",
-        "type": "folder",
-        "fileId": "",
-        "size": 55491545,
-        "children": [
-          {
-            "name": "10.-Physics.pdf",
-            "type": "file",
-            "fileId": "1gMwbffPKgPfD_3G6FtqLsI-a4tkl2PuO",
-            "size": 3756112,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "11.-Chemistry.pdf",
-            "type": "file",
-            "fileId": "1l4njcw53b76OjAz_Dr7RptH29Dnk7nHB",
-            "size": 3907440,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "12.-Biology.pdf",
-            "type": "file",
-            "fileId": "1WKcU2rA96XyfN3XscjFJy4LbgH9GB3uG",
-            "size": 3718583,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "13.-Economics.pdf",
-            "type": "file",
-            "fileId": "1AhBTy9OwB6OcoRsX8FasPGk1qrUNc5yL",
-            "size": 4303836,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "14.-Commercial-Studies.pdf",
-            "type": "file",
-            "fileId": "1F39uJugeAfqyd7E0yhgbrSbMVEKEg5Ah",
-            "size": 3664256,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "17.-Environmental-Science.pdf",
-            "type": "file",
-            "fileId": "1LPhOeJrz73FXhBVoAx6HVvsx8cucY0ap",
-            "size": 3663623,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "18.-Computer-Applications.pdf",
-            "type": "file",
-            "fileId": "1r8jE6D8gYHMq-qT_lmL9sEB-hlDxbE79",
-            "size": 3704004,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "19.-Economic-Applications.pdf",
-            "type": "file",
-            "fileId": "1R8ZxZSr_w3xHWmtm-XgeazQPFQxXrVx1",
-            "size": 3683684,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "2.-English.pdf",
-            "type": "file",
-            "fileId": "1zcx_7wUaad5PlWv0YXWocBq4IzCezBaA",
-            "size": 3852996,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "20.-Commercial-Applications.pdf",
-            "type": "file",
-            "fileId": "1avGXuREdtIrXKr91F3_iIyTa6Ft9BVyc",
-            "size": 3765848,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "21.-Art.pdf",
-            "type": "file",
-            "fileId": "1jWcCbzQfZ21PPZUsU1aTOcaZMSyPZ5IS",
-            "size": 3624362,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "29.-Environmental-Applications.pdf",
-            "type": "file",
-            "fileId": "1-Zu-srqDGF9OLr5zt1wyTf51EgOwQ8Zr",
-            "size": 3761070,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "9.-Mathematics.pdf",
-            "type": "file",
-            "fileId": "1z1_8gS69BzSHrIw2sCy6QIoAH-t-0wwz",
-            "size": 3779431,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Geography.pdf",
-            "type": "file",
-            "fileId": "1IM37sWv3clPiJlGqmvuYe0TNqmXaXlev",
-            "size": 3138098,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-History-Civics.pdf",
-            "type": "file",
-            "fileId": "1odFkTvRNj8PuRX_vvCd0JL8Zz8eEsG7Z",
-            "size": 3168202,
-            "addedAt": "2026-09-17"
-          }
-        ]
+        "name": "11.-Chemistry.pdf",
+        "type": "file",
+        "fileId": "1l4njcw53b76OjAz_Dr7RptH29Dnk7nHB",
+        "size": 3907440,
+        "addedAt": "2026-09-17"
       },
+      {
+        "name": "12.-Biology.pdf",
+        "type": "file",
+        "fileId": "1WKcU2rA96XyfN3XscjFJy4LbgH9GB3uG",
+        "size": 3718583,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "13.-Economics.pdf",
+        "type": "file",
+        "fileId": "1AhBTy9OwB6OcoRsX8FasPGk1qrUNc5yL",
+        "size": 4303836,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "14.-Commercial-Studies.pdf",
+        "type": "file",
+        "fileId": "1F39uJugeAfqyd7E0yhgbrSbMVEKEg5Ah",
+        "size": 3664256,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "17.-Environmental-Science.pdf",
+        "type": "file",
+        "fileId": "1LPhOeJrz73FXhBVoAx6HVvsx8cucY0ap",
+        "size": 3663623,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "18.-Computer-Applications.pdf",
+        "type": "file",
+        "fileId": "1r8jE6D8gYHMq-qT_lmL9sEB-hlDxbE79",
+        "size": 3704004,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "19.-Economic-Applications.pdf",
+        "type": "file",
+        "fileId": "1R8ZxZSr_w3xHWmtm-XgeazQPFQxXrVx1",
+        "size": 3683684,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "2.-English.pdf",
+        "type": "file",
+        "fileId": "1zcx_7wUaad5PlWv0YXWocBq4IzCezBaA",
+        "size": 3852996,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "20.-Commercial-Applications.pdf",
+        "type": "file",
+        "fileId": "1avGXuREdtIrXKr91F3_iIyTa6Ft9BVyc",
+        "size": 3765848,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "21.-Art.pdf",
+        "type": "file",
+        "fileId": "1jWcCbzQfZ21PPZUsU1aTOcaZMSyPZ5IS",
+        "size": 3624362,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "29.-Environmental-Applications.pdf",
+        "type": "file",
+        "fileId": "1-Zu-srqDGF9OLr5zt1wyTf51EgOwQ8Zr",
+        "size": 3761070,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "9.-Mathematics.pdf",
+        "type": "file",
+        "fileId": "1z1_8gS69BzSHrIw2sCy6QIoAH-t-0wwz",
+        "size": 3779431,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "ICSE-Geography.pdf",
+        "type": "file",
+        "fileId": "1IM37sWv3clPiJlGqmvuYe0TNqmXaXlev",
+        "size": 3138098,
+        "addedAt": "2026-09-17"
+      },
+      {
+        "name": "ICSE-History-Civics.pdf",
+        "type": "file",
+        "fileId": "1odFkTvRNj8PuRX_vvCd0JL8Zz8eEsG7Z",
+        "size": 3168202,
+        "addedAt": "2026-09-17"
+      }
+    ]
+  },
+  {
+    "name": "Sample Papers & PYQs from CICSE",
+    "type": "folder",
+    "fileId": "",
+    "size": 202263897,
+    "children": [
       {
         "name": "ICSE PYQ(Official)",
         "type": "folder",
@@ -3717,32 +3611,10 @@
     ]
   },
   {
-    "name": "Other Featured books and notes",
-    "type": "folder",
-    "fileId": "",
-    "size": 89343388,
-    "children": [
-      {
-        "name": "Mock Test Papers.pdf",
-        "type": "file",
-        "fileId": "10cmot_VYHyM8ALXW2uXZ2GPs1HoyeoHZ",
-        "size": 43223283,
-        "addedAt": "2026-09-23"
-      },
-      {
-        "name": "PW Endgame Notes - 2026.pdf",
-        "type": "file",
-        "fileId": "1AFzX4dDQ-BUMDvn-xqaGYpk8dysRZ1FP",
-        "size": 46120105,
-        "addedAt": "2026-09-23"
-      }
-    ]
-  },
-  {
     "name": "Study Assets",
     "type": "folder",
     "fileId": "",
-    "size": 3846952903,
+    "size": 3953702746,
     "children": [
       {
         "name": "Biology",
@@ -4110,6 +3982,112 @@
                 "addedAt": "2026-09-23"
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "CFQ Question bank(Official From ICSE)",
+        "type": "folder",
+        "fileId": "",
+        "size": 17406455,
+        "children": [
+          {
+            "name": "CFQs-ICSE_Computer-Application-Class-X.pdf",
+            "type": "file",
+            "fileId": "1f7SUc9hBEMZleDeEhOZqcKemu4JkDmSy",
+            "size": 942708,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Biology-X.pdf",
+            "type": "file",
+            "fileId": "1Aaosg4_1J7mMBBFVC262swm-4BzZ2iFn",
+            "size": 919031,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Chemistry.pdf",
+            "type": "file",
+            "fileId": "1lf5j_IkF2GP4kVLtgT9qyu-y8zPXf4_I",
+            "size": 1423040,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Commercial-Applications-.pdf",
+            "type": "file",
+            "fileId": "1V_pUjVs4j8mt6aZ7Cu1I_nrncqyolEWV",
+            "size": 1021791,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Commercial-Studies-X.pdf",
+            "type": "file",
+            "fileId": "1Vc5vEQnf42NEPgqxOLKcDNJYeRf8nu-o",
+            "size": 893958,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Economic-Applications-X.pdf",
+            "type": "file",
+            "fileId": "1B72vkzoXfQlP4bABP-j2-FHy24rtvMNZ",
+            "size": 1241421,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-English-Language-X.pdf",
+            "type": "file",
+            "fileId": "1DRVCrBLsAIihqSRVl5Z-Q0NIWyrfn1Kd",
+            "size": 734942,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Geography.pdf",
+            "type": "file",
+            "fileId": "1vSBmX5osN6c2wpiU1svZxDT4O8qSWP-0",
+            "size": 1941427,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Literature-in-English-X.pdf",
+            "type": "file",
+            "fileId": "1fQFsnk4Tg4P20y9X04_YCbWlmxmo6rgB",
+            "size": 873794,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Mathematics-X.pdf",
+            "type": "file",
+            "fileId": "1TZnYzT6I9gCs8GHJ-N3BULAfHmrvMl0o",
+            "size": 1684905,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Physical-Education-X.pdf",
+            "type": "file",
+            "fileId": "1fnduetIyUpQ2qQC0jjpLjVT1YB_O_KxR",
+            "size": 1045290,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE-Physics-X-1.pdf",
+            "type": "file",
+            "fileId": "1ShHcQgWzhgSp8iNPSF0xNAqP__tCo1-K",
+            "size": 2346974,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE_Economics-X.pdf",
+            "type": "file",
+            "fileId": "17z3yJzoZHb9IdiwapXiOudqyHdS3x9w9",
+            "size": 1021723,
+            "addedAt": "2026-09-17"
+          },
+          {
+            "name": "ICSE_History-and-Civics-X.pdf",
+            "type": "file",
+            "fileId": "1O2GjoWd2fqei6e3golhYxoDKzlXm_0mK",
+            "size": 1315451,
+            "addedAt": "2026-09-17"
           }
         ]
       },
@@ -7950,6 +7928,28 @@
                 "addedAt": "2026-09-23"
               }
             ]
+          }
+        ]
+      },
+      {
+        "name": "Other Featured books and notes",
+        "type": "folder",
+        "fileId": "",
+        "size": 89343388,
+        "children": [
+          {
+            "name": "Mock Test Papers.pdf",
+            "type": "file",
+            "fileId": "10cmot_VYHyM8ALXW2uXZ2GPs1HoyeoHZ",
+            "size": 43223283,
+            "addedAt": "2026-09-23"
+          },
+          {
+            "name": "PW Endgame Notes - 2026.pdf",
+            "type": "file",
+            "fileId": "1AFzX4dDQ-BUMDvn-xqaGYpk8dysRZ1FP",
+            "size": 46120105,
+            "addedAt": "2026-09-23"
           }
         ]
       },
