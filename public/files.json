@@ -3717,86 +3717,230 @@
     ]
   },
   {
+    "name": "Other Featured books and notes",
+    "type": "folder",
+    "fileId": "",
+    "size": 89343388,
+    "children": [
+      {
+        "name": "Mock Test Papers.pdf",
+        "type": "file",
+        "fileId": "10cmot_VYHyM8ALXW2uXZ2GPs1HoyeoHZ",
+        "size": 43223283,
+        "addedAt": "2026-09-23"
+      },
+      {
+        "name": "PW Endgame Notes - 2026.pdf",
+        "type": "file",
+        "fileId": "1AFzX4dDQ-BUMDvn-xqaGYpk8dysRZ1FP",
+        "size": 46120105,
+        "addedAt": "2026-09-23"
+      }
+    ]
+  },
+  {
     "name": "Study Assets",
     "type": "folder",
     "fileId": "",
-    "size": 4172021680,
+    "size": 3846952903,
     "children": [
       {
         "name": "Biology",
         "type": "folder",
         "fileId": "",
-        "size": 279591084,
+        "size": 312154262,
         "children": [
           {
-            "name": "Biology - Important Diagrams.pdf",
-            "type": "file",
-            "fileId": "1LAA-k8UY508ix_B37ax42_eg7EpVsC_b",
-            "size": 10186542,
-            "addedAt": "2026-09-23"
+            "name": "Chapterwise PYQs",
+            "type": "folder",
+            "fileId": "",
+            "size": 32563178,
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Biology - Cell Cycle And Structure Of Chromosomes - PYQ.pdf",
+                "type": "file",
+                "fileId": "18PCXW0GOBn6KfnFiJiLkQqEvA5MQNAcM",
+                "size": 2924161,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Biology - Genetics - PYQ.pdf",
+                "type": "file",
+                "fileId": "1-Fk2v_LVVvN1iUEG07GhAPvlIlmr_Xmb",
+                "size": 1451197,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Biology - Human Evolution - PYQ.pdf",
+                "type": "file",
+                "fileId": "1JQMYakcs0wn9Qtqfs3Uk5Pajc6Fr5cLh",
+                "size": 1439959,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Biology - Absorption By Roots - PYQ.pdf",
+                "type": "file",
+                "fileId": "1ESqfPAG3orm9g0ncnzzlETo0L6EQkniX",
+                "size": 2213508,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Biology - Transpiration - PYQ.pdf",
+                "type": "file",
+                "fileId": "16wBdvHEwm0Eg3RqUV8HfaZCGvo6ytyte",
+                "size": 3313371,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Biology - Photosynthesis - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Kmic58C5ODWx5rEZdGN0gj2sVYpgdFza",
+                "size": 1913746,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Biology - Chemical Coordination In Plants - PYQ.pdf",
+                "type": "file",
+                "fileId": "1pxTeQTW2iJ0Jugk2jwKVpbdZ_C4FusPM",
+                "size": 1568368,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Biology - The Circulatory System - PYQ.pdf",
+                "type": "file",
+                "fileId": "1WZIdV_jTngsFs4WQtGlbjHZHE6rca4hE",
+                "size": 3706093,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "09 - ICSE Class 10 - Biology - The Excretory System - PYQ.pdf",
+                "type": "file",
+                "fileId": "1lnqHXOkJ8-CrU7n2Hlu4H5L2SURVoiN8",
+                "size": 2644358,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "10 - ICSE Class 10 - Biology - Nervous System And Sense Organs - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Ua0OIp0AYh_nHcYao5jeALcStu1uhnPY",
+                "size": 3682689,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "11 - ICSE Class 10 - Biology - The Endocrine System - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Fej5E9s_ZGuZOPcFfSZ3IeSkv2W4MTps",
+                "size": 2549283,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "12 - ICSE Class 10 - Biology - The Reproductive System - PYQ.pdf",
+                "type": "file",
+                "fileId": "1-QLtRlri5pMYxu5bld5yPAh2xUGpIyG_",
+                "size": 2197523,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "13 - ICSE Class 10 - Biology - Human Population - PYQ.pdf",
+                "type": "file",
+                "fileId": "1UWO_F0TRnqBLRciBCn93o6sZwrznBQxw",
+                "size": 1442524,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "14 - ICSE Class 10 - Biology - Pollution - PYQ.pdf",
+                "type": "file",
+                "fileId": "10Gz8LPOHheGeThaPbboSkiawGzAOIvgj",
+                "size": 1516398,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
-            "name": "Biology - Location and Functions.pdf",
-            "type": "file",
-            "fileId": "108_6W--cYam6YOZb4hwgK754ms23MYYX",
-            "size": 12011535,
-            "addedAt": "2026-09-23"
+            "name": "Notes and Mind maps",
+            "type": "folder",
+            "fileId": "",
+            "size": 101097649,
+            "children": [
+              {
+                "name": "Biology - Important Diagrams.pdf",
+                "type": "file",
+                "fileId": "1LAA-k8UY508ix_B37ax42_eg7EpVsC_b",
+                "size": 10186542,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Biology - Location and Functions.pdf",
+                "type": "file",
+                "fileId": "108_6W--cYam6YOZb4hwgK754ms23MYYX",
+                "size": 12011535,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Biology - Notes.pdf",
+                "type": "file",
+                "fileId": "1LM58K-tOfPq140MMOoZn1Fn-ja5aEE1q",
+                "size": 15947050,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Biology - Revision Notes.pdf",
+                "type": "file",
+                "fileId": "14p9qab7Ki81_TymFFeQ1AryQDyp0T2GI",
+                "size": 6313902,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Biology - Short Notes - qw3rt0z.pdf",
+                "type": "file",
+                "fileId": "1tOezQBa9mkti93OEyM9uwupuA2lpAEmU",
+                "size": 9514301,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Biology Revision Notes and mind maps.pdf",
+                "type": "file",
+                "fileId": "1_-qvej8zlXX3as3qUKn73wfecUz2Vq-i",
+                "size": 47124319,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
-            "name": "Biology - Notes.pdf",
-            "type": "file",
-            "fileId": "1LM58K-tOfPq140MMOoZn1Fn-ja5aEE1q",
-            "size": 15947050,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Biology - Revision Notes.pdf",
-            "type": "file",
-            "fileId": "14p9qab7Ki81_TymFFeQ1AryQDyp0T2GI",
-            "size": 6313902,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Biology - Short Notes - qw3rt0z.pdf",
-            "type": "file",
-            "fileId": "1tOezQBa9mkti93OEyM9uwupuA2lpAEmU",
-            "size": 9514301,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Biology - Suggestive Questions.pdf",
-            "type": "file",
-            "fileId": "1q6SceEIPnK2guyGHYuRiag27divRjle9",
-            "size": 992918,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Biology Question Bank - Goyal.pdf",
-            "type": "file",
-            "fileId": "1c-h2RqudZN53HBm_3bu31L19UcYPqHxf",
-            "size": 17169459,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Biology Question Bank - Oswal.pdf",
-            "type": "file",
-            "fileId": "1Y93wALCKTCZ2JMjXicsU2v9sp3Z3dUy4",
-            "size": 67841561,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Biology Revision Notes and mind maps.pdf",
-            "type": "file",
-            "fileId": "1_-qvej8zlXX3as3qUKn73wfecUz2Vq-i",
-            "size": 47124319,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Biology Sample Papers - Arihant.pdf",
-            "type": "file",
-            "fileId": "1XjAc_kbZ_acm9are8mrDcdhuHPHeELHt",
-            "size": 73850427,
-            "addedAt": "2026-09-23"
+            "name": "Question Banks",
+            "type": "folder",
+            "fileId": "",
+            "size": 159854365,
+            "children": [
+              {
+                "name": "Biology - Suggestive Questions.pdf",
+                "type": "file",
+                "fileId": "1q6SceEIPnK2guyGHYuRiag27divRjle9",
+                "size": 992918,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Biology Question Bank - Goyal.pdf",
+                "type": "file",
+                "fileId": "1c-h2RqudZN53HBm_3bu31L19UcYPqHxf",
+                "size": 17169459,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Biology Question Bank - Oswal.pdf",
+                "type": "file",
+                "fileId": "1Y93wALCKTCZ2JMjXicsU2v9sp3Z3dUy4",
+                "size": 67841561,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Biology Sample Papers - Arihant.pdf",
+                "type": "file",
+                "fileId": "1XjAc_kbZ_acm9are8mrDcdhuHPHeELHt",
+                "size": 73850427,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
             "name": "Sample Papers",
@@ -3973,91 +4117,192 @@
         "name": "Chemistry",
         "type": "folder",
         "fileId": "",
-        "size": 313640778,
+        "size": 344803974,
         "children": [
           {
-            "name": "Chemistry - Notes.pdf",
-            "type": "file",
-            "fileId": "1xtgVU6R-PmB91WomA2-1LByLBrMgugVx",
-            "size": 16466198,
-            "addedAt": "2026-09-23"
+            "name": "Chapterwise PYQs",
+            "type": "folder",
+            "fileId": "",
+            "size": 31612409,
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Chemistry - Periodic Properties And Variations Of Properties - PYQ.pdf",
+                "type": "file",
+                "fileId": "1OxpPU3y-RxfRd1r44xVwqqfHjRwioE8W",
+                "size": 5190957,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Chemistry - Chemical Bonding - PYQ.pdf",
+                "type": "file",
+                "fileId": "1oJFpjVVNRHNvSWhVqfP9fp47uhapbrG1",
+                "size": 2269183,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Chemistry - Study Of Acids Bases And Salts - PYQ.pdf",
+                "type": "file",
+                "fileId": "1BkIiGFg-fcJ-nm0za0UQrINJLAXZP6D0",
+                "size": 3389257,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Chemistry - Analytical Chemistry - PYQ.pdf",
+                "type": "file",
+                "fileId": "1UGYT7roema2M3B6MrW7fvXp2p80xZIak",
+                "size": 3009510,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Chemistry - Mole Concept And Stoichiometry - PYQ.pdf",
+                "type": "file",
+                "fileId": "1ojhnrgLiP7PMRPtcl3Ue8EHdtet5ee13",
+                "size": 2519196,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Chemistry - Electrolysis - PYQ.pdf",
+                "type": "file",
+                "fileId": "1av569zLoGObFH5G0IDNuv_EkjxcQS4xG",
+                "size": 2722460,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Chemistry - Metallurgy - PYQ.pdf",
+                "type": "file",
+                "fileId": "1GG3cvKf-ca0i1Lw1yXG5S2yub4Zonkkt",
+                "size": 2238805,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Chemistry - Hydrogen Chloride - PYQ.pdf",
+                "type": "file",
+                "fileId": "1_kAUSUUfFbt7VWyl4BBE116Alf5UdeWl",
+                "size": 2257592,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "09 - ICSE Class 10 - Chemistry - Ammonia - PYQ.pdf",
+                "type": "file",
+                "fileId": "1yerJBq7RJ78M5XV-Oa-vm43GWtny6SL2",
+                "size": 1181716,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "10 - ICSE Class 10 - Chemistry - Nitric Acid - PYQ.pdf",
+                "type": "file",
+                "fileId": "1OvHHk7LJeqKIn0hPtOQfWyjMrUHSvTym",
+                "size": 2234876,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "11 - ICSE Class 10 - Chemistry - Sulphuric Acid - PYQ.pdf",
+                "type": "file",
+                "fileId": "1CcQ84tEBia-JNZ8zCOpRjL7bhGKB2ywL",
+                "size": 1564572,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "12 - ICSE Class 10 - Chemistry - Organic Chemistry - PYQ.pdf",
+                "type": "file",
+                "fileId": "1ZM2rFMjP6AbVkZ3G-tm2TYuSQEXDzRqM",
+                "size": 3034285,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
-            "name": "Chemistry - Oswal Most Likely Questions.pdf",
-            "type": "file",
-            "fileId": "1j53R3pQO0N_Vg0yNqqpBkAwnabrciJww",
-            "size": 14201121,
-            "addedAt": "2026-09-23"
+            "name": "Notes",
+            "type": "folder",
+            "fileId": "",
+            "size": 66955342,
+            "children": [
+              {
+                "name": "Chemistry - Notes.pdf",
+                "type": "file",
+                "fileId": "1xtgVU6R-PmB91WomA2-1LByLBrMgugVx",
+                "size": 16466198,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Chemistry - Revision Charts.pdf",
+                "type": "file",
+                "fileId": "1Fk2bbvRQiyOuMlvJJiRIJeWDeU-7RBfc",
+                "size": 7883693,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Chemistry - Revision Notes.pdf",
+                "type": "file",
+                "fileId": "1kSP-wDxXXg-A534WWV1oTQ6r_hXxzz96",
+                "size": 3840897,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Chemistry - Study of Compounds - Observations.pdf",
+                "type": "file",
+                "fileId": "15U4QqHZe_8OAFR_9JxOT9LqYChE7wUka",
+                "size": 1303367,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Chemistry Syllabus and Mind maps.pdf",
+                "type": "file",
+                "fileId": "1b-c2FWEWh-NOze9Riyjk9y-hm2hd1sLy",
+                "size": 37461187,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
-            "name": "Chemistry - Revision Charts.pdf",
-            "type": "file",
-            "fileId": "1Fk2bbvRQiyOuMlvJJiRIJeWDeU-7RBfc",
-            "size": 7883693,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Chemistry - Revision Notes.pdf",
-            "type": "file",
-            "fileId": "1kSP-wDxXXg-A534WWV1oTQ6r_hXxzz96",
-            "size": 3840897,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Chemistry - Revision Tests.pdf",
-            "type": "file",
-            "fileId": "1WcT6VAlLe-yLJGvfsqlCL1wW1MarV1Mj",
-            "size": 449213,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Chemistry - Study of Compounds - Observations.pdf",
-            "type": "file",
-            "fileId": "15U4QqHZe_8OAFR_9JxOT9LqYChE7wUka",
-            "size": 1303367,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Chemistry MCQs.pdf",
-            "type": "file",
-            "fileId": "1QjJTSuUExi-QxPYyJ8ZdM_eokA3NG47D",
-            "size": 2649367,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Chemistry Most Likely Question Bank.pdf",
-            "type": "file",
-            "fileId": "1kwenonUjLY9DmlmOTPq7LsbiT0-ugfvp",
-            "size": 63706959,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Chemistry Question Bank - Arihant.pdf",
-            "type": "file",
-            "fileId": "1z2l3aC9550HP4FB_1R3UzVw24qaTIE4O",
-            "size": 44577987,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Chemistry Question Bank - Educart.pdf",
-            "type": "file",
-            "fileId": "1X_HJ3miNGyXF3kMUwR968NgY-oSRkwNn",
-            "size": 70412126,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Chemistry Question Bank - Together With.pdf",
-            "type": "file",
-            "fileId": "1EZW5vR3yRd9jMxORre42fhuEBAnT-RLP",
-            "size": 34429784,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Chemistry Syllabus and Mind maps.pdf",
-            "type": "file",
-            "fileId": "1b-c2FWEWh-NOze9Riyjk9y-hm2hd1sLy",
-            "size": 37461187,
-            "addedAt": "2026-09-23"
+            "name": "Question banks",
+            "type": "folder",
+            "fileId": "",
+            "size": 229977344,
+            "children": [
+              {
+                "name": "Chemistry - Oswal Most Likely Questions.pdf",
+                "type": "file",
+                "fileId": "1j53R3pQO0N_Vg0yNqqpBkAwnabrciJww",
+                "size": 14201121,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Chemistry MCQs.pdf",
+                "type": "file",
+                "fileId": "1QjJTSuUExi-QxPYyJ8ZdM_eokA3NG47D",
+                "size": 2649367,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Chemistry Most Likely Question Bank.pdf",
+                "type": "file",
+                "fileId": "1kwenonUjLY9DmlmOTPq7LsbiT0-ugfvp",
+                "size": 63706959,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Chemistry Question Bank - Arihant.pdf",
+                "type": "file",
+                "fileId": "1z2l3aC9550HP4FB_1R3UzVw24qaTIE4O",
+                "size": 44577987,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Chemistry Question Bank - Educart.pdf",
+                "type": "file",
+                "fileId": "1X_HJ3miNGyXF3kMUwR968NgY-oSRkwNn",
+                "size": 70412126,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Chemistry Question Bank - Together With.pdf",
+                "type": "file",
+                "fileId": "1EZW5vR3yRd9jMxORre42fhuEBAnT-RLP",
+                "size": 34429784,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
             "name": "Sample Papers",
@@ -4249,411 +4494,491 @@
         "name": "Computer Applications",
         "type": "folder",
         "fileId": "",
-        "size": 322292237,
+        "size": 342342885,
         "children": [
           {
-            "name": "Computer - Notes.pdf",
-            "type": "file",
-            "fileId": "1Sl7D_8i69-bWFjqzWNbfF9YtEDG1Kn8X",
-            "size": 23185993,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Computer Appications - Notes.pdf",
-            "type": "file",
-            "fileId": "1GkcCQVSFh1SFIaJ2hdVqo-SjAi3OBS1V",
-            "size": 4938240,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Computer Applications - MCQs.pdf",
-            "type": "file",
-            "fileId": "1SEJxQImoUhlwBcQQguyW-YfuGesa1zwX",
-            "size": 693066,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Computer Question Bank - Goyal.pdf",
-            "type": "file",
-            "fileId": "1pyoPcrFHuhYrjC8gfYQxl7h_lhrtCKgF",
-            "size": 12323010,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Computer Sample Papers - APC.pdf",
-            "type": "file",
-            "fileId": "1PkAfoPrRqboCNuatJD4_AyPIyHEJDsOx",
-            "size": 87329804,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Computer Sample Papers - Arihant.pdf",
-            "type": "file",
-            "fileId": "1ivyhi8DoDGmmR5Cj0AO-HSNKJsU2bhEc",
-            "size": 78676924,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Java_Complete_Notes.pdf",
-            "type": "file",
-            "fileId": "1kjEtANN1D-BIjyCjd0TTqc7Q3LsyTd16",
-            "size": 41107842,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Java_Complete_Topicwise_Notes_With_Practice_Questions",
+            "name": "Chapterwise PYQs",
             "type": "folder",
             "fileId": "",
-            "size": 40664865,
+            "size": 20050648,
             "children": [
               {
-                "name": "Chapter 1-Variables and Datatypes",
-                "type": "folder",
-                "fileId": "",
-                "size": 2013189,
-                "children": [
-                  {
-                    "name": "JavaChapter1PracticeSet.pdf",
-                    "type": "file",
-                    "fileId": "1buFagrytZg-hHVDHh6FSdWOs7pR-AkAk",
-                    "size": 460021,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Variables and Datatypes.pdf",
-                    "type": "file",
-                    "fileId": "1SHe5pn2-FqS6CmPbLRkDxSzPENvE9pQ9",
-                    "size": 1553168,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 10-Inheritance",
-                "type": "folder",
-                "fileId": "",
-                "size": 1961126,
-                "children": [
-                  {
-                    "name": "Chapter10PracticeSet.pdf",
-                    "type": "file",
-                    "fileId": "1hTMGcy2e0Aoe7fxm6MPtg3kS-koXHKia",
-                    "size": 873799,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Inheritance.pdf",
-                    "type": "file",
-                    "fileId": "1f7PlMX6ETdFID97VNFOs8s654JnviweP",
-                    "size": 1087327,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 11-Abstract Classes",
-                "type": "folder",
-                "fileId": "",
-                "size": 4602414,
-                "children": [
-                  {
-                    "name": "Chapter11PS.pdf",
-                    "type": "file",
-                    "fileId": "1PmiEIhDj75dv4Pdd_9Nl7H1Kav7HJiud",
-                    "size": 800913,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Chapter_11_Abstract Classes.pdf",
-                    "type": "file",
-                    "fileId": "1hWGUFFJhbB4DhxgkVvPBMBK4lX1D2cnd",
-                    "size": 3801501,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 12-Packages in Java",
-                "type": "folder",
-                "fileId": "",
-                "size": 3596959,
-                "children": [
-                  {
-                    "name": "Ch12psJava.pdf",
-                    "type": "file",
-                    "fileId": "1ugwNfmWgK0-6RVHa4lug5uG0t6oz7pPh",
-                    "size": 892748,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Packages in Java.pdf",
-                    "type": "file",
-                    "fileId": "1TvU7mx5eHd0-eVFvf75aLIhsJt4XPYD3",
-                    "size": 2704211,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 13-Multithreading",
-                "type": "folder",
-                "fileId": "",
-                "size": 2545810,
-                "children": [
-                  {
-                    "name": "Chapter13PracticeSetJava.pdf",
-                    "type": "file",
-                    "fileId": "15GJrFhMxRcCIKcuQkpCWjgmVEapfBx5o",
-                    "size": 591658,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Multithreading.pdf",
-                    "type": "file",
-                    "fileId": "1wesjhwy6ZJPC1p5CC6DLhT4O4T_E1Iy5",
-                    "size": 1954152,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 14-Errors and Exceptions",
-                "type": "folder",
-                "fileId": "",
-                "size": 4559329,
-                "children": [
-                  {
-                    "name": "Ch14PS.pdf",
-                    "type": "file",
-                    "fileId": "1TazL9OPrQRRubfSPYhm7Ut8PIcO_CGn9",
-                    "size": 681665,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Errors & Exceptions.pdf",
-                    "type": "file",
-                    "fileId": "1vPVfQGmU3vkAL2fcalP60lT8XAUy93PN",
-                    "size": 3877664,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 15-Advanced Java",
-                "type": "folder",
-                "fileId": "",
-                "size": 973679,
-                "children": [
-                  {
-                    "name": "Advanced java.pdf",
-                    "type": "file",
-                    "fileId": "1JMzB2STU2DOP3aMuCU1reZtbjw5xU0Ml",
-                    "size": 973679,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 2-Operators & Expressions",
-                "type": "folder",
-                "fileId": "",
-                "size": 1918703,
-                "children": [
-                  {
-                    "name": "Ch2_Practice.pdf",
-                    "type": "file",
-                    "fileId": "1gpf44rF62H0iKDjv-ULacU_W2R_hM6Jh",
-                    "size": 424444,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Operators and Expressions.pdf",
-                    "type": "file",
-                    "fileId": "13GUR6v_HUSzIkQfPXwx0rbEJWX9xs-Tt",
-                    "size": 1494259,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 3-Strings",
-                "type": "folder",
-                "fileId": "",
-                "size": 1991308,
-                "children": [
-                  {
-                    "name": "Chapter 3 - Practice Set.pdf",
-                    "type": "file",
-                    "fileId": "1ZZiOHNqGp_QKIukjI9xXcMguBXpDjlVW",
-                    "size": 379227,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Chapter 3 - Strings.pdf",
-                    "type": "file",
-                    "fileId": "1U4-HgjjpPHzQZLHedR_pM9RHtaKQ8uh6",
-                    "size": 1612081,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 4-Conditional Statements",
-                "type": "folder",
-                "fileId": "",
-                "size": 3272077,
-                "children": [
-                  {
-                    "name": "Chapter 4 - Conditionals.pdf",
-                    "type": "file",
-                    "fileId": "1YyAQRj2CcqjR1rB8ld94I-jpjIKHuR65",
-                    "size": 2460158,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Chapter 4 - Practice Set.pdf",
-                    "type": "file",
-                    "fileId": "1Y-TmHzSMg4iXFCmH0sOTsUopqfgxM8Qn",
-                    "size": 811919,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 5-Loops",
-                "type": "folder",
-                "fileId": "",
-                "size": 2328278,
-                "children": [
-                  {
-                    "name": "Chapter_5 _Practice_Set.pdf",
-                    "type": "file",
-                    "fileId": "1kFK-qKhUaLhW1zPPHfXp66WAOzBlbDR6",
-                    "size": 798533,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Loops.pdf",
-                    "type": "file",
-                    "fileId": "1aJ73LxB6DOt-bwc57oL6_ErOeS9bRFQB",
-                    "size": 1529745,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 6-Arrays",
-                "type": "folder",
-                "fileId": "",
-                "size": 2144455,
-                "children": [
-                  {
-                    "name": "Chapter_6_Arrays.pdf",
-                    "type": "file",
-                    "fileId": "1nVzGx8dihj0reQirsIFpnF5MpfNxF5GM",
-                    "size": 1630499,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Chapter_6_Practice_Set.pdf",
-                    "type": "file",
-                    "fileId": "1wWKwkMU8UnZTgkQgVhJ_Dmf3Se0XtEIc",
-                    "size": 513956,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 7-Methods",
-                "type": "folder",
-                "fileId": "",
-                "size": 3509376,
-                "children": [
-                  {
-                    "name": "Chapter7_PracticeSet.pdf",
-                    "type": "file",
-                    "fileId": "1_ZsSxOzxI4S6S6GSCYUndOu5aG0PBmpD",
-                    "size": 1329432,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Methods.pdf",
-                    "type": "file",
-                    "fileId": "19Uy1E5nTebtRWYX0zv7BjCOX-1KL8XmR",
-                    "size": 2179944,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 8-Introduction to OOP",
-                "type": "folder",
-                "fileId": "",
-                "size": 2232186,
-                "children": [
-                  {
-                    "name": "Ch8_PS.pdf",
-                    "type": "file",
-                    "fileId": "1JtjHYTF3ApYauTX7N9pet2KgQdjpyQRA",
-                    "size": 610114,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Introduction to OOP.pdf",
-                    "type": "file",
-                    "fileId": "1zZSlv3_pMKf_hG7461brq9TziL1eMj07",
-                    "size": 1622072,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Chapter 9-Access Modifiers & Constructors",
-                "type": "folder",
-                "fileId": "",
-                "size": 2406835,
-                "children": [
-                  {
-                    "name": "Access Modifiers & Constructors.pdf",
-                    "type": "file",
-                    "fileId": "1fuaRvO8i9BtPokXdzJVkfa4GfAJkAwft",
-                    "size": 1706862,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Ch9PS.pdf",
-                    "type": "file",
-                    "fileId": "131MtbBfnrVGlkfrO2ow6jCKFnV2bXV6U",
-                    "size": 699973,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "UltimateJavaCheatSheet.pdf",
+                "name": "01 - ICSE Class 10 - Computer Applications - Class As The Basis Of All Computations - PYQ.pdf",
                 "type": "file",
-                "fileId": "1j1ANyXua9052qXJSDstAT8ESMHesbaOi",
-                "size": 609141,
+                "fileId": "18ODg7Qcc3FCht-nc-Nb3gD81GG_sIUjO",
+                "size": 2287086,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Computer Applications - User Defined Methods - PYQ.pdf",
+                "type": "file",
+                "fileId": "12jAIernQOWvNlFpjZURJlt-HIyaQTefv",
+                "size": 2319058,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Computer Applications - Constructors - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Cyg2P6jly2E-Xp8PFuEIcgANWEywqlEA",
+                "size": 1482680,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Computer Applications - Library Classes - PYQ.pdf",
+                "type": "file",
+                "fileId": "1TDFUu_cu4ctCfvPLWnBeZvhbbFfcrsNK",
+                "size": 2421527,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Computer Applications - Encapsulation - PYQ.pdf",
+                "type": "file",
+                "fileId": "1jpkYSdg_aoSpNzxsHiRbN1d7PBWjJBnN",
+                "size": 1479114,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Computer Applications - Arrays - PYQ.pdf",
+                "type": "file",
+                "fileId": "1tSURXt_SHh6aEoVmLMSJGfFk6IeyvaTm",
+                "size": 4654394,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Computer Applications - String Handling - PYQ.pdf",
+                "type": "file",
+                "fileId": "1UftEk57aaZ0b38Xogk1-UFcc5y0Ez6LG",
+                "size": 3074890,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Computer Applications - Revision - PYQ.pdf",
+                "type": "file",
+                "fileId": "1kEIBPRVpxDw_ARAZKfz6LRWnPx5Wb8sh",
+                "size": 2331899,
                 "addedAt": "2026-09-23"
               }
             ]
           },
           {
-            "name": "JAVA_Short_Notes.pdf",
-            "type": "file",
-            "fileId": "1ZtzGgGtxG2xizon-u9ySd2Weu0XnRJiH",
-            "size": 3582149,
-            "addedAt": "2026-09-23"
+            "name": "Notes",
+            "type": "folder",
+            "fileId": "",
+            "size": 115950795,
+            "children": [
+              {
+                "name": "Chapterwise Notes with Practice Questions",
+                "type": "folder",
+                "fileId": "",
+                "size": 40664865,
+                "children": [
+                  {
+                    "name": "Chapter 1-Variables and Datatypes",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 2013189,
+                    "children": [
+                      {
+                        "name": "JavaChapter1PracticeSet.pdf",
+                        "type": "file",
+                        "fileId": "1buFagrytZg-hHVDHh6FSdWOs7pR-AkAk",
+                        "size": 460021,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Variables and Datatypes.pdf",
+                        "type": "file",
+                        "fileId": "1SHe5pn2-FqS6CmPbLRkDxSzPENvE9pQ9",
+                        "size": 1553168,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 10-Inheritance",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 1961126,
+                    "children": [
+                      {
+                        "name": "Chapter10PracticeSet.pdf",
+                        "type": "file",
+                        "fileId": "1hTMGcy2e0Aoe7fxm6MPtg3kS-koXHKia",
+                        "size": 873799,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Inheritance.pdf",
+                        "type": "file",
+                        "fileId": "1f7PlMX6ETdFID97VNFOs8s654JnviweP",
+                        "size": 1087327,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 11-Abstract Classes",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 4602414,
+                    "children": [
+                      {
+                        "name": "Chapter11PS.pdf",
+                        "type": "file",
+                        "fileId": "1PmiEIhDj75dv4Pdd_9Nl7H1Kav7HJiud",
+                        "size": 800913,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Chapter_11_Abstract Classes.pdf",
+                        "type": "file",
+                        "fileId": "1hWGUFFJhbB4DhxgkVvPBMBK4lX1D2cnd",
+                        "size": 3801501,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 12-Packages in Java",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 3596959,
+                    "children": [
+                      {
+                        "name": "Ch12psJava.pdf",
+                        "type": "file",
+                        "fileId": "1ugwNfmWgK0-6RVHa4lug5uG0t6oz7pPh",
+                        "size": 892748,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Packages in Java.pdf",
+                        "type": "file",
+                        "fileId": "1TvU7mx5eHd0-eVFvf75aLIhsJt4XPYD3",
+                        "size": 2704211,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 13-Multithreading",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 2545810,
+                    "children": [
+                      {
+                        "name": "Chapter13PracticeSetJava.pdf",
+                        "type": "file",
+                        "fileId": "15GJrFhMxRcCIKcuQkpCWjgmVEapfBx5o",
+                        "size": 591658,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Multithreading.pdf",
+                        "type": "file",
+                        "fileId": "1wesjhwy6ZJPC1p5CC6DLhT4O4T_E1Iy5",
+                        "size": 1954152,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 14-Errors and Exceptions",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 4559329,
+                    "children": [
+                      {
+                        "name": "Ch14PS.pdf",
+                        "type": "file",
+                        "fileId": "1TazL9OPrQRRubfSPYhm7Ut8PIcO_CGn9",
+                        "size": 681665,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Errors & Exceptions.pdf",
+                        "type": "file",
+                        "fileId": "1vPVfQGmU3vkAL2fcalP60lT8XAUy93PN",
+                        "size": 3877664,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 15-Advanced Java",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 973679,
+                    "children": [
+                      {
+                        "name": "Advanced java.pdf",
+                        "type": "file",
+                        "fileId": "1JMzB2STU2DOP3aMuCU1reZtbjw5xU0Ml",
+                        "size": 973679,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 2-Operators & Expressions",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 1918703,
+                    "children": [
+                      {
+                        "name": "Ch2_Practice.pdf",
+                        "type": "file",
+                        "fileId": "1gpf44rF62H0iKDjv-ULacU_W2R_hM6Jh",
+                        "size": 424444,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Operators and Expressions.pdf",
+                        "type": "file",
+                        "fileId": "13GUR6v_HUSzIkQfPXwx0rbEJWX9xs-Tt",
+                        "size": 1494259,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 3-Strings",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 1991308,
+                    "children": [
+                      {
+                        "name": "Chapter 3 - Practice Set.pdf",
+                        "type": "file",
+                        "fileId": "1ZZiOHNqGp_QKIukjI9xXcMguBXpDjlVW",
+                        "size": 379227,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Chapter 3 - Strings.pdf",
+                        "type": "file",
+                        "fileId": "1U4-HgjjpPHzQZLHedR_pM9RHtaKQ8uh6",
+                        "size": 1612081,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 4-Conditional Statements",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 3272077,
+                    "children": [
+                      {
+                        "name": "Chapter 4 - Conditionals.pdf",
+                        "type": "file",
+                        "fileId": "1YyAQRj2CcqjR1rB8ld94I-jpjIKHuR65",
+                        "size": 2460158,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Chapter 4 - Practice Set.pdf",
+                        "type": "file",
+                        "fileId": "1Y-TmHzSMg4iXFCmH0sOTsUopqfgxM8Qn",
+                        "size": 811919,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 5-Loops",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 2328278,
+                    "children": [
+                      {
+                        "name": "Chapter_5 _Practice_Set.pdf",
+                        "type": "file",
+                        "fileId": "1kFK-qKhUaLhW1zPPHfXp66WAOzBlbDR6",
+                        "size": 798533,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Loops.pdf",
+                        "type": "file",
+                        "fileId": "1aJ73LxB6DOt-bwc57oL6_ErOeS9bRFQB",
+                        "size": 1529745,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 6-Arrays",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 2144455,
+                    "children": [
+                      {
+                        "name": "Chapter_6_Arrays.pdf",
+                        "type": "file",
+                        "fileId": "1nVzGx8dihj0reQirsIFpnF5MpfNxF5GM",
+                        "size": 1630499,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Chapter_6_Practice_Set.pdf",
+                        "type": "file",
+                        "fileId": "1wWKwkMU8UnZTgkQgVhJ_Dmf3Se0XtEIc",
+                        "size": 513956,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 7-Methods",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 3509376,
+                    "children": [
+                      {
+                        "name": "Chapter7_PracticeSet.pdf",
+                        "type": "file",
+                        "fileId": "1_ZsSxOzxI4S6S6GSCYUndOu5aG0PBmpD",
+                        "size": 1329432,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Methods.pdf",
+                        "type": "file",
+                        "fileId": "19Uy1E5nTebtRWYX0zv7BjCOX-1KL8XmR",
+                        "size": 2179944,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 8-Introduction to OOP",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 2232186,
+                    "children": [
+                      {
+                        "name": "Ch8_PS.pdf",
+                        "type": "file",
+                        "fileId": "1JtjHYTF3ApYauTX7N9pet2KgQdjpyQRA",
+                        "size": 610114,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Introduction to OOP.pdf",
+                        "type": "file",
+                        "fileId": "1zZSlv3_pMKf_hG7461brq9TziL1eMj07",
+                        "size": 1622072,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Chapter 9-Access Modifiers & Constructors",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 2406835,
+                    "children": [
+                      {
+                        "name": "Access Modifiers & Constructors.pdf",
+                        "type": "file",
+                        "fileId": "1fuaRvO8i9BtPokXdzJVkfa4GfAJkAwft",
+                        "size": 1706862,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Ch9PS.pdf",
+                        "type": "file",
+                        "fileId": "131MtbBfnrVGlkfrO2ow6jCKFnV2bXV6U",
+                        "size": 699973,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "UltimateJavaCheatSheet.pdf",
+                    "type": "file",
+                    "fileId": "1j1ANyXua9052qXJSDstAT8ESMHesbaOi",
+                    "size": 609141,
+                    "addedAt": "2026-09-23"
+                  }
+                ]
+              },
+              {
+                "name": "Computer - Notes.pdf",
+                "type": "file",
+                "fileId": "1Sl7D_8i69-bWFjqzWNbfF9YtEDG1Kn8X",
+                "size": 23185993,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Computer Appications - Notes.pdf",
+                "type": "file",
+                "fileId": "1GkcCQVSFh1SFIaJ2hdVqo-SjAi3OBS1V",
+                "size": 4938240,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Java_Complete_Notes.pdf",
+                "type": "file",
+                "fileId": "1kjEtANN1D-BIjyCjd0TTqc7Q3LsyTd16",
+                "size": 41107842,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "JAVA_Short_Notes.pdf",
+                "type": "file",
+                "fileId": "1ZtzGgGtxG2xizon-u9ySd2Weu0XnRJiH",
+                "size": 3582149,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Revision_Notes__Computer_Application.pdf",
+                "type": "file",
+                "fileId": "1bJcmwjQmcBw5_ny8DH8UzBhOSs5nmXj6",
+                "size": 2471706,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
-            "name": "Revision_Notes__Computer_Application.pdf",
-            "type": "file",
-            "fileId": "1bJcmwjQmcBw5_ny8DH8UzBhOSs5nmXj6",
-            "size": 2471706,
-            "addedAt": "2026-09-23"
+            "name": "Question Banks",
+            "type": "folder",
+            "fileId": "",
+            "size": 179022804,
+            "children": [
+              {
+                "name": "Computer Applications - MCQs.pdf",
+                "type": "file",
+                "fileId": "1SEJxQImoUhlwBcQQguyW-YfuGesa1zwX",
+                "size": 693066,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Computer Question Bank - Goyal.pdf",
+                "type": "file",
+                "fileId": "1pyoPcrFHuhYrjC8gfYQxl7h_lhrtCKgF",
+                "size": 12323010,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Computer Sample Papers - APC.pdf",
+                "type": "file",
+                "fileId": "1PkAfoPrRqboCNuatJD4_AyPIyHEJDsOx",
+                "size": 87329804,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Computer Sample Papers - Arihant.pdf",
+                "type": "file",
+                "fileId": "1ivyhi8DoDGmmR5Cj0AO-HSNKJsU2bhEc",
+                "size": 78676924,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
-            "name": "Sample Paper",
+            "name": "Sample Papers",
             "type": "folder",
             "fileId": "",
             "size": 27318638,
@@ -4785,111 +5110,171 @@
         "name": "English",
         "type": "folder",
         "fileId": "",
-        "size": 1414915463,
+        "size": 1379294387,
         "children": [
           {
             "name": "Language",
             "type": "folder",
             "fileId": "",
-            "size": 811393982,
+            "size": 790860004,
             "children": [
               {
-                "name": "100 Most Important Phrasal Verbs.pdf",
-                "type": "file",
-                "fileId": "1i3kTtGlpGKqzLjzUn7-FWze-yqrBjNIM",
-                "size": 21669,
-                "addedAt": "2026-09-23"
+                "name": "Books",
+                "type": "folder",
+                "fileId": "",
+                "size": 94271692,
+                "children": [
+                  {
+                    "name": "English Language - Wren and Martin.pdf",
+                    "type": "file",
+                    "fileId": "16QzXymyfdGH_8R_qYV9-eWzC8QI6dXQ0",
+                    "size": 18904118,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "Grammatically Yours.pdf",
+                    "type": "file",
+                    "fileId": "14M4Ne7DZmFsqmcpNvB_hPsmYcADgbi9z",
+                    "size": 72498287,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "Total English - Teacher_s Handbook.pdf",
+                    "type": "file",
+                    "fileId": "10uArK0-m366rfOQkH11J_9dfe_QSMs2x",
+                    "size": 2869287,
+                    "addedAt": "2026-09-23"
+                  }
+                ]
               },
               {
-                "name": "English Language - Catchy Titles for Notice - 1.pdf",
-                "type": "file",
-                "fileId": "11EzLe8n49jhi4Z9WAhqJBKWA0Ep_PXt0",
-                "size": 2746014,
-                "addedAt": "2026-09-23"
+                "name": "Notes and Guides",
+                "type": "folder",
+                "fileId": "",
+                "size": 641630387,
+                "children": [
+                  {
+                    "name": "100 Most Important Phrasal Verbs.pdf",
+                    "type": "file",
+                    "fileId": "1i3kTtGlpGKqzLjzUn7-FWze-yqrBjNIM",
+                    "size": 21669,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "Composition writing Guides",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 622634719,
+                    "children": [
+                      {
+                        "name": "English Language - Composition Writing Guide.pdf",
+                        "type": "file",
+                        "fileId": "1hpuLjTAa4AKsLSmiclCShRg0RiNfcgPq",
+                        "size": 1616156,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "SWS - Argumentative Writing.pdf",
+                        "type": "file",
+                        "fileId": "1Mm6UBGn0NdEab7WdQpRTwmG2nUdQP2F_",
+                        "size": 312166302,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "SWS - Descriptive Essays.pdf",
+                        "type": "file",
+                        "fileId": "1ubucjiOivmjJnuxzLLWZGqvzQw_-qDev",
+                        "size": 113445777,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "SWS - Narrative Essays.pdf",
+                        "type": "file",
+                        "fileId": "1ZtJIIFSQyxn2wr9M40y657-MRxAUniRb",
+                        "size": 191597501,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "SWS - Story Writing.pdf",
+                        "type": "file",
+                        "fileId": "1W6T8sNS1-1XxTmknJu0Wjx4A3MGe7yWQ",
+                        "size": 3808983,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "English Language - Catchy Titles for Notice.pdf",
+                    "type": "file",
+                    "fileId": "1YpVRo10DUePxJP1Ljhz70FkHn9j2ky4A",
+                    "size": 93569,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "English Language - Important Phrasal Verbs.pdf",
+                    "type": "file",
+                    "fileId": "1Aq1oeODeL7n1VJ4tqd7qGNhFQ10R1YO2",
+                    "size": 3831953,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "English Language - Letter Writing Guide.pdf",
+                    "type": "file",
+                    "fileId": "1pIfIcuyM5tz1Q9zQhrvKXrHkZWxqcZef",
+                    "size": 214756,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "English Language - Notes.pdf",
+                    "type": "file",
+                    "fileId": "1Gs4VFl_wTLryox5BQToNCpBJU8bt5w4W",
+                    "size": 12619632,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "English Language - Workshop.pdf",
+                    "type": "file",
+                    "fileId": "1YUJvCJlJEDWQHpEW_9ousHpWYzWAoshV",
+                    "size": 2214089,
+                    "addedAt": "2026-09-23"
+                  }
+                ]
               },
               {
-                "name": "English Language - Catchy Titles for Notice - 2.pdf",
-                "type": "file",
-                "fileId": "1YpVRo10DUePxJP1Ljhz70FkHn9j2ky4A",
-                "size": 93569,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Language - Composition Writing Guide.pdf",
-                "type": "file",
-                "fileId": "1hpuLjTAa4AKsLSmiclCShRg0RiNfcgPq",
-                "size": 1616156,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Language - Formats - 25-26.pdf",
-                "type": "file",
-                "fileId": "1ljpS1ULlQsYsm_QRhx1aCkwFPtXP0I0u",
-                "size": 17787964,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Language - Important Phrasal Verbs.pdf",
-                "type": "file",
-                "fileId": "1Aq1oeODeL7n1VJ4tqd7qGNhFQ10R1YO2",
-                "size": 3831953,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Language - Letter Writing Guide.pdf",
-                "type": "file",
-                "fileId": "1pIfIcuyM5tz1Q9zQhrvKXrHkZWxqcZef",
-                "size": 214756,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Language - Notes.pdf",
-                "type": "file",
-                "fileId": "1Gs4VFl_wTLryox5BQToNCpBJU8bt5w4W",
-                "size": 12619632,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Language - Workshop.pdf",
-                "type": "file",
-                "fileId": "1YUJvCJlJEDWQHpEW_9ousHpWYzWAoshV",
-                "size": 2214089,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Language - Wren and Martin.pdf",
-                "type": "file",
-                "fileId": "16QzXymyfdGH_8R_qYV9-eWzC8QI6dXQ0",
-                "size": 18904118,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Language Question Bank - Goyal.pdf",
-                "type": "file",
-                "fileId": "1pxjOdTLP7InAIBGAq-KDuue1XrPKarqR",
-                "size": 14531525,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "Phrasal Verbs - Practice Set.pdf",
-                "type": "file",
-                "fileId": "1tPI5HL9P7u6k3lbn2vWTpS_sclrqntLJ",
-                "size": 1545730,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "Phrasal Verbs.pdf",
-                "type": "file",
-                "fileId": "184hw3NH9Gg75iuDsu80orVU8G846ziC4",
-                "size": 10001554,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "Prepositions-Practice.pdf",
-                "type": "file",
-                "fileId": "1I0_X40lQLKEaEoWWGBwL_Z0sxz5Ycugj",
-                "size": 2058399,
-                "addedAt": "2026-09-23"
+                "name": "Question Banks & Practice Sets",
+                "type": "folder",
+                "fileId": "",
+                "size": 28137208,
+                "children": [
+                  {
+                    "name": "English Language Question Bank - Goyal.pdf",
+                    "type": "file",
+                    "fileId": "1pxjOdTLP7InAIBGAq-KDuue1XrPKarqR",
+                    "size": 14531525,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "Phrasal Verbs - Practice Set.pdf",
+                    "type": "file",
+                    "fileId": "1tPI5HL9P7u6k3lbn2vWTpS_sclrqntLJ",
+                    "size": 1545730,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "Phrasal Verbs.pdf",
+                    "type": "file",
+                    "fileId": "184hw3NH9Gg75iuDsu80orVU8G846ziC4",
+                    "size": 10001554,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "Prepositions-Practice.pdf",
+                    "type": "file",
+                    "fileId": "1I0_X40lQLKEaEoWWGBwL_Z0sxz5Ycugj",
+                    "size": 2058399,
+                    "addedAt": "2026-09-23"
+                  }
+                ]
               },
               {
                 "name": "Sample Papers",
@@ -5057,51 +5442,8 @@
                 "name": "Study With Sudhir - Resources",
                 "type": "folder",
                 "fileId": "",
-                "size": 693516850,
-                "children": [
-                  {
-                    "name": "Grammatically Yours.pdf",
-                    "type": "file",
-                    "fileId": "14M4Ne7DZmFsqmcpNvB_hPsmYcADgbi9z",
-                    "size": 72498287,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "SWS - Argumentative Writing.pdf",
-                    "type": "file",
-                    "fileId": "1Mm6UBGn0NdEab7WdQpRTwmG2nUdQP2F_",
-                    "size": 312166302,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "SWS - Descriptive Essays.pdf",
-                    "type": "file",
-                    "fileId": "1ubucjiOivmjJnuxzLLWZGqvzQw_-qDev",
-                    "size": 113445777,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "SWS - Narrative Essays.pdf",
-                    "type": "file",
-                    "fileId": "1ZtJIIFSQyxn2wr9M40y657-MRxAUniRb",
-                    "size": 191597501,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "SWS - Story Writing.pdf",
-                    "type": "file",
-                    "fileId": "1W6T8sNS1-1XxTmknJu0Wjx4A3MGe7yWQ",
-                    "size": 3808983,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Total English - Teacher_s Handbook.pdf",
-                "type": "file",
-                "fileId": "10uArK0-m366rfOQkH11J_9dfe_QSMs2x",
-                "size": 2869287,
-                "addedAt": "2026-09-23"
+                "size": 0,
+                "children": []
               }
             ]
           },
@@ -5109,50 +5451,8 @@
             "name": "Literature",
             "type": "folder",
             "fileId": "",
-            "size": 603521481,
+            "size": 588434383,
             "children": [
-              {
-                "name": "English - Literary Terms and Devices - Quick Reference.pdf",
-                "type": "file",
-                "fileId": "1hCrhGOshnVtYKf8bgF5ow-dXkiaosg_l",
-                "size": 4548641,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Literature - Chapterwise Study Guide.pdf",
-                "type": "file",
-                "fileId": "1TanZDMAGPtBRxM1NVBbX29rWGn34w96u",
-                "size": 733406,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Literature - Command Words.pdf",
-                "type": "file",
-                "fileId": "14jPochlVuiU-DDab_PIZoWWW6eOpMTH_",
-                "size": 28129,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Literature - Model Test Papers - Frank.pdf",
-                "type": "file",
-                "fileId": "1Qw95tub669_67j0KMCEp0F3uLFEz73PT",
-                "size": 56377984,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Literature - Self-Help by Arun Deep.pdf",
-                "type": "file",
-                "fileId": "1ezLaaFeom1bIJMS2rJdAVsqQ2VtULo_m",
-                "size": 30606596,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Literature CBQs - Clarify Knowledge.pdf",
-                "type": "file",
-                "fileId": "1mGYuP90p96Cb2OC1GZ_CAZGcLCuxgC0p",
-                "size": 25746171,
-                "addedAt": "2026-09-23"
-              },
               {
                 "name": "English Literature Revision notes.pdf",
                 "type": "file",
@@ -5161,30 +5461,16 @@
                 "addedAt": "2026-09-23"
               },
               {
-                "name": "English Literature Sample Papers - Arihant.pdf",
-                "type": "file",
-                "fileId": "195mgV8wePGSP3WSivv0HRC67INyvn_I6",
-                "size": 53926283,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "English Literature Sample Papers - Frank.pdf",
-                "type": "file",
-                "fileId": "1_rh0DSAJQrqlU4D9nBYWFUsQg0GEG77c",
-                "size": 56339249,
-                "addedAt": "2026-09-23"
-              },
-              {
                 "name": "Julius Caesar",
                 "type": "folder",
                 "fileId": "",
-                "size": 277943205,
+                "size": 284425281,
                 "children": [
                   {
                     "name": "ACT - III",
                     "type": "folder",
                     "fileId": "",
-                    "size": 10691590,
+                    "size": 11584788,
                     "children": [
                       {
                         "name": "SCENE - I",
@@ -5233,7 +5519,7 @@
                         "name": "SCENE - II",
                         "type": "folder",
                         "fileId": "",
-                        "size": 1893784,
+                        "size": 2466423,
                         "children": [
                           {
                             "name": "Act - III, Scene - II - Brief.pdf",
@@ -5262,6 +5548,13 @@
                             "fileId": "1byDz6m2nilDv0s7EIXcGIVf0AO7yA_3J",
                             "size": 78208,
                             "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "Act 3 scene 2 MCQs.pdf",
+                            "type": "file",
+                            "fileId": "1zCtzroOnDhbdrmJv8vMhbyzfsjMDXisa",
+                            "size": 572639,
+                            "addedAt": "2026-09-23"
                           }
                         ]
                       },
@@ -5269,7 +5562,7 @@
                         "name": "SCENE - III",
                         "type": "folder",
                         "fileId": "",
-                        "size": 3493312,
+                        "size": 3813871,
                         "children": [
                           {
                             "name": "Act - III, Scene - III - Brief.pdf",
@@ -5305,6 +5598,13 @@
                             "fileId": "1t-HJ4Y21t_Yv2Tjy2PnK5CZEt5GyBX6U",
                             "size": 222036,
                             "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "Act 3 scene 3 MCQs.pdf",
+                            "type": "file",
+                            "fileId": "16gb2Az7Z3O6fJ_l08k3UIFV2CNVHNnV1",
+                            "size": 320559,
+                            "addedAt": "2026-09-23"
                           }
                         ]
                       }
@@ -5314,8 +5614,15 @@
                     "name": "ACT - IV",
                     "type": "folder",
                     "fileId": "",
-                    "size": 6869313,
+                    "size": 7439992,
                     "children": [
+                      {
+                        "name": "Act 4 scene 1 & 2 MCQs",
+                        "type": "file",
+                        "fileId": "1JecCW5ln1YVI1VKSuaLzZ_-zwFhSy3o4",
+                        "size": 570679,
+                        "addedAt": "2026-09-23"
+                      },
                       {
                         "name": "SCENE - I",
                         "type": "folder",
@@ -5408,8 +5715,15 @@
                     "name": "ACT - V",
                     "type": "folder",
                     "fileId": "",
-                    "size": 28211373,
+                    "size": 33229572,
                     "children": [
+                      {
+                        "name": "Act 5 MCQs.pdf",
+                        "type": "file",
+                        "fileId": "1EWOHOWZkJjNpkNZeUenJHjKiuICS06R7",
+                        "size": 1345450,
+                        "addedAt": "2026-09-23"
+                      },
                       {
                         "name": "SCENE - I",
                         "type": "folder",
@@ -5536,7 +5850,7 @@
                         "name": "SCENE - IV",
                         "type": "folder",
                         "fileId": "",
-                        "size": 3909995,
+                        "size": 5706477,
                         "children": [
                           {
                             "name": "Act - V, Scene - IV - Brief.pdf",
@@ -5572,6 +5886,13 @@
                             "fileId": "1fifoJ4C18IBcLZDYDVpjeYZB99UE0mS6",
                             "size": 222299,
                             "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "ACT_IV_QnA.pdf",
+                            "type": "file",
+                            "fileId": "1IK41oRkDBUoOghcBPfritkHUqRBmBNpq",
+                            "size": 1796482,
+                            "addedAt": "2026-09-23"
                           }
                         ]
                       },
@@ -5579,7 +5900,7 @@
                         "name": "SCENE - V",
                         "type": "folder",
                         "fileId": "",
-                        "size": 8694801,
+                        "size": 10571068,
                         "children": [
                           {
                             "name": "Act - V, Scene - V - Brief.pdf",
@@ -5614,6 +5935,13 @@
                             "type": "file",
                             "fileId": "1E_19PgyARWlMQ91gl3Cz0t3eyHmnzt_g",
                             "size": 359345,
+                            "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "ACT_V_QnA.pdf",
+                            "type": "file",
+                            "fileId": "1T4MsIPsRDzPskuObEH374VouLYrXxMSM",
+                            "size": 1876267,
                             "addedAt": "2026-09-23"
                           }
                         ]
@@ -5702,6 +6030,49 @@
                     "type": "file",
                     "fileId": "1km_7HV4Ntk10omIiN4RMbj8IDLMB8_dV",
                     "size": 11622317,
+                    "addedAt": "2026-09-23"
+                  }
+                ]
+              },
+              {
+                "name": "Question banks",
+                "type": "folder",
+                "fileId": "",
+                "size": 222996283,
+                "children": [
+                  {
+                    "name": "English Literature - Model Test Papers - Frank.pdf",
+                    "type": "file",
+                    "fileId": "1Qw95tub669_67j0KMCEp0F3uLFEz73PT",
+                    "size": 56377984,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "English Literature - Self-Help by Arun Deep.pdf",
+                    "type": "file",
+                    "fileId": "1ezLaaFeom1bIJMS2rJdAVsqQ2VtULo_m",
+                    "size": 30606596,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "English Literature CBQs - Clarify Knowledge.pdf",
+                    "type": "file",
+                    "fileId": "1mGYuP90p96Cb2OC1GZ_CAZGcLCuxgC0p",
+                    "size": 25746171,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "English Literature Sample Papers - Arihant.pdf",
+                    "type": "file",
+                    "fileId": "195mgV8wePGSP3WSivv0HRC67INyvn_I6",
+                    "size": 53926283,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "English Literature Sample Papers - Frank.pdf",
+                    "type": "file",
+                    "fileId": "1_rh0DSAJQrqlU4D9nBYWFUsQg0GEG77c",
+                    "size": 56339249,
                     "addedAt": "2026-09-23"
                   }
                 ]
@@ -5813,190 +6184,43 @@
                 ]
               },
               {
-                "name": "Study With Sudhir - Resources",
-                "type": "folder",
-                "fileId": "",
-                "size": 18095163,
-                "children": [
-                  {
-                    "name": "Julius Caesar",
-                    "type": "folder",
-                    "fileId": "",
-                    "size": 6482076,
-                    "children": [
-                      {
-                        "name": "MCQs",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 2809327,
-                        "children": [
-                          {
-                            "name": "ACT_3_SC_2.pdf",
-                            "type": "file",
-                            "fileId": "1zCtzroOnDhbdrmJv8vMhbyzfsjMDXisa",
-                            "size": 572639,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "ACT_3_SC_3.pdf",
-                            "type": "file",
-                            "fileId": "16gb2Az7Z3O6fJ_l08k3UIFV2CNVHNnV1",
-                            "size": 320559,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "ACT_4_SC_1_2.pdf",
-                            "type": "file",
-                            "fileId": "1JecCW5ln1YVI1VKSuaLzZ_-zwFhSy3o4",
-                            "size": 570679,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "ACT_5.pdf",
-                            "type": "file",
-                            "fileId": "1EWOHOWZkJjNpkNZeUenJHjKiuICS06R7",
-                            "size": 1345450,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "QnA",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 3672749,
-                        "children": [
-                          {
-                            "name": "ACT_IV_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1IK41oRkDBUoOghcBPfritkHUqRBmBNpq",
-                            "size": 1796482,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "ACT_V_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1T4MsIPsRDzPskuObEH374VouLYrXxMSM",
-                            "size": 1876267,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "name": "Treasure Chest",
-                    "type": "folder",
-                    "fileId": "",
-                    "size": 11613087,
-                    "children": [
-                      {
-                        "name": "Chapter-wise Notes.pdf",
-                        "type": "file",
-                        "fileId": "1QhN6YVxklkPwVBkdObjnJr3bXRYLC_0Z",
-                        "size": 5335894,
-                        "addedAt": "2026-09-23"
-                      },
-                      {
-                        "name": "MCQs",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 3342090,
-                        "children": [
-                          {
-                            "name": "CONSIDERABLE_SPECK.pdf",
-                            "type": "file",
-                            "fileId": "1cdOok0xzVLhg5Mi4E86Hv1g-FbauTQCB",
-                            "size": 475580,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_ELEVATOR.pdf",
-                            "type": "file",
-                            "fileId": "1ByvHG7Oe9HtuD83_0lrNwvdsR4bd_SAU",
-                            "size": 862666,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_GIRL_WHO_CAN.pdf",
-                            "type": "file",
-                            "fileId": "1NYef0NJT8LPcm2pa9YfmnpulIBA61QLX",
-                            "size": 666092,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_PEDESTRIAN.pdf",
-                            "type": "file",
-                            "fileId": "1d25vgyqOhlwuXK3o6TAI83tnQqFoPt79",
-                            "size": 759699,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "WHEN_GREAT_TREES_FALL.pdf",
-                            "type": "file",
-                            "fileId": "1H26AZ7FhN0AyB_sQQfCDhL-GLV6v3dIY",
-                            "size": 578053,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "QnA",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 2935103,
-                        "children": [
-                          {
-                            "name": "CONSIDERABLE_SPECK_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1V_Z_Jb-XOWI6vAAOHTYQ7uZP8L6cg0Ud",
-                            "size": 765950,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_GIRL_WHO_CAN_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1QG3E2IHgl6zOSp4uzriLJQi7l0TxdBkC",
-                            "size": 737644,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_GLOVE_AND_THE_LIONS_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1ZurWPALEcmJvy7su1tQlbsZPkE9eN7q-",
-                            "size": 648087,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_LAST_LESSON_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1A-ry31CheLybHIFavVNTkb1xNgdgqjLV",
-                            "size": 783422,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
                 "name": "Treasure Chest",
                 "type": "folder",
                 "fileId": "",
-                "size": 62201907,
+                "size": 64038072,
                 "children": [
+                  {
+                    "name": "Chapter-wise Notes.pdf",
+                    "type": "file",
+                    "fileId": "1QhN6YVxklkPwVBkdObjnJr3bXRYLC_0Z",
+                    "size": 5335894,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "English - Literary Terms and Devices - Quick Reference.pdf",
+                    "type": "file",
+                    "fileId": "1hCrhGOshnVtYKf8bgF5ow-dXkiaosg_l",
+                    "size": 4548641,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "English Literature - Chapterwise Study Guide.pdf",
+                    "type": "file",
+                    "fileId": "1TanZDMAGPtBRxM1NVBbX29rWGn34w96u",
+                    "size": 733406,
+                    "addedAt": "2026-09-23"
+                  },
                   {
                     "name": "Poems",
                     "type": "folder",
                     "fileId": "",
-                    "size": 16574884,
+                    "size": 19042554,
                     "children": [
                       {
                         "name": "A Considerable Speck",
                         "type": "folder",
                         "fileId": "",
-                        "size": 1974236,
+                        "size": 3215766,
                         "children": [
                           {
                             "name": "A Considerable Speck - Explaination.pdf",
@@ -6017,6 +6241,20 @@
                             "type": "file",
                             "fileId": "1LsGynpCucKQz0QUL1auzpaefsQg6BEKQ",
                             "size": 203746,
+                            "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "CONSIDERABLE_SPECK_MCQs.pdf",
+                            "type": "file",
+                            "fileId": "1cdOok0xzVLhg5Mi4E86Hv1g-FbauTQCB",
+                            "size": 475580,
+                            "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "CONSIDERABLE_SPECK_QnA.pdf",
+                            "type": "file",
+                            "fileId": "1V_Z_Jb-XOWI6vAAOHTYQ7uZP8L6cg0Ud",
+                            "size": 765950,
                             "addedAt": "2026-09-23"
                           }
                         ]
@@ -6047,7 +6285,7 @@
                         "name": "The Glove and the Lions",
                         "type": "folder",
                         "fileId": "",
-                        "size": 864784,
+                        "size": 1512871,
                         "children": [
                           {
                             "name": "The Glove and the Lions - Brief.pdf",
@@ -6075,6 +6313,13 @@
                             "type": "file",
                             "fileId": "1wKIpbPEsxdn12ISCZ7aMUD_ilmnbQGgT",
                             "size": 64603,
+                            "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "THE_GLOVE_AND_THE_LIONS_QnA.pdf",
+                            "type": "file",
+                            "fileId": "1ZurWPALEcmJvy7su1tQlbsZPkE9eN7q-",
+                            "size": 648087,
                             "addedAt": "2026-09-23"
                           }
                         ]
@@ -6105,7 +6350,7 @@
                         "name": "When Great Trees Fall",
                         "type": "folder",
                         "fileId": "",
-                        "size": 11882850,
+                        "size": 12460903,
                         "children": [
                           {
                             "name": "When Great Trees Fall - Analysis.pdf",
@@ -6141,6 +6386,13 @@
                             "fileId": "1jqM9Qp4J_pWT5Fe-Gw7dN7lp_ftfTjYi",
                             "size": 2104201,
                             "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "WHEN_GREAT_TREES_FALL_MCQs.pdf",
+                            "type": "file",
+                            "fileId": "1H26AZ7FhN0AyB_sQQfCDhL-GLV6v3dIY",
+                            "size": 578053,
+                            "addedAt": "2026-09-23"
                           }
                         ]
                       }
@@ -6150,13 +6402,13 @@
                     "name": "Stories",
                     "type": "folder",
                     "fileId": "",
-                    "size": 22843517,
+                    "size": 26653040,
                     "children": [
                       {
                         "name": "The Elevator",
                         "type": "folder",
                         "fileId": "",
-                        "size": 1035725,
+                        "size": 1898391,
                         "children": [
                           {
                             "name": "The Elevator - Brief.pdf",
@@ -6192,6 +6444,13 @@
                             "fileId": "1b3v880z_g9ookt-CTRVNKBqiEisf00hl",
                             "size": 65191,
                             "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "THE_ELEVATOR_MCQs.pdf",
+                            "type": "file",
+                            "fileId": "1ByvHG7Oe9HtuD83_0lrNwvdsR4bd_SAU",
+                            "size": 862666,
+                            "addedAt": "2026-09-23"
                           }
                         ]
                       },
@@ -6199,7 +6458,7 @@
                         "name": "The Girl Who Can",
                         "type": "folder",
                         "fileId": "",
-                        "size": 4347458,
+                        "size": 5751194,
                         "children": [
                           {
                             "name": "The Girl Who Can - Brief.pdf",
@@ -6228,6 +6487,20 @@
                             "fileId": "13u1SRymFWg5FEMk6TArdh8tDBGDCt0RJ",
                             "size": 278448,
                             "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "THE_GIRL_WHO_CAN_MCQs.pdf",
+                            "type": "file",
+                            "fileId": "1NYef0NJT8LPcm2pa9YfmnpulIBA61QLX",
+                            "size": 666092,
+                            "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "THE_GIRL_WHO_CAN_QnA.pdf",
+                            "type": "file",
+                            "fileId": "1QG3E2IHgl6zOSp4uzriLJQi7l0TxdBkC",
+                            "size": 737644,
+                            "addedAt": "2026-09-23"
                           }
                         ]
                       },
@@ -6235,7 +6508,7 @@
                         "name": "The Last Lesson",
                         "type": "folder",
                         "fileId": "",
-                        "size": 4650956,
+                        "size": 5434378,
                         "children": [
                           {
                             "name": "The Last Lesson - Brief.pdf",
@@ -6264,6 +6537,13 @@
                             "fileId": "1zpZ_OnNqwSSOZUcnoCoG-ziD9s4uebyH",
                             "size": 449597,
                             "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "THE_LAST_LESSON_QnA.pdf",
+                            "type": "file",
+                            "fileId": "1A-ry31CheLybHIFavVNTkb1xNgdgqjLV",
+                            "size": 783422,
+                            "addedAt": "2026-09-23"
                           }
                         ]
                       },
@@ -6271,7 +6551,7 @@
                         "name": "The Pedestrian",
                         "type": "folder",
                         "fileId": "",
-                        "size": 6046719,
+                        "size": 6806418,
                         "children": [
                           {
                             "name": "The Pedestrian - Brief.pdf",
@@ -6306,6 +6586,13 @@
                             "type": "file",
                             "fileId": "1pu7DcEkOvc6ufJPda5XjPIcuf0KyXFeD",
                             "size": 324812,
+                            "addedAt": "2026-09-23"
+                          },
+                          {
+                            "name": "THE_PEDESTRIAN_MCQs.pdf",
+                            "type": "file",
+                            "fileId": "1d25vgyqOhlwuXK3o6TAI83tnQqFoPt79",
+                            "size": 759699,
                             "addedAt": "2026-09-23"
                           }
                         ]
@@ -6349,13 +6636,6 @@
                     ]
                   },
                   {
-                    "name": "Treasure Chest - Self-Help by Arun Deep.pdf",
-                    "type": "file",
-                    "fileId": "1qLQshe_RkkBNMU3q46et6YdSrNKOQcqp",
-                    "size": 15058969,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
                     "name": "Treasure Chest - Summary Notes.pdf",
                     "type": "file",
                     "fileId": "1aAmRIIjbrQbrHnP4s0h6ugZ95xBQe2ZG",
@@ -6379,111 +6659,112 @@
         "name": "Geography",
         "type": "folder",
         "fileId": "",
-        "size": 198858634,
+        "size": 241690044,
         "children": [
           {
-            "name": "Climate of India Notes.pdf",
-            "type": "file",
-            "fileId": "1WWZ07NuVeVVQuMjKroD6V6UQC4iMcDOV",
-            "size": 974917,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography -  Map Marking + Indirect Questions.pdf",
-            "type": "file",
-            "fileId": "17LRCvpJgfAUFAO9nZLlIeQZhehfuA7lJ",
-            "size": 24039759,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography - Indirect Questions for Maps.pdf",
-            "type": "file",
-            "fileId": "1QzarvoQz4k9j86stvBF0q8n-n_MCBzp5",
-            "size": 2729589,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography - Map of India.pdf",
-            "type": "file",
-            "fileId": "1oOFU5TJzKk4RdQ_mHt-H-wSx3wSZDE3b",
-            "size": 396740,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography - Maps - Pointed.pdf",
-            "type": "file",
-            "fileId": "1fYrtxxl1lFjOh7elOsks2ninbqI4AIJ-",
-            "size": 2818276,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography - MCQs by Team of ICSE Teachers.pdf",
-            "type": "file",
-            "fileId": "1kHAQoDwdnBUystbJTMqleuJSbzzkr85a",
-            "size": 13403849,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography - MCQs of All Schools.pdf",
-            "type": "file",
-            "fileId": "1KiwJMP8m-5XHJSGCtkBPAh1thxyoK7P0",
-            "size": 5509010,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography - Previous Year Maps Solved by Council.pdf",
-            "type": "file",
-            "fileId": "12jyYbd8duV4ZihvroEnl4H54E355okkf",
-            "size": 1281594,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography - Revision Notes.pdf",
-            "type": "file",
-            "fileId": "1OJYIsV-X9JxlqEmGlTqfVpdutG1wSIQC",
-            "size": 2476233,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography - Self-Help by Arun Deep.pdf",
-            "type": "file",
-            "fileId": "1BSfqEmgXYHgfcI85NhArTDbpGWdU0uB-",
-            "size": 7121786,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography - Suggestive Questions.pdf",
-            "type": "file",
-            "fileId": "153uJdtfv_nWsxhactGX8nrvJfhmf8kdI",
-            "size": 8828245,
-            "addedAt": "2026-09-23"
+            "name": "Chapterwise PYQs",
+            "type": "folder",
+            "fileId": "",
+            "size": 46046426,
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Geography - Interpretation Of Topographical Maps - PYQ.pdf",
+                "type": "file",
+                "fileId": "1s27Iqv1rpHJoSA2FZruV_izd61iS3p9S",
+                "size": 2817572,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Geography - Map Of India - PYQ.pdf",
+                "type": "file",
+                "fileId": "1y9mEQcMndtfp2LyY6jjei3jucMBko7c6",
+                "size": 1628245,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Geography - Location Extent And Physical Features - PYQ.pdf",
+                "type": "file",
+                "fileId": "1SU5w051JQ3Sm0TwKMPYhR80H8-E5VWd9",
+                "size": 2648632,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Geography - Climate - PYQ.pdf",
+                "type": "file",
+                "fileId": "1EG9H7bAWAzPwciqM7Pm0cyv5kqvORQ2Q",
+                "size": 4982403,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Geography - Soil Resources - PYQ.pdf",
+                "type": "file",
+                "fileId": "12xvMUqhahovaQHZpHCjJPRaLMocNGB-c",
+                "size": 4804826,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Geography - Natural Vegetation - PYQ.pdf",
+                "type": "file",
+                "fileId": "1ZpsO4HPoaiBYgacUN92gVViBIwuNu7eU",
+                "size": 2189219,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Geography - Water Resources - PYQ.pdf",
+                "type": "file",
+                "fileId": "1zsyDOslFgo1kjZuz6M9GPqlGX27KFFUI",
+                "size": 4563926,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Geography - Mineral Resources - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Bw1xpmkbKd5Rp1yO5JYnfxdVSETQEz1x",
+                "size": 2204897,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "09 - ICSE Class 10 - Geography - Energy Resources - PYQ.pdf",
+                "type": "file",
+                "fileId": "1OZcFdQzhBo4zKk0LBbTYFP9-XrvjG2kS",
+                "size": 4027659,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "10 - ICSE Class 10 - Geography - Agriculture - PYQ.pdf",
+                "type": "file",
+                "fileId": "12D8AGIHsLcAyGKVGvIC2UvYHbitX6edB",
+                "size": 5131625,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "11 - ICSE Class 10 - Geography - Manufacturing Industries - PYQ.pdf",
+                "type": "file",
+                "fileId": "1RVzLlaGGFy9ENyRPFsS_Vk2F3Wzh7E8n",
+                "size": 3615873,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "12 - ICSE Class 10 - Geography - Transport - PYQ.pdf",
+                "type": "file",
+                "fileId": "1rhNFqC-3XhnsmOsWJb8qdYZhBAanFGPu",
+                "size": 3611359,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "13 - ICSE Class 10 - Geography - Waste Management - PYQ.pdf",
+                "type": "file",
+                "fileId": "1vh9oNvCwhecp1eC5UZqPmR6q6ijuqZeF",
+                "size": 3820190,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
             "name": "Geography - Teacher_s Handbook.pdf",
             "type": "file",
             "fileId": "11NJBvi54TGm-G2mXl_-5MOuiXxOgDFd2",
             "size": 7689115,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography - Terms Related to Toposheet.pdf",
-            "type": "file",
-            "fileId": "16cuwJkf4-U3_ypAyck9tsVrnaDLgCcTC",
-            "size": 1367648,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography Notes and mind maps.pdf",
-            "type": "file",
-            "fileId": "11qjf31Fbm0HQVuKQxRmtX7D997-6KE9w",
-            "size": 29247663,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography Question Bank - Oswal.pdf",
-            "type": "file",
-            "fileId": "1ENuY7XJCXyrBsiWlWRcHoaceShDypfVk",
-            "size": 48745850,
             "addedAt": "2026-09-23"
           },
           {
@@ -6494,11 +6775,118 @@
             "addedAt": "2026-09-23"
           },
           {
-            "name": "Natural Vegetation of India Notes.pdf",
-            "type": "file",
-            "fileId": "19BqetY2kELqhjLUc1XCyD2EJZ1JnAnuG",
-            "size": 1163356,
-            "addedAt": "2026-09-23"
+            "name": "Notes",
+            "type": "folder",
+            "fileId": "",
+            "size": 36164097,
+            "children": [
+              {
+                "name": "Climate of India Notes.pdf",
+                "type": "file",
+                "fileId": "1WWZ07NuVeVVQuMjKroD6V6UQC4iMcDOV",
+                "size": 974917,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography - Revision Notes.pdf",
+                "type": "file",
+                "fileId": "1OJYIsV-X9JxlqEmGlTqfVpdutG1wSIQC",
+                "size": 2476233,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography - Terms Related to Toposheet.pdf",
+                "type": "file",
+                "fileId": "16cuwJkf4-U3_ypAyck9tsVrnaDLgCcTC",
+                "size": 1367648,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography Notes and mind maps.pdf",
+                "type": "file",
+                "fileId": "11qjf31Fbm0HQVuKQxRmtX7D997-6KE9w",
+                "size": 29247663,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Natural Vegetation of India Notes.pdf",
+                "type": "file",
+                "fileId": "19BqetY2kELqhjLUc1XCyD2EJZ1JnAnuG",
+                "size": 1163356,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Soils in India Notes.pdf",
+                "type": "file",
+                "fileId": "1OLLQwsZve7sYCF0-KKzbl9SrRAAoNt7c",
+                "size": 934280,
+                "addedAt": "2026-09-23"
+              }
+            ]
+          },
+          {
+            "name": "Question Banks",
+            "type": "folder",
+            "fileId": "",
+            "size": 111659682,
+            "children": [
+              {
+                "name": "Geography -  Map Marking + Indirect Questions.pdf",
+                "type": "file",
+                "fileId": "17LRCvpJgfAUFAO9nZLlIeQZhehfuA7lJ",
+                "size": 24039759,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography - Indirect Questions for Maps.pdf",
+                "type": "file",
+                "fileId": "1QzarvoQz4k9j86stvBF0q8n-n_MCBzp5",
+                "size": 2729589,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography - MCQs by Team of ICSE Teachers.pdf",
+                "type": "file",
+                "fileId": "1kHAQoDwdnBUystbJTMqleuJSbzzkr85a",
+                "size": 13403849,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography - MCQs of All Schools.pdf",
+                "type": "file",
+                "fileId": "1KiwJMP8m-5XHJSGCtkBPAh1thxyoK7P0",
+                "size": 5509010,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography - Previous Year Maps Solved by Council.pdf",
+                "type": "file",
+                "fileId": "12jyYbd8duV4ZihvroEnl4H54E355okkf",
+                "size": 1281594,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography - Self-Help by Arun Deep.pdf",
+                "type": "file",
+                "fileId": "1BSfqEmgXYHgfcI85NhArTDbpGWdU0uB-",
+                "size": 7121786,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography - Suggestive Questions.pdf",
+                "type": "file",
+                "fileId": "153uJdtfv_nWsxhactGX8nrvJfhmf8kdI",
+                "size": 8828245,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography Question Bank - Oswal.pdf",
+                "type": "file",
+                "fileId": "1ENuY7XJCXyrBsiWlWRcHoaceShDypfVk",
+                "size": 48745850,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
             "name": "Sample Papers",
@@ -6668,13 +7056,6 @@
                 "addedAt": "2026-09-23"
               }
             ]
-          },
-          {
-            "name": "Soils in India Notes.pdf",
-            "type": "file",
-            "fileId": "1OLLQwsZve7sYCF0-KKzbl9SrRAAoNt7c",
-            "size": 934280,
-            "addedAt": "2026-09-23"
           }
         ]
       },
@@ -6718,120 +7099,270 @@
         "name": "History & Civics",
         "type": "folder",
         "fileId": "",
-        "size": 211156094,
+        "size": 252889147,
         "children": [
           {
-            "name": "Chapterwise notes",
+            "name": "Chapterwise PYQs",
             "type": "folder",
             "fileId": "",
-            "size": 19969859,
+            "size": 27017048,
             "children": [
               {
-                "name": "Growth of Nationalism Notes.pdf",
+                "name": "01 - ICSE Class 10 - History and Civics - The Union Legislature - PYQ.pdf",
                 "type": "file",
-                "fileId": "1_YYNuefSI3Tdv6WZOy-cXgt0cEFzpz_E",
-                "size": 1204786,
+                "fileId": "1ZMQV9QVr7pVtUN7_O2hyBM5UOfGVBJ2T",
+                "size": 1767790,
                 "addedAt": "2026-09-23"
               },
               {
-                "name": "History & Civics - Notes.pdf",
+                "name": "02 - ICSE Class 10 - History and Civics - President And Vice President - PYQ.pdf",
                 "type": "file",
-                "fileId": "1BHfsEYUoIJ3_-oXoAv5ZYia8xBuC9TYj",
-                "size": 14716004,
+                "fileId": "1w7KzCt6v-w1oBjZUSYeZTLvJwkGqZzXZ",
+                "size": 1035045,
                 "addedAt": "2026-09-23"
               },
               {
-                "name": "Programmes and Acievements of the Early Nationalists Notes.pdf",
+                "name": "03 - ICSE Class 10 - History and Civics - Prime Minister And Council Of Ministers - PYQ.pdf",
                 "type": "file",
-                "fileId": "1t7BmroBBLRbsUfR-E3DxyshZbUbS7MUq",
-                "size": 872378,
+                "fileId": "15JXIoUMnOnWbg7IjDHyQvwpIIxSiPEbr",
+                "size": 1013606,
                 "addedAt": "2026-09-23"
               },
               {
-                "name": "The First War of Independence Notes.pdf",
+                "name": "04 - ICSE Class 10 - History and Civics - The Supreme Court - PYQ.pdf",
                 "type": "file",
-                "fileId": "1_8XLd4-S7t2LvspJ1bjmWnasyo7MCpfE",
-                "size": 1203258,
+                "fileId": "1p2G3iGaw2Y_9L3DJ9bPHbQxfLqBHBfus",
+                "size": 1001116,
                 "addedAt": "2026-09-23"
               },
               {
-                "name": "The Muslim League Notes.pdf",
+                "name": "05 - ICSE Class 10 - History and Civics - High Court And Subordinate Courts - PYQ.pdf",
                 "type": "file",
-                "fileId": "1cV-zKtTtZZ3v3UnpMd-itQzbfkIAkVU9",
-                "size": 537411,
+                "fileId": "1CNUi-C2-aLa83KCESfWnx9I1aA9j8gOL",
+                "size": 2687840,
                 "addedAt": "2026-09-23"
               },
               {
-                "name": "The Rise of Assertive Nationsalists Notes.pdf",
+                "name": "06 - ICSE Class 10 - History and Civics - The First War Of Independence 1857 - PYQ.pdf",
                 "type": "file",
-                "fileId": "1WZ8Nhe8hgLqPyoRzFFCTBxpGpKdGFSYH",
-                "size": 705709,
+                "fileId": "12GZmMVImK_ugW2-J7Kx56QMtnW6h4IVG",
+                "size": 1220033,
                 "addedAt": "2026-09-23"
               },
               {
-                "name": "The Union Parliament Notes.pdf",
+                "name": "07 - ICSE Class 10 - History and Civics - Growth Of Nationalism - PYQ.pdf",
                 "type": "file",
-                "fileId": "1mQ7-3jMyKBl42RCAZB40ABBLoXYeyMaa",
-                "size": 730313,
+                "fileId": "1z5psAiAEsvTnupDGhe9s9joXoiW9Rnbw",
+                "size": 1452181,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "08 - ICSE Class 10 - History and Civics - First Phase Of The Indian National Movement - PYQ.pdf",
+                "type": "file",
+                "fileId": "1HERVERZHpcTXQ51ruRqalu3ijbayBcvu",
+                "size": 1054353,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "09 - ICSE Class 10 - History and Civics - Second Phase Of Indian National Movement - PYQ.pdf",
+                "type": "file",
+                "fileId": "1kvExr4Ur_dAhRtQnZU1bb6oHfLOQ0fmi",
+                "size": 1917618,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "10 - ICSE Class 10 - History and Civics - Gandhian Era And The Struggle For Independence - PYQ.pdf",
+                "type": "file",
+                "fileId": "1slccPEB-sJWIjMl8R70zEalaiIBkaYw6",
+                "size": 1914391,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "11 - ICSE Class 10 - History and Civics - Forward Bloc And The Ina - PYQ.pdf",
+                "type": "file",
+                "fileId": "1K_6jHEZ4-PrWTrvmyjV7dPCWbFoenPEc",
+                "size": 1792899,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "12 - ICSE Class 10 - History and Civics - Independence And Partition Of India - PYQ.pdf",
+                "type": "file",
+                "fileId": "1K5qQbFAPjXoZyNBRBGJmhYneWu2JDGg-",
+                "size": 1895889,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "13 - ICSE Class 10 - History and Civics - The First World War - PYQ.pdf",
+                "type": "file",
+                "fileId": "1aaDLmiudsK9OE7u1gtbhZl01gRC1I4h6",
+                "size": 1780849,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "14 - ICSE Class 10 - History and Civics - Rise Of Dictatorships - PYQ.pdf",
+                "type": "file",
+                "fileId": "1b49b-qx4XRUlJ1zNJuFPt2s3k7e4q8n7",
+                "size": 799773,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "15 - ICSE Class 10 - History and Civics - The Second World War - PYQ.pdf",
+                "type": "file",
+                "fileId": "15gn_2ABVifUjixJnxYsWHsabJxkCu2UH",
+                "size": 2495240,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "16 - ICSE Class 10 - History and Civics - The United Nation - PYQ.pdf",
+                "type": "file",
+                "fileId": "1QToj9qP8f1riZS-ndmHaDrHkAaSyb1l9",
+                "size": 2230580,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "17 - ICSE Class 10 - History and Civics - Non Aligned Movement - PYQ.pdf",
+                "type": "file",
+                "fileId": "1NC2zn5JbSP9H5s47qa3GpPnE0WocOSIC",
+                "size": 957845,
                 "addedAt": "2026-09-23"
               }
             ]
           },
           {
-            "name": "History & Civics - Cheatsheet for Civics.pdf",
-            "type": "file",
-            "fileId": "13FuIoGfz_PNt4X0uyctTaRYvzg_ghw6y",
-            "size": 397622,
-            "addedAt": "2026-09-23"
+            "name": "Notes",
+            "type": "folder",
+            "fileId": "",
+            "size": 125309867,
+            "children": [
+              {
+                "name": "Chapterwise notes",
+                "type": "folder",
+                "fileId": "",
+                "size": 19969859,
+                "children": [
+                  {
+                    "name": "Growth of Nationalism Notes.pdf",
+                    "type": "file",
+                    "fileId": "1_YYNuefSI3Tdv6WZOy-cXgt0cEFzpz_E",
+                    "size": 1204786,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "History & Civics - Notes.pdf",
+                    "type": "file",
+                    "fileId": "1BHfsEYUoIJ3_-oXoAv5ZYia8xBuC9TYj",
+                    "size": 14716004,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "Programmes and Acievements of the Early Nationalists Notes.pdf",
+                    "type": "file",
+                    "fileId": "1t7BmroBBLRbsUfR-E3DxyshZbUbS7MUq",
+                    "size": 872378,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "The First War of Independence Notes.pdf",
+                    "type": "file",
+                    "fileId": "1_8XLd4-S7t2LvspJ1bjmWnasyo7MCpfE",
+                    "size": 1203258,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "The Muslim League Notes.pdf",
+                    "type": "file",
+                    "fileId": "1cV-zKtTtZZ3v3UnpMd-itQzbfkIAkVU9",
+                    "size": 537411,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "The Rise of Assertive Nationsalists Notes.pdf",
+                    "type": "file",
+                    "fileId": "1WZ8Nhe8hgLqPyoRzFFCTBxpGpKdGFSYH",
+                    "size": 705709,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "The Union Parliament Notes.pdf",
+                    "type": "file",
+                    "fileId": "1mQ7-3jMyKBl42RCAZB40ABBLoXYeyMaa",
+                    "size": 730313,
+                    "addedAt": "2026-09-23"
+                  }
+                ]
+              },
+              {
+                "name": "History & Civics - Cheatsheet for Civics.pdf",
+                "type": "file",
+                "fileId": "1NU5X8_g8Lg7q1le3yjK7ZZpYRv21zs6j",
+                "size": 397622,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "History & Civics - Handwritten Notes.pdf",
+                "type": "file",
+                "fileId": "1mm0uWf48MxMT5SvEGIPjpKLwHv0WDeWP",
+                "size": 50571086,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "History & Civics - Notes.pdf",
+                "type": "file",
+                "fileId": "1WMHVUqci6NkKDqXu0AJvYkqRB6ZgRXpE",
+                "size": 14716005,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "History & Civics - Revision Notes.pdf",
+                "type": "file",
+                "fileId": "1WIh50IBvDeoTnMjQikiDHxpTRTSlsxPX",
+                "size": 4585397,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "History & Civics - Revision.pdf",
+                "type": "file",
+                "fileId": "165F65E4kZvFKz6QMQ-aFSbLqUTa6zVzQ",
+                "size": 6660258,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "History_Civics Notes and Mind maps.pdf",
+                "type": "file",
+                "fileId": "1sn-aq5QiJ3z8QfTqrFlJDXLlaBhDL_2U",
+                "size": 28409640,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
-            "name": "History & Civics - Handwritten Notes + Analysis.pdf",
-            "type": "file",
-            "fileId": "1O8gj_SHZvNT_Yjm2BuVZdiJcy2hKhFK4",
-            "size": 50571086,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics - Revision Notes.pdf",
-            "type": "file",
-            "fileId": "1ZTsat5UgI9wLAwX7BGFLQS4I5lGHL9H2",
-            "size": 4585397,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics - Revision.pdf",
-            "type": "file",
-            "fileId": "1hSqxv0R2R2eTD7SpmoPv9ndOtraMiFS_",
-            "size": 6660258,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics - Teacher_s Handbook.pdf",
-            "type": "file",
-            "fileId": "1uTZCwZ6WkghC8T6R8w9qtFBM_PoCFFrE",
-            "size": 7203270,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics Question Bank - Goyal.pdf",
-            "type": "file",
-            "fileId": "1HOtSYOVGiRhB5Gvcrn6JN_gH42o5pdmE",
-            "size": 23449401,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics Question Bank - Oswal.pdf",
-            "type": "file",
-            "fileId": "1Mi44WmDSqu4fWOowdj7VkRa1uYkHUaM4",
-            "size": 55846594,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History_Civics Notes and Mind maps.pdf",
-            "type": "file",
-            "fileId": "16WInqLQCEgBbHm_QXo3biMrNJm65fpzY",
-            "size": 28409640,
-            "addedAt": "2026-09-23"
+            "name": "Question Banks ",
+            "type": "folder",
+            "fileId": "",
+            "size": 86499265,
+            "children": [
+              {
+                "name": "History & Civics - Teacher_s Handbook.pdf",
+                "type": "file",
+                "fileId": "1uTZCwZ6WkghC8T6R8w9qtFBM_PoCFFrE",
+                "size": 7203270,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "History & Civics Question Bank - Goyal.pdf",
+                "type": "file",
+                "fileId": "1FtlCO8BUbjfNBMHVzp1iYpfkWwkcedvF",
+                "size": 23449401,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "History & Civics Question Bank - Oswal.pdf",
+                "type": "file",
+                "fileId": "1Mi44WmDSqu4fWOowdj7VkRa1uYkHUaM4",
+                "size": 55846594,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
             "name": "Sample Papers",
@@ -6991,772 +7522,23 @@
         ]
       },
       {
-        "name": "History & Civics Notes",
-        "type": "folder",
-        "fileId": "",
-        "size": 211156089,
-        "children": [
-          {
-            "name": "Growth of Nationalism Notes.pdf",
-            "type": "file",
-            "fileId": "1WzK0EE0J3camnFuvj0h9dgntu8gTyzS5",
-            "size": 1204786,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics - Cheatsheet for Civics.pdf",
-            "type": "file",
-            "fileId": "1NU5X8_g8Lg7q1le3yjK7ZZpYRv21zs6j",
-            "size": 397622,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics - Handwritten Notes.pdf",
-            "type": "file",
-            "fileId": "1mm0uWf48MxMT5SvEGIPjpKLwHv0WDeWP",
-            "size": 50571086,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics - Notes.pdf",
-            "type": "file",
-            "fileId": "1WMHVUqci6NkKDqXu0AJvYkqRB6ZgRXpE",
-            "size": 14716005,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics - Revision Notes.pdf",
-            "type": "file",
-            "fileId": "1WIh50IBvDeoTnMjQikiDHxpTRTSlsxPX",
-            "size": 4585397,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics - Revision.pdf",
-            "type": "file",
-            "fileId": "165F65E4kZvFKz6QMQ-aFSbLqUTa6zVzQ",
-            "size": 6660258,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics - Teacher_s Handbook.pdf",
-            "type": "file",
-            "fileId": "1trfMB2eYwu34UmUhArOeLFAfOfK3eev2",
-            "size": 7203270,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics Question Bank - Goyal.pdf",
-            "type": "file",
-            "fileId": "1FtlCO8BUbjfNBMHVzp1iYpfkWwkcedvF",
-            "size": 23449401,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History & Civics Question Bank - Oswal.pdf",
-            "type": "file",
-            "fileId": "1KKISJ-dqPyy4unIsZTEEcxeMNXumm026",
-            "size": 55846594,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "History_Civics Notes and Mind maps.pdf",
-            "type": "file",
-            "fileId": "1sn-aq5QiJ3z8QfTqrFlJDXLlaBhDL_2U",
-            "size": 28409640,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Programmes and Acievements of the Early Nationalists Notes.pdf",
-            "type": "file",
-            "fileId": "1594OIUnNlfj6Y8-musgVL5DAE0tv2ihx",
-            "size": 872378,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Sample Papers",
-            "type": "folder",
-            "fileId": "",
-            "size": 14062961,
-            "children": [
-              {
-                "name": "History & CIvics - Model Test Paper - 1 (Solved).pdf",
-                "type": "file",
-                "fileId": "1hjV2wkw6O65uBNSI4mJqvUOHGSArklnH",
-                "size": 1972364,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics - Model Test Paper - 2 (Solved).pdf",
-                "type": "file",
-                "fileId": "121YZehJ7KRY1-_FA9oGb0uyNzqXCm9KI",
-                "size": 2288166,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics - Model Test Paper - 3 (Solved).pdf",
-                "type": "file",
-                "fileId": "1ew-goZZNJqrRQm7gFUXwdOzeWxfR991L",
-                "size": 1895375,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 02.pdf",
-                "type": "file",
-                "fileId": "1JyqCm2x_8ZXKUQhGRxyM7ENNYwCKhzkK",
-                "size": 515942,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 03.pdf",
-                "type": "file",
-                "fileId": "1wl7kR3EFR1L4VHS8gjs6CtuOzSnu0ave",
-                "size": 491990,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 04.pdf",
-                "type": "file",
-                "fileId": "1FDHWvNhIMVUzkLD1Ls33mxdJ1C9VSal6",
-                "size": 487947,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 05.pdf",
-                "type": "file",
-                "fileId": "1g4zOd2j0vfVTAikiVI78Qtd5aatF4fm0",
-                "size": 466269,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 07.pdf",
-                "type": "file",
-                "fileId": "1CTmHnyMAQkQ0gvKuki1sQVra8Aqkfb8i",
-                "size": 495692,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 08.pdf",
-                "type": "file",
-                "fileId": "17A8JMc2yVceHAAaRkRfQSc1jv33M82Pg",
-                "size": 434233,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 09.pdf",
-                "type": "file",
-                "fileId": "1bF0DyGBezTIKUCujHJhx2TJm5SQThgGH",
-                "size": 426045,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 10.pdf",
-                "type": "file",
-                "fileId": "1KSKS6NtsWNb5j7udgBfadAHYGTG_f_bk",
-                "size": 459048,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 11.pdf",
-                "type": "file",
-                "fileId": "1wW6oWfnHd2aip92FwqxVrZRSSJjydXl3",
-                "size": 422558,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 12.pdf",
-                "type": "file",
-                "fileId": "16tEfkxIdRmxxJYYbgp29lA_dnBs5G9Pi",
-                "size": 441076,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 13.pdf",
-                "type": "file",
-                "fileId": "1kVYo9jk38YMuse1UYy6roSvgeE5VUTQ4",
-                "size": 393376,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 14.pdf",
-                "type": "file",
-                "fileId": "1y6XWSSM6mvOEOjyT4H3gO9UGqghaCT2W",
-                "size": 408357,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 15.pdf",
-                "type": "file",
-                "fileId": "1txCRqMTNDP6mB18mWCIuQgzDIrf0_WwN",
-                "size": 408458,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 16.pdf",
-                "type": "file",
-                "fileId": "1JGfAYm4P6PMHmFW_63cjfUwuM4hxaMa_",
-                "size": 440229,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 17.pdf",
-                "type": "file",
-                "fileId": "1sCJ385WZR-4X0scvS3gUAxiyS3FefeH1",
-                "size": 377858,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 18.pdf",
-                "type": "file",
-                "fileId": "1GG-MeWxPBq5IYdbFu4J-FA8IQXbFWaf4",
-                "size": 430115,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 19.pdf",
-                "type": "file",
-                "fileId": "1bJz9KnfQawZU6ZRgUQrcd3Op0SxzgAwe",
-                "size": 418989,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "History & CIvics- Sample Paper - 20.pdf",
-                "type": "file",
-                "fileId": "1tfh8_ZvULgoWb1PaJGkn1YlR3eLap0Tq",
-                "size": 388874,
-                "addedAt": "2026-09-23"
-              }
-            ]
-          },
-          {
-            "name": "The First War of Independence Notes.pdf",
-            "type": "file",
-            "fileId": "1HWJ0Ps86eke5EFY-ONT2vDLnzuyseiXj",
-            "size": 1203258,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "The Muslim League Notes.pdf",
-            "type": "file",
-            "fileId": "1wYgC-RQBOixVepSL10aea6iOkMztGVyw",
-            "size": 537411,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "The Rise of Assertive Nationsalists Notes.pdf",
-            "type": "file",
-            "fileId": "18BBYLckOcDBJ_8qd9MAISILvw-drj17w",
-            "size": 705709,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "The Union Parliament Notes.pdf",
-            "type": "file",
-            "fileId": "1L64ABC3i0wOa5FlNYfR6fvw-7_-PKjJv",
-            "size": 730313,
-            "addedAt": "2026-09-23"
-          }
-        ]
-      },
-      {
         "name": "ICSE Chapter wise PYQs(Unofficial)",
         "type": "folder",
         "fileId": "",
-        "size": 285423024,
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "Mathematics",
+        "type": "folder",
+        "fileId": "",
+        "size": 403444896,
         "children": [
           {
-            "name": "Biology",
+            "name": "Chapterwise PYQs",
             "type": "folder",
             "fileId": "",
-            "size": 32563178,
-            "children": [
-              {
-                "name": "01 - ICSE Class 10 - Biology - Cell Cycle And Structure Of Chromosomes - PYQ.pdf",
-                "type": "file",
-                "fileId": "18PCXW0GOBn6KfnFiJiLkQqEvA5MQNAcM",
-                "size": 2924161,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "02 - ICSE Class 10 - Biology - Genetics - PYQ.pdf",
-                "type": "file",
-                "fileId": "1-Fk2v_LVVvN1iUEG07GhAPvlIlmr_Xmb",
-                "size": 1451197,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "03 - ICSE Class 10 - Biology - Human Evolution - PYQ.pdf",
-                "type": "file",
-                "fileId": "1JQMYakcs0wn9Qtqfs3Uk5Pajc6Fr5cLh",
-                "size": 1439959,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "04 - ICSE Class 10 - Biology - Absorption By Roots - PYQ.pdf",
-                "type": "file",
-                "fileId": "1ESqfPAG3orm9g0ncnzzlETo0L6EQkniX",
-                "size": 2213508,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "05 - ICSE Class 10 - Biology - Transpiration - PYQ.pdf",
-                "type": "file",
-                "fileId": "16wBdvHEwm0Eg3RqUV8HfaZCGvo6ytyte",
-                "size": 3313371,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "06 - ICSE Class 10 - Biology - Photosynthesis - PYQ.pdf",
-                "type": "file",
-                "fileId": "1Kmic58C5ODWx5rEZdGN0gj2sVYpgdFza",
-                "size": 1913746,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "07 - ICSE Class 10 - Biology - Chemical Coordination In Plants - PYQ.pdf",
-                "type": "file",
-                "fileId": "1pxTeQTW2iJ0Jugk2jwKVpbdZ_C4FusPM",
-                "size": 1568368,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "08 - ICSE Class 10 - Biology - The Circulatory System - PYQ.pdf",
-                "type": "file",
-                "fileId": "1WZIdV_jTngsFs4WQtGlbjHZHE6rca4hE",
-                "size": 3706093,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "09 - ICSE Class 10 - Biology - The Excretory System - PYQ.pdf",
-                "type": "file",
-                "fileId": "1lnqHXOkJ8-CrU7n2Hlu4H5L2SURVoiN8",
-                "size": 2644358,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "10 - ICSE Class 10 - Biology - Nervous System And Sense Organs - PYQ.pdf",
-                "type": "file",
-                "fileId": "1Ua0OIp0AYh_nHcYao5jeALcStu1uhnPY",
-                "size": 3682689,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "11 - ICSE Class 10 - Biology - The Endocrine System - PYQ.pdf",
-                "type": "file",
-                "fileId": "1Fej5E9s_ZGuZOPcFfSZ3IeSkv2W4MTps",
-                "size": 2549283,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "12 - ICSE Class 10 - Biology - The Reproductive System - PYQ.pdf",
-                "type": "file",
-                "fileId": "1-QLtRlri5pMYxu5bld5yPAh2xUGpIyG_",
-                "size": 2197523,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "13 - ICSE Class 10 - Biology - Human Population - PYQ.pdf",
-                "type": "file",
-                "fileId": "1UWO_F0TRnqBLRciBCn93o6sZwrznBQxw",
-                "size": 1442524,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "14 - ICSE Class 10 - Biology - Pollution - PYQ.pdf",
-                "type": "file",
-                "fileId": "10Gz8LPOHheGeThaPbboSkiawGzAOIvgj",
-                "size": 1516398,
-                "addedAt": "2026-09-23"
-              }
-            ]
-          },
-          {
-            "name": "Chemistry",
-            "type": "folder",
-            "fileId": "",
-            "size": 31612409,
-            "children": [
-              {
-                "name": "01 - ICSE Class 10 - Chemistry - Periodic Properties And Variations Of Properties - PYQ.pdf",
-                "type": "file",
-                "fileId": "1OxpPU3y-RxfRd1r44xVwqqfHjRwioE8W",
-                "size": 5190957,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "02 - ICSE Class 10 - Chemistry - Chemical Bonding - PYQ.pdf",
-                "type": "file",
-                "fileId": "1oJFpjVVNRHNvSWhVqfP9fp47uhapbrG1",
-                "size": 2269183,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "03 - ICSE Class 10 - Chemistry - Study Of Acids Bases And Salts - PYQ.pdf",
-                "type": "file",
-                "fileId": "1BkIiGFg-fcJ-nm0za0UQrINJLAXZP6D0",
-                "size": 3389257,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "04 - ICSE Class 10 - Chemistry - Analytical Chemistry - PYQ.pdf",
-                "type": "file",
-                "fileId": "1UGYT7roema2M3B6MrW7fvXp2p80xZIak",
-                "size": 3009510,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "05 - ICSE Class 10 - Chemistry - Mole Concept And Stoichiometry - PYQ.pdf",
-                "type": "file",
-                "fileId": "1ojhnrgLiP7PMRPtcl3Ue8EHdtet5ee13",
-                "size": 2519196,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "06 - ICSE Class 10 - Chemistry - Electrolysis - PYQ.pdf",
-                "type": "file",
-                "fileId": "1av569zLoGObFH5G0IDNuv_EkjxcQS4xG",
-                "size": 2722460,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "07 - ICSE Class 10 - Chemistry - Metallurgy - PYQ.pdf",
-                "type": "file",
-                "fileId": "1GG3cvKf-ca0i1Lw1yXG5S2yub4Zonkkt",
-                "size": 2238805,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "08 - ICSE Class 10 - Chemistry - Hydrogen Chloride - PYQ.pdf",
-                "type": "file",
-                "fileId": "1_kAUSUUfFbt7VWyl4BBE116Alf5UdeWl",
-                "size": 2257592,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "09 - ICSE Class 10 - Chemistry - Ammonia - PYQ.pdf",
-                "type": "file",
-                "fileId": "1yerJBq7RJ78M5XV-Oa-vm43GWtny6SL2",
-                "size": 1181716,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "10 - ICSE Class 10 - Chemistry - Nitric Acid - PYQ.pdf",
-                "type": "file",
-                "fileId": "1OvHHk7LJeqKIn0hPtOQfWyjMrUHSvTym",
-                "size": 2234876,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "11 - ICSE Class 10 - Chemistry - Sulphuric Acid - PYQ.pdf",
-                "type": "file",
-                "fileId": "1CcQ84tEBia-JNZ8zCOpRjL7bhGKB2ywL",
-                "size": 1564572,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "12 - ICSE Class 10 - Chemistry - Organic Chemistry - PYQ.pdf",
-                "type": "file",
-                "fileId": "1ZM2rFMjP6AbVkZ3G-tm2TYuSQEXDzRqM",
-                "size": 3034285,
-                "addedAt": "2026-09-23"
-              }
-            ]
-          },
-          {
-            "name": "Computer Applications",
-            "type": "folder",
-            "fileId": "",
-            "size": 20050648,
-            "children": [
-              {
-                "name": "01 - ICSE Class 10 - Computer Applications - Class As The Basis Of All Computations - PYQ.pdf",
-                "type": "file",
-                "fileId": "18ODg7Qcc3FCht-nc-Nb3gD81GG_sIUjO",
-                "size": 2287086,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "02 - ICSE Class 10 - Computer Applications - User Defined Methods - PYQ.pdf",
-                "type": "file",
-                "fileId": "12jAIernQOWvNlFpjZURJlt-HIyaQTefv",
-                "size": 2319058,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "03 - ICSE Class 10 - Computer Applications - Constructors - PYQ.pdf",
-                "type": "file",
-                "fileId": "1Cyg2P6jly2E-Xp8PFuEIcgANWEywqlEA",
-                "size": 1482680,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "04 - ICSE Class 10 - Computer Applications - Library Classes - PYQ.pdf",
-                "type": "file",
-                "fileId": "1TDFUu_cu4ctCfvPLWnBeZvhbbFfcrsNK",
-                "size": 2421527,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "05 - ICSE Class 10 - Computer Applications - Encapsulation - PYQ.pdf",
-                "type": "file",
-                "fileId": "1jpkYSdg_aoSpNzxsHiRbN1d7PBWjJBnN",
-                "size": 1479114,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "06 - ICSE Class 10 - Computer Applications - Arrays - PYQ.pdf",
-                "type": "file",
-                "fileId": "1tSURXt_SHh6aEoVmLMSJGfFk6IeyvaTm",
-                "size": 4654394,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "07 - ICSE Class 10 - Computer Applications - String Handling - PYQ.pdf",
-                "type": "file",
-                "fileId": "1UftEk57aaZ0b38Xogk1-UFcc5y0Ez6LG",
-                "size": 3074890,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "08 - ICSE Class 10 - Computer Applications - Revision - PYQ.pdf",
-                "type": "file",
-                "fileId": "1kEIBPRVpxDw_ARAZKfz6LRWnPx5Wb8sh",
-                "size": 2331899,
-                "addedAt": "2026-09-23"
-              }
-            ]
-          },
-          {
-            "name": "Geography",
-            "type": "folder",
-            "fileId": "",
-            "size": 46046426,
-            "children": [
-              {
-                "name": "01 - ICSE Class 10 - Geography - Interpretation Of Topographical Maps - PYQ.pdf",
-                "type": "file",
-                "fileId": "1s27Iqv1rpHJoSA2FZruV_izd61iS3p9S",
-                "size": 2817572,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "02 - ICSE Class 10 - Geography - Map Of India - PYQ.pdf",
-                "type": "file",
-                "fileId": "1y9mEQcMndtfp2LyY6jjei3jucMBko7c6",
-                "size": 1628245,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "03 - ICSE Class 10 - Geography - Location Extent And Physical Features - PYQ.pdf",
-                "type": "file",
-                "fileId": "1SU5w051JQ3Sm0TwKMPYhR80H8-E5VWd9",
-                "size": 2648632,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "04 - ICSE Class 10 - Geography - Climate - PYQ.pdf",
-                "type": "file",
-                "fileId": "1EG9H7bAWAzPwciqM7Pm0cyv5kqvORQ2Q",
-                "size": 4982403,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "05 - ICSE Class 10 - Geography - Soil Resources - PYQ.pdf",
-                "type": "file",
-                "fileId": "12xvMUqhahovaQHZpHCjJPRaLMocNGB-c",
-                "size": 4804826,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "06 - ICSE Class 10 - Geography - Natural Vegetation - PYQ.pdf",
-                "type": "file",
-                "fileId": "1ZpsO4HPoaiBYgacUN92gVViBIwuNu7eU",
-                "size": 2189219,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "07 - ICSE Class 10 - Geography - Water Resources - PYQ.pdf",
-                "type": "file",
-                "fileId": "1zsyDOslFgo1kjZuz6M9GPqlGX27KFFUI",
-                "size": 4563926,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "08 - ICSE Class 10 - Geography - Mineral Resources - PYQ.pdf",
-                "type": "file",
-                "fileId": "1Bw1xpmkbKd5Rp1yO5JYnfxdVSETQEz1x",
-                "size": 2204897,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "09 - ICSE Class 10 - Geography - Energy Resources - PYQ.pdf",
-                "type": "file",
-                "fileId": "1OZcFdQzhBo4zKk0LBbTYFP9-XrvjG2kS",
-                "size": 4027659,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "10 - ICSE Class 10 - Geography - Agriculture - PYQ.pdf",
-                "type": "file",
-                "fileId": "12D8AGIHsLcAyGKVGvIC2UvYHbitX6edB",
-                "size": 5131625,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "11 - ICSE Class 10 - Geography - Manufacturing Industries - PYQ.pdf",
-                "type": "file",
-                "fileId": "1RVzLlaGGFy9ENyRPFsS_Vk2F3Wzh7E8n",
-                "size": 3615873,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "12 - ICSE Class 10 - Geography - Transport - PYQ.pdf",
-                "type": "file",
-                "fileId": "1rhNFqC-3XhnsmOsWJb8qdYZhBAanFGPu",
-                "size": 3611359,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "13 - ICSE Class 10 - Geography - Waste Management - PYQ.pdf",
-                "type": "file",
-                "fileId": "1vh9oNvCwhecp1eC5UZqPmR6q6ijuqZeF",
-                "size": 3820190,
-                "addedAt": "2026-09-23"
-              }
-            ]
-          },
-          {
-            "name": "History and Civics",
-            "type": "folder",
-            "fileId": "",
-            "size": 27017048,
-            "children": [
-              {
-                "name": "01 - ICSE Class 10 - History and Civics - The Union Legislature - PYQ.pdf",
-                "type": "file",
-                "fileId": "1ZMQV9QVr7pVtUN7_O2hyBM5UOfGVBJ2T",
-                "size": 1767790,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "02 - ICSE Class 10 - History and Civics - President And Vice President - PYQ.pdf",
-                "type": "file",
-                "fileId": "1w7KzCt6v-w1oBjZUSYeZTLvJwkGqZzXZ",
-                "size": 1035045,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "03 - ICSE Class 10 - History and Civics - Prime Minister And Council Of Ministers - PYQ.pdf",
-                "type": "file",
-                "fileId": "15JXIoUMnOnWbg7IjDHyQvwpIIxSiPEbr",
-                "size": 1013606,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "04 - ICSE Class 10 - History and Civics - The Supreme Court - PYQ.pdf",
-                "type": "file",
-                "fileId": "1p2G3iGaw2Y_9L3DJ9bPHbQxfLqBHBfus",
-                "size": 1001116,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "05 - ICSE Class 10 - History and Civics - High Court And Subordinate Courts - PYQ.pdf",
-                "type": "file",
-                "fileId": "1CNUi-C2-aLa83KCESfWnx9I1aA9j8gOL",
-                "size": 2687840,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "06 - ICSE Class 10 - History and Civics - The First War Of Independence 1857 - PYQ.pdf",
-                "type": "file",
-                "fileId": "12GZmMVImK_ugW2-J7Kx56QMtnW6h4IVG",
-                "size": 1220033,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "07 - ICSE Class 10 - History and Civics - Growth Of Nationalism - PYQ.pdf",
-                "type": "file",
-                "fileId": "1z5psAiAEsvTnupDGhe9s9joXoiW9Rnbw",
-                "size": 1452181,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "08 - ICSE Class 10 - History and Civics - First Phase Of The Indian National Movement - PYQ.pdf",
-                "type": "file",
-                "fileId": "1HERVERZHpcTXQ51ruRqalu3ijbayBcvu",
-                "size": 1054353,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "09 - ICSE Class 10 - History and Civics - Second Phase Of Indian National Movement - PYQ.pdf",
-                "type": "file",
-                "fileId": "1kvExr4Ur_dAhRtQnZU1bb6oHfLOQ0fmi",
-                "size": 1917618,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "10 - ICSE Class 10 - History and Civics - Gandhian Era And The Struggle For Independence - PYQ.pdf",
-                "type": "file",
-                "fileId": "1slccPEB-sJWIjMl8R70zEalaiIBkaYw6",
-                "size": 1914391,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "11 - ICSE Class 10 - History and Civics - Forward Bloc And The Ina - PYQ.pdf",
-                "type": "file",
-                "fileId": "1K_6jHEZ4-PrWTrvmyjV7dPCWbFoenPEc",
-                "size": 1792899,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "12 - ICSE Class 10 - History and Civics - Independence And Partition Of India - PYQ.pdf",
-                "type": "file",
-                "fileId": "1K5qQbFAPjXoZyNBRBGJmhYneWu2JDGg-",
-                "size": 1895889,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "13 - ICSE Class 10 - History and Civics - The First World War - PYQ.pdf",
-                "type": "file",
-                "fileId": "1aaDLmiudsK9OE7u1gtbhZl01gRC1I4h6",
-                "size": 1780849,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "14 - ICSE Class 10 - History and Civics - Rise Of Dictatorships - PYQ.pdf",
-                "type": "file",
-                "fileId": "1b49b-qx4XRUlJ1zNJuFPt2s3k7e4q8n7",
-                "size": 799773,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "15 - ICSE Class 10 - History and Civics - The Second World War - PYQ.pdf",
-                "type": "file",
-                "fileId": "15gn_2ABVifUjixJnxYsWHsabJxkCu2UH",
-                "size": 2495240,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "16 - ICSE Class 10 - History and Civics - The United Nation - PYQ.pdf",
-                "type": "file",
-                "fileId": "1QToj9qP8f1riZS-ndmHaDrHkAaSyb1l9",
-                "size": 2230580,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "17 - ICSE Class 10 - History and Civics - Non Aligned Movement - PYQ.pdf",
-                "type": "file",
-                "fileId": "1NC2zn5JbSP9H5s47qa3GpPnE0WocOSIC",
-                "size": 957845,
-                "addedAt": "2026-09-23"
-              }
-            ]
-          },
-          {
-            "name": "Mathematics",
-            "type": "folder",
-            "fileId": "",
-            "size": 45871485,
+            "size": 96569991,
             "children": [
               {
                 "name": "01 - ICSE Class 10 - Mathematics - Goods And Service Tax - PYQ.pdf",
@@ -7932,207 +7714,15 @@
                 "fileId": "1Sgc6fneN1bGotBbIcWSDvMUUQukdZ9gQ",
                 "size": 5162468,
                 "addedAt": "2026-09-23"
-              }
-            ]
-          },
-          {
-            "name": "Physical Education",
-            "type": "folder",
-            "fileId": "",
-            "size": 49439976,
-            "children": [
-              {
-                "name": "01 - ICSE Class 10 - Physical Education - Physical Education - PYQ.pdf",
-                "type": "file",
-                "fileId": "1HGGTyPkKZJhUmkgKEPRqUMeRHRiPuN00",
-                "size": 3086313,
-                "addedAt": "2026-09-23"
               },
               {
-                "name": "02 - ICSE Class 10 - Physical Education - Human Growth And Development - PYQ.pdf",
+                "name": "Maths Chapterwise PYQ.pdf",
                 "type": "file",
-                "fileId": "1lvc7rx7PpHjdNlcdIWlZnXgYaC0lBV9H",
-                "size": 3799743,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "03 - ICSE Class 10 - Physical Education - Physical Fitness - PYQ.pdf",
-                "type": "file",
-                "fileId": "1vsc3n4ZLH7XdQtJ-zPeOoJWCV2XZDm1o",
-                "size": 4911636,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "04 - ICSE Class 10 - Physical Education - Body Types - PYQ.pdf",
-                "type": "file",
-                "fileId": "1-TooBJZAV3kpEtX0NxAq2jBWbGAazmkH",
-                "size": 4557931,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "05 - ICSE Class 10 - Physical Education - Health Education - PYQ.pdf",
-                "type": "file",
-                "fileId": "1y3a-QV8Hian7k24ycdlm0lfIC2bcKQfj",
-                "size": 4154488,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "06 - ICSE Class 10 - Physical Education - Sports Training - PYQ.pdf",
-                "type": "file",
-                "fileId": "1PEK7Dmrzr_6ZKiKElxh2uSB4rKKEQvZ_",
-                "size": 5321259,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "07 - ICSE Class 10 - Physical Education - Safety In Sports - PYQ.pdf",
-                "type": "file",
-                "fileId": "1prT3u59UATOEbW8PtZUBElJWu6lwSrVq",
-                "size": 3022696,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "08 - ICSE Class 10 - Physical Education - Careers In Physical Education - PYQ.pdf",
-                "type": "file",
-                "fileId": "1rQ8s3WWwjHUpaiOhwVbRysVlo1F3qsp9",
-                "size": 3021453,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "09 - ICSE Class 10 - Physical Education - Cricket - PYQ.pdf",
-                "type": "file",
-                "fileId": "1b2D4QpApvRDCsskMTNeEDblTLSK5isIg",
-                "size": 2693680,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "10 - ICSE Class 10 - Physical Education - Football - PYQ.pdf",
-                "type": "file",
-                "fileId": "1AjGJ95BycXgVm-KLLK121XbzzsCKY9f3",
-                "size": 2601867,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "11 - ICSE Class 10 - Physical Education - Hockey - PYQ.pdf",
-                "type": "file",
-                "fileId": "11jKpK0xpfW8mipu_aLQvtpnCInrE0XF0",
-                "size": 3881502,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "12 - ICSE Class 10 - Physical Education - Basketball - PYQ.pdf",
-                "type": "file",
-                "fileId": "1mIebb8d0wBqPgv5H0evW17__hibyKMc6",
-                "size": 3824865,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "13 - ICSE Class 10 - Physical Education - Volleyball - PYQ.pdf",
-                "type": "file",
-                "fileId": "1mPiyptz9Jx6VXynxOlHqMTWKOJRovHhA",
-                "size": 2677540,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "14 - ICSE Class 10 - Physical Education - Badminton - PYQ.pdf",
-                "type": "file",
-                "fileId": "1Dpen_7JKqmD3b-LTc_DLvHDuoqHB_OKf",
-                "size": 1885003,
+                "fileId": "1KznLZW7gciSS-7Rzx428NZ-6oih4k8Cq",
+                "size": 50698506,
                 "addedAt": "2026-09-23"
               }
             ]
-          },
-          {
-            "name": "Physics",
-            "type": "folder",
-            "fileId": "",
-            "size": 32821854,
-            "children": [
-              {
-                "name": "01 - ICSE Class 10 - Physics - Mechanics - PYQ.pdf",
-                "type": "file",
-                "fileId": "1MpVfJZ4vFBhwiz78QdkPf_AHgqe5fa4m",
-                "size": 1853712,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "02 - ICSE Class 10 - Physics - Force Turning Forces And Uniform Circular Motion - PYQ.pdf",
-                "type": "file",
-                "fileId": "1y7YDtjESiL7V9KkaBmbaKOuA-ZWVjMAR",
-                "size": 2884068,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "03 - ICSE Class 10 - Physics - Work Power And Energy - PYQ.pdf",
-                "type": "file",
-                "fileId": "1lat-eB9vsu-bmojTPBBvFpBQGk3wIWwX",
-                "size": 3760398,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "04 - ICSE Class 10 - Physics - Light - PYQ.pdf",
-                "type": "file",
-                "fileId": "1mNSZ34gSvcvs3A_MNzXvFG1K95b1RnUH",
-                "size": 7791423,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "05 - ICSE Class 10 - Physics - Sound - PYQ.pdf",
-                "type": "file",
-                "fileId": "1RGaq77KM4ivPevVyHWptt0Oc6CPhyiFZ",
-                "size": 3124903,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "06 - ICSE Class 10 - Physics - Electricity And Magnetism - PYQ.pdf",
-                "type": "file",
-                "fileId": "1Twj_2OAip9AbD2umtrheX_dG-2fT0H9Q",
-                "size": 8825400,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "07 - ICSE Class 10 - Physics - Heat - PYQ.pdf",
-                "type": "file",
-                "fileId": "1KuK9i5Ch7mbEdJvaRW51pUVvQaaUXjt0",
-                "size": 2316272,
-                "addedAt": "2026-09-23"
-              },
-              {
-                "name": "08 - ICSE Class 10 - Physics - Modern Physics - PYQ.pdf",
-                "type": "file",
-                "fileId": "1Gj7J0gxTuEsh_K5hf7UoXdVr8lOIueFV",
-                "size": 2265678,
-                "addedAt": "2026-09-23"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Mathematics",
-        "type": "folder",
-        "fileId": "",
-        "size": 357573411,
-        "children": [
-          {
-            "name": "Maths - 100 MCQs Practice Set.pdf",
-            "type": "file",
-            "fileId": "1y2MRyL0fxDGUEkoWr8vKh3a4aMlamMdV",
-            "size": 9035462,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Maths - Olympiad-Level Questions.pdf",
-            "type": "file",
-            "fileId": "1Ac0r6E55LucpCnqA-o8B9NFSzhf1OK2i",
-            "size": 3672996,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Maths - Revision Notes.pdf",
-            "type": "file",
-            "fileId": "1rheXt9P2euqbFD6RtUNXN8tTwzoAaXRx",
-            "size": 3227151,
-            "addedAt": "2026-09-23"
           },
           {
             "name": "Maths - Selina.pdf",
@@ -8142,46 +7732,76 @@
             "addedAt": "2026-09-23"
           },
           {
-            "name": "Maths Chapterwise PYQ.pdf",
-            "type": "file",
-            "fileId": "1KznLZW7gciSS-7Rzx428NZ-6oih4k8Cq",
-            "size": 50698506,
-            "addedAt": "2026-09-23"
+            "name": "Notes",
+            "type": "folder",
+            "fileId": "",
+            "size": 55218435,
+            "children": [
+              {
+                "name": "Maths - Revision Notes.pdf",
+                "type": "file",
+                "fileId": "1rheXt9P2euqbFD6RtUNXN8tTwzoAaXRx",
+                "size": 3227151,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Maths Class 10th Formula Sheet .pdf",
+                "type": "file",
+                "fileId": "1BffWkor88lfX4XSQ9UByxoVb18_8PWs8",
+                "size": 51642826,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Maths Theorems.pdf",
+                "type": "file",
+                "fileId": "1T4C_73sQUdOLIGLJNK9mNtE4GpfNuJbd",
+                "size": 348458,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
-            "name": "Maths Class 10th Formula Sheet .pdf",
-            "type": "file",
-            "fileId": "1BffWkor88lfX4XSQ9UByxoVb18_8PWs8",
-            "size": 51642826,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Maths Question Bank - Goyal.pdf",
-            "type": "file",
-            "fileId": "1YiREl4EykEPsrXS-h4jAokt-_JS82c2p",
-            "size": 12877102,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Maths Question Bank - Oswal.pdf",
-            "type": "file",
-            "fileId": "1GaMY8WEoZGTEVkUOKaNZ-5bb-nK0jH2w",
-            "size": 82374341,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Maths Theorems.pdf",
-            "type": "file",
-            "fileId": "1T4C_73sQUdOLIGLJNK9mNtE4GpfNuJbd",
-            "size": 348458,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "ML aggarwal practice ques Mathematics.pdf",
-            "type": "file",
-            "fileId": "151aRvxc5Rf7EtWk_yLTWYJ5OLAE8LZA1",
-            "size": 52340234,
-            "addedAt": "2026-09-23"
+            "name": "Question Banks",
+            "type": "folder",
+            "fileId": "",
+            "size": 160300135,
+            "children": [
+              {
+                "name": "Maths - 100 MCQs Practice Set.pdf",
+                "type": "file",
+                "fileId": "1y2MRyL0fxDGUEkoWr8vKh3a4aMlamMdV",
+                "size": 9035462,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Maths - Olympiad-Level Questions.pdf",
+                "type": "file",
+                "fileId": "1Ac0r6E55LucpCnqA-o8B9NFSzhf1OK2i",
+                "size": 3672996,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Maths Question Bank - Goyal.pdf",
+                "type": "file",
+                "fileId": "1YiREl4EykEPsrXS-h4jAokt-_JS82c2p",
+                "size": 12877102,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Maths Question Bank - Oswal.pdf",
+                "type": "file",
+                "fileId": "1GaMY8WEoZGTEVkUOKaNZ-5bb-nK0jH2w",
+                "size": 82374341,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "ML aggarwal practice ques Mathematics.pdf",
+                "type": "file",
+                "fileId": "151aRvxc5Rf7EtWk_yLTWYJ5OLAE8LZA1",
+                "size": 52340234,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
             "name": "Sample Papers",
@@ -8334,115 +7954,302 @@
         ]
       },
       {
-        "name": "Mock Test Papers.pdf",
-        "type": "file",
-        "fileId": "10cmot_VYHyM8ALXW2uXZ2GPs1HoyeoHZ",
-        "size": 43223283,
-        "addedAt": "2026-09-23"
+        "name": "Physical Education",
+        "type": "folder",
+        "fileId": "",
+        "size": 49439976,
+        "children": [
+          {
+            "name": "Chapterwise PYQs",
+            "type": "folder",
+            "fileId": "",
+            "size": 49439976,
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Physical Education - Physical Education - PYQ.pdf",
+                "type": "file",
+                "fileId": "1HGGTyPkKZJhUmkgKEPRqUMeRHRiPuN00",
+                "size": 3086313,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Physical Education - Human Growth And Development - PYQ.pdf",
+                "type": "file",
+                "fileId": "1lvc7rx7PpHjdNlcdIWlZnXgYaC0lBV9H",
+                "size": 3799743,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Physical Education - Physical Fitness - PYQ.pdf",
+                "type": "file",
+                "fileId": "1vsc3n4ZLH7XdQtJ-zPeOoJWCV2XZDm1o",
+                "size": 4911636,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Physical Education - Body Types - PYQ.pdf",
+                "type": "file",
+                "fileId": "1-TooBJZAV3kpEtX0NxAq2jBWbGAazmkH",
+                "size": 4557931,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Physical Education - Health Education - PYQ.pdf",
+                "type": "file",
+                "fileId": "1y3a-QV8Hian7k24ycdlm0lfIC2bcKQfj",
+                "size": 4154488,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Physical Education - Sports Training - PYQ.pdf",
+                "type": "file",
+                "fileId": "1PEK7Dmrzr_6ZKiKElxh2uSB4rKKEQvZ_",
+                "size": 5321259,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Physical Education - Safety In Sports - PYQ.pdf",
+                "type": "file",
+                "fileId": "1prT3u59UATOEbW8PtZUBElJWu6lwSrVq",
+                "size": 3022696,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Physical Education - Careers In Physical Education - PYQ.pdf",
+                "type": "file",
+                "fileId": "1rQ8s3WWwjHUpaiOhwVbRysVlo1F3qsp9",
+                "size": 3021453,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "09 - ICSE Class 10 - Physical Education - Cricket - PYQ.pdf",
+                "type": "file",
+                "fileId": "1b2D4QpApvRDCsskMTNeEDblTLSK5isIg",
+                "size": 2693680,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "10 - ICSE Class 10 - Physical Education - Football - PYQ.pdf",
+                "type": "file",
+                "fileId": "1AjGJ95BycXgVm-KLLK121XbzzsCKY9f3",
+                "size": 2601867,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "11 - ICSE Class 10 - Physical Education - Hockey - PYQ.pdf",
+                "type": "file",
+                "fileId": "11jKpK0xpfW8mipu_aLQvtpnCInrE0XF0",
+                "size": 3881502,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "12 - ICSE Class 10 - Physical Education - Basketball - PYQ.pdf",
+                "type": "file",
+                "fileId": "1mIebb8d0wBqPgv5H0evW17__hibyKMc6",
+                "size": 3824865,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "13 - ICSE Class 10 - Physical Education - Volleyball - PYQ.pdf",
+                "type": "file",
+                "fileId": "1mPiyptz9Jx6VXynxOlHqMTWKOJRovHhA",
+                "size": 2677540,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "14 - ICSE Class 10 - Physical Education - Badminton - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Dpen_7JKqmD3b-LTc_DLvHDuoqHB_OKf",
+                "size": 1885003,
+                "addedAt": "2026-09-23"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Physics",
         "type": "folder",
         "fileId": "",
-        "size": 410600821,
+        "size": 443422675,
         "children": [
           {
-            "name": "Physics - Factors affecting Quantities.pdf",
-            "type": "file",
-            "fileId": "1njMiyrdInng2v_AZoLwwd3HkbAfxBOyy",
-            "size": 4114876,
-            "addedAt": "2026-09-23"
+            "name": "Chapterwise PYQs",
+            "type": "folder",
+            "fileId": "",
+            "size": 32821854,
+            "children": [
+              {
+                "name": "01 - ICSE Class 10 - Physics - Mechanics - PYQ.pdf",
+                "type": "file",
+                "fileId": "1MpVfJZ4vFBhwiz78QdkPf_AHgqe5fa4m",
+                "size": 1853712,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "02 - ICSE Class 10 - Physics - Force Turning Forces And Uniform Circular Motion - PYQ.pdf",
+                "type": "file",
+                "fileId": "1y7YDtjESiL7V9KkaBmbaKOuA-ZWVjMAR",
+                "size": 2884068,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "03 - ICSE Class 10 - Physics - Work Power And Energy - PYQ.pdf",
+                "type": "file",
+                "fileId": "1lat-eB9vsu-bmojTPBBvFpBQGk3wIWwX",
+                "size": 3760398,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "04 - ICSE Class 10 - Physics - Light - PYQ.pdf",
+                "type": "file",
+                "fileId": "1mNSZ34gSvcvs3A_MNzXvFG1K95b1RnUH",
+                "size": 7791423,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "05 - ICSE Class 10 - Physics - Sound - PYQ.pdf",
+                "type": "file",
+                "fileId": "1RGaq77KM4ivPevVyHWptt0Oc6CPhyiFZ",
+                "size": 3124903,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "06 - ICSE Class 10 - Physics - Electricity And Magnetism - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Twj_2OAip9AbD2umtrheX_dG-2fT0H9Q",
+                "size": 8825400,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "07 - ICSE Class 10 - Physics - Heat - PYQ.pdf",
+                "type": "file",
+                "fileId": "1KuK9i5Ch7mbEdJvaRW51pUVvQaaUXjt0",
+                "size": 2316272,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "08 - ICSE Class 10 - Physics - Modern Physics - PYQ.pdf",
+                "type": "file",
+                "fileId": "1Gj7J0gxTuEsh_K5hf7UoXdVr8lOIueFV",
+                "size": 2265678,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
-            "name": "Physics - Formula Sheet.pdf",
-            "type": "file",
-            "fileId": "1qgcBW-vLFh67hmRL7k2pWl39lZf5nGBM",
-            "size": 1732714,
-            "addedAt": "2026-09-23"
+            "name": "Notes",
+            "type": "folder",
+            "fileId": "",
+            "size": 63321967,
+            "children": [
+              {
+                "name": "Physics - Factors affecting Quantities.pdf",
+                "type": "file",
+                "fileId": "1njMiyrdInng2v_AZoLwwd3HkbAfxBOyy",
+                "size": 4114876,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics - Formula Sheet.pdf",
+                "type": "file",
+                "fileId": "1qgcBW-vLFh67hmRL7k2pWl39lZf5nGBM",
+                "size": 1732714,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics - Notes.pdf",
+                "type": "file",
+                "fileId": "16WrmmK8O9dwJZQMH-tojalfTr_LkJSIZ",
+                "size": 27218881,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics - Revision Notes.pdf",
+                "type": "file",
+                "fileId": "15rHnMEmRLqI3r92Tj6v9_YfT5C0ElcMr",
+                "size": 1998518,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics Formulas Masterkey.pdf",
+                "type": "file",
+                "fileId": "1lBcTEfzKbbnUfKv9rNy-_AjEraPGZT3h",
+                "size": 606036,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics Revision Notes and Mind maps.pdf",
+                "type": "file",
+                "fileId": "1K3o9XnIWFwcyezSsiaCHLxm64t-3PvVn",
+                "size": 27650942,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
-            "name": "Physics - Notes.pdf",
-            "type": "file",
-            "fileId": "16WrmmK8O9dwJZQMH-tojalfTr_LkJSIZ",
-            "size": 27218881,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Physics - Revision Notes.pdf",
-            "type": "file",
-            "fileId": "15rHnMEmRLqI3r92Tj6v9_YfT5C0ElcMr",
-            "size": 1998518,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Physics - Vatsal Handbook.pdf",
-            "type": "file",
-            "fileId": "13zSvYdA8p6lR_dqpImJ6QVYuIdCTyd5m",
-            "size": 66791876,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Physics Chapterwise PYQs.pdf",
-            "type": "file",
-            "fileId": "19CsIMUfHGmS2sLHp4NJQiWTtpVDEP7Ki",
-            "size": 4631999,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Physics Formulas Masterkey.pdf",
-            "type": "file",
-            "fileId": "1lBcTEfzKbbnUfKv9rNy-_AjEraPGZT3h",
-            "size": 606036,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Physics Most Likely Question Bank.pdf",
-            "type": "file",
-            "fileId": "1wDUKYHndrLv4_SZLYW6G0Gi7ZINyBpG3",
-            "size": 58347520,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Physics Question Bank - Arun Deep.pdf",
-            "type": "file",
-            "fileId": "18b2Mf9E1nTP1lugpD8kRe3Ql_cKXMn-y",
-            "size": 19048333,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Physics Question Bank - Goyal.pdf",
-            "type": "file",
-            "fileId": "1teSuDrIWfpQmDT2mSrZPYCsoqKCVyRcu",
-            "size": 14618589,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Physics Question Bank - Oswal.pdf",
-            "type": "file",
-            "fileId": "1TAPhWGrjCMQB_PcTfsBBuPmxmjOO-QKh",
-            "size": 58347520,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Physics Revision Notes and Mind maps.pdf",
-            "type": "file",
-            "fileId": "1K3o9XnIWFwcyezSsiaCHLxm64t-3PvVn",
-            "size": 27650942,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Physics Sample Papers - Arihant.pdf",
-            "type": "file",
-            "fileId": "1FhEBqkp0hnaNLKC3JOgLQAOQkrT3HNcl",
-            "size": 67221166,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Physics Solved PYQ - Arihant.pdf",
-            "type": "file",
-            "fileId": "1SdefKo7rVEQduQObGC-K3XuzKhi8kMR7",
-            "size": 31735533,
-            "addedAt": "2026-09-23"
+            "name": "Question Banks",
+            "type": "folder",
+            "fileId": "",
+            "size": 320742536,
+            "children": [
+              {
+                "name": "Physics - Vatsal Handbook.pdf",
+                "type": "file",
+                "fileId": "13zSvYdA8p6lR_dqpImJ6QVYuIdCTyd5m",
+                "size": 66791876,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics Chapterwise PYQs.pdf",
+                "type": "file",
+                "fileId": "19CsIMUfHGmS2sLHp4NJQiWTtpVDEP7Ki",
+                "size": 4631999,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics Most Likely Question Bank.pdf",
+                "type": "file",
+                "fileId": "1wDUKYHndrLv4_SZLYW6G0Gi7ZINyBpG3",
+                "size": 58347520,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics Question Bank - Arun Deep.pdf",
+                "type": "file",
+                "fileId": "18b2Mf9E1nTP1lugpD8kRe3Ql_cKXMn-y",
+                "size": 19048333,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics Question Bank - Goyal.pdf",
+                "type": "file",
+                "fileId": "1teSuDrIWfpQmDT2mSrZPYCsoqKCVyRcu",
+                "size": 14618589,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics Question Bank - Oswal.pdf",
+                "type": "file",
+                "fileId": "1TAPhWGrjCMQB_PcTfsBBuPmxmjOO-QKh",
+                "size": 58347520,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics Sample Papers - Arihant.pdf",
+                "type": "file",
+                "fileId": "1FhEBqkp0hnaNLKC3JOgLQAOQkrT3HNcl",
+                "size": 67221166,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Physics Solved PYQ - Arihant.pdf",
+                "type": "file",
+                "fileId": "1SdefKo7rVEQduQObGC-K3XuzKhi8kMR7",
+                "size": 31735533,
+                "addedAt": "2026-09-23"
+              }
+            ]
           },
           {
             "name": "Sample Papers",
@@ -8600,13 +8407,6 @@
             ]
           }
         ]
-      },
-      {
-        "name": "PW Endgame Notes - 2026.pdf",
-        "type": "file",
-        "fileId": "1AFzX4dDQ-BUMDvn-xqaGYpk8dysRZ1FP",
-        "size": 46120105,
-        "addedAt": "2026-09-23"
       }
     ]
   }
