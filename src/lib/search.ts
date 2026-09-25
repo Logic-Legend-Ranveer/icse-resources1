@@ -48,8 +48,12 @@ export function buildTermGroups(query: string, synonyms: Record<string, string[]
   });
 }
 
-/** A name matches when it contains at least one phrase from EVERY term group (AND across terms, OR within a group). */
-export function matchesTermGroups(name: string, termGroups: string[][]): boolean {
-  const lowerName = name.toLowerCase();
-  return termGroups.every((group) => group.some((phrase) => lowerName.includes(phrase)));
+/** A file matches when its FULL PATH contains at least one phrase from EVERY term group (AND across terms, OR within a group). */
+export function matchesTermGroups(entry: SearchEntry, termGroups: string[][]): boolean {
+  // Combine the breadcrumb path and the file name into a single string
+  const fullPath = [...entry.breadcrumb, entry.item.name].join("/").toLowerCase();
+  
+  return termGroups.every((group) => 
+    group.some((phrase) => fullPath.includes(phrase))
+  );
 }
