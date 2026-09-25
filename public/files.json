@@ -2396,13 +2396,13 @@
     "name": "Study Assets",
     "type": "folder",
     "fileId": "",
-    "size": 3953702746,
+    "size": 3950545644,
     "children": [
       {
         "name": "Biology",
         "type": "folder",
         "fileId": "",
-        "size": 312154262,
+        "size": 313073293,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -2564,7 +2564,7 @@
             "name": "Question Banks",
             "type": "folder",
             "fileId": "",
-            "size": 159854365,
+            "size": 160773396,
             "children": [
               {
                 "name": "Biology - Suggestive Questions.pdf",
@@ -2593,6 +2593,13 @@
                 "fileId": "1XjAc_kbZ_acm9are8mrDcdhuHPHeELHt",
                 "size": 73850427,
                 "addedAt": "2026-09-23"
+              },
+              {
+                "name": "CFQ-ICSE-Biology-X.pdf",
+                "type": "file",
+                "fileId": "1Aaosg4_1J7mMBBFVC262swm-4BzZ2iFn",
+                "size": 919031,
+                "addedAt": "2026-09-17"
               }
             ]
           },
@@ -2768,116 +2775,10 @@
         ]
       },
       {
-        "name": "CFQ Question bank(Official From ICSE)",
-        "type": "folder",
-        "fileId": "",
-        "size": 17406455,
-        "children": [
-          {
-            "name": "CFQs-ICSE_Computer-Application-Class-X.pdf",
-            "type": "file",
-            "fileId": "1f7SUc9hBEMZleDeEhOZqcKemu4JkDmSy",
-            "size": 942708,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Biology-X.pdf",
-            "type": "file",
-            "fileId": "1Aaosg4_1J7mMBBFVC262swm-4BzZ2iFn",
-            "size": 919031,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Chemistry.pdf",
-            "type": "file",
-            "fileId": "1lf5j_IkF2GP4kVLtgT9qyu-y8zPXf4_I",
-            "size": 1423040,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Commercial-Applications-.pdf",
-            "type": "file",
-            "fileId": "1V_pUjVs4j8mt6aZ7Cu1I_nrncqyolEWV",
-            "size": 1021791,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Commercial-Studies-X.pdf",
-            "type": "file",
-            "fileId": "1Vc5vEQnf42NEPgqxOLKcDNJYeRf8nu-o",
-            "size": 893958,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Economic-Applications-X.pdf",
-            "type": "file",
-            "fileId": "1B72vkzoXfQlP4bABP-j2-FHy24rtvMNZ",
-            "size": 1241421,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-English-Language-X.pdf",
-            "type": "file",
-            "fileId": "1DRVCrBLsAIihqSRVl5Z-Q0NIWyrfn1Kd",
-            "size": 734942,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Geography.pdf",
-            "type": "file",
-            "fileId": "1vSBmX5osN6c2wpiU1svZxDT4O8qSWP-0",
-            "size": 1941427,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Literature-in-English-X.pdf",
-            "type": "file",
-            "fileId": "1fQFsnk4Tg4P20y9X04_YCbWlmxmo6rgB",
-            "size": 873794,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Mathematics-X.pdf",
-            "type": "file",
-            "fileId": "1TZnYzT6I9gCs8GHJ-N3BULAfHmrvMl0o",
-            "size": 1684905,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Physical-Education-X.pdf",
-            "type": "file",
-            "fileId": "1fnduetIyUpQ2qQC0jjpLjVT1YB_O_KxR",
-            "size": 1045290,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE-Physics-X-1.pdf",
-            "type": "file",
-            "fileId": "1ShHcQgWzhgSp8iNPSF0xNAqP__tCo1-K",
-            "size": 2346974,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE_Economics-X.pdf",
-            "type": "file",
-            "fileId": "17z3yJzoZHb9IdiwapXiOudqyHdS3x9w9",
-            "size": 1021723,
-            "addedAt": "2026-09-17"
-          },
-          {
-            "name": "ICSE_History-and-Civics-X.pdf",
-            "type": "file",
-            "fileId": "1O2GjoWd2fqei6e3golhYxoDKzlXm_0mK",
-            "size": 1315451,
-            "addedAt": "2026-09-17"
-          }
-        ]
-      },
-      {
         "name": "Chemistry",
         "type": "folder",
         "fileId": "",
-        "size": 344803974,
+        "size": 346227014,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -3018,8 +2919,15 @@
             "name": "Question banks",
             "type": "folder",
             "fileId": "",
-            "size": 229977344,
+            "size": 231400384,
             "children": [
+              {
+                "name": "CFQ-ICSE-Chemistry.pdf",
+                "type": "file",
+                "fileId": "1lf5j_IkF2GP4kVLtgT9qyu-y8zPXf4_I",
+                "size": 1423040,
+                "addedAt": "2026-09-17"
+              },
               {
                 "name": "Chemistry - Oswal Most Likely Questions.pdf",
                 "type": "file",
@@ -3239,8 +3147,15 @@
         "name": "Commercial Applications",
         "type": "folder",
         "fileId": "",
-        "size": 1499919,
+        "size": 2521710,
         "children": [
+          {
+            "name": "CFQ-ICSE-Commercial-Applications-.pdf",
+            "type": "file",
+            "fileId": "1V_pUjVs4j8mt6aZ7Cu1I_nrncqyolEWV",
+            "size": 1021791,
+            "addedAt": "2026-09-17"
+          },
           {
             "name": "Commercial Applications - PreBoard Paper.pdf",
             "type": "file",
@@ -3254,7 +3169,7 @@
         "name": "Computer Applications",
         "type": "folder",
         "fileId": "",
-        "size": 342342885,
+        "size": 343285593,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -3705,8 +3620,15 @@
             "name": "Question Banks",
             "type": "folder",
             "fileId": "",
-            "size": 179022804,
+            "size": 179965512,
             "children": [
+              {
+                "name": "CFQs-ICSE_Computer-Application-Class-X.pdf",
+                "type": "file",
+                "fileId": "1f7SUc9hBEMZleDeEhOZqcKemu4JkDmSy",
+                "size": 942708,
+                "addedAt": "2026-09-17"
+              },
               {
                 "name": "Computer Applications - MCQs.pdf",
                 "type": "file",
@@ -3867,1549 +3789,1555 @@
         ]
       },
       {
-        "name": "English",
+        "name": "English Language",
         "type": "folder",
         "fileId": "",
-        "size": 1379294387,
+        "size": 791594946,
         "children": [
           {
-            "name": "Language",
+            "name": "Books",
             "type": "folder",
             "fileId": "",
-            "size": 790860004,
+            "size": 94271692,
             "children": [
               {
-                "name": "Books",
-                "type": "folder",
-                "fileId": "",
-                "size": 94271692,
-                "children": [
-                  {
-                    "name": "English Language - Wren and Martin.pdf",
-                    "type": "file",
-                    "fileId": "16QzXymyfdGH_8R_qYV9-eWzC8QI6dXQ0",
-                    "size": 18904118,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Grammatically Yours.pdf",
-                    "type": "file",
-                    "fileId": "14M4Ne7DZmFsqmcpNvB_hPsmYcADgbi9z",
-                    "size": 72498287,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Total English - Teacher_s Handbook.pdf",
-                    "type": "file",
-                    "fileId": "10uArK0-m366rfOQkH11J_9dfe_QSMs2x",
-                    "size": 2869287,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
+                "name": "English Language - Wren and Martin.pdf",
+                "type": "file",
+                "fileId": "16QzXymyfdGH_8R_qYV9-eWzC8QI6dXQ0",
+                "size": 18904118,
+                "addedAt": "2026-09-23"
               },
               {
-                "name": "Notes and Guides",
-                "type": "folder",
-                "fileId": "",
-                "size": 641630387,
-                "children": [
-                  {
-                    "name": "100 Most Important Phrasal Verbs.pdf",
-                    "type": "file",
-                    "fileId": "1i3kTtGlpGKqzLjzUn7-FWze-yqrBjNIM",
-                    "size": 21669,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Composition writing Guides",
-                    "type": "folder",
-                    "fileId": "",
-                    "size": 622634719,
-                    "children": [
-                      {
-                        "name": "English Language - Composition Writing Guide.pdf",
-                        "type": "file",
-                        "fileId": "1hpuLjTAa4AKsLSmiclCShRg0RiNfcgPq",
-                        "size": 1616156,
-                        "addedAt": "2026-09-23"
-                      },
-                      {
-                        "name": "SWS - Argumentative Writing.pdf",
-                        "type": "file",
-                        "fileId": "1Mm6UBGn0NdEab7WdQpRTwmG2nUdQP2F_",
-                        "size": 312166302,
-                        "addedAt": "2026-09-23"
-                      },
-                      {
-                        "name": "SWS - Descriptive Essays.pdf",
-                        "type": "file",
-                        "fileId": "1ubucjiOivmjJnuxzLLWZGqvzQw_-qDev",
-                        "size": 113445777,
-                        "addedAt": "2026-09-23"
-                      },
-                      {
-                        "name": "SWS - Narrative Essays.pdf",
-                        "type": "file",
-                        "fileId": "1ZtJIIFSQyxn2wr9M40y657-MRxAUniRb",
-                        "size": 191597501,
-                        "addedAt": "2026-09-23"
-                      },
-                      {
-                        "name": "SWS - Story Writing.pdf",
-                        "type": "file",
-                        "fileId": "1W6T8sNS1-1XxTmknJu0Wjx4A3MGe7yWQ",
-                        "size": 3808983,
-                        "addedAt": "2026-09-23"
-                      }
-                    ]
-                  },
-                  {
-                    "name": "English Language - Catchy Titles for Notice.pdf",
-                    "type": "file",
-                    "fileId": "1YpVRo10DUePxJP1Ljhz70FkHn9j2ky4A",
-                    "size": 93569,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Important Phrasal Verbs.pdf",
-                    "type": "file",
-                    "fileId": "1Aq1oeODeL7n1VJ4tqd7qGNhFQ10R1YO2",
-                    "size": 3831953,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Letter Writing Guide.pdf",
-                    "type": "file",
-                    "fileId": "1pIfIcuyM5tz1Q9zQhrvKXrHkZWxqcZef",
-                    "size": 214756,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Notes.pdf",
-                    "type": "file",
-                    "fileId": "1Gs4VFl_wTLryox5BQToNCpBJU8bt5w4W",
-                    "size": 12619632,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Workshop.pdf",
-                    "type": "file",
-                    "fileId": "1YUJvCJlJEDWQHpEW_9ousHpWYzWAoshV",
-                    "size": 2214089,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
+                "name": "Grammatically Yours.pdf",
+                "type": "file",
+                "fileId": "14M4Ne7DZmFsqmcpNvB_hPsmYcADgbi9z",
+                "size": 72498287,
+                "addedAt": "2026-09-23"
               },
               {
-                "name": "Question Banks & Practice Sets",
-                "type": "folder",
-                "fileId": "",
-                "size": 28137208,
-                "children": [
-                  {
-                    "name": "English Language Question Bank - Goyal.pdf",
-                    "type": "file",
-                    "fileId": "1pxjOdTLP7InAIBGAq-KDuue1XrPKarqR",
-                    "size": 14531525,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Phrasal Verbs - Practice Set.pdf",
-                    "type": "file",
-                    "fileId": "1tPI5HL9P7u6k3lbn2vWTpS_sclrqntLJ",
-                    "size": 1545730,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Phrasal Verbs.pdf",
-                    "type": "file",
-                    "fileId": "184hw3NH9Gg75iuDsu80orVU8G846ziC4",
-                    "size": 10001554,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Prepositions-Practice.pdf",
-                    "type": "file",
-                    "fileId": "1I0_X40lQLKEaEoWWGBwL_Z0sxz5Ycugj",
-                    "size": 2058399,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Sample Papers",
-                "type": "folder",
-                "fileId": "",
-                "size": 26820717,
-                "children": [
-                  {
-                    "name": "English Language - Model Test Paper - 1 (Unsolved).pdf",
-                    "type": "file",
-                    "fileId": "1734Dg6eNbDAIC5C9qfK_xdwJilp8TN_2",
-                    "size": 6768640,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Model Test Paper - 2 (Unsolved).pdf",
-                    "type": "file",
-                    "fileId": "1_lLuYjTgNC2DFinv2jf6PdWI1_5jZZN3",
-                    "size": 5773384,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Model Test Paper - 3 (Unsolved).pdf",
-                    "type": "file",
-                    "fileId": "1Fm5KHKbmKIncoCRfpV-kliUZUjW5RSSR",
-                    "size": 6795962,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 01.pdf",
-                    "type": "file",
-                    "fileId": "1EDJhHH2RYK0zcbjID8shElaMoBJ7VQoG",
-                    "size": 473323,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 02.pdf",
-                    "type": "file",
-                    "fileId": "12FjgVLG2qwzWDQlyQKfODOz0-699C0tR",
-                    "size": 438417,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 03.pdf",
-                    "type": "file",
-                    "fileId": "1yBxoxCZFObdlDm8X9sHSPSVeu6XxohX3",
-                    "size": 441063,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 04.pdf",
-                    "type": "file",
-                    "fileId": "1IwzCVS9MA-pD6dslBBYO6Zx_BCfK-GGL",
-                    "size": 443610,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 05.pdf",
-                    "type": "file",
-                    "fileId": "1Kjl_ANGjyGMMv5DlLFE--Aw33ES7hq3C",
-                    "size": 464309,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 06.pdf",
-                    "type": "file",
-                    "fileId": "1h1h4oA24RDpQkRkt4Hp9wMmhyMTw1b2E",
-                    "size": 470858,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 07.pdf",
-                    "type": "file",
-                    "fileId": "1P5Vgmwste9pLWskGVN7DJb8iz_x2TJUI",
-                    "size": 453194,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 09.pdf",
-                    "type": "file",
-                    "fileId": "1tid8ZsJUPrX9VcLmUusBASKLzcmWtp8X",
-                    "size": 432377,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 10.pdf",
-                    "type": "file",
-                    "fileId": "1hl-U6RBH0VhFvyMgU9rtEzRVPT8AOOkt",
-                    "size": 471818,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 11.pdf",
-                    "type": "file",
-                    "fileId": "1lAdt2rEaSjdnqVve7NXVvbHe7iTcdtLl",
-                    "size": 319790,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 12.pdf",
-                    "type": "file",
-                    "fileId": "1VpIlUfuUHCZxygGW3sjt-ApEtW-7cV9g",
-                    "size": 382600,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 13.pdf",
-                    "type": "file",
-                    "fileId": "12psje7ylsoRONmmm0Vcst4TBkAU1EZLw",
-                    "size": 410982,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 14.pdf",
-                    "type": "file",
-                    "fileId": "16fhoqxLyXCrSyv2IplQR0Jl7UyyZUK5W",
-                    "size": 330078,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 15.pdf",
-                    "type": "file",
-                    "fileId": "1jTwDXIni467KvtR-RKijBDyHq2s6-LeW",
-                    "size": 313331,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 16.pdf",
-                    "type": "file",
-                    "fileId": "1yGThUYie6qkI9OLwzaQKS6CaheJ-9gwX",
-                    "size": 392999,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 17.pdf",
-                    "type": "file",
-                    "fileId": "1FHJO9S8uqPqL76ZSRm3gqOHxtdYmhBYh",
-                    "size": 345649,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 18.pdf",
-                    "type": "file",
-                    "fileId": "1BjxtdEnPyqBWYGAE4-r_KdUZNhPObdDM",
-                    "size": 330989,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 19.pdf",
-                    "type": "file",
-                    "fileId": "1cRk-tzFwHf0JABcVKRaMASvPIEc8_ppP",
-                    "size": 260020,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Language - Sample Paper - 20.pdf",
-                    "type": "file",
-                    "fileId": "18m4JCG1QP6HhnA-dLFhccMWqP1YYgScJ",
-                    "size": 307324,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Study With Sudhir - Resources",
-                "type": "folder",
-                "fileId": "",
-                "size": 0,
-                "children": []
+                "name": "Total English - Teacher_s Handbook.pdf",
+                "type": "file",
+                "fileId": "10uArK0-m366rfOQkH11J_9dfe_QSMs2x",
+                "size": 2869287,
+                "addedAt": "2026-09-23"
               }
             ]
           },
           {
-            "name": "Literature",
+            "name": "Notes and Guides",
             "type": "folder",
             "fileId": "",
-            "size": 588434383,
+            "size": 641630387,
             "children": [
               {
-                "name": "English Literature Revision notes.pdf",
+                "name": "100 Most Important Phrasal Verbs.pdf",
                 "type": "file",
-                "fileId": "1Ny4yZyvcF70tXbNKlPb5_L9Kqc5kMHmO",
-                "size": 10197138,
+                "fileId": "1i3kTtGlpGKqzLjzUn7-FWze-yqrBjNIM",
+                "size": 21669,
                 "addedAt": "2026-09-23"
               },
               {
-                "name": "Julius Caesar",
+                "name": "Composition writing Guides",
                 "type": "folder",
                 "fileId": "",
-                "size": 284425281,
+                "size": 622634719,
                 "children": [
                   {
-                    "name": "ACT - III",
-                    "type": "folder",
-                    "fileId": "",
-                    "size": 11584788,
-                    "children": [
-                      {
-                        "name": "SCENE - I",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 5304494,
-                        "children": [
-                          {
-                            "name": "Act - III, Scene - I - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1NzW8zDvewIes2_-PQgoam2J2fdf1PJSn",
-                            "size": 217194,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - III, Scene - I - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1wBNOmFNSlfPMUBCzlZYGgo3XaIGBrXX4",
-                            "size": 300515,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - III, Scene - I - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1hUhpZ7jxFmlNpDa5BwOC5v3ulMsDSVHp",
-                            "size": 231238,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - III, Scene - I - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1so_GQNfOQRE0yyhlpwYMwgxKLb13b3Y_",
-                            "size": 268308,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - III, Scene - I- Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1bCeBylIDCBC0TGDz75XvG05JYnLueeRT",
-                            "size": 4287239,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "SCENE - II",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 2466423,
-                        "children": [
-                          {
-                            "name": "Act - III, Scene - II - Brief.pdf",
-                            "type": "file",
-                            "fileId": "12kgKASpt_V-_W5fCl_ufDC7sNZBk3uQB",
-                            "size": 127240,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - III, Scene - II - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1u_l2EuRXuC1HP7445W_OmVqE9tHyRTgD",
-                            "size": 1602914,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - III, Scene - II - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1d2MMibw0uzGt0R1GWxELNbCF1Bt9juiv",
-                            "size": 85422,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - III, Scene - II - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1byDz6m2nilDv0s7EIXcGIVf0AO7yA_3J",
-                            "size": 78208,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act 3 scene 2 MCQs.pdf",
-                            "type": "file",
-                            "fileId": "1zCtzroOnDhbdrmJv8vMhbyzfsjMDXisa",
-                            "size": 572639,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "SCENE - III",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 3813871,
-                        "children": [
-                          {
-                            "name": "Act - III, Scene - III - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1QlDKotiq4xF5LkZ2YOtbSSXsRWh8syOl",
-                            "size": 486461,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - III, Scene - III - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1CNJPtu4QizZusF5KgdBD40Q1ZBsIhp8u",
-                            "size": 2261330,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - III, Scene - III - Questions.pdf",
-                            "type": "file",
-                            "fileId": "15LXZUpExDqmaYwFg1pwD7Hv-sxneBsKH",
-                            "size": 312692,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - III, Scene - III - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1StmkGwHJgkjoOyvA3gxTqf_IBbtAeHBf",
-                            "size": 210793,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - III, Scene - III - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1t-HJ4Y21t_Yv2Tjy2PnK5CZEt5GyBX6U",
-                            "size": 222036,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act 3 scene 3 MCQs.pdf",
-                            "type": "file",
-                            "fileId": "16gb2Az7Z3O6fJ_l08k3UIFV2CNVHNnV1",
-                            "size": 320559,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
-                      }
-                    ]
+                    "name": "English Language - Composition Writing Guide.pdf",
+                    "type": "file",
+                    "fileId": "1hpuLjTAa4AKsLSmiclCShRg0RiNfcgPq",
+                    "size": 1616156,
+                    "addedAt": "2026-09-23"
                   },
                   {
-                    "name": "ACT - IV",
+                    "name": "SWS - Argumentative Writing.pdf",
+                    "type": "file",
+                    "fileId": "1Mm6UBGn0NdEab7WdQpRTwmG2nUdQP2F_",
+                    "size": 312166302,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "SWS - Descriptive Essays.pdf",
+                    "type": "file",
+                    "fileId": "1ubucjiOivmjJnuxzLLWZGqvzQw_-qDev",
+                    "size": 113445777,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "SWS - Narrative Essays.pdf",
+                    "type": "file",
+                    "fileId": "1ZtJIIFSQyxn2wr9M40y657-MRxAUniRb",
+                    "size": 191597501,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "SWS - Story Writing.pdf",
+                    "type": "file",
+                    "fileId": "1W6T8sNS1-1XxTmknJu0Wjx4A3MGe7yWQ",
+                    "size": 3808983,
+                    "addedAt": "2026-09-23"
+                  }
+                ]
+              },
+              {
+                "name": "English Language - Catchy Titles for Notice.pdf",
+                "type": "file",
+                "fileId": "1YpVRo10DUePxJP1Ljhz70FkHn9j2ky4A",
+                "size": 93569,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Important Phrasal Verbs.pdf",
+                "type": "file",
+                "fileId": "1Aq1oeODeL7n1VJ4tqd7qGNhFQ10R1YO2",
+                "size": 3831953,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Letter Writing Guide.pdf",
+                "type": "file",
+                "fileId": "1pIfIcuyM5tz1Q9zQhrvKXrHkZWxqcZef",
+                "size": 214756,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Notes.pdf",
+                "type": "file",
+                "fileId": "1Gs4VFl_wTLryox5BQToNCpBJU8bt5w4W",
+                "size": 12619632,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Workshop.pdf",
+                "type": "file",
+                "fileId": "1YUJvCJlJEDWQHpEW_9ousHpWYzWAoshV",
+                "size": 2214089,
+                "addedAt": "2026-09-23"
+              }
+            ]
+          },
+          {
+            "name": "Question Banks & Practice Sets",
+            "type": "folder",
+            "fileId": "",
+            "size": 28872150,
+            "children": [
+              {
+                "name": "CFQ-ICSE-English-Language-X.pdf",
+                "type": "file",
+                "fileId": "1DRVCrBLsAIihqSRVl5Z-Q0NIWyrfn1Kd",
+                "size": 734942,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "English Language Question Bank - Goyal.pdf",
+                "type": "file",
+                "fileId": "1pxjOdTLP7InAIBGAq-KDuue1XrPKarqR",
+                "size": 14531525,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Phrasal Verbs - Practice Set.pdf",
+                "type": "file",
+                "fileId": "1tPI5HL9P7u6k3lbn2vWTpS_sclrqntLJ",
+                "size": 1545730,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Phrasal Verbs.pdf",
+                "type": "file",
+                "fileId": "184hw3NH9Gg75iuDsu80orVU8G846ziC4",
+                "size": 10001554,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Prepositions-Practice.pdf",
+                "type": "file",
+                "fileId": "1I0_X40lQLKEaEoWWGBwL_Z0sxz5Ycugj",
+                "size": 2058399,
+                "addedAt": "2026-09-23"
+              }
+            ]
+          },
+          {
+            "name": "Sample Papers",
+            "type": "folder",
+            "fileId": "",
+            "size": 26820717,
+            "children": [
+              {
+                "name": "English Language - Model Test Paper - 1 (Unsolved).pdf",
+                "type": "file",
+                "fileId": "1734Dg6eNbDAIC5C9qfK_xdwJilp8TN_2",
+                "size": 6768640,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Model Test Paper - 2 (Unsolved).pdf",
+                "type": "file",
+                "fileId": "1_lLuYjTgNC2DFinv2jf6PdWI1_5jZZN3",
+                "size": 5773384,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Model Test Paper - 3 (Unsolved).pdf",
+                "type": "file",
+                "fileId": "1Fm5KHKbmKIncoCRfpV-kliUZUjW5RSSR",
+                "size": 6795962,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 01.pdf",
+                "type": "file",
+                "fileId": "1EDJhHH2RYK0zcbjID8shElaMoBJ7VQoG",
+                "size": 473323,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 02.pdf",
+                "type": "file",
+                "fileId": "12FjgVLG2qwzWDQlyQKfODOz0-699C0tR",
+                "size": 438417,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 03.pdf",
+                "type": "file",
+                "fileId": "1yBxoxCZFObdlDm8X9sHSPSVeu6XxohX3",
+                "size": 441063,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 04.pdf",
+                "type": "file",
+                "fileId": "1IwzCVS9MA-pD6dslBBYO6Zx_BCfK-GGL",
+                "size": 443610,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 05.pdf",
+                "type": "file",
+                "fileId": "1Kjl_ANGjyGMMv5DlLFE--Aw33ES7hq3C",
+                "size": 464309,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 06.pdf",
+                "type": "file",
+                "fileId": "1h1h4oA24RDpQkRkt4Hp9wMmhyMTw1b2E",
+                "size": 470858,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 07.pdf",
+                "type": "file",
+                "fileId": "1P5Vgmwste9pLWskGVN7DJb8iz_x2TJUI",
+                "size": 453194,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 09.pdf",
+                "type": "file",
+                "fileId": "1tid8ZsJUPrX9VcLmUusBASKLzcmWtp8X",
+                "size": 432377,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 10.pdf",
+                "type": "file",
+                "fileId": "1hl-U6RBH0VhFvyMgU9rtEzRVPT8AOOkt",
+                "size": 471818,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 11.pdf",
+                "type": "file",
+                "fileId": "1lAdt2rEaSjdnqVve7NXVvbHe7iTcdtLl",
+                "size": 319790,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 12.pdf",
+                "type": "file",
+                "fileId": "1VpIlUfuUHCZxygGW3sjt-ApEtW-7cV9g",
+                "size": 382600,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 13.pdf",
+                "type": "file",
+                "fileId": "12psje7ylsoRONmmm0Vcst4TBkAU1EZLw",
+                "size": 410982,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 14.pdf",
+                "type": "file",
+                "fileId": "16fhoqxLyXCrSyv2IplQR0Jl7UyyZUK5W",
+                "size": 330078,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 15.pdf",
+                "type": "file",
+                "fileId": "1jTwDXIni467KvtR-RKijBDyHq2s6-LeW",
+                "size": 313331,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 16.pdf",
+                "type": "file",
+                "fileId": "1yGThUYie6qkI9OLwzaQKS6CaheJ-9gwX",
+                "size": 392999,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 17.pdf",
+                "type": "file",
+                "fileId": "1FHJO9S8uqPqL76ZSRm3gqOHxtdYmhBYh",
+                "size": 345649,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 18.pdf",
+                "type": "file",
+                "fileId": "1BjxtdEnPyqBWYGAE4-r_KdUZNhPObdDM",
+                "size": 330989,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 19.pdf",
+                "type": "file",
+                "fileId": "1cRk-tzFwHf0JABcVKRaMASvPIEc8_ppP",
+                "size": 260020,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Language - Sample Paper - 20.pdf",
+                "type": "file",
+                "fileId": "18m4JCG1QP6HhnA-dLFhccMWqP1YYgScJ",
+                "size": 307324,
+                "addedAt": "2026-09-23"
+              }
+            ]
+          },
+          {
+            "name": "Study With Sudhir - Resources",
+            "type": "folder",
+            "fileId": "",
+            "size": 0,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "English Literature",
+        "type": "folder",
+        "fileId": "",
+        "size": 589308177,
+        "children": [
+          {
+            "name": "English Literature Revision notes.pdf",
+            "type": "file",
+            "fileId": "1Ny4yZyvcF70tXbNKlPb5_L9Kqc5kMHmO",
+            "size": 10197138,
+            "addedAt": "2026-09-23"
+          },
+          {
+            "name": "Julius Caesar",
+            "type": "folder",
+            "fileId": "",
+            "size": 284425281,
+            "children": [
+              {
+                "name": "ACT - III",
+                "type": "folder",
+                "fileId": "",
+                "size": 11584788,
+                "children": [
+                  {
+                    "name": "SCENE - I",
                     "type": "folder",
                     "fileId": "",
-                    "size": 7439992,
+                    "size": 5304494,
                     "children": [
                       {
-                        "name": "Act 4 scene 1 & 2 MCQs",
+                        "name": "Act - III, Scene - I - Brief.pdf",
                         "type": "file",
-                        "fileId": "1JecCW5ln1YVI1VKSuaLzZ_-zwFhSy3o4",
-                        "size": 570679,
+                        "fileId": "1NzW8zDvewIes2_-PQgoam2J2fdf1PJSn",
+                        "size": 217194,
                         "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "SCENE - I",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 3904211,
-                        "children": [
-                          {
-                            "name": "Act - IV, Scene - I - Brief.pdf",
-                            "type": "file",
-                            "fileId": "14gNuC4khWTN3c_RJil4jAZAN60iq2E0g",
-                            "size": 632898,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - IV, Scene - I - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1xEzUe12CE-Tc92pyK52ua_o8IEoCwpiX",
-                            "size": 2630084,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - IV, Scene - I - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1m31b-hmFXrur6ufg4fgLcsvrEeWXdfJF",
-                            "size": 190976,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - IV, Scene - I - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1954a7O3vLTMVTGnpchRV_Tj-fSa4eb6O",
-                            "size": 228443,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - IV, Scene - I - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "10IMdmeVFR4pj-HirK10Xb0ov3a_mW07e",
-                            "size": 221810,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "SCENE - II",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 2965102,
-                        "children": [
-                          {
-                            "name": "Act - IV, Scene - II - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1ekCeAs34CCfttxaO4s1J5HXykCDv6ILo",
-                            "size": 467710,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - IV, Scene - II - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1XuPHRN2-PLy8NExSB3EpPqyjOJMWkXv9",
-                            "size": 2084933,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - IV, Scene - II - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1P8AMrq-29m3nbe2vwgUZAkcNMH_pT7JX",
-                            "size": 190162,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - IV, Scene - II - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1IcDjgsaKBtEsosD03Mq9p062-Dl6iF02",
-                            "size": 222297,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "SCENE - III",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 0,
-                        "children": []
-                      }
-                    ]
-                  },
-                  {
-                    "name": "ACT - V",
-                    "type": "folder",
-                    "fileId": "",
-                    "size": 33229572,
-                    "children": [
-                      {
-                        "name": "Act 5 MCQs.pdf",
+                        "name": "Act - III, Scene - I - Questions.pdf",
                         "type": "file",
-                        "fileId": "1EWOHOWZkJjNpkNZeUenJHjKiuICS06R7",
-                        "size": 1345450,
+                        "fileId": "1wBNOmFNSlfPMUBCzlZYGgo3XaIGBrXX4",
+                        "size": 300515,
                         "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "SCENE - I",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 7575493,
-                        "children": [
-                          {
-                            "name": "Act - V, Scene - I - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1r9Ct_M-GCaKvcdnGoOxM1OuA5It1Kmhf",
-                            "size": 6494212,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - I - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1avPYpwhY82h8YhXha9pvuVqDW-OMDuyb",
-                            "size": 298726,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - I - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1fe9CFN6c0wkKSJzjUKRc0Lzk5NB7zV8_",
-                            "size": 518364,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - I - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "131MG1rskFmQD3UbTsdEI9xZ71sYupV8j",
-                            "size": 264191,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - I - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1hUhpZ7jxFmlNpDa5BwOC5v3ulMsDSVHp",
+                        "size": 231238,
+                        "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "SCENE - II",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 2381074,
-                        "children": [
-                          {
-                            "name": "Act - V, Scene - II - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1t0n7SPc0_o_RVTG5ZD106NH-xGqB2wa_",
-                            "size": 220091,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - II - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1N1N60MbEF0stndo3iIIkPtgi5IjfIxPH",
-                            "size": 1547791,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - II - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1gS7Xd7woeU_hw9nY8Okoyjuby5PQGhfZ",
-                            "size": 186494,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - II - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1fVcqpCs1nIvUvP_FG8jjwoYcZ-IFRYsU",
-                            "size": 212109,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - II - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1LPISRhhTRL-0X65lnlyCAGxaVxyN2RyE",
-                            "size": 214589,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - I - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1so_GQNfOQRE0yyhlpwYMwgxKLb13b3Y_",
+                        "size": 268308,
+                        "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "SCENE - III",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 5650010,
-                        "children": [
-                          {
-                            "name": "Act - V, Scene - III - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1MhDS8KoOttxpUsAO7f2bGoIZJEwzc7ho",
-                            "size": 346832,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - III - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1GBrca4Jp3wKLwHRR_K8aTFuvPxy25V-v",
-                            "size": 4576987,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - III - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1BHRoIjQ-IC734uCP9weQ4enR6sQ2fmro",
-                            "size": 196335,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - III - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1QlMNGNuOSvUORJ-wWbelkElYoa_oigAX",
-                            "size": 270053,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - III - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1EOjTnRbbDC_fbBtPeLGDT0m0ZwXRwNED",
-                            "size": 259803,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "SCENE - IV",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 5706477,
-                        "children": [
-                          {
-                            "name": "Act - V, Scene - IV - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1WZMK7n0_7dphxx5u4cWM3CVjOesbdlLv",
-                            "size": 708681,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - IV - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1P9jYMkzPG22pqbgPvFoke4qlxnIS0uSU",
-                            "size": 2546944,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - IV - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1HRFawfiWaoVQun2pTbIQ7fP4kA3qeDBh",
-                            "size": 190351,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - IV - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1DUqO8x0SEfR9b5K9aNum5xdvvy4grPox",
-                            "size": 241720,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - IV - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1fifoJ4C18IBcLZDYDVpjeYZB99UE0mS6",
-                            "size": 222299,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "ACT_IV_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1IK41oRkDBUoOghcBPfritkHUqRBmBNpq",
-                            "size": 1796482,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
-                      },
-                      {
-                        "name": "SCENE - V",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 10571068,
-                        "children": [
-                          {
-                            "name": "Act - V, Scene - V - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1iD_hvTq01kH21VfUbLweSba8tWnlgNpW",
-                            "size": 603253,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - V - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1ZyFj7CMwQ-9qsB0EXMeDwIBayIAaghx5",
-                            "size": 6940660,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - V - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1wU-36aepg8y_zBSTO3CO9329Fq2zIGnx",
-                            "size": 304111,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - V - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1A_uDIm7FLt1QuDp0KodJDxYYHQMG6Y9i",
-                            "size": 487432,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Act - V, Scene - V - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1E_19PgyARWlMQ91gl3Cz0t3eyHmnzt_g",
-                            "size": 359345,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "ACT_V_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1T4MsIPsRDzPskuObEH374VouLYrXxMSM",
-                            "size": 1876267,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - I- Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1bCeBylIDCBC0TGDz75XvG05JYnLueeRT",
+                        "size": 4287239,
+                        "addedAt": "2026-09-23"
                       }
                     ]
                   },
                   {
-                    "name": "Julius Caesar - Keywords.pdf",
-                    "type": "file",
-                    "fileId": "1vXWMna8wRPwgZSUlWVip-iuz18DDcenx",
-                    "size": 961901,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Julius Caesar - ShakesCleare Translation.pdf",
-                    "type": "file",
-                    "fileId": "1aFRTZdcXm4rKG53nbGMz_hvUlh6KpqOC",
-                    "size": 10604557,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Julius Caesar - Summary Notes.pdf",
-                    "type": "file",
-                    "fileId": "1KZeJjsK9ld3QXLCrQgMARRPFrE_5pFnB",
-                    "size": 857664,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Julius Caesar PYQs - 1992-2006.pdf",
-                    "type": "file",
-                    "fileId": "1XVYtn_rLSO_cu47Bh4aWnd-FiB_3ndd4",
-                    "size": 16468215,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Julius Caesar PYQs - 2007-2008.pdf",
-                    "type": "file",
-                    "fileId": "1ckQPcZXtJxLmlexqCDNgG3omCKkii4kv",
-                    "size": 2791825,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Julius Caesar Question Bank - Educart.pdf",
-                    "type": "file",
-                    "fileId": "1id39WxD-Y1NCiaPPonc_GxtrbW2sZM8a",
-                    "size": 31416658,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Julius Caesar Teacher_s Handbook.pdf",
-                    "type": "file",
-                    "fileId": "1wb3ADjh8DhU5h32YR9Oot6Hs4sqo_GNy",
-                    "size": 18382553,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Julius Caesar Workbook - Almond.pdf",
-                    "type": "file",
-                    "fileId": "1EZN8aWVpd3wn--FoBs9WX-5Z3jg9_J89",
-                    "size": 56128701,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Julius Caesar_ Entire Play.pdf",
-                    "type": "file",
-                    "fileId": "1nXuYZiBO50oFS6Lu4DlYEZxano8fG2wr",
-                    "size": 2141348,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Julius Caesar_Entire play with paraphrase.pdf",
-                    "type": "file",
-                    "fileId": "1_dFeW1fcxVtULhA8r961lm_pyCXkmdHb",
-                    "size": 45004775,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Shakespeare_s Julius Caesar - Manga Edition.pdf",
-                    "type": "file",
-                    "fileId": "1mDjA_Mmo0vGujNRR5SMd8TGRQ6zWpG0q",
-                    "size": 35790415,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "📘 Scene-wise Locations and Settings (Board Revision Notes).pdf",
-                    "type": "file",
-                    "fileId": "1km_7HV4Ntk10omIiN4RMbj8IDLMB8_dV",
-                    "size": 11622317,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Question banks",
-                "type": "folder",
-                "fileId": "",
-                "size": 222996283,
-                "children": [
-                  {
-                    "name": "English Literature - Model Test Papers - Frank.pdf",
-                    "type": "file",
-                    "fileId": "1Qw95tub669_67j0KMCEp0F3uLFEz73PT",
-                    "size": 56377984,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Self-Help by Arun Deep.pdf",
-                    "type": "file",
-                    "fileId": "1ezLaaFeom1bIJMS2rJdAVsqQ2VtULo_m",
-                    "size": 30606596,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature CBQs - Clarify Knowledge.pdf",
-                    "type": "file",
-                    "fileId": "1mGYuP90p96Cb2OC1GZ_CAZGcLCuxgC0p",
-                    "size": 25746171,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature Sample Papers - Arihant.pdf",
-                    "type": "file",
-                    "fileId": "195mgV8wePGSP3WSivv0HRC67INyvn_I6",
-                    "size": 53926283,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature Sample Papers - Frank.pdf",
-                    "type": "file",
-                    "fileId": "1_rh0DSAJQrqlU4D9nBYWFUsQg0GEG77c",
-                    "size": 56339249,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Sample Papers",
-                "type": "folder",
-                "fileId": "",
-                "size": 6777609,
-                "children": [
-                  {
-                    "name": "English Literature - Sample Paper - 01.pdf",
-                    "type": "file",
-                    "fileId": "1NpEIuj5cpWQMpiE1JgQ4yovl1cxYSSdS",
-                    "size": 579841,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 04.pdf",
-                    "type": "file",
-                    "fileId": "1BcZM5RmalgoTh4SlVtxaRaPUU0oiY0Qi",
-                    "size": 509272,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 05.pdf",
-                    "type": "file",
-                    "fileId": "18QJSrz7A4d8nlQY4V52pe-c3My5i_Nbk",
-                    "size": 578441,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 06.pdf",
-                    "type": "file",
-                    "fileId": "1Y6w46tG0mrVNSkxx6aOQB0rDpY27hSt5",
-                    "size": 562857,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 07.pdf",
-                    "type": "file",
-                    "fileId": "1L59SQje8Dlpk8l5BqjQOsWVAPgcEK2SN",
-                    "size": 539822,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 08.pdf",
-                    "type": "file",
-                    "fileId": "1CGpaNi-8at0X9yE1bN8ozwumGqa_PeCB",
-                    "size": 552408,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 11.pdf",
-                    "type": "file",
-                    "fileId": "1XVwIZdtw37gP-6bK1RmB7YQgp91CQ-iS",
-                    "size": 473868,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 12.pdf",
-                    "type": "file",
-                    "fileId": "1nMRpJZcBbNzjulsaK22GeVWQhKOsIFfg",
-                    "size": 607426,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 13.pdf",
-                    "type": "file",
-                    "fileId": "1lCaWCggZVMpTJkifQqPRYKY7jenIus6D",
-                    "size": 621161,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 15.pdf",
-                    "type": "file",
-                    "fileId": "1HjY5tAbAwnBRPsCBQ168quzdqdjSerwu",
-                    "size": 509740,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 17.pdf",
-                    "type": "file",
-                    "fileId": "1XpkXzX93V8dwnHpP0IsGPO-t3tKJZ0JK",
-                    "size": 501855,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 18.pdf",
-                    "type": "file",
-                    "fileId": "1V3pc26BDUFaEPQ3vgNjYPqsqbvCC9wCl",
-                    "size": 602640,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 19.pdf",
-                    "type": "file",
-                    "fileId": "1RnaeOzbRj7ViYyWlK3PFXSt5P-n-PuC7",
-                    "size": 69139,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Sample Paper - 20.pdf",
-                    "type": "file",
-                    "fileId": "1eGAVZZxpnpMv5ntHgSjNBRAm1s74lnl3",
-                    "size": 69139,
-                    "addedAt": "2026-09-23"
-                  }
-                ]
-              },
-              {
-                "name": "Treasure Chest",
-                "type": "folder",
-                "fileId": "",
-                "size": 64038072,
-                "children": [
-                  {
-                    "name": "Chapter-wise Notes.pdf",
-                    "type": "file",
-                    "fileId": "1QhN6YVxklkPwVBkdObjnJr3bXRYLC_0Z",
-                    "size": 5335894,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English - Literary Terms and Devices - Quick Reference.pdf",
-                    "type": "file",
-                    "fileId": "1hCrhGOshnVtYKf8bgF5ow-dXkiaosg_l",
-                    "size": 4548641,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "English Literature - Chapterwise Study Guide.pdf",
-                    "type": "file",
-                    "fileId": "1TanZDMAGPtBRxM1NVBbX29rWGn34w96u",
-                    "size": 733406,
-                    "addedAt": "2026-09-23"
-                  },
-                  {
-                    "name": "Poems",
+                    "name": "SCENE - II",
                     "type": "folder",
                     "fileId": "",
-                    "size": 19042554,
+                    "size": 2466423,
                     "children": [
                       {
-                        "name": "A Considerable Speck",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 3215766,
-                        "children": [
-                          {
-                            "name": "A Considerable Speck - Explaination.pdf",
-                            "type": "file",
-                            "fileId": "1EhxNxt-v1C4jtz2O1WzliISoeM8Awsfp",
-                            "size": 1577312,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "A Considerable Speck - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1WCMODcVkZt2uZnu-zYCS_Kdwtp0w1oVz",
-                            "size": 193178,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "A Considerable Speck - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1LsGynpCucKQz0QUL1auzpaefsQg6BEKQ",
-                            "size": 203746,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "CONSIDERABLE_SPECK_MCQs.pdf",
-                            "type": "file",
-                            "fileId": "1cdOok0xzVLhg5Mi4E86Hv1g-FbauTQCB",
-                            "size": 475580,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "CONSIDERABLE_SPECK_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1V_Z_Jb-XOWI6vAAOHTYQ7uZP8L6cg0Ud",
-                            "size": 765950,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - II - Brief.pdf",
+                        "type": "file",
+                        "fileId": "12kgKASpt_V-_W5fCl_ufDC7sNZBk3uQB",
+                        "size": 127240,
+                        "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "Haunted Houses",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 1176589,
-                        "children": [
-                          {
-                            "name": "Haunted Houses - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1dIgTMSe8aowBLLi2Cu3T_T3NEQdTgOSo",
-                            "size": 893500,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "Haunted Houses - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1rPABM5ggPq8FE_TImqYAw9vXdc04ydXK",
-                            "size": 283089,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - II - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1u_l2EuRXuC1HP7445W_OmVqE9tHyRTgD",
+                        "size": 1602914,
+                        "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "The Glove and the Lions",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 1512871,
-                        "children": [
-                          {
-                            "name": "The Glove and the Lions - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1_kxkwCyBa0e8RS1ZbPDSm5M1EEXguKHQ",
-                            "size": 74899,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Glove and the Lions - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "13UjBW4RvDHspyyDzf7wb3xAEanGPOxfk",
-                            "size": 678826,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Glove and the Lions - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1QPPs0BALqKoW-1OqDuJGfXIlOvmr1IK9",
-                            "size": 46456,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Glove and the Lions - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1wKIpbPEsxdn12ISCZ7aMUD_ilmnbQGgT",
-                            "size": 64603,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_GLOVE_AND_THE_LIONS_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1ZurWPALEcmJvy7su1tQlbsZPkE9eN7q-",
-                            "size": 648087,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - II - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1d2MMibw0uzGt0R1GWxELNbCF1Bt9juiv",
+                        "size": 85422,
+                        "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "The Power of Music",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 676425,
-                        "children": [
-                          {
-                            "name": "The Power of Music - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1CeVQzjOndqHzuhloC_2Ih5mgX02QjjXl",
-                            "size": 457144,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Power of Music - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1U6pNH_r9mspcpdesUkhsAfGZJ2o8dHqB",
-                            "size": 219281,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - II - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1byDz6m2nilDv0s7EIXcGIVf0AO7yA_3J",
+                        "size": 78208,
+                        "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "When Great Trees Fall",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 12460903,
-                        "children": [
-                          {
-                            "name": "When Great Trees Fall - Analysis.pdf",
-                            "type": "file",
-                            "fileId": "1bROx-mAz4qbw--wrqbMI1E1EkmnOx_R6",
-                            "size": 1456525,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "When Great Trees Fall - Critical Review.pdf",
-                            "type": "file",
-                            "fileId": "1tMbqS60lRVS1PDwYjmSdqQEfTKAJfq6H",
-                            "size": 2085358,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "When Great Trees Fall - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1lYNfGSHQO-1LRMO1TBWKT2drOwBTLk5B",
-                            "size": 5833214,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "When Great Trees Fall - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1xz4LlvWoBF4l2mm0jpiqDGdUIlIocd9d",
-                            "size": 403552,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "When Great Trees Fall - Style.pdf",
-                            "type": "file",
-                            "fileId": "1jqM9Qp4J_pWT5Fe-Gw7dN7lp_ftfTjYi",
-                            "size": 2104201,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "WHEN_GREAT_TREES_FALL_MCQs.pdf",
-                            "type": "file",
-                            "fileId": "1H26AZ7FhN0AyB_sQQfCDhL-GLV6v3dIY",
-                            "size": 578053,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act 3 scene 2 MCQs.pdf",
+                        "type": "file",
+                        "fileId": "1zCtzroOnDhbdrmJv8vMhbyzfsjMDXisa",
+                        "size": 572639,
+                        "addedAt": "2026-09-23"
                       }
                     ]
                   },
                   {
-                    "name": "Stories",
+                    "name": "SCENE - III",
                     "type": "folder",
                     "fileId": "",
-                    "size": 26653040,
+                    "size": 3813871,
                     "children": [
                       {
-                        "name": "The Elevator",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 1898391,
-                        "children": [
-                          {
-                            "name": "The Elevator - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1WdFt5q2HjfXQ5MGVPz7IJqASIki4W7Qk",
-                            "size": 256785,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Elevator - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1aQMTeiIeZLViEvqR6xsJGCOzISbjiAek",
-                            "size": 588565,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Elevator - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1B8BCAZKErkgJ-kUARzozCgh_Ti2ccXKW",
-                            "size": 33570,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Elevator - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "14LbgU661AAHXmj559pKoKAjNL68L0LrK",
-                            "size": 91614,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Elevator - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1b3v880z_g9ookt-CTRVNKBqiEisf00hl",
-                            "size": 65191,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_ELEVATOR_MCQs.pdf",
-                            "type": "file",
-                            "fileId": "1ByvHG7Oe9HtuD83_0lrNwvdsR4bd_SAU",
-                            "size": 862666,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - III - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1QlDKotiq4xF5LkZ2YOtbSSXsRWh8syOl",
+                        "size": 486461,
+                        "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "The Girl Who Can",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 5751194,
-                        "children": [
-                          {
-                            "name": "The Girl Who Can - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1iol3d4s0_Au9d63ll4kUT1MeGWODzCvW",
-                            "size": 358093,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Girl Who Can - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1OoR7CDuERUn-OtNPQPBBvPA-qMsGcQ-d",
-                            "size": 3389475,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Girl Who Can - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1AYMxT4FhEiGg1WI9wsR-4_uF5-46c161",
-                            "size": 321442,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Girl Who Can - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "13u1SRymFWg5FEMk6TArdh8tDBGDCt0RJ",
-                            "size": 278448,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_GIRL_WHO_CAN_MCQs.pdf",
-                            "type": "file",
-                            "fileId": "1NYef0NJT8LPcm2pa9YfmnpulIBA61QLX",
-                            "size": 666092,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_GIRL_WHO_CAN_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1QG3E2IHgl6zOSp4uzriLJQi7l0TxdBkC",
-                            "size": 737644,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - III - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1CNJPtu4QizZusF5KgdBD40Q1ZBsIhp8u",
+                        "size": 2261330,
+                        "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "The Last Lesson",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 5434378,
-                        "children": [
-                          {
-                            "name": "The Last Lesson - Brief.pdf",
-                            "type": "file",
-                            "fileId": "19v5HA6SWAYRL6AzBM0jqaqIphQfuUAHX",
-                            "size": 566026,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Last Lesson - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1CvvoSMQeryat4eNVNXIuGNxOtys5YFdK",
-                            "size": 3273891,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Last Lesson - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1HLbj46Z6lNU8z1iX6d43I0RiurJF5lQB",
-                            "size": 361442,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Last Lesson - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1zpZ_OnNqwSSOZUcnoCoG-ziD9s4uebyH",
-                            "size": 449597,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_LAST_LESSON_QnA.pdf",
-                            "type": "file",
-                            "fileId": "1A-ry31CheLybHIFavVNTkb1xNgdgqjLV",
-                            "size": 783422,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - III - Questions.pdf",
+                        "type": "file",
+                        "fileId": "15LXZUpExDqmaYwFg1pwD7Hv-sxneBsKH",
+                        "size": 312692,
+                        "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "The Pedestrian",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 6806418,
-                        "children": [
-                          {
-                            "name": "The Pedestrian - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1CPmUNxjhunoEy-aaWWhsdyxM-ZvCTRZ1",
-                            "size": 518766,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Pedestrian - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "10x2tK58wWvlQHRk17U28ZERb7XT5YZMD",
-                            "size": 4685529,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Pedestrian - Questions.pdf",
-                            "type": "file",
-                            "fileId": "1e-utwgMW_blJiV7VAi7wLNTepX7Y0hOa",
-                            "size": 301861,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Pedestrian - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1u7oL9vs0F5XwEXEzSyX7FsBGyOSCBvps",
-                            "size": 215751,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "The Pedestrian - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1pu7DcEkOvc6ufJPda5XjPIcuf0KyXFeD",
-                            "size": 324812,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "THE_PEDESTRIAN_MCQs.pdf",
-                            "type": "file",
-                            "fileId": "1d25vgyqOhlwuXK3o6TAI83tnQqFoPt79",
-                            "size": 759699,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - III - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1StmkGwHJgkjoOyvA3gxTqf_IBbtAeHBf",
+                        "size": 210793,
+                        "addedAt": "2026-09-23"
                       },
                       {
-                        "name": "With The Photographer",
-                        "type": "folder",
-                        "fileId": "",
-                        "size": 6762659,
-                        "children": [
-                          {
-                            "name": "With The Photographer - Brief.pdf",
-                            "type": "file",
-                            "fileId": "1A3rh2Z5hwLtScdFpgiZGgjkV3ics2Su9",
-                            "size": 549681,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "With The Photographer - Explanation.pdf",
-                            "type": "file",
-                            "fileId": "1zIZ89J-qyO_-GQYjTtopZy8Rtzzf8Ump",
-                            "size": 5626409,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "With The Photographer - Study Guide.pdf",
-                            "type": "file",
-                            "fileId": "1pd1heRtyYhDyWmniHrD1wwdO5cr3Ext4",
-                            "size": 341595,
-                            "addedAt": "2026-09-23"
-                          },
-                          {
-                            "name": "With The Photographer - Timeline.pdf",
-                            "type": "file",
-                            "fileId": "1_jPz-REFrJyMBS4gGNS5tXBUoS6JtzB-",
-                            "size": 244974,
-                            "addedAt": "2026-09-23"
-                          }
-                        ]
+                        "name": "Act - III, Scene - III - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1t-HJ4Y21t_Yv2Tjy2PnK5CZEt5GyBX6U",
+                        "size": 222036,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act 3 scene 3 MCQs.pdf",
+                        "type": "file",
+                        "fileId": "16gb2Az7Z3O6fJ_l08k3UIFV2CNVHNnV1",
+                        "size": 320559,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ACT - IV",
+                "type": "folder",
+                "fileId": "",
+                "size": 7439992,
+                "children": [
+                  {
+                    "name": "Act 4 scene 1 & 2 MCQs",
+                    "type": "file",
+                    "fileId": "1JecCW5ln1YVI1VKSuaLzZ_-zwFhSy3o4",
+                    "size": 570679,
+                    "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "SCENE - I",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 3904211,
+                    "children": [
+                      {
+                        "name": "Act - IV, Scene - I - Brief.pdf",
+                        "type": "file",
+                        "fileId": "14gNuC4khWTN3c_RJil4jAZAN60iq2E0g",
+                        "size": 632898,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - IV, Scene - I - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1xEzUe12CE-Tc92pyK52ua_o8IEoCwpiX",
+                        "size": 2630084,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - IV, Scene - I - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1m31b-hmFXrur6ufg4fgLcsvrEeWXdfJF",
+                        "size": 190976,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - IV, Scene - I - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1954a7O3vLTMVTGnpchRV_Tj-fSa4eb6O",
+                        "size": 228443,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - IV, Scene - I - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "10IMdmeVFR4pj-HirK10Xb0ov3a_mW07e",
+                        "size": 221810,
+                        "addedAt": "2026-09-23"
                       }
                     ]
                   },
                   {
-                    "name": "Treasure Chest - Summary Notes.pdf",
+                    "name": "SCENE - II",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 2965102,
+                    "children": [
+                      {
+                        "name": "Act - IV, Scene - II - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1ekCeAs34CCfttxaO4s1J5HXykCDv6ILo",
+                        "size": 467710,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - IV, Scene - II - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1XuPHRN2-PLy8NExSB3EpPqyjOJMWkXv9",
+                        "size": 2084933,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - IV, Scene - II - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1P8AMrq-29m3nbe2vwgUZAkcNMH_pT7JX",
+                        "size": 190162,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - IV, Scene - II - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1IcDjgsaKBtEsosD03Mq9p062-Dl6iF02",
+                        "size": 222297,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "SCENE - III",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 0,
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "ACT - V",
+                "type": "folder",
+                "fileId": "",
+                "size": 33229572,
+                "children": [
+                  {
+                    "name": "Act 5 MCQs.pdf",
                     "type": "file",
-                    "fileId": "1aAmRIIjbrQbrHnP4s0h6ugZ95xBQe2ZG",
-                    "size": 2625632,
+                    "fileId": "1EWOHOWZkJjNpkNZeUenJHjKiuICS06R7",
+                    "size": 1345450,
                     "addedAt": "2026-09-23"
                   },
                   {
-                    "name": "Treasure Chest Teacher_s Handbook.pdf",
-                    "type": "file",
-                    "fileId": "1vk5gIwtCLLZNE0CtcQz8DVyhbuosMRMN",
-                    "size": 5098905,
-                    "addedAt": "2026-09-23"
+                    "name": "SCENE - I",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 7575493,
+                    "children": [
+                      {
+                        "name": "Act - V, Scene - I - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1r9Ct_M-GCaKvcdnGoOxM1OuA5It1Kmhf",
+                        "size": 6494212,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - I - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1avPYpwhY82h8YhXha9pvuVqDW-OMDuyb",
+                        "size": 298726,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - I - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1fe9CFN6c0wkKSJzjUKRc0Lzk5NB7zV8_",
+                        "size": 518364,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - I - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "131MG1rskFmQD3UbTsdEI9xZ71sYupV8j",
+                        "size": 264191,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "SCENE - II",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 2381074,
+                    "children": [
+                      {
+                        "name": "Act - V, Scene - II - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1t0n7SPc0_o_RVTG5ZD106NH-xGqB2wa_",
+                        "size": 220091,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - II - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1N1N60MbEF0stndo3iIIkPtgi5IjfIxPH",
+                        "size": 1547791,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - II - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1gS7Xd7woeU_hw9nY8Okoyjuby5PQGhfZ",
+                        "size": 186494,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - II - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1fVcqpCs1nIvUvP_FG8jjwoYcZ-IFRYsU",
+                        "size": 212109,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - II - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1LPISRhhTRL-0X65lnlyCAGxaVxyN2RyE",
+                        "size": 214589,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "SCENE - III",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 5650010,
+                    "children": [
+                      {
+                        "name": "Act - V, Scene - III - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1MhDS8KoOttxpUsAO7f2bGoIZJEwzc7ho",
+                        "size": 346832,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - III - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1GBrca4Jp3wKLwHRR_K8aTFuvPxy25V-v",
+                        "size": 4576987,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - III - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1BHRoIjQ-IC734uCP9weQ4enR6sQ2fmro",
+                        "size": 196335,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - III - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1QlMNGNuOSvUORJ-wWbelkElYoa_oigAX",
+                        "size": 270053,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - III - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1EOjTnRbbDC_fbBtPeLGDT0m0ZwXRwNED",
+                        "size": 259803,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "SCENE - IV",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 5706477,
+                    "children": [
+                      {
+                        "name": "Act - V, Scene - IV - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1WZMK7n0_7dphxx5u4cWM3CVjOesbdlLv",
+                        "size": 708681,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - IV - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1P9jYMkzPG22pqbgPvFoke4qlxnIS0uSU",
+                        "size": 2546944,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - IV - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1HRFawfiWaoVQun2pTbIQ7fP4kA3qeDBh",
+                        "size": 190351,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - IV - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1DUqO8x0SEfR9b5K9aNum5xdvvy4grPox",
+                        "size": 241720,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - IV - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1fifoJ4C18IBcLZDYDVpjeYZB99UE0mS6",
+                        "size": 222299,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "ACT_IV_QnA.pdf",
+                        "type": "file",
+                        "fileId": "1IK41oRkDBUoOghcBPfritkHUqRBmBNpq",
+                        "size": 1796482,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "SCENE - V",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 10571068,
+                    "children": [
+                      {
+                        "name": "Act - V, Scene - V - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1iD_hvTq01kH21VfUbLweSba8tWnlgNpW",
+                        "size": 603253,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - V - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1ZyFj7CMwQ-9qsB0EXMeDwIBayIAaghx5",
+                        "size": 6940660,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - V - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1wU-36aepg8y_zBSTO3CO9329Fq2zIGnx",
+                        "size": 304111,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - V - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1A_uDIm7FLt1QuDp0KodJDxYYHQMG6Y9i",
+                        "size": 487432,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Act - V, Scene - V - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1E_19PgyARWlMQ91gl3Cz0t3eyHmnzt_g",
+                        "size": 359345,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "ACT_V_QnA.pdf",
+                        "type": "file",
+                        "fileId": "1T4MsIPsRDzPskuObEH374VouLYrXxMSM",
+                        "size": 1876267,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
                   }
                 ]
+              },
+              {
+                "name": "Julius Caesar - Keywords.pdf",
+                "type": "file",
+                "fileId": "1vXWMna8wRPwgZSUlWVip-iuz18DDcenx",
+                "size": 961901,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Julius Caesar - ShakesCleare Translation.pdf",
+                "type": "file",
+                "fileId": "1aFRTZdcXm4rKG53nbGMz_hvUlh6KpqOC",
+                "size": 10604557,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Julius Caesar - Summary Notes.pdf",
+                "type": "file",
+                "fileId": "1KZeJjsK9ld3QXLCrQgMARRPFrE_5pFnB",
+                "size": 857664,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Julius Caesar PYQs - 1992-2006.pdf",
+                "type": "file",
+                "fileId": "1XVYtn_rLSO_cu47Bh4aWnd-FiB_3ndd4",
+                "size": 16468215,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Julius Caesar PYQs - 2007-2008.pdf",
+                "type": "file",
+                "fileId": "1ckQPcZXtJxLmlexqCDNgG3omCKkii4kv",
+                "size": 2791825,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Julius Caesar Question Bank - Educart.pdf",
+                "type": "file",
+                "fileId": "1id39WxD-Y1NCiaPPonc_GxtrbW2sZM8a",
+                "size": 31416658,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Julius Caesar Teacher_s Handbook.pdf",
+                "type": "file",
+                "fileId": "1wb3ADjh8DhU5h32YR9Oot6Hs4sqo_GNy",
+                "size": 18382553,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Julius Caesar Workbook - Almond.pdf",
+                "type": "file",
+                "fileId": "1EZN8aWVpd3wn--FoBs9WX-5Z3jg9_J89",
+                "size": 56128701,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Julius Caesar_ Entire Play.pdf",
+                "type": "file",
+                "fileId": "1nXuYZiBO50oFS6Lu4DlYEZxano8fG2wr",
+                "size": 2141348,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Julius Caesar_Entire play with paraphrase.pdf",
+                "type": "file",
+                "fileId": "1_dFeW1fcxVtULhA8r961lm_pyCXkmdHb",
+                "size": 45004775,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Shakespeare_s Julius Caesar - Manga Edition.pdf",
+                "type": "file",
+                "fileId": "1mDjA_Mmo0vGujNRR5SMd8TGRQ6zWpG0q",
+                "size": 35790415,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "📘 Scene-wise Locations and Settings (Board Revision Notes).pdf",
+                "type": "file",
+                "fileId": "1km_7HV4Ntk10omIiN4RMbj8IDLMB8_dV",
+                "size": 11622317,
+                "addedAt": "2026-09-23"
+              }
+            ]
+          },
+          {
+            "name": "Question banks",
+            "type": "folder",
+            "fileId": "",
+            "size": 223870077,
+            "children": [
+              {
+                "name": "CFQ-ICSE-Literature-in-English-X.pdf",
+                "type": "file",
+                "fileId": "1fQFsnk4Tg4P20y9X04_YCbWlmxmo6rgB",
+                "size": 873794,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "English Literature - Model Test Papers - Frank.pdf",
+                "type": "file",
+                "fileId": "1Qw95tub669_67j0KMCEp0F3uLFEz73PT",
+                "size": 56377984,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Self-Help by Arun Deep.pdf",
+                "type": "file",
+                "fileId": "1ezLaaFeom1bIJMS2rJdAVsqQ2VtULo_m",
+                "size": 30606596,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature CBQs - Clarify Knowledge.pdf",
+                "type": "file",
+                "fileId": "1mGYuP90p96Cb2OC1GZ_CAZGcLCuxgC0p",
+                "size": 25746171,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature Sample Papers - Arihant.pdf",
+                "type": "file",
+                "fileId": "195mgV8wePGSP3WSivv0HRC67INyvn_I6",
+                "size": 53926283,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature Sample Papers - Frank.pdf",
+                "type": "file",
+                "fileId": "1_rh0DSAJQrqlU4D9nBYWFUsQg0GEG77c",
+                "size": 56339249,
+                "addedAt": "2026-09-23"
+              }
+            ]
+          },
+          {
+            "name": "Sample Papers",
+            "type": "folder",
+            "fileId": "",
+            "size": 6777609,
+            "children": [
+              {
+                "name": "English Literature - Sample Paper - 01.pdf",
+                "type": "file",
+                "fileId": "1NpEIuj5cpWQMpiE1JgQ4yovl1cxYSSdS",
+                "size": 579841,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 04.pdf",
+                "type": "file",
+                "fileId": "1BcZM5RmalgoTh4SlVtxaRaPUU0oiY0Qi",
+                "size": 509272,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 05.pdf",
+                "type": "file",
+                "fileId": "18QJSrz7A4d8nlQY4V52pe-c3My5i_Nbk",
+                "size": 578441,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 06.pdf",
+                "type": "file",
+                "fileId": "1Y6w46tG0mrVNSkxx6aOQB0rDpY27hSt5",
+                "size": 562857,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 07.pdf",
+                "type": "file",
+                "fileId": "1L59SQje8Dlpk8l5BqjQOsWVAPgcEK2SN",
+                "size": 539822,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 08.pdf",
+                "type": "file",
+                "fileId": "1CGpaNi-8at0X9yE1bN8ozwumGqa_PeCB",
+                "size": 552408,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 11.pdf",
+                "type": "file",
+                "fileId": "1XVwIZdtw37gP-6bK1RmB7YQgp91CQ-iS",
+                "size": 473868,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 12.pdf",
+                "type": "file",
+                "fileId": "1nMRpJZcBbNzjulsaK22GeVWQhKOsIFfg",
+                "size": 607426,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 13.pdf",
+                "type": "file",
+                "fileId": "1lCaWCggZVMpTJkifQqPRYKY7jenIus6D",
+                "size": 621161,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 15.pdf",
+                "type": "file",
+                "fileId": "1HjY5tAbAwnBRPsCBQ168quzdqdjSerwu",
+                "size": 509740,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 17.pdf",
+                "type": "file",
+                "fileId": "1XpkXzX93V8dwnHpP0IsGPO-t3tKJZ0JK",
+                "size": 501855,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 18.pdf",
+                "type": "file",
+                "fileId": "1V3pc26BDUFaEPQ3vgNjYPqsqbvCC9wCl",
+                "size": 602640,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 19.pdf",
+                "type": "file",
+                "fileId": "1RnaeOzbRj7ViYyWlK3PFXSt5P-n-PuC7",
+                "size": 69139,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Sample Paper - 20.pdf",
+                "type": "file",
+                "fileId": "1eGAVZZxpnpMv5ntHgSjNBRAm1s74lnl3",
+                "size": 69139,
+                "addedAt": "2026-09-23"
+              }
+            ]
+          },
+          {
+            "name": "Treasure Chest",
+            "type": "folder",
+            "fileId": "",
+            "size": 64038072,
+            "children": [
+              {
+                "name": "Chapter-wise Notes.pdf",
+                "type": "file",
+                "fileId": "1QhN6YVxklkPwVBkdObjnJr3bXRYLC_0Z",
+                "size": 5335894,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English - Literary Terms and Devices - Quick Reference.pdf",
+                "type": "file",
+                "fileId": "1hCrhGOshnVtYKf8bgF5ow-dXkiaosg_l",
+                "size": 4548641,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "English Literature - Chapterwise Study Guide.pdf",
+                "type": "file",
+                "fileId": "1TanZDMAGPtBRxM1NVBbX29rWGn34w96u",
+                "size": 733406,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Poems",
+                "type": "folder",
+                "fileId": "",
+                "size": 19042554,
+                "children": [
+                  {
+                    "name": "A Considerable Speck",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 3215766,
+                    "children": [
+                      {
+                        "name": "A Considerable Speck - Explaination.pdf",
+                        "type": "file",
+                        "fileId": "1EhxNxt-v1C4jtz2O1WzliISoeM8Awsfp",
+                        "size": 1577312,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "A Considerable Speck - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1WCMODcVkZt2uZnu-zYCS_Kdwtp0w1oVz",
+                        "size": 193178,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "A Considerable Speck - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1LsGynpCucKQz0QUL1auzpaefsQg6BEKQ",
+                        "size": 203746,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "CONSIDERABLE_SPECK_MCQs.pdf",
+                        "type": "file",
+                        "fileId": "1cdOok0xzVLhg5Mi4E86Hv1g-FbauTQCB",
+                        "size": 475580,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "CONSIDERABLE_SPECK_QnA.pdf",
+                        "type": "file",
+                        "fileId": "1V_Z_Jb-XOWI6vAAOHTYQ7uZP8L6cg0Ud",
+                        "size": 765950,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Haunted Houses",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 1176589,
+                    "children": [
+                      {
+                        "name": "Haunted Houses - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1dIgTMSe8aowBLLi2Cu3T_T3NEQdTgOSo",
+                        "size": 893500,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "Haunted Houses - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1rPABM5ggPq8FE_TImqYAw9vXdc04ydXK",
+                        "size": 283089,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "The Glove and the Lions",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 1512871,
+                    "children": [
+                      {
+                        "name": "The Glove and the Lions - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1_kxkwCyBa0e8RS1ZbPDSm5M1EEXguKHQ",
+                        "size": 74899,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Glove and the Lions - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "13UjBW4RvDHspyyDzf7wb3xAEanGPOxfk",
+                        "size": 678826,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Glove and the Lions - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1QPPs0BALqKoW-1OqDuJGfXIlOvmr1IK9",
+                        "size": 46456,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Glove and the Lions - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1wKIpbPEsxdn12ISCZ7aMUD_ilmnbQGgT",
+                        "size": 64603,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "THE_GLOVE_AND_THE_LIONS_QnA.pdf",
+                        "type": "file",
+                        "fileId": "1ZurWPALEcmJvy7su1tQlbsZPkE9eN7q-",
+                        "size": 648087,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "The Power of Music",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 676425,
+                    "children": [
+                      {
+                        "name": "The Power of Music - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1CeVQzjOndqHzuhloC_2Ih5mgX02QjjXl",
+                        "size": 457144,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Power of Music - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1U6pNH_r9mspcpdesUkhsAfGZJ2o8dHqB",
+                        "size": 219281,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "When Great Trees Fall",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 12460903,
+                    "children": [
+                      {
+                        "name": "When Great Trees Fall - Analysis.pdf",
+                        "type": "file",
+                        "fileId": "1bROx-mAz4qbw--wrqbMI1E1EkmnOx_R6",
+                        "size": 1456525,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "When Great Trees Fall - Critical Review.pdf",
+                        "type": "file",
+                        "fileId": "1tMbqS60lRVS1PDwYjmSdqQEfTKAJfq6H",
+                        "size": 2085358,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "When Great Trees Fall - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1lYNfGSHQO-1LRMO1TBWKT2drOwBTLk5B",
+                        "size": 5833214,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "When Great Trees Fall - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1xz4LlvWoBF4l2mm0jpiqDGdUIlIocd9d",
+                        "size": 403552,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "When Great Trees Fall - Style.pdf",
+                        "type": "file",
+                        "fileId": "1jqM9Qp4J_pWT5Fe-Gw7dN7lp_ftfTjYi",
+                        "size": 2104201,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "WHEN_GREAT_TREES_FALL_MCQs.pdf",
+                        "type": "file",
+                        "fileId": "1H26AZ7FhN0AyB_sQQfCDhL-GLV6v3dIY",
+                        "size": 578053,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Stories",
+                "type": "folder",
+                "fileId": "",
+                "size": 26653040,
+                "children": [
+                  {
+                    "name": "The Elevator",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 1898391,
+                    "children": [
+                      {
+                        "name": "The Elevator - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1WdFt5q2HjfXQ5MGVPz7IJqASIki4W7Qk",
+                        "size": 256785,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Elevator - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1aQMTeiIeZLViEvqR6xsJGCOzISbjiAek",
+                        "size": 588565,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Elevator - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1B8BCAZKErkgJ-kUARzozCgh_Ti2ccXKW",
+                        "size": 33570,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Elevator - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "14LbgU661AAHXmj559pKoKAjNL68L0LrK",
+                        "size": 91614,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Elevator - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1b3v880z_g9ookt-CTRVNKBqiEisf00hl",
+                        "size": 65191,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "THE_ELEVATOR_MCQs.pdf",
+                        "type": "file",
+                        "fileId": "1ByvHG7Oe9HtuD83_0lrNwvdsR4bd_SAU",
+                        "size": 862666,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "The Girl Who Can",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 5751194,
+                    "children": [
+                      {
+                        "name": "The Girl Who Can - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1iol3d4s0_Au9d63ll4kUT1MeGWODzCvW",
+                        "size": 358093,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Girl Who Can - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1OoR7CDuERUn-OtNPQPBBvPA-qMsGcQ-d",
+                        "size": 3389475,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Girl Who Can - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1AYMxT4FhEiGg1WI9wsR-4_uF5-46c161",
+                        "size": 321442,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Girl Who Can - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "13u1SRymFWg5FEMk6TArdh8tDBGDCt0RJ",
+                        "size": 278448,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "THE_GIRL_WHO_CAN_MCQs.pdf",
+                        "type": "file",
+                        "fileId": "1NYef0NJT8LPcm2pa9YfmnpulIBA61QLX",
+                        "size": 666092,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "THE_GIRL_WHO_CAN_QnA.pdf",
+                        "type": "file",
+                        "fileId": "1QG3E2IHgl6zOSp4uzriLJQi7l0TxdBkC",
+                        "size": 737644,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "The Last Lesson",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 5434378,
+                    "children": [
+                      {
+                        "name": "The Last Lesson - Brief.pdf",
+                        "type": "file",
+                        "fileId": "19v5HA6SWAYRL6AzBM0jqaqIphQfuUAHX",
+                        "size": 566026,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Last Lesson - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1CvvoSMQeryat4eNVNXIuGNxOtys5YFdK",
+                        "size": 3273891,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Last Lesson - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1HLbj46Z6lNU8z1iX6d43I0RiurJF5lQB",
+                        "size": 361442,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Last Lesson - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1zpZ_OnNqwSSOZUcnoCoG-ziD9s4uebyH",
+                        "size": 449597,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "THE_LAST_LESSON_QnA.pdf",
+                        "type": "file",
+                        "fileId": "1A-ry31CheLybHIFavVNTkb1xNgdgqjLV",
+                        "size": 783422,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "The Pedestrian",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 6806418,
+                    "children": [
+                      {
+                        "name": "The Pedestrian - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1CPmUNxjhunoEy-aaWWhsdyxM-ZvCTRZ1",
+                        "size": 518766,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Pedestrian - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "10x2tK58wWvlQHRk17U28ZERb7XT5YZMD",
+                        "size": 4685529,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Pedestrian - Questions.pdf",
+                        "type": "file",
+                        "fileId": "1e-utwgMW_blJiV7VAi7wLNTepX7Y0hOa",
+                        "size": 301861,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Pedestrian - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1u7oL9vs0F5XwEXEzSyX7FsBGyOSCBvps",
+                        "size": 215751,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "The Pedestrian - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1pu7DcEkOvc6ufJPda5XjPIcuf0KyXFeD",
+                        "size": 324812,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "THE_PEDESTRIAN_MCQs.pdf",
+                        "type": "file",
+                        "fileId": "1d25vgyqOhlwuXK3o6TAI83tnQqFoPt79",
+                        "size": 759699,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "With The Photographer",
+                    "type": "folder",
+                    "fileId": "",
+                    "size": 6762659,
+                    "children": [
+                      {
+                        "name": "With The Photographer - Brief.pdf",
+                        "type": "file",
+                        "fileId": "1A3rh2Z5hwLtScdFpgiZGgjkV3ics2Su9",
+                        "size": 549681,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "With The Photographer - Explanation.pdf",
+                        "type": "file",
+                        "fileId": "1zIZ89J-qyO_-GQYjTtopZy8Rtzzf8Ump",
+                        "size": 5626409,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "With The Photographer - Study Guide.pdf",
+                        "type": "file",
+                        "fileId": "1pd1heRtyYhDyWmniHrD1wwdO5cr3Ext4",
+                        "size": 341595,
+                        "addedAt": "2026-09-23"
+                      },
+                      {
+                        "name": "With The Photographer - Timeline.pdf",
+                        "type": "file",
+                        "fileId": "1_jPz-REFrJyMBS4gGNS5tXBUoS6JtzB-",
+                        "size": 244974,
+                        "addedAt": "2026-09-23"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Treasure Chest - Summary Notes.pdf",
+                "type": "file",
+                "fileId": "1aAmRIIjbrQbrHnP4s0h6ugZ95xBQe2ZG",
+                "size": 2625632,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Treasure Chest Teacher_s Handbook.pdf",
+                "type": "file",
+                "fileId": "1vk5gIwtCLLZNE0CtcQz8DVyhbuosMRMN",
+                "size": 5098905,
+                "addedAt": "2026-09-23"
               }
             ]
           }
@@ -5419,7 +5347,7 @@
         "name": "Geography",
         "type": "folder",
         "fileId": "",
-        "size": 241690044,
+        "size": 243631471,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -5588,8 +5516,15 @@
             "name": "Question Banks",
             "type": "folder",
             "fileId": "",
-            "size": 111659682,
+            "size": 113601109,
             "children": [
+              {
+                "name": "CFQ-ICSE-Geography.pdf",
+                "type": "file",
+                "fileId": "1vSBmX5osN6c2wpiU1svZxDT4O8qSWP-0",
+                "size": 1941427,
+                "addedAt": "2026-09-17"
+              },
               {
                 "name": "Geography -  Map Marking + Indirect Questions.pdf",
                 "type": "file",
@@ -5859,7 +5794,7 @@
         "name": "History & Civics",
         "type": "folder",
         "fileId": "",
-        "size": 252889147,
+        "size": 254204598,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -6099,8 +6034,15 @@
             "name": "Question Banks ",
             "type": "folder",
             "fileId": "",
-            "size": 86499265,
+            "size": 87814716,
             "children": [
+              {
+                "name": "CFQ-ICSE_History-and-Civics-X.pdf",
+                "type": "file",
+                "fileId": "1O2GjoWd2fqei6e3golhYxoDKzlXm_0mK",
+                "size": 1315451,
+                "addedAt": "2026-09-17"
+              },
               {
                 "name": "History & Civics - Teacher_s Handbook.pdf",
                 "type": "file",
@@ -6282,17 +6224,10 @@
         ]
       },
       {
-        "name": "ICSE Chapter wise PYQs(Unofficial)",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
         "name": "Mathematics",
         "type": "folder",
         "fileId": "",
-        "size": 403444896,
+        "size": 405129801,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -6524,8 +6459,15 @@
             "name": "Question Banks",
             "type": "folder",
             "fileId": "",
-            "size": 160300135,
+            "size": 161985040,
             "children": [
+              {
+                "name": "CFQ-ICSE-Mathematics-X.pdf",
+                "type": "file",
+                "fileId": "1TZnYzT6I9gCs8GHJ-N3BULAfHmrvMl0o",
+                "size": 1684905,
+                "addedAt": "2026-09-17"
+              },
               {
                 "name": "Maths - 100 MCQs Practice Set.pdf",
                 "type": "file",
@@ -6739,8 +6681,15 @@
         "name": "Physical Education",
         "type": "folder",
         "fileId": "",
-        "size": 49439976,
+        "size": 50485266,
         "children": [
+          {
+            "name": "CFQ-ICSE-Physical-Education-X.pdf",
+            "type": "file",
+            "fileId": "1fnduetIyUpQ2qQC0jjpLjVT1YB_O_KxR",
+            "size": 1045290,
+            "addedAt": "2026-09-17"
+          },
           {
             "name": "Chapterwise PYQs",
             "type": "folder",
@@ -6853,7 +6802,7 @@
         "name": "Physics",
         "type": "folder",
         "fileId": "",
-        "size": 443422675,
+        "size": 445769649,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -6973,8 +6922,15 @@
             "name": "Question Banks",
             "type": "folder",
             "fileId": "",
-            "size": 320742536,
+            "size": 323089510,
             "children": [
+              {
+                "name": "CFQ-ICSE-Physics-X-1.pdf",
+                "type": "file",
+                "fileId": "1ShHcQgWzhgSp8iNPSF0xNAqP__tCo1-K",
+                "size": 2346974,
+                "addedAt": "2026-09-17"
+              },
               {
                 "name": "Physics - Vatsal Handbook.pdf",
                 "type": "file",
