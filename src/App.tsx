@@ -80,7 +80,7 @@ function AppShell() {
   const searchResults = useMemo<SearchEntry[]>(() => {
     if (!isSearching) return [];
     const termGroups = buildTermGroups(searchQuery, synonyms);
-    return searchIndex.filter((entry) => matchesTermGroups(entry.item.name, termGroups)).slice(0, 100);
+    return searchIndex.filter((entry) => matchesTermGroups(entry, termGroups)).slice(0, 100);
   }, [isSearching, searchQuery, synonyms, searchIndex]);
 
   function handleSelectTab(tabId: TabId) {
