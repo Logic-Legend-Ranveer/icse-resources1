@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo, useRef } from 'react';
+import { useEffect, useState, useMemo} from 'react';
 import './App.css'; 
 import { FileExplorer } from '@/components/FileExplorer';
 import { ViewerModal } from '@/components/ViewerModal';
@@ -102,81 +102,6 @@ export function RecentAdditionsButton() {
   );
 }
 
-function ConstellationBackground() {
-  const canvasRef = useRef<HTMLCanvasElement | null>(null);
-
-  useEffect(() => {
-    const canvas = canvasRef.current;
-    if (!canvas) return;
-    const ctx = canvas.getContext('2d');
-    if (!ctx) return;
-
-    let animationFrameId: number;
-    let width = (canvas.width = window.innerWidth);
-    let height = (canvas.height = window.innerHeight);
-
-    const handleResize = () => {
-      if (!canvas) return;
-      width = canvas.width = window.innerWidth;
-      height = canvas.height = window.innerHeight;
-    };
-    window.addEventListener('resize', handleResize);
-
-    const particleCount = Math.min(Math.floor(width / 25), 50);
-    const particles = Array.from({ length: particleCount }, () => ({
-      x: Math.random() * width,
-      y: Math.random() * height,
-      vx: (Math.random() - 0.5) * 0.6,
-      vy: (Math.random() - 0.5) * 0.6,
-      radius: Math.random() * 2 + 1.5,
-    }));
-
-    const render = () => {
-      ctx.clearRect(0, 0, width, height);
-
-      for (let i = 0; i < particles.length; i++) {
-        const p1 = particles[i];
-        p1.x += p1.vx;
-        p1.y += p1.vy;
-
-        if (p1.x < 0 || p1.x > width) p1.vx *= -1;
-        if (p1.y < 0 || p1.y > height) p1.vy *= -1;
-
-        ctx.beginPath();
-        ctx.arc(p1.x, p1.y, p1.radius, 0, Math.PI * 2);
-        ctx.fillStyle = 'rgba(79, 70, 229, 0.45)';
-        ctx.fill();
-
-        for (let j = i + 1; j < particles.length; j++) {
-          const p2 = particles[j];
-          const dx = p1.x - p2.x;
-          const dy = p1.y - p2.y;
-          const dist = Math.sqrt(dx * dx + dy * dy);
-
-          if (dist < 130) {
-            ctx.beginPath();
-            ctx.moveTo(p1.x, p1.y);
-            ctx.lineTo(p2.x, p2.y);
-            ctx.strokeStyle = `rgba(99, 102, 241, ${0.25 * (1 - dist / 130)})`;
-            ctx.lineWidth = 1;
-            ctx.stroke();
-          }
-        }
-      }
-
-      animationFrameId = requestAnimationFrame(render);
-    };
-
-    render();
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-      cancelAnimationFrame(animationFrameId);
-    };
-  }, []);
-
-  return <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none z-0" />;
-}
 
 export default function App() {
   const [filesData, setFilesData] = useState<FileSystemNode[]>([]);
@@ -362,11 +287,9 @@ export default function App() {
   }, [filesData]);
 
   return (
-    <div className="relative flex flex-col h-screen w-screen overflow-hidden bg-slate-50 dark:bg-slate-950 font-sans transition-colors duration-300">
+    <div className="relative flex flex-col h-screen w-screen overflow-hidden bg-transparent dark:bg-slate-950 font-sans transition-colors duration-300">
       
-      {!isDarkMode ? (
-        <ConstellationBackground />
-      ) : (
+      {isDarkMode && (
         <div className="pointer-events-none absolute inset-0 overflow-hidden z-0">
           <div className="absolute -top-32 -left-32 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl animate-pulse" />
           <div className="absolute top-1/3 -right-32 w-96 h-96 bg-violet-500/20 rounded-full blur-3xl animate-pulse [animation-delay:2s]" />
@@ -374,7 +297,7 @@ export default function App() {
         </div>
       )}
 
-      {/* Main Top Bar - Spans full screen width */}
+      {/* Main Top Bar */}
       <header className="relative z-30 h-14 border-b border-slate-200 dark:border-slate-800 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md px-4 flex items-center justify-between shrink-0 transition-colors">
         <div className="flex items-center gap-3">
           <button
@@ -411,7 +334,7 @@ export default function App() {
 
       {/* Body Area */}
       <div className="relative flex-1 flex overflow-hidden w-full">
-        {/* Mobile Backdrop - strictly overlays only the body region below the header */}
+        {/* Mobile Backdrop */}
         {isSidebarOpen && (
           <div
             className="absolute inset-0 bg-slate-900/40 z-40 md:hidden backdrop-blur-xs"
@@ -425,7 +348,7 @@ export default function App() {
             isSidebarOpen ? 'w-80 translate-x-0' : '-translate-x-full md:-ml-80 md:w-80'
           }`}
         >
-          {/* Search Bar at the top of Sidebar */}
+          {/* Search Bar */}
           <div className="p-3 border-b border-slate-200 dark:border-slate-800 bg-slate-50/70 dark:bg-slate-900/70 shrink-0">
             <div className="relative">
               <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-500 dark:text-slate-400" />
@@ -469,10 +392,10 @@ export default function App() {
           </div>
         </aside>
 
-        {/* Workspace */}
+        {/* Workspace - Updated Card Shadow and Borders for Light Theme */}
         <main className="relative z-10 flex-1 flex flex-col items-center justify-center p-6 text-center overflow-y-auto bg-transparent">
-          <div className="max-w-md space-y-3 bg-white/85 dark:bg-slate-900/85 backdrop-blur-md p-8 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 transition-colors">
-            <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 rounded-xl flex items-center justify-center mx-auto">
+          <div className="max-w-md space-y-3 bg-white/90 dark:bg-slate-900/85 backdrop-blur-xl p-8 rounded-2xl border border-slate-200/80 dark:border-slate-800 shadow-xl shadow-indigo-950/5 dark:shadow-none transition-colors">
+            <div className="w-12 h-12 bg-indigo-100/80 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 rounded-xl flex items-center justify-center mx-auto border border-indigo-200/60 dark:border-indigo-900/40 shadow-sm shadow-indigo-100 dark:shadow-none">
               <FolderTree className="w-6 h-6" />
             </div>
             <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-100">Select a document to view</h2>
