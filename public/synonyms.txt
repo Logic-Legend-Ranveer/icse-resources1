@@ -43,4 +43,4 @@ english = eng
 formula = "masterkey"
 short = notes, short notes
 notes = explaination, brief
-Computer= CS;
+Computer= CS
