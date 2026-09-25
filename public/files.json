@@ -116,14 +116,1216 @@
     "name": "Sample Papers & PYQs from CICSE",
     "type": "folder",
     "fileId": "",
-    "size": 166934388,
+    "size": 202263897,
     "children": [
       {
         "name": "ICSE PYQ(Official)",
         "type": "folder",
         "fileId": "",
-        "size": 142436652,
+        "size": 177766161,
         "children": [
+          {
+            "name": "2017",
+            "type": "folder",
+            "fileId": "",
+            "size": 7334650,
+            "children": [
+              {
+                "name": "011 ENG1 - 2017.pdf",
+                "type": "file",
+                "fileId": "1hqgq1k_dNd9NRsGUy0fEQhlcnKph_ucT",
+                "size": 498764,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "012 ENG 2 - 2017.pdf",
+                "type": "file",
+                "fileId": "1QvC-WsjXyqzibUqdAX-Z9D0RMxVfV6D8",
+                "size": 341662,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "051 HIN - 2017.pdf",
+                "type": "file",
+                "fileId": "18r8dhAz0Heji_q0lD9-ks6GHEN5PRC_p",
+                "size": 931002,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "281 GERMAN - 2017.pdf",
+                "type": "file",
+                "fileId": "17FETBklG6CZGNNwmBYNrRXsZT4MTmUUg",
+                "size": 450128,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "501 HCG 1 - 2017.pdf",
+                "type": "file",
+                "fileId": "17PX708IAYZzqp94uDMUcokYuwNeHhKyW",
+                "size": 351244,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "502 HCG 2 - 2017.pdf",
+                "type": "file",
+                "fileId": "1lhE8R9GMG6A_PMLoeUsg2UNb2iUSGk-R",
+                "size": 630734,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "511 MAT - 2017.pdf",
+                "type": "file",
+                "fileId": "1jeI28AD0U5AtIkNCop5_eb8Y2dKKAlu-",
+                "size": 414108,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "521 SCI 1 - 2017.pdf",
+                "type": "file",
+                "fileId": "1PcCCwC591tXSJSW9FY7ew0Gyn9Xqk9Yg",
+                "size": 268991,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "522 SCI 2 - 2017.pdf",
+                "type": "file",
+                "fileId": "1LTTAEW7yayhmem0BHqvKl3lipCrmaOhp",
+                "size": 364816,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "523 SCI 3 - 2017.pdf",
+                "type": "file",
+                "fileId": "17j3ThYK8_TnmaM6Ei2stHjDlxAB8wkWW",
+                "size": 671885,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "601 ART PAPER 1 - 2017.pdf",
+                "type": "file",
+                "fileId": "1bz6ddd9JEqMtZyy3ivudbum9JYZ_6KwF",
+                "size": 102957,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "602 ART PAPER 2 - 2017.pdf",
+                "type": "file",
+                "fileId": "11FkZOGmHF-uzY9ri5jIS0y0yYMl0g-08",
+                "size": 192750,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "603 ART PAPER 3 - 2017.pdf",
+                "type": "file",
+                "fileId": "1DkN0VAnIO9SV3WJnJVqs7jgoqc29EAj8",
+                "size": 112197,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "604 ART PAPER 4 - 2017.pdf",
+                "type": "file",
+                "fileId": "1rEWaYwESZ40__9QEUFU_uJ-xm60hp7pF",
+                "size": 215722,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "631 CST - 2017.pdf",
+                "type": "file",
+                "fileId": "1S_ucpfLva3pFoUfw68NQXtYUrq91nzOF",
+                "size": 312786,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "641 ECO - 2017.pdf",
+                "type": "file",
+                "fileId": "159vPi9TjEFj2WE3aGy9F-iVFGQ0yG8y_",
+                "size": 134853,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "651 TDA -2017.pdf",
+                "type": "file",
+                "fileId": "1fkoGEGmH5hWJ8FkmdOdN_uRO-BB5A13e",
+                "size": 215906,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "681 HSC - 2017.pdf",
+                "type": "file",
+                "fileId": "1-3BE3eq3pIrcQp6NBwSHoGcDhFMxiDn2",
+                "size": 134779,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "691 CKY - 2017.pdf",
+                "type": "file",
+                "fileId": "16ttim6ZLzZBt1cXeNm01mvg7yPFUSlsi",
+                "size": 132297,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "721 PED - 2017.pdf",
+                "type": "file",
+                "fileId": "1jt8QXeKSOuuB0EO0Ja_LxvEkivalq8XE",
+                "size": 266120,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "821 EVS - 2017.pdf",
+                "type": "file",
+                "fileId": "1hrK93PjSENdUQVNrxw_kpk4DN-2HKULH",
+                "size": 131781,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "861 CTA - 2017.pdf",
+                "type": "file",
+                "fileId": "1PI24czoIVo96_R7g56MUCkc_uELgg02t",
+                "size": 278662,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "871 EAS - 2017.pdf",
+                "type": "file",
+                "fileId": "1LsvzzLNVd1g4ad8-H2Z-gWpFDibbJMmi",
+                "size": 35974,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "881 CAS - 2017.pdf",
+                "type": "file",
+                "fileId": "1i04VFvs53NC_rquqLO0I5sy7hwjmDa9f",
+                "size": 144532,
+                "addedAt": "2026-09-17"
+              }
+            ]
+          },
+          {
+            "name": "2018",
+            "type": "folder",
+            "fileId": "",
+            "size": 8014511,
+            "children": [
+              {
+                "name": "011 ENG1 - 2018.pdf",
+                "type": "file",
+                "fileId": "1MEo9ioXteCxbhf39drXn4YEOnvoj4ek3",
+                "size": 479434,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "012 ENG2 - 2018.pdf",
+                "type": "file",
+                "fileId": "1nTQHFCMBSHft2LtUzrkupoZyNR5QWJNP",
+                "size": 425919,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "051 HIN - 2018.pdf",
+                "type": "file",
+                "fileId": "1L2_EaZ8PA7X9RYUuvHPz8lz3OI-KWSKR",
+                "size": 904203,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "191 SAN - 2018.pdf",
+                "type": "file",
+                "fileId": "1xC5rYNGQZE-dU-SHLo_2d4LfiuINUTGX",
+                "size": 542011,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "281 GERMAN - 2018.pdf",
+                "type": "file",
+                "fileId": "1eAAL1BsyccHugZwvZ9Tbz-sYTuWVDi1P",
+                "size": 381872,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "501 HCG1 - 2018.pdf",
+                "type": "file",
+                "fileId": "1UahJeqqunwqk-OwANdVFqOpBPuRCJG5Y",
+                "size": 382293,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "502 HCG2 - 2018.pdf",
+                "type": "file",
+                "fileId": "1haGK0f4FgKn0L429IfKGoWHr5egK8X1q",
+                "size": 488226,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "511 MAT - 2018.pdf",
+                "type": "file",
+                "fileId": "1vinFQ4r5wXaYnemX91_ijNoZe0B4yYm5",
+                "size": 549610,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "521SCI 1 - 2018.pdf",
+                "type": "file",
+                "fileId": "1FgwgxG0L9AgHTUdvEOSzO0mf6VvGAdry",
+                "size": 547350,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "522 SCI2 - 2018.pdf",
+                "type": "file",
+                "fileId": "15IXahrsRK-A7SzsBhxU_D5AB5lNM0JcZ",
+                "size": 284900,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "523 SCI3 - 2018.pdf",
+                "type": "file",
+                "fileId": "1QY3eYHgRsjkpCBYkLS8Ghqkc7SJTkBHR",
+                "size": 659301,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "601 ART1 - 2018.pdf",
+                "type": "file",
+                "fileId": "1Tq-xr93_ucoIMEfAuPltbWtmRU3bHQR7",
+                "size": 99859,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "602 ART2 - 2018.pdf",
+                "type": "file",
+                "fileId": "1Wv3XtZVyALupvJDXvmpir-fSZR0Jk_PF",
+                "size": 102105,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "603 ART3 - 2018.pdf",
+                "type": "file",
+                "fileId": "1JuPGLY_mDOOe0ZGjSja8GWBA-Dto9UhR",
+                "size": 13751,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "604 ART4 - 2018.pdf",
+                "type": "file",
+                "fileId": "1ut11iHD4ZwcTT3H0AJEWGV6MZefDEmLI",
+                "size": 104813,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "631 CST - 2018.pdf",
+                "type": "file",
+                "fileId": "1avo7mHhKLMnx3v9dExzWiLgPhxv7fsaH",
+                "size": 229858,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "641 ECO - 2018.pdf",
+                "type": "file",
+                "fileId": "1fI2-ljCdPaPsS-VMW-gxvHkprqqjiHRu",
+                "size": 208772,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "651 TDA - 2018.pdf",
+                "type": "file",
+                "fileId": "1kXhnpM2SzCxU_UwgkZPXZOlMb-TfDqRr",
+                "size": 515823,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "681 HSC - 2018.pdf",
+                "type": "file",
+                "fileId": "1b8AEz8jYOjOaX2_xzvTQc8YBJ9R0E0Cx",
+                "size": 132706,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "691 CKY - 2018.pdf",
+                "type": "file",
+                "fileId": "1n-92PMQdKAcSOhYVTtfbjQ0jcfM6OjRk",
+                "size": 32590,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "721 PED - 2018.pdf",
+                "type": "file",
+                "fileId": "1fvXr4U1RvcXAdaK4sGDrWSrH5xHX82-K",
+                "size": 259807,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "821 EVS - 2018.pdf",
+                "type": "file",
+                "fileId": "1YLTvRCaZLXFX5uP9rnxuCpEQpFio3fLX",
+                "size": 29255,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "861 CTA - 2018.pdf",
+                "type": "file",
+                "fileId": "1Npit6DnTIiDiUQH81GKRCeeiygZhvhdt",
+                "size": 275021,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "871 EAS - 2018.pdf",
+                "type": "file",
+                "fileId": "1TSbB0_c5NFQV5XoD_m1kJox9_KBgYolf",
+                "size": 220222,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "881 CAS - 2018.pdf",
+                "type": "file",
+                "fileId": "1n8IB-kW75Bm3Rr0K2VgOLGe5urcwCX4l",
+                "size": 144810,
+                "addedAt": "2026-09-17"
+              }
+            ]
+          },
+          {
+            "name": "2019",
+            "type": "folder",
+            "fileId": "",
+            "size": 4299863,
+            "children": [
+              {
+                "name": "011 ENG1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1JjsxdN4licG8s1uyP5LgxGs20AKjvJrb",
+                "size": 290925,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "012 ENG2 - 2019.pdf",
+                "type": "file",
+                "fileId": "1wEF5kfpT5N0GFvEoGFvWWPlyHj68ZqAk",
+                "size": 259974,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "051 HIN1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1lbsxmIHIodkgsyfrH2Ztq0W7zNDfoywC",
+                "size": 101744,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "191 SAN1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1lbnnTLOT-7H8j4fmz95lCut2i5TG74M-",
+                "size": 65589,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "281 GERMAN QP.pdf",
+                "type": "file",
+                "fileId": "1CdVv0cBa9BcNtojJVRL6SboVhsKcNdEz",
+                "size": 157368,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "501 HCG1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1DYDZ1NMj7ugFmA9QYqJAfodbWgSeu4nV",
+                "size": 212931,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "502 HCG2 - 2019.pdf",
+                "type": "file",
+                "fileId": "12VfgZV3dH6T2H2O6-G-QT5dADEMpdLm-",
+                "size": 400010,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "511 MAT1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1aoSFGU8IztuMFImR086mEHtwmWC_pBEi",
+                "size": 309697,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "521 SCI1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1C4bKXmNZcSx4Gn8JN8zyLAyjQ-TnyDCc",
+                "size": 336556,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "522 SCI2 - 2019.pdf",
+                "type": "file",
+                "fileId": "1dYMv4hQ3HUDTcuyYO9I-KkG8WpA62Rgw",
+                "size": 200939,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "523 SCI3 - 2019.pdf",
+                "type": "file",
+                "fileId": "1fp4vyStWjasrGIJVWCHhrx2nk4ioCiTp",
+                "size": 441343,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "601 ART1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1ZpfsGQ2dM-oq4W8nhjB6v_zm0oDgqWmb",
+                "size": 57841,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "602 ART2 - 2019.pdf",
+                "type": "file",
+                "fileId": "18ATke5fKJEEiicHsIc9sUc-Pb-xL5Ro9",
+                "size": 59343,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "603 ART3 - 2019.pdf",
+                "type": "file",
+                "fileId": "118QTrXc0PEan7Wx7o8zeZQkHXS4QAqtj",
+                "size": 57877,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "604 ART4 - 2019.pdf",
+                "type": "file",
+                "fileId": "12cxo-S3RUX5rApqOQ7ONng2jHhsHDq7S",
+                "size": 61758,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "631 CST1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1m3EvYjMHEgtsorTIPrJD07hPesEb3AHP",
+                "size": 94689,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "641 ECO1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1hzSOqZJkIwqMXxvOMCksZ4r5aR_b50OR",
+                "size": 31393,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "651 TDA1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1ArIXI37UhiTw5XCS36CZIDCifKLAE-ZW",
+                "size": 187916,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "681 HSC1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1RW0x5WgxrLNEEOxH9WNvTXa6VTBKN_Wn",
+                "size": 81003,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "691 CKY1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1GaE01YnXYxnmhk2gtn3c25rfmYOYDu1b",
+                "size": 79564,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "701 FAD1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1SNlL9BNYpI97ASE7LSBDZcxFU2FIuUnG",
+                "size": 28771,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "721 PED1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1Y91J5xIzEcPFtaOZbmKKzQnNtOZTsRnQ",
+                "size": 162003,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "821 EVS1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1Dbjylt3vubdl5TiHAAUj3Fqe127KoRdr",
+                "size": 73362,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "841 YOG1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1fu7zzApo8cgJlmrsv49gCrxilfycvxml",
+                "size": 175534,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "861 CTA1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1glN_P268s5W3_ZceN0A_p4jPsQlbsMIt",
+                "size": 152694,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "871 EAS1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1JiFnTHdZBTAefKWiBKaluTkiPzOrwRra",
+                "size": 134917,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "881 CAS1 - 2019.pdf",
+                "type": "file",
+                "fileId": "1416TAkbE8_-Xy5ql3HHn90NJ3ZIwShsS",
+                "size": 84122,
+                "addedAt": "2026-09-17"
+              }
+            ]
+          },
+          {
+            "name": "2020",
+            "type": "folder",
+            "fileId": "",
+            "size": 4432588,
+            "children": [
+              {
+                "name": "011 ENG1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1yCemklnGEVz2Flc3klJKI1k44MlwnTzk",
+                "size": 272265,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "012 ENG2 - 2020.pdf",
+                "type": "file",
+                "fileId": "1vUEYVJo_a1DpUhJqCIFClK0tDN3yZcUf",
+                "size": 277838,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "051 HIN1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1irwBSNdFovp4pxQ6nEfNXU1uCdaE0Pf1",
+                "size": 223884,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "191 SAN1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1tGCj4dMvXU8x0Gn4EWLIxFJe4gYoL7UV",
+                "size": 247440,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "501 HCG 1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1RHbRtNCIBGaGZ4Jl8YOJj09f0omDiUGw",
+                "size": 157446,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "502 HCG2 - 2020.pdf",
+                "type": "file",
+                "fileId": "1Xer79-FAVBn5yel8UtrJkmO6GuroRK8O",
+                "size": 381384,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "511 MAT - 2020.pdf",
+                "type": "file",
+                "fileId": "1WCUunOmnLeXA0OBcWJf5uBnF7FR4N1NN",
+                "size": 331619,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "521 SCI1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1RKrUc8EP_bRwi0w0mbfgasF5CSQWHyg0",
+                "size": 224393,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "522 SCI 2 - 2020.pdf",
+                "type": "file",
+                "fileId": "1W60hT3vUyELN3XhkzNODYlM28d5mkwGb",
+                "size": 193607,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "523 SCI3 - 2020.pdf",
+                "type": "file",
+                "fileId": "183spZQg1b1R3TlhcZgL_iPfNLO35tPdr",
+                "size": 324233,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "601 ART PAPER 1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1bHdKjAW7o7kzXPZISEVTl-Op72CGSftQ",
+                "size": 58616,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "602 ART PAPER 2 - 2020.pdf",
+                "type": "file",
+                "fileId": "10m-yxHgOdQHk3xpriZzFy-q45nPLWg_S",
+                "size": 104751,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "603 ART PAPER 3 - 2020.pdf",
+                "type": "file",
+                "fileId": "1K1evfJiQQU3jYKUwHMZSmdQ6usxXaDCy",
+                "size": 63603,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "604 ART PAPER 4 - 2020.pdf",
+                "type": "file",
+                "fileId": "1HnFOCzKvTpayAcPEkR-kBcdnJr4v8fOY",
+                "size": 105043,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "631 CST1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1vLWR54Q-fUJyZ83nEHpRgpY8ZspCIPGg",
+                "size": 142922,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "641 ECO1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1cwfk1PNstnMMfXNThDhNHLl5HoSXuogW",
+                "size": 30845,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "651 TDA1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1Mtv6n5ku8BN2AaN9lxBtAnuQsJkli9JS",
+                "size": 355803,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "681 HSC1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1WdhxBG-_2lEfxf9EnEpgGbcSiZFQQk4j",
+                "size": 80574,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "691 CKY1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1BR5LW6WmCdlamjeWG9nbRDdtiw5e3hjS",
+                "size": 84049,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "701 FAD1 - 2020.pdf",
+                "type": "file",
+                "fileId": "10ONnMeg_CrQGfIyUlisMwvH9eD3aWNBB",
+                "size": 82191,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "721 PED1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1I52P_LNQP31ZRc54LPNR9mnGUgNKLAAZ",
+                "size": 121325,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "821 EVS1 - 2020.pdf",
+                "type": "file",
+                "fileId": "13x_cGREAqix8PJoOwoxlkZ84f4eAxh4x",
+                "size": 80686,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "841 YOG1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1Z0A3dzUizIScEuMTiCCYUrUWzgo6D8b4",
+                "size": 112293,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "861 CTA1 - 2020.pdf",
+                "type": "file",
+                "fileId": "15YRB--bB8Plz29Ak97CdvUkcsoG858go",
+                "size": 156047,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "871 EAS1 - 2020.pdf",
+                "type": "file",
+                "fileId": "1SFIVDq4kADe58-enVcCvgZK0Uf0Cv_Ac",
+                "size": 129320,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "881 CAS1 - 2020.pdf",
+                "type": "file",
+                "fileId": "11DdTCVP4MRhE0o5jSmMLqL9U8b7LEf6e",
+                "size": 90411,
+                "addedAt": "2026-09-17"
+              }
+            ]
+          },
+          {
+            "name": "2023",
+            "type": "folder",
+            "fileId": "",
+            "size": 11247897,
+            "children": [
+              {
+                "name": "ICSE 2023 - 011 ENG1.pdf",
+                "type": "file",
+                "fileId": "1s-1hu6jKAMuc58VOj-77BZ8NdODvA90c",
+                "size": 112184,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 012 ENG2.pdf",
+                "type": "file",
+                "fileId": "1WHB3riEDDs2VxMleNIdXeGmo14krPoLL",
+                "size": 43300,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 021 ASM.pdf",
+                "type": "file",
+                "fileId": "1PXLmiRCSu9HC4-KETQUYBl9_XwsfSoMQ",
+                "size": 423788,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 031 BEN.pdf",
+                "type": "file",
+                "fileId": "1OZA9dO56phwI0o-gXlmZH8Cvzv20q1Fe",
+                "size": 385720,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 041 GUJ.pdf",
+                "type": "file",
+                "fileId": "1cqNdvToIebIgefpKvSCCt920vkOIiGG8",
+                "size": 427806,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 051 HIN.pdf",
+                "type": "file",
+                "fileId": "1v9SvtzWDD1L8SVrBxGIuoo-kQXXDwz1f",
+                "size": 138757,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 061 KAN.pdf",
+                "type": "file",
+                "fileId": "18-lIruICNBEK821ERRgFD6qaC2EMiAQu",
+                "size": 496741,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 071 KHA.pdf",
+                "type": "file",
+                "fileId": "1mePMUsrpIKVMVOtkBjnXSrU3zP89HwLr",
+                "size": 158580,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 081 MAL.pdf",
+                "type": "file",
+                "fileId": "1n04cANP3VZv3tIDVGu8z8y6L1zjhUNXa",
+                "size": 491807,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 091 MAR.pdf",
+                "type": "file",
+                "fileId": "1yS-pwpUFfpyDS4bWJgOBvZrUnbE1Pk32",
+                "size": 252639,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 101 NEP.pdf",
+                "type": "file",
+                "fileId": "1qKqwQfg31gjd_3_o5wPWmdbL0BE0cq2k",
+                "size": 238085,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 111 ODI.pdf",
+                "type": "file",
+                "fileId": "1RvCSW-CqUEtpUc0EfnwfPDlI0clW8hP7",
+                "size": 254685,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 121 PUN.pdf",
+                "type": "file",
+                "fileId": "1EJCBdkWi8s2ACNba-qOZvfiboqMpiLkb",
+                "size": 234548,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 131 TAM.pdf",
+                "type": "file",
+                "fileId": "1QxMrhANpI1LVQSzyEeGi2CorgBrD_f7S",
+                "size": 417686,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 141 TEL.pdf",
+                "type": "file",
+                "fileId": "1PE4O5gWZubkTLlWmvFauHH7sJzpNAmcH",
+                "size": 428936,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 161 URD.pdf",
+                "type": "file",
+                "fileId": "1eZ3r-4B4OeBJnBaaXXV7IhWOtw30QTn0",
+                "size": 962573,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 171 MIZ.pdf",
+                "type": "file",
+                "fileId": "182O_1O0KSE9oC5wh1mOMTiZACw-MZLlK",
+                "size": 233276,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 191 SAN.pdf",
+                "type": "file",
+                "fileId": "18RUQDkpcAvUKmzxxHxfkjbBKsCYlUbHK",
+                "size": 110472,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 221 ARB.pdf",
+                "type": "file",
+                "fileId": "1PQu7HS3SY-rocXA4X9Qwnju5TbzfAaJ9",
+                "size": 214279,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 271 FRE.pdf",
+                "type": "file",
+                "fileId": "1KNDa1wH9jqvOGPCcMMJ0r1Dq4fpRXlX9",
+                "size": 125559,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 281 GER.pdf",
+                "type": "file",
+                "fileId": "1tUv3M97VXW3-eAyOjX6dgCAQMKF1JQHa",
+                "size": 134762,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 361 SPA.pdf",
+                "type": "file",
+                "fileId": "1IJaHY491v59tJG8RhYh0R0bUJop086f8",
+                "size": 88208,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 401 GAR.pdf",
+                "type": "file",
+                "fileId": "1B0DNj8Ua_8Klb0U6VZ8wWbSEYSiPTxZ5",
+                "size": 110301,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 421 ANG.pdf",
+                "type": "file",
+                "fileId": "1MBlkQ4lFHRKqIAjNYR0148MbsCEsS2z4",
+                "size": 165242,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 431 POR.pdf",
+                "type": "file",
+                "fileId": "1TbGSdvmVhkM_xwCS66Deai4HXB-SXc-B",
+                "size": 89772,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 441 KOR.pdf",
+                "type": "file",
+                "fileId": "1YDp_2Q-pJJfUv0vSalVlOKQ1Qf2j1Epm",
+                "size": 229861,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 471 TAN.pdf",
+                "type": "file",
+                "fileId": "1sVQNYMnNMQNNMuGCM6xwA_ffFICdmyJ9",
+                "size": 213870,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 501 HCG1.pdf",
+                "type": "file",
+                "fileId": "1TvjnGYX6zfLL_PO1Wnpm1CajY9w-W5es",
+                "size": 366524,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 502 HCG2.pdf",
+                "type": "file",
+                "fileId": "1mYjcjEhcljXLscB_VC9nmqk1YUE3rY2J",
+                "size": 222584,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 511 MAT.pdf",
+                "type": "file",
+                "fileId": "1V5c6GK3C9oQogE3L6Jy_F8TStd1yBpm7",
+                "size": 426172,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 521 SCI1.pdf",
+                "type": "file",
+                "fileId": "1tY0_A9kCNdugO0QlePePmH6htonKiKVY",
+                "size": 304032,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 522 SCI2.pdf",
+                "type": "file",
+                "fileId": "1nkQ8m7RwM5n_URHkUrR-eUrq6xdPVCKL",
+                "size": 128776,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 523 SCI3.pdf",
+                "type": "file",
+                "fileId": "1i4-RwLT3QaJjFs_SMu8gbaK5EGIVYkss",
+                "size": 509356,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 531 FRE (GR-III).pdf",
+                "type": "file",
+                "fileId": "1jJtlpr9bpm2rYQR58kfAlJlKsba6J3zl",
+                "size": 61949,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 541 SPA (Group-III).pdf",
+                "type": "file",
+                "fileId": "1351HP_Ojp3qEMyoDLTfQ8vgCLISxR6Dn",
+                "size": 31806,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 551 GER (GR-III).pdf",
+                "type": "file",
+                "fileId": "1dhnvDbT81gD3wYD-B1OMYfMbdLBiw0GW",
+                "size": 62342,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 581 HGT1.pdf",
+                "type": "file",
+                "fileId": "1Lezm4fYmetjLe3N_z4XcJE8zzgq3s8Wp",
+                "size": 79006,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 582 HGT2.pdf",
+                "type": "file",
+                "fileId": "1jzg8s4PPUSmaKMTU8_WAnFYB7VylgolA",
+                "size": 129376,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 601 ART1.pdf",
+                "type": "file",
+                "fileId": "1NccBr7JN7k8OGIxPtrrd3nkHoL1TGi-O",
+                "size": 12870,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 602 ART2.pdf",
+                "type": "file",
+                "fileId": "11tLlTMIlY2rCa6sV0L3Tzq7fzzg3C4rt",
+                "size": 10784,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 603 ART3.pdf",
+                "type": "file",
+                "fileId": "1hRKHZ8j8QhQpBtvvvIOYw-ldlZa5wv2x",
+                "size": 13975,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 604 ART4.pdf",
+                "type": "file",
+                "fileId": "1EUu76isTfkRQOX9UE3HDZZIwXUp7viZc",
+                "size": 17167,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 631 CST.pdf",
+                "type": "file",
+                "fileId": "1PleUFwxhOsr0i7QTBJn8DZrHEy1XzrY7",
+                "size": 64123,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 641 ECO.pdf",
+                "type": "file",
+                "fileId": "1fhYvzKOthETDLdlUKt1QHCT0nORA0CGs",
+                "size": 83450,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 651 TDA.pdf",
+                "type": "file",
+                "fileId": "16Z-pIREyIUX5awbeD_5JzG1tJ038H100",
+                "size": 154823,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 681 HSC.pdf",
+                "type": "file",
+                "fileId": "1PHdMG9JRPzo4EjY0gTacsEkt-CNBbQwL",
+                "size": 58689,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 691 CKY.pdf",
+                "type": "file",
+                "fileId": "1aaAgwUrSJ4Yu7F9FT_HGjzyfucWJDCAF",
+                "size": 61281,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 701 FAD.pdf",
+                "type": "file",
+                "fileId": "19h8JHVEmmi2IERzcqKYQMQx9qPT3O2NM",
+                "size": 57509,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 721 PED.pdf",
+                "type": "file",
+                "fileId": "17wIJDoAgCvzOHIBlxIijYa1-IZzVkcZv",
+                "size": 58398,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 731 HPM.pdf",
+                "type": "file",
+                "fileId": "1DEJvYEn0-zTAN-pdZKbnjEtG5FB4FK_e",
+                "size": 33098,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 761 SAN (Group-II).pdf",
+                "type": "file",
+                "fileId": "1wyFaG4ttXg66TJoo9aeVt0R5JVKy-5Uf",
+                "size": 29311,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 771 FRE (GR-II).pdf",
+                "type": "file",
+                "fileId": "1EuiFcnk7GWAdLCjQne36diO09EtUqcXB",
+                "size": 97496,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 821 EVS.pdf",
+                "type": "file",
+                "fileId": "1M_KtHDFrC3CA6sfKRl_EhLGyeI40GKsn",
+                "size": 33672,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 841 YOG.pdf",
+                "type": "file",
+                "fileId": "1CiCF7B43uaFM-rHWZz6PLfmpY1pJT89-",
+                "size": 42031,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 861 CTA.pdf",
+                "type": "file",
+                "fileId": "1krsLMXRNtHJZSmpcvTWVsA3TkSaGvCWz",
+                "size": 93550,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 871 EAS.pdf",
+                "type": "file",
+                "fileId": "1c38AKl8XQQRGIBq2FmStOW81BlzUODc3",
+                "size": 40192,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 881 CAS.pdf",
+                "type": "file",
+                "fileId": "1ta7PPUcJqMjRED1VqZuYlRAXLYZya3So",
+                "size": 84997,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 891 ENA.pdf",
+                "type": "file",
+                "fileId": "1jQ-kSHoWnVW9WRIIGirvIHGGZDdeCOAU",
+                "size": 89834,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 901 MMC.pdf",
+                "type": "file",
+                "fileId": "1rFhX6a-6tVjf2g5SIzAJpBAk3pOTyvrS",
+                "size": 36018,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 911 IMH.pdf",
+                "type": "file",
+                "fileId": "1DcSAVWu-PQ-DWZ0GviB082YBe-JpdUMn",
+                "size": 87219,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 921 IMC.pdf",
+                "type": "file",
+                "fileId": "18HIBRg9pqu5s1u7XxjdAEVDqRc1eK7sJ",
+                "size": 54920,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 931 WMS.pdf",
+                "type": "file",
+                "fileId": "10SfugbCaGvnOVTii6pIlRsJAaUeWrmB7",
+                "size": 60429,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 941 IND.pdf",
+                "type": "file",
+                "fileId": "1H1FTyCPMuKQaC1JeXs_qeRHe3Z0rMCV1",
+                "size": 40490,
+                "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE 2023 - 951 DMA.pdf",
+                "type": "file",
+                "fileId": "1RNn49KZEVfrzQ7nUok5ubD1S_8Erbfzz",
+                "size": 326211,
+                "addedAt": "2026-09-17"
+              }
+            ]
+          },
           {
             "name": "2024",
             "type": "folder",
