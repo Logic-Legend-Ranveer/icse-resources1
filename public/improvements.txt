@@ -1,6 +1,6 @@
 
 
-
+Add a Readme with the latest release about the setup details. -5 - Pending
 Add detailed analysis in Quizzes- 1 - Pending
 Add an option for the users to contribute resources through an easily navigable interface. - 9 - Pending
 Increase the size of the pdf viewer as it wastes too much space and users get too much small window.- 10- Comlpeted
