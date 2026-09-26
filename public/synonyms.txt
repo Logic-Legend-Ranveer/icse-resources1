@@ -1,5 +1,5 @@
 # ==========================================
-# ICSE Smart Search Synonym Mapping
+# Smart Search Synonym Mapping
 # Format: shortcut = full word 1, full word 2
 # ==========================================
 
