@@ -119,26 +119,31 @@ export default function QuizModal() {
   const title = quizFiles.length === 1 ? quizFiles[0].name : `${subject} — ${quizFiles.length} chapters combined`;
 
   return (
-    <ModalShell title={title} onClose={closeModal} widthClassName="w-[95vw] max-w-2xl" heightClassName="h-[min(720px,85vh)]">
+    <ModalShell
+      title={title}
+      onClose={closeModal}
+      widthClassName="w-[95vw] max-w-2xl md:max-w-3xl"
+      heightClassName="h-[min(720px,85vh)] md:h-auto md:max-h-[min(680px,85vh)]"
+    >
       <div className="flex h-full flex-col">
         <div className="min-h-0 flex-1 overflow-y-auto">
           {phase === "loading" && (
             <div className="flex h-full flex-col items-center justify-center gap-2 px-6 text-center text-slate-500">
-              <Loader2 className="h-6 w-6 animate-spin text-accent-indigo-soft" />
-              <p className="text-sm">Loading quiz…</p>
+              <Loader2 className="h-6 w-6 animate-spin text-accent-indigo-soft md:h-7 md:w-7" />
+              <p className="text-sm md:text-base">Loading quiz…</p>
             </div>
           )}
 
           {phase === "error" && (
             <div className="flex h-full flex-col items-center justify-center gap-2 px-6 text-center text-slate-500">
-              <AlertTriangle className="h-6 w-6 text-danger" />
-              <p className="text-sm">{errorMessage}</p>
+              <AlertTriangle className="h-6 w-6 text-danger md:h-7 md:w-7" />
+              <p className="text-sm md:text-base">{errorMessage}</p>
             </div>
           )}
 
           {phase === "taking" && currentQuestion && (
-            <div className="p-5">
-              <div className="mb-3 flex items-center justify-between text-xs text-slate-500">
+            <div className="p-5 md:p-6">
+              <div className="mb-3 flex items-center justify-between text-xs text-slate-500 md:mb-4 md:text-sm">
                 <span>
                   Question {currentIndex + 1} of {questions.length}
                 </span>
@@ -154,17 +159,17 @@ export default function QuizModal() {
               />
 
               {!isCurrentSubmitted && (
-                <div className="mt-3 flex items-center justify-end gap-2">
-                  <p className="mr-auto text-xs text-slate-600">
-                    Press <kbd className="rounded border border-border-strong bg-surface px-1 font-mono">A</kbd>–
-                    <kbd className="rounded border border-border-strong bg-surface px-1 font-mono">D</kbd> to answer,{" "}
-                    <kbd className="rounded border border-border-strong bg-surface px-1 font-mono">Enter</kbd> to submit
+                <div className="mt-3 flex items-center justify-end gap-2 md:mt-4">
+                  <p className="mr-auto text-xs text-slate-600 md:text-sm">
+                    Press <kbd className="rounded border border-border-strong bg-surface px-1 font-mono md:px-1.5">A</kbd>–
+                    <kbd className="rounded border border-border-strong bg-surface px-1 font-mono md:px-1.5">D</kbd> to answer,{" "}
+                    <kbd className="rounded border border-border-strong bg-surface px-1 font-mono md:px-1.5">Enter</kbd> to submit
                   </p>
                   <button
                     type="button"
                     disabled={attempt[currentQuestion.id] === undefined}
                     onClick={handleSubmitCurrent}
-                    className="rounded-lg border border-border-strong bg-surface-hover px-4 py-1.5 text-xs font-medium text-slate-100 transition-colors hover:bg-white/10 disabled:cursor-not-allowed disabled:opacity-40"
+                    className="rounded-lg border border-border-strong bg-surface-hover px-4 py-1.5 text-xs font-medium text-slate-100 transition-colors hover:bg-white/10 disabled:cursor-not-allowed disabled:opacity-40 md:px-5 md:py-2 md:text-sm"
                   >
                     Submit Answer
                   </button>
@@ -174,11 +179,13 @@ export default function QuizModal() {
           )}
 
           {phase === "results" && (
-            <div className="p-5">
+            <div className="p-5 md:p-6">
               <ScoreSummary score={score} total={questions.length} percentage={percentage} tier={scoreTier} />
 
-              <p className="mb-3 mt-6 text-xs font-medium uppercase tracking-wider text-slate-500">Review your answers</p>
-              <div className="space-y-4">
+              <p className="mb-3 mt-6 text-xs font-medium uppercase tracking-wider text-slate-500 md:mb-4 md:mt-8 md:text-sm">
+                Review your answers
+              </p>
+              <div className="space-y-4 md:space-y-5">
                 {questions.map((question, index) => (
                   <QuestionBlock
                     key={question.id}
@@ -195,30 +202,30 @@ export default function QuizModal() {
         </div>
 
         {phase === "taking" && (
-          <div className="flex shrink-0 items-center justify-between border-t border-border px-5 py-3">
+          <div className="flex shrink-0 items-center justify-between border-t border-border px-5 py-3 md:px-6 md:py-4">
             <button
               type="button"
               disabled={currentIndex === 0}
               onClick={handlePrevious}
-              className="flex items-center gap-1.5 rounded-lg border border-border px-4 py-1.5 text-xs font-medium text-slate-300 transition-colors hover:bg-surface-hover disabled:cursor-not-allowed disabled:opacity-40"
+              className="flex items-center gap-1.5 rounded-lg border border-border px-4 py-1.5 text-xs font-medium text-slate-300 transition-colors hover:bg-surface-hover disabled:cursor-not-allowed disabled:opacity-40 md:px-5 md:py-2 md:text-sm"
             >
-              <ArrowLeft className="h-3.5 w-3.5" />
+              <ArrowLeft className="h-3.5 w-3.5 md:h-4 md:w-4" />
               Previous
             </button>
             <button
               type="button"
               disabled={!isCurrentSubmitted}
               onClick={handleNext}
-              className="flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-accent-indigo to-accent-violet px-4 py-1.5 text-xs font-medium text-white transition-transform hover:scale-[1.02] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:scale-100"
+              className="flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-accent-indigo to-accent-violet px-4 py-1.5 text-xs font-medium text-white transition-transform hover:scale-[1.02] disabled:cursor-not-allowed disabled:opacity-40 disabled:hover:scale-100 md:px-5 md:py-2 md:text-sm"
             >
               {isLastQuestion ? "Finish & See Score" : "Next"}
-              <ArrowRight className="h-3.5 w-3.5" />
+              <ArrowRight className="h-3.5 w-3.5 md:h-4 md:w-4" />
             </button>
           </div>
         )}
 
         {phase === "results" && (
-          <div className="flex shrink-0 items-center justify-end border-t border-border px-5 py-3">
+          <div className="flex shrink-0 items-center justify-end border-t border-border px-5 py-3 md:px-6 md:py-4">
             <button
               type="button"
               onClick={() => {
@@ -227,9 +234,9 @@ export default function QuizModal() {
                 setCurrentIndex(0);
                 setPhase("taking");
               }}
-              className="flex items-center gap-1.5 rounded-lg border border-border px-4 py-1.5 text-xs font-medium text-slate-300 transition-colors hover:bg-surface-hover"
+              className="flex items-center gap-1.5 rounded-lg border border-border px-4 py-1.5 text-xs font-medium text-slate-300 transition-colors hover:bg-surface-hover md:px-5 md:py-2 md:text-sm"
             >
-              <RotateCcw className="h-3.5 w-3.5" />
+              <RotateCcw className="h-3.5 w-3.5 md:h-4 md:w-4" />
               Retry
             </button>
           </div>
@@ -257,10 +264,10 @@ function ScoreSummary({
   }[tier];
 
   return (
-    <div className={`flex flex-col items-center gap-2 rounded-2xl border px-6 py-8 text-center ${tierClasses}`}>
-      <Trophy className="h-7 w-7" />
-      <p className="text-3xl font-semibold">{percentage}%</p>
-      <p className="text-sm text-slate-300">
+    <div className={`flex flex-col items-center gap-2 rounded-2xl border px-6 py-8 text-center md:gap-3 md:px-8 md:py-10 ${tierClasses}`}>
+      <Trophy className="h-7 w-7 md:h-9 md:w-9" />
+      <p className="text-3xl font-semibold md:text-4xl">{percentage}%</p>
+      <p className="text-sm text-slate-300 md:text-base">
         You scored <span className="font-semibold text-slate-100">{score}</span> out of{" "}
         <span className="font-semibold text-slate-100">{total}</span>
       </p>
@@ -279,11 +286,11 @@ interface QuestionBlockProps {
 
 function QuestionBlock({ index, question, selectedIndex, revealAnswer, onSelect }: QuestionBlockProps) {
   return (
-    <div className="rounded-xl border border-border bg-surface p-4">
-      <p className="mb-3 text-sm font-medium text-slate-100">
+    <div className="rounded-xl border border-border bg-surface p-4 md:rounded-2xl md:p-6">
+      <p className="mb-3 text-sm font-medium text-slate-100 md:mb-4 md:text-base">
         {index + 1}. {question.question}
       </p>
-      <div className="space-y-2">
+      <div className="space-y-2 md:space-y-2.5">
         {question.options.map((option, optionIndex) => {
           const isSelected = selectedIndex === optionIndex;
           const isCorrect = optionIndex === question.correctAnswer;
@@ -308,9 +315,9 @@ function QuestionBlock({ index, question, selectedIndex, revealAnswer, onSelect 
               type="button"
               disabled={revealAnswer}
               onClick={() => onSelect(optionIndex)}
-              className={`flex w-full items-center gap-2.5 rounded-lg border px-3 py-2 text-left text-sm transition-colors disabled:cursor-default ${stateClasses}`}
+              className={`flex w-full items-center gap-2.5 rounded-lg border px-3 py-2 text-left text-sm transition-colors disabled:cursor-default md:gap-3 md:rounded-xl md:px-4 md:py-3 md:text-base ${stateClasses}`}
             >
-              <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded border border-current/40 text-[10px] font-semibold">
+              <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded border border-current/40 text-[10px] font-semibold md:h-6 md:w-6 md:text-xs">
                 {letter}
               </span>
               {option}
@@ -320,7 +327,9 @@ function QuestionBlock({ index, question, selectedIndex, revealAnswer, onSelect 
       </div>
 
       {revealAnswer && question.explanation && (
-        <p className="mt-3 rounded-lg bg-info/10 px-3 py-2 text-xs leading-relaxed text-info-soft">{question.explanation}</p>
+        <p className="mt-3 rounded-lg bg-info/10 px-3 py-2 text-xs leading-relaxed text-info-soft md:mt-4 md:rounded-xl md:px-4 md:py-3 md:text-sm">
+          {question.explanation}
+        </p>
       )}
     </div>
   );
