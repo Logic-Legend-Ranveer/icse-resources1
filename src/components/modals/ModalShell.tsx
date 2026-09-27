@@ -38,9 +38,9 @@ export default function ModalShell({
       <div className="absolute inset-0 animate-fade-in bg-black/70 backdrop-blur-sm" onClick={onClose} aria-hidden="true" />
 
       <div
-        className={`relative flex ${heightClassName} ${widthClassName} animate-scale-in flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-panel`}
+        className={`relative grid ${heightClassName} ${widthClassName} animate-scale-in grid-rows-[auto_minmax(0,1fr)] overflow-hidden rounded-2xl border border-border bg-surface shadow-panel`}
       >
-        <div className="flex shrink-0 items-center justify-between border-b border-border px-5 py-4">
+        <div className="flex items-center justify-between border-b border-border px-5 py-4">
           <h2 className="text-sm font-semibold text-slate-100">{title}</h2>
           <button
             type="button"
@@ -52,7 +52,7 @@ export default function ModalShell({
           </button>
         </div>
 
-        <div className="min-h-0 flex-1">{children}</div>
+        <div className="min-h-0">{children}</div>
       </div>
     </div>,
     document.body
