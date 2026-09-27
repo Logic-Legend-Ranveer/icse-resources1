@@ -42,6 +42,8 @@ export interface Question {
   options: string[];
   correctAnswer: number;
   explanation: string;
+  /** Resolved, display-ready image URL — set when the source .txt has an IMAGE: line. */
+  imageUrl?: string;
 }
 
 export type QuizAttempt = Record<number, number>;

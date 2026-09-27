@@ -313,6 +313,7 @@ export default function QuizModal() {
               </div>
 
               <QuestionBlock
+                key={currentQuestion.id}
                 index={currentIndex}
                 question={currentQuestion}
                 selectedIndex={attempt[currentQuestion.id]}
@@ -529,12 +530,35 @@ interface QuestionBlockProps {
   onSelect: (optionIndex: number) => void;
 }
 
+function QuestionImage({ src }: { src: string }) {
+  const [failed, setFailed] = useState(false);
+
+  if (failed) {
+    return (
+      <div className="mb-3 flex h-24 items-center justify-center rounded-lg border border-border bg-midnight px-3 text-center text-xs text-slate-600 md:mb-4 md:h-28 md:text-sm">
+        Image couldn't load — check the Drive file is shared "anyone with the link"
+      </div>
+    );
+  }
+
+  return (
+    <img
+      src={src}
+      alt=""
+      loading="lazy"
+      onError={() => setFailed(true)}
+      className="mb-3 max-h-64 w-full rounded-lg border border-border object-contain md:mb-4 md:max-h-80"
+    />
+  );
+}
+
 function QuestionBlock({ index, question, selectedIndex, revealAnswer, onSelect }: QuestionBlockProps) {
   return (
     <div className="rounded-xl border border-border bg-surface p-4 md:rounded-2xl md:p-6">
       <p className="mb-3 text-sm font-medium text-slate-100 md:mb-4 md:text-base">
         {index + 1}. {question.question}
       </p>
+      {question.imageUrl && <QuestionImage src={question.imageUrl} />}
       <div className="space-y-2 md:space-y-2.5">
         {question.options.map((option, optionIndex) => {
           const isSelected = selectedIndex === optionIndex;
