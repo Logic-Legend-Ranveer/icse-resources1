@@ -3598,7 +3598,7 @@
     "name": "Study Assets",
     "type": "folder",
     "fileId": "",
-    "size": 3950545644,
+    "size": 3948212209,
     "children": [
       {
         "name": "Biology",
@@ -4371,7 +4371,7 @@
         "name": "Computer Applications",
         "type": "folder",
         "fileId": "",
-        "size": 343285593,
+        "size": 340952158,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -4441,7 +4441,7 @@
             "name": "Notes",
             "type": "folder",
             "fileId": "",
-            "size": 115950795,
+            "size": 113617360,
             "children": [
               {
                 "name": "Chapterwise Notes with Practice Questions",
@@ -4789,11 +4789,11 @@
                 "addedAt": "2026-09-23"
               },
               {
-                "name": "Computer Appications - Notes.pdf",
+                "name": "Java Notes.pdf",
                 "type": "file",
-                "fileId": "1GkcCQVSFh1SFIaJ2hdVqo-SjAi3OBS1V",
-                "size": 4938240,
-                "addedAt": "2026-09-23"
+                "fileId": "1E0lB6cf3IQXcHyGCrlfyiyPQiR3iUzaf",
+                "size": 2604805,
+                "addedAt": "2026-09-27"
               },
               {
                 "name": "Java_Complete_Notes.pdf",
@@ -6644,20 +6644,6 @@
             ]
           },
           {
-            "name": "Geography - Teacher_s Handbook.pdf",
-            "type": "file",
-            "fileId": "11NJBvi54TGm-G2mXl_-5MOuiXxOgDFd2",
-            "size": 7689115,
-            "addedAt": "2026-09-23"
-          },
-          {
-            "name": "Geography Resource Book.pdf",
-            "type": "file",
-            "fileId": "1v0R5OqxDFeKLjrsFFMoSu4Vj_da19qoJ",
-            "size": 19585106,
-            "addedAt": "2026-09-23"
-          },
-          {
             "name": "Notes",
             "type": "folder",
             "fileId": "",
@@ -6708,10 +6694,10 @@
             ]
           },
           {
-            "name": "Question Banks",
+            "name": "Question Banks & Books",
             "type": "folder",
             "fileId": "",
-            "size": 113601109,
+            "size": 140875330,
             "children": [
               {
                 "name": "CFQ-ICSE-Geography.pdf",
@@ -6770,10 +6756,24 @@
                 "addedAt": "2026-09-23"
               },
               {
+                "name": "Geography - Teacher_s Handbook.pdf",
+                "type": "file",
+                "fileId": "11NJBvi54TGm-G2mXl_-5MOuiXxOgDFd2",
+                "size": 7689115,
+                "addedAt": "2026-09-23"
+              },
+              {
                 "name": "Geography Question Bank - Oswal.pdf",
                 "type": "file",
                 "fileId": "1ENuY7XJCXyrBsiWlWRcHoaceShDypfVk",
                 "size": 48745850,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography Resource Book.pdf",
+                "type": "file",
+                "fileId": "1v0R5OqxDFeKLjrsFFMoSu4Vj_da19qoJ",
+                "size": 19585106,
                 "addedAt": "2026-09-23"
               }
             ]
@@ -7615,13 +7615,6 @@
             ]
           },
           {
-            "name": "Maths - Selina.pdf",
-            "type": "file",
-            "fileId": "1mcgumZ-EOlQCqYMhjc__jReutB_ReHXK",
-            "size": 67760840,
-            "addedAt": "2026-09-23"
-          },
-          {
             "name": "Notes",
             "type": "folder",
             "fileId": "",
@@ -7651,10 +7644,10 @@
             ]
           },
           {
-            "name": "Question Banks",
+            "name": "Question Banks & Books",
             "type": "folder",
             "fileId": "",
-            "size": 161985040,
+            "size": 229745880,
             "children": [
               {
                 "name": "CFQ-ICSE-Mathematics-X.pdf",
@@ -7675,6 +7668,13 @@
                 "type": "file",
                 "fileId": "1Ac0r6E55LucpCnqA-o8B9NFSzhf1OK2i",
                 "size": 3672996,
+                "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Maths - Selina.pdf",
+                "type": "file",
+                "fileId": "1mcgumZ-EOlQCqYMhjc__jReutB_ReHXK",
+                "size": 67760840,
                 "addedAt": "2026-09-23"
               },
               {
