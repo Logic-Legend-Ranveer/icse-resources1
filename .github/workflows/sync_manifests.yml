@@ -1,11 +1,9 @@
 name: Sync Manifests
 
 on:
-  # Run automatically every day at midnight UTC
   schedule:
     - cron: '0 0 * * *'
   
-  # Allow manual trigger from the GitHub Actions tab anytime
   workflow_dispatch:
 
 jobs:
@@ -28,9 +26,17 @@ jobs:
         env:
           GDRIVE_CREDENTIALS: ${{ secrets.GDRIVE_CREDENTIALS }}
           GDRIVE_TOKEN: ${{ secrets.GDRIVE_TOKEN }}
+          GDRIVE_CREDENTIALS_2: ${{ secrets.GDRIVE_CREDENTIALS_2 }}
+          GDRIVE_TOKEN_2: ${{ secrets.GDRIVE_TOKEN_2 }}
         run: |
           echo "$GDRIVE_CREDENTIALS" > credentials.json
           echo "$GDRIVE_TOKEN" > token.json
+          
+          # If Account 2 credentials exist, write them out
+          if [ -n "$GDRIVE_CREDENTIALS_2" ]; then
+            echo "$GDRIVE_CREDENTIALS_2" > credentials2.json
+            echo "$GDRIVE_TOKEN_2" > token2.json
+          fi
 
       - name: Run Manifest Generator
         run: |
@@ -46,7 +52,5 @@ jobs:
       - name: Commit and Push Updated Manifests
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "auto: sync files from Google Drive and update manifests"
-          # Only commit the public JSON files. credentials.json, token.json, and known_ids.json stay ignored!
+          commit_message: "auto: sync files from multiple Google Drive accounts and update manifests"
           file_pattern: "public/files.json public/quizzes.json"
-
