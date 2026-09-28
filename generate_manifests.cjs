@@ -1,10 +1,11 @@
 const { google } = require('googleapis');
 const fs = require('fs');
 
-// ── CONFIG ──────────────────────────────────────────────────────
+// ── CONFIG ────────────────────────────────________________──────
+const PARENT_FOLDER_NAME = 'icse-resources-webpage';  
+const MIDDLE_FOLDER_NAME = 'icse-resources-files';
 const RESOURCES_FOLDER_NAME = 'Study Assets'; 
 const QUIZZES_FOLDER_NAME = 'quizzes';
-const PARENT_FOLDER_NAME = 'icse-resources-webpage';  
 const SCOPES = ['https://www.googleapis.com/auth/drive.readonly'];
 // ────────────────────────────────────────────────────────────────
 
@@ -180,17 +181,22 @@ async function main() {
   console.log('🔐 Authenticated with Account 1...');
   const drive1 = google.drive({ version: 'v3', auth: auth1 });
 
-  console.log(`🔍 Finding '${PARENT_FOLDER_NAME}' folder on Account 1...`);
+  console.log(`🔍 Finding '${PARENT_FOLDER_NAME}' folder...`);
   const parentId1 = await getFolderId(drive1, PARENT_FOLDER_NAME);
-  
-  console.log(`🔍 Finding '${RESOURCES_FOLDER_NAME}' folder on Account 1...`);
-  const resourcesId1 = await getFolderId(drive1, RESOURCES_FOLDER_NAME, parentId1);
-  if (!resourcesId1) throw new Error(`Could not find folder '${RESOURCES_FOLDER_NAME}' inside '${PARENT_FOLDER_NAME}'`);
+  if (!parentId1) throw new Error(`Could not find '${PARENT_FOLDER_NAME}'`);
 
-  console.log(`🔍 Finding 'quizzes' folder on Account 1...`);
+  console.log(`🔍 Finding '${MIDDLE_FOLDER_NAME}' folder...`);
+  const middleFolderId = await getFolderId(drive1, MIDDLE_FOLDER_NAME, parentId1);
+  if (!middleFolderId) throw new Error(`Could not find '${MIDDLE_FOLDER_NAME}' inside '${PARENT_FOLDER_NAME}'`);
+  
+  console.log(`🔍 Finding '${RESOURCES_FOLDER_NAME}' folder...`);
+  const resourcesId1 = await getFolderId(drive1, RESOURCES_FOLDER_NAME, middleFolderId);
+  if (!resourcesId1) throw new Error(`Could not find '${RESOURCES_FOLDER_NAME}' inside '${MIDDLE_FOLDER_NAME}'`);
+
+  console.log(`🔍 Finding '${QUIZZES_FOLDER_NAME}' folder...`);
   const quizzesId1 = await getFolderId(drive1, QUIZZES_FOLDER_NAME, parentId1);
 
-  // CRITICAL FIX: Scan "Study Assets" directly so files.json starts with Study Assets at root level
+  // Scan "Study Assets" directly so files.json starts with Study Assets at root level
   console.log(`\n🚀 Scanning primary resources inside '${RESOURCES_FOLDER_NAME}' (Account 1)...`);
   const studyAssetsChildren = await scanFolder(drive1, resourcesId1, `/${RESOURCES_FOLDER_NAME}`);
   
@@ -205,7 +211,7 @@ async function main() {
   }];
 
   console.log('\n🚀 Scanning quizzes (Account 1)...');
-  const quizzesManifest = await scanQuizzes(drive1, quizzesId1);
+  const quizzesManifest = quizzesId1 ? await scanQuizzes(drive1, quizzesId1) : [];
 
   // ── 2. Process Account 2 and Inject into "Study Assets" ─────────
   const auth2 = await createAuthClient('credentials2.json', 'token2.json');
@@ -234,7 +240,7 @@ async function main() {
   fs.writeFileSync('known_ids.json', JSON.stringify(allIds, null, 2));
 
   console.log('\n✅ Manifest generation complete!');
-  console.log('   public/files.json    ← Tree structure is now fully compatible with tabs.ts!');
+  console.log('   public/files.json    ← Correctly paths through icse-resources-files -> Study Assets');
 }
 
 main().catch((err) => {
