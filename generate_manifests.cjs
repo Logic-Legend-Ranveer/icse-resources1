@@ -2,7 +2,7 @@ const { google } = require('googleapis');
 const fs = require('fs');
 
 // ── CONFIG ──────────────────────────────────────────────────────
-const RESOURCES_FOLDER_NAME = 'icse-resources-files'; // or 'Study Assets' based on your folder name
+const RESOURCES_FOLDER_NAME = 'Study Assets'; // Make sure this matches your exact folder name on GDrive 1
 const QUIZZES_FOLDER_NAME = 'quizzes';
 const PARENT_FOLDER_NAME = 'icse-resources-webpage';  
 const SCOPES = ['https://www.googleapis.com/auth/drive.readonly'];
@@ -77,11 +77,10 @@ async function scanFolder(drive, folderId, folderPath = '') {
   return items;
 }
 
-// Scans the root of Account 2 and packs everything inside a "PYQ Prelims" wrapper node
+// Scans the root of Account 2 and wraps everything into "PYQ Prelims"
 async function scanAccount2RootAsPrelims(drive) {
   console.log(`🚀 Scanning root folders/files of Account 2 for PYQ Prelims...`);
   
-  // Scan root level items (no parentId filter)
   const items = [];
   let pageToken = null;
 
@@ -110,7 +109,6 @@ async function scanAccount2RootAsPrelims(drive) {
           children: children
         });
       } else {
-        // If there's an loose file at root level, include it too
         console.log(`  📄 Root File (Acc 2): ${f.name}`);
         items.push({
           name: f.name,
@@ -126,7 +124,6 @@ async function scanAccount2RootAsPrelims(drive) {
 
   const totalPrelimsSize = items.reduce((acc, child) => acc + (child.size || 0), 0);
 
-  // Wrap Account 2 root contents into the "PYQ Prelims" directory structure
   return {
     name: "PYQ Prelims",
     type: "folder",
@@ -166,6 +163,31 @@ async function scanQuizzes(drive, quizzesFolderId) {
   return quizzes;
 }
 
+// Helper function to recursively find "Study Assets" and inject PYQ Prelims into it
+function injectIntoResourcesFolder(nodes, targetFolderName, pyqFolderNode) {
+  for (const node of nodes) {
+    if (node.type === 'folder') {
+      if (node.name === targetFolderName) {
+        if (!node.children) node.children = [];
+        // Prevent duplicate injection if run multiple times
+        node.children = node.children.filter(c => c.name !== pyqFolderNode.name);
+        node.children.push(pyqFolderNode);
+        node.size = node.children.reduce((acc, child) => acc + (child.size || 0), 0);
+        return true;
+      }
+      if (node.children && node.children.length > 0) {
+        const found = injectIntoResourcesFolder(node.children, targetFolderName, pyqFolderNode);
+        if (found) {
+          // Recalculate parent folder size
+          node.size = node.children.reduce((acc, child) => acc + (child.size || 0), 0);
+          return true;
+        }
+      }
+    }
+  }
+  return false;
+}
+
 function collectAllIds(nodes) {
   const ids = [];
   for (const node of nodes) {
@@ -176,7 +198,7 @@ function collectAllIds(nodes) {
 }
 
 async function main() {
-  // ── 1. Process Account 1 (Primary / Old GDrive) ─────────────────
+  // ── 1. Process Account 1 ────────────────────────────────────────
   const auth1 = await createAuthClient('credentials.json', 'token.json');
   if (!auth1) throw new Error('Account 1 credentials/token missing!');
   
@@ -193,27 +215,31 @@ async function main() {
   const quizzesId1 = await getFolderId(drive1, QUIZZES_FOLDER_NAME, parentId1);
 
   console.log('\n🚀 Scanning primary resources (Account 1)...');
-  let filesManifest = await scanFolder(drive1, resourcesId1);
+  let filesManifest = await scanFolder(drive1, parentId1); // Scan full parent wrapper so Study Assets is captured in tree
   
   console.log('\n🚀 Scanning quizzes (Account 1)...');
   const quizzesManifest = await scanQuizzes(drive1, quizzesId1);
 
-  // ── 2. Process Account 2 (New GDrive Root -> PYQ Prelims) ─────────
+  // ── 2. Process Account 2 and Inject into "Study Assets" ─────────
   const auth2 = await createAuthClient('credentials2.json', 'token2.json');
   if (auth2) {
     console.log('\n🔐 Authenticated with Account 2...');
     const drive2 = google.drive({ version: 'v3', auth: auth2 });
     
-    // Scan Account 2 root and bundle into PYQ Prelims structure
     const pyqPrelimsFolder = await scanAccount2RootAsPrelims(drive2);
     
-    // Append "PYQ Prelims" as a subdirectory inside the main manifest (under resourcesId1's tree view)
-    filesManifest.push(pyqPrelimsFolder);
+    // Inject PYQ Prelims directly inside "Study Assets"
+    const injected = injectIntoResourcesFolder(filesManifest, RESOURCES_FOLDER_NAME, pyqPrelimsFolder);
+    if (injected) {
+      console.log(`✅ Successfully nested 'PYQ Prelims' inside '${RESOURCES_FOLDER_NAME}' folder.`);
+    } else {
+      console.log(`⚠️ Warning: Target folder '${RESOURCES_FOLDER_NAME}' not found in Account 1 tree. Appending at root instead.`);
+      filesManifest.push(pyqPrelimsFolder);
+    }
   } else {
     console.log('\nℹ️ Account 2 not configured yet. Skipping prelim papers append.');
   }
 
-  // Collect all IDs for Cloudflare Worker KV mapping
   const allIds = collectAllIds(filesManifest);
   allIds.push(...quizzesManifest.map(q => q.fileId));
 
@@ -223,9 +249,7 @@ async function main() {
   fs.writeFileSync('known_ids.json', JSON.stringify(allIds, null, 2));
 
   console.log('\n✅ Manifest generation complete!');
-  console.log('   public/files.json    ← contains Account 1 assets + Account 2 PYQ Prelims inside');
-  console.log('   public/quizzes.json  ← commit this');
-  console.log('   known_ids.json       ← push to Cloudflare KV');
+  console.log('   public/files.json    ← PYQ Prelims is now cleanly nested inside Study Assets');
 }
 
 main().catch((err) => {
