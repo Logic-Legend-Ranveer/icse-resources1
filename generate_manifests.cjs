@@ -1,11 +1,18 @@
 const { google } = require('googleapis');
 const fs = require('fs');
 
-// ── CONFIG ────────────────────────────────________________──────
+// ── CONFIG ──────────────────────────────────────────────────────
 const PARENT_FOLDER_NAME = 'icse-resources-webpage';  
 const MIDDLE_FOLDER_NAME = 'icse-resources-files';
-const RESOURCES_FOLDER_NAME = 'Study Assets'; 
 const QUIZZES_FOLDER_NAME = 'quizzes';
+
+// The three top-level folders your website expects under icse-resources-files
+const TARGET_FOLDERS = [
+  'Study Assets',
+  'ICSE 2027 Syllabus',
+  'Sample Papers & PYQs from CICSE'
+];
+
 const SCOPES = ['https://www.googleapis.com/auth/drive.readonly'];
 // ────────────────────────────────────────────────────────────────
 
@@ -78,7 +85,7 @@ async function scanFolder(drive, folderId, folderPath = '') {
   return items;
 }
 
-// Scans the root of Account 2 and wraps everything into "PYQ Prelims"
+// Scans Account 2 root and packages it into the "PYQ Prelims" folder structure
 async function scanAccount2RootAsPrelims(drive) {
   console.log(`🚀 Scanning root folders/files of Account 2 for PYQ Prelims...`);
   
@@ -189,26 +196,32 @@ async function main() {
   const middleFolderId = await getFolderId(drive1, MIDDLE_FOLDER_NAME, parentId1);
   if (!middleFolderId) throw new Error(`Could not find '${MIDDLE_FOLDER_NAME}' inside '${PARENT_FOLDER_NAME}'`);
   
-  console.log(`🔍 Finding '${RESOURCES_FOLDER_NAME}' folder...`);
-  const resourcesId1 = await getFolderId(drive1, RESOURCES_FOLDER_NAME, middleFolderId);
-  if (!resourcesId1) throw new Error(`Could not find '${RESOURCES_FOLDER_NAME}' inside '${MIDDLE_FOLDER_NAME}'`);
-
-  console.log(`🔍 Finding '${QUIZZES_FOLDER_NAME}' folder...`);
+  console.log(`🔍 Finding 'quizzes' folder...`);
   const quizzesId1 = await getFolderId(drive1, QUIZZES_FOLDER_NAME, parentId1);
 
-  // Scan "Study Assets" directly so files.json starts with Study Assets at root level
-  console.log(`\n🚀 Scanning primary resources inside '${RESOURCES_FOLDER_NAME}' (Account 1)...`);
-  const studyAssetsChildren = await scanFolder(drive1, resourcesId1, `/${RESOURCES_FOLDER_NAME}`);
-  
-  const studyAssetsSize = studyAssetsChildren.reduce((acc, child) => acc + (child.size || 0), 0);
+  let filesManifest = [];
 
-  let filesManifest = [{
-    name: RESOURCES_FOLDER_NAME,
-    type: 'folder',
-    fileId: '',
-    size: studyAssetsSize,
-    children: studyAssetsChildren
-  }];
+  // Loop through and scan all main directories inside icse-resources-files
+  for (const folderName of TARGET_FOLDERS) {
+    console.log(`\n🔍 Finding '${folderName}' inside '${MIDDLE_FOLDER_NAME}'...`);
+    const folderId = await getFolderId(drive1, folderName, middleFolderId);
+    
+    if (folderId) {
+      console.log(`🚀 Scanning contents of '${folderName}' (Account 1)...`);
+      const children = await scanFolder(drive1, folderId, `/${folderName}`);
+      const folderSize = children.reduce((acc, child) => acc + (child.size || 0), 0);
+
+      filesManifest.push({
+        name: folderName,
+        type: 'folder',
+        fileId: '',
+        size: folderSize,
+        children: children
+      });
+    } else {
+      console.log(`⚠️ Warning: Folder '${folderName}' not found in Drive. Skipping.`);
+    }
+  }
 
   console.log('\n🚀 Scanning quizzes (Account 1)...');
   const quizzesManifest = quizzesId1 ? await scanQuizzes(drive1, quizzesId1) : [];
@@ -221,12 +234,16 @@ async function main() {
     
     const pyqPrelimsFolder = await scanAccount2RootAsPrelims(drive2);
     
-    // Push PYQ Prelims directly into Study Assets' children array
-    filesManifest[0].children.push(pyqPrelimsFolder);
-    
-    // Recalculate total size of Study Assets
-    filesManifest[0].size = filesManifest[0].children.reduce((acc, child) => acc + (child.size || 0), 0);
-    console.log(`✅ Successfully nested 'PYQ Prelims' inside '${RESOURCES_FOLDER_NAME}'.`);
+    // Find "Study Assets" in our filesManifest and push PYQ Prelims into it
+    const studyAssetsNode = filesManifest.find(f => f.name === 'Study Assets');
+    if (studyAssetsNode) {
+      studyAssetsNode.children.push(pyqPrelimsFolder);
+      studyAssetsNode.size = studyAssetsNode.children.reduce((acc, child) => acc + (child.size || 0), 0);
+      console.log(`✅ Successfully nested 'PYQ Prelims' inside 'Study Assets'.`);
+    } else {
+      console.log(`⚠️ 'Study Assets' node not found. Appending PYQ Prelims at root.`);
+      filesManifest.push(pyqPrelimsFolder);
+    }
   } else {
     console.log('\nℹ️ Account 2 not configured yet. Skipping prelim papers append.');
   }
@@ -240,7 +257,7 @@ async function main() {
   fs.writeFileSync('known_ids.json', JSON.stringify(allIds, null, 2));
 
   console.log('\n✅ Manifest generation complete!');
-  console.log('   public/files.json    ← Correctly paths through icse-resources-files -> Study Assets');
+  console.log('   public/files.json    ← Contains Syllabus, Study Assets (with PYQ Prelims), and Sample Papers!');
 }
 
 main().catch((err) => {
