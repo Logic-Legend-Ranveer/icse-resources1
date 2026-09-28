@@ -8342,5 +8342,28 @@
         ]
       }
     ]
+  },
+  {
+    "name": "PYQ Prelims",
+    "type": "folder",
+    "fileId": "",
+    "size": 0,
+    "children": [
+      {
+        "name": "Test folder",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": [
+          {
+            "name": "Test subfolder",
+            "type": "folder",
+            "fileId": "",
+            "size": 0,
+            "children": []
+          }
+        ]
+      }
+    ]
   }
 ]
