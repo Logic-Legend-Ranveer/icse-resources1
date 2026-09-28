@@ -2,7 +2,7 @@ const { google } = require('googleapis');
 const fs = require('fs');
 
 // ── CONFIG ──────────────────────────────────────────────────────
-const RESOURCES_FOLDER_NAME = 'Study Assets'; // Make sure this matches your exact folder name on GDrive 1
+const RESOURCES_FOLDER_NAME = 'Study Assets'; 
 const QUIZZES_FOLDER_NAME = 'quizzes';
 const PARENT_FOLDER_NAME = 'icse-resources-webpage';  
 const SCOPES = ['https://www.googleapis.com/auth/drive.readonly'];
@@ -163,31 +163,6 @@ async function scanQuizzes(drive, quizzesFolderId) {
   return quizzes;
 }
 
-// Helper function to recursively find "Study Assets" and inject PYQ Prelims into it
-function injectIntoResourcesFolder(nodes, targetFolderName, pyqFolderNode) {
-  for (const node of nodes) {
-    if (node.type === 'folder') {
-      if (node.name === targetFolderName) {
-        if (!node.children) node.children = [];
-        // Prevent duplicate injection if run multiple times
-        node.children = node.children.filter(c => c.name !== pyqFolderNode.name);
-        node.children.push(pyqFolderNode);
-        node.size = node.children.reduce((acc, child) => acc + (child.size || 0), 0);
-        return true;
-      }
-      if (node.children && node.children.length > 0) {
-        const found = injectIntoResourcesFolder(node.children, targetFolderName, pyqFolderNode);
-        if (found) {
-          // Recalculate parent folder size
-          node.size = node.children.reduce((acc, child) => acc + (child.size || 0), 0);
-          return true;
-        }
-      }
-    }
-  }
-  return false;
-}
-
 function collectAllIds(nodes) {
   const ids = [];
   for (const node of nodes) {
@@ -210,13 +185,25 @@ async function main() {
   
   console.log(`🔍 Finding '${RESOURCES_FOLDER_NAME}' folder on Account 1...`);
   const resourcesId1 = await getFolderId(drive1, RESOURCES_FOLDER_NAME, parentId1);
+  if (!resourcesId1) throw new Error(`Could not find folder '${RESOURCES_FOLDER_NAME}' inside '${PARENT_FOLDER_NAME}'`);
 
   console.log(`🔍 Finding 'quizzes' folder on Account 1...`);
   const quizzesId1 = await getFolderId(drive1, QUIZZES_FOLDER_NAME, parentId1);
 
-  console.log('\n🚀 Scanning primary resources (Account 1)...');
-  let filesManifest = await scanFolder(drive1, parentId1); // Scan full parent wrapper so Study Assets is captured in tree
+  // CRITICAL FIX: Scan "Study Assets" directly so files.json starts with Study Assets at root level
+  console.log(`\n🚀 Scanning primary resources inside '${RESOURCES_FOLDER_NAME}' (Account 1)...`);
+  const studyAssetsChildren = await scanFolder(drive1, resourcesId1, `/${RESOURCES_FOLDER_NAME}`);
   
+  const studyAssetsSize = studyAssetsChildren.reduce((acc, child) => acc + (child.size || 0), 0);
+
+  let filesManifest = [{
+    name: RESOURCES_FOLDER_NAME,
+    type: 'folder',
+    fileId: '',
+    size: studyAssetsSize,
+    children: studyAssetsChildren
+  }];
+
   console.log('\n🚀 Scanning quizzes (Account 1)...');
   const quizzesManifest = await scanQuizzes(drive1, quizzesId1);
 
@@ -228,14 +215,12 @@ async function main() {
     
     const pyqPrelimsFolder = await scanAccount2RootAsPrelims(drive2);
     
-    // Inject PYQ Prelims directly inside "Study Assets"
-    const injected = injectIntoResourcesFolder(filesManifest, RESOURCES_FOLDER_NAME, pyqPrelimsFolder);
-    if (injected) {
-      console.log(`✅ Successfully nested 'PYQ Prelims' inside '${RESOURCES_FOLDER_NAME}' folder.`);
-    } else {
-      console.log(`⚠️ Warning: Target folder '${RESOURCES_FOLDER_NAME}' not found in Account 1 tree. Appending at root instead.`);
-      filesManifest.push(pyqPrelimsFolder);
-    }
+    // Push PYQ Prelims directly into Study Assets' children array
+    filesManifest[0].children.push(pyqPrelimsFolder);
+    
+    // Recalculate total size of Study Assets
+    filesManifest[0].size = filesManifest[0].children.reduce((acc, child) => acc + (child.size || 0), 0);
+    console.log(`✅ Successfully nested 'PYQ Prelims' inside '${RESOURCES_FOLDER_NAME}'.`);
   } else {
     console.log('\nℹ️ Account 2 not configured yet. Skipping prelim papers append.');
   }
@@ -249,7 +234,7 @@ async function main() {
   fs.writeFileSync('known_ids.json', JSON.stringify(allIds, null, 2));
 
   console.log('\n✅ Manifest generation complete!');
-  console.log('   public/files.json    ← PYQ Prelims is now cleanly nested inside Study Assets');
+  console.log('   public/files.json    ← Tree structure is now fully compatible with tabs.ts!');
 }
 
 main().catch((err) => {
