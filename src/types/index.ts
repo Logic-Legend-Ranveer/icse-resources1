@@ -42,8 +42,10 @@ export interface Question {
   options: string[];
   correctAnswer: number;
   explanation: string;
-  /** Resolved, display-ready image URL — set when the source .txt has an IMAGE: line. */
+  /** Direct image URL — set when the .txt's IMAGE: line is a full http(s) URL. */
   imageUrl?: string;
+  /** Drive file id — set when the IMAGE: line is a bare id; resolved via the file proxy at render time. */
+  imageFileId?: string;
 }
 
 export type QuizAttempt = Record<number, number>;

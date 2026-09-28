@@ -530,25 +530,46 @@ interface QuestionBlockProps {
   onSelect: (optionIndex: number) => void;
 }
 
-function QuestionImage({ src }: { src: string }) {
-  const [failed, setFailed] = useState(false);
+/** Drive serves publicly shared images straight to an <img> — no worker or folder scanning involved. Tried in order. */
+function driveImageSources(fileId: string): string[] {
+  return [
+    `https://drive.google.com/thumbnail?id=${fileId}&sz=w1600`,
+    `https://lh3.googleusercontent.com/d/${fileId}`,
+  ];
+}
 
-  if (failed) {
+function QuestionImage({ url, fileId }: { url?: string; fileId?: string }) {
+  const sources = url ? [url] : fileId ? driveImageSources(fileId) : [];
+  const [sourceIndex, setSourceIndex] = useState(0);
+  const [loaded, setLoaded] = useState(false);
+
+  if (sourceIndex >= sources.length) {
     return (
       <div className="mb-3 flex h-24 items-center justify-center rounded-lg border border-border bg-midnight px-3 text-center text-xs text-slate-600 md:mb-4 md:h-28 md:text-sm">
-        Image couldn't load — check the Drive file is shared "anyone with the link"
+        Image couldn't be loaded — make sure it's shared as "Anyone with the link"
       </div>
     );
   }
 
   return (
-    <img
-      src={src}
-      alt=""
-      loading="lazy"
-      onError={() => setFailed(true)}
-      className="mb-3 max-h-64 w-full rounded-lg border border-border object-contain md:mb-4 md:max-h-80"
-    />
+    <>
+      {!loaded && (
+        <div className="mb-3 flex h-24 items-center justify-center rounded-lg border border-border bg-midnight md:mb-4 md:h-28">
+          <Loader2 className="h-5 w-5 animate-spin text-accent-indigo-soft" />
+        </div>
+      )}
+      <img
+        key={sources[sourceIndex]}
+        src={sources[sourceIndex]}
+        alt=""
+        referrerPolicy="no-referrer"
+        onLoad={() => setLoaded(true)}
+        onError={() => setSourceIndex((i) => i + 1)}
+        className={
+          loaded ? "mb-3 max-h-64 w-full rounded-lg border border-border object-contain md:mb-4 md:max-h-80" : "hidden"
+        }
+      />
+    </>
   );
 }
 
@@ -558,7 +579,9 @@ function QuestionBlock({ index, question, selectedIndex, revealAnswer, onSelect 
       <p className="mb-3 text-sm font-medium text-slate-100 md:mb-4 md:text-base">
         {index + 1}. {question.question}
       </p>
-      {question.imageUrl && <QuestionImage src={question.imageUrl} />}
+      {(question.imageUrl || question.imageFileId) && (
+        <QuestionImage url={question.imageUrl} fileId={question.imageFileId} />
+      )}
       <div className="space-y-2 md:space-y-2.5">
         {question.options.map((option, optionIndex) => {
           const isSelected = selectedIndex === optionIndex;
