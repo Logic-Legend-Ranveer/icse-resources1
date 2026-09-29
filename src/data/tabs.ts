@@ -12,9 +12,9 @@ export const TAB_DEFS: TabDef[] = [
   { id: "syllabus", label: "ICSE 2027 Syllabus" },
   { id: "study", label: "Study Assets" },
   { id: "quizzes", label: "Interactive Quizzes" },
+  { id: "pyq-prelims", label: "PYQ Prelims"},
   { id: "sample-papers", label: "CISCE Sample Papers & PYQs" },
-  { id: "about", label: "About" },
-  { id: "pyq-prelims", label: "PYQ Prelims"}
+  { id: "about", label: "About" }
 ];
 
 export const TAB_LABELS: Record<TabId, string> = Object.fromEntries(TAB_DEFS.map((t) => [t.id, t.label])) as Record<
