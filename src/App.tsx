@@ -24,7 +24,7 @@ import QuizModal from "./components/modals/QuizModal";
 import RecentAdditionsModal from "./components/modals/RecentAdditionsModal";
 
 const DEFAULT_TAB_ID: TabId = "syllabus";
-const EMPTY_TREES: Record<TreeTabId, FileItem[]> = { syllabus: [], study: [], quizzes: [], "sample-papers": [], "pyq-prelims" };
+const EMPTY_TREES: Record<TreeTabId, FileItem[]> = { syllabus: [], study: [], quizzes: [], "sample-papers": [], "pyq-prelims": [] };
 
 type DataStatus = "loading" | "ready" | "error";
 
