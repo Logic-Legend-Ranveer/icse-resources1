@@ -13091,10 +13091,60 @@
         ]
       },
       {
+        "name": "Commercial Applications",
+        "type": "folder",
+        "fileId": "",
+        "size": 14437588,
+        "children": [
+          {
+            "name": "10th Std_Commercial Applications_Term 1.pdf",
+            "type": "file",
+            "fileId": "1JQ4KTWZc-oqx2R9om5beC_anbb8MuQte",
+            "size": 241555,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "20-21 X Comm Application CNMS.pdf",
+            "type": "file",
+            "fileId": "1-0HGpba8bkCj_AsQEPLvpB75P0mlI-lT",
+            "size": 241555,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "20-21 X Commercial Application DIAMOND.pdf",
+            "type": "file",
+            "fileId": "15_zLTpkIt_qrvDuRSwA5ivirbHo2YyWp",
+            "size": 1399865,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X COMM APP NEW CAMBRIDGE .pdf",
+            "type": "file",
+            "fileId": "17WXOslQWamTssbY8E4yAOQ_oGhdLqGY2",
+            "size": 4409806,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X COMM APP. GREGORIOS.pdf",
+            "type": "file",
+            "fileId": "1PavfedBC3fimNednVRECqQjGX7n6Q584",
+            "size": 2448962,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X Commercial Applications CNMS.pdf",
+            "type": "file",
+            "fileId": "1AXjaOIPlZUDBXt77Nk5FhH8HuV8nXMu-",
+            "size": 5695845,
+            "addedAt": "2026-09-28"
+          }
+        ]
+      },
+      {
         "name": "Commercial Studies",
         "type": "folder",
         "fileId": "",
-        "size": 45369979,
+        "size": 84371173,
         "children": [
           {
             "name": "10th COMM STUDIES.pdf",
@@ -13209,6 +13259,20 @@
             "addedAt": "2026-09-28"
           },
           {
+            "name": "20-21 X CS .pdf",
+            "type": "file",
+            "fileId": "1YGnZDnh-RdWKkJDrUXZFqSgJ7lMzCzQJ",
+            "size": 177617,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "20-21 X CS CAMBRIDGE.pdf",
+            "type": "file",
+            "fileId": "1XdWXF3Np-uQn3aE6hiqIBLQfK2_21sgH",
+            "size": 389558,
+            "addedAt": "2026-09-28"
+          },
+          {
             "name": "22-23 X commercial app JSS Dubai.pdf",
             "type": "file",
             "fileId": "1-b3wkBT3A6ySV-P4g_SEoGaYHwrm3FEb",
@@ -13230,6 +13294,139 @@
             "addedAt": "2026-09-28"
           },
           {
+            "name": "23-24 X CS   VIVEKANANDA.pdf",
+            "type": "file",
+            "fileId": "1EWexHzTpod40vpy6PLdEO9hFX0nMecaF",
+            "size": 527307,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "23-24 X CS 1 PAPER  VIVEKANANDA.pdf",
+            "type": "file",
+            "fileId": "1WsfSl8kllMaczOkMGw_1Edpt3rniDJ1d",
+            "size": 554860,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "23-24 X CS Vivekananda .pdf",
+            "type": "file",
+            "fileId": "1L-_kjCjxcQzFoRvyTZCZwOSEsyKl0pTt",
+            "size": 527307,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X COMM STUDIES ABVM.pdf.pdf",
+            "type": "file",
+            "fileId": "1t9tkju8JtmMcQHdDv_OQbObZqB4QWcBk",
+            "size": 1197611,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X COMM. STUDIES J.B PETIT.pdf",
+            "type": "file",
+            "fileId": "1LuUdDtuoReev0PyI-e-LuocXYLQ0MLSv",
+            "size": 3132262,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X COMMERCIAL STUDIES GREENLAWNS.pdf",
+            "type": "file",
+            "fileId": "18bb6mUaN_QFlb4KenUSetCNdueHwD7W3",
+            "size": 594820,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS 20-1-25.pdf",
+            "type": "file",
+            "fileId": "1XkcW22QBaJYaDKx4eoCa4N3JkvBReNHE",
+            "size": 97786,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS ABVM.pdf",
+            "type": "file",
+            "fileId": "1OnWqojPk6IK6R7w1_Hd87sgFbEnBu8fS",
+            "size": 1197611,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS Christ church .pdf",
+            "type": "file",
+            "fileId": "1W_TneiSWlc50V22ZB5kUa7-D-EBgWNxc",
+            "size": 642029,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS Christ Church.pdf",
+            "type": "file",
+            "fileId": "19bxkQX59G_ph1fTyoo10dQtY2iU4jH8J",
+            "size": 642029,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS Diamond .pdf",
+            "type": "file",
+            "fileId": "1gx-__zTThkLXkSz9CnHUElc5pRgrmE8G",
+            "size": 8811351,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS GHS .pdf",
+            "type": "file",
+            "fileId": "1K1MTXh1zNQzSsqZSel0F2KI_qEiL9Sc-",
+            "size": 1048879,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS GREENLAWNS.pdf",
+            "type": "file",
+            "fileId": "1w_hxemi0Yn4rOTx0P7Lln7khawC-LVdk",
+            "size": 1048879,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS ICSE.pdf",
+            "type": "file",
+            "fileId": "1fgXsLJ83fI6sH7RgpRiZZHnjjyZdV64x",
+            "size": 97786,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS J B Petit pdf.pdf",
+            "type": "file",
+            "fileId": "10RcVRiu541zLQC1MekdyCavGtlCg3QLb",
+            "size": 3132262,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS TERM 1 DJHS.pdf",
+            "type": "file",
+            "fileId": "12oI8yq7fWfanQiR0j--tjamUMnXQX7Vv",
+            "size": 8811351,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS Villa Tressapdf.pdf",
+            "type": "file",
+            "fileId": "1PrUyxDBBsUPuYFmnl5fxd4fJDuMAujJG",
+            "size": 602970,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS Vissanji.pdf",
+            "type": "file",
+            "fileId": "1u5_lQWky7_544avC63RNcw6qdSVMuFaN",
+            "size": 2580514,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "24-25 X CS Witty Int.pdf",
+            "type": "file",
+            "fileId": "1ewTyPibMGKGmEWongYVBiYMktBWE9z_b",
+            "size": 2595757,
+            "addedAt": "2026-09-28"
+          },
+          {
             "name": "25-26 X COMMERCIAL STUDIES VIBGYOR .pdf",
             "type": "file",
             "fileId": "1phW4tn2-qEu2T0Xvb-ZdtIZc6ICrgMT_",
@@ -13241,6 +13438,13 @@
             "type": "file",
             "fileId": "1IpPqLcQxfaZO7v3CkmlDOX42nNrjN9Yx",
             "size": 4230713,
+            "addedAt": "2026-09-28"
+          },
+          {
+            "name": "25-26 X CS J.B.PETIT .pdf",
+            "type": "file",
+            "fileId": "1cAgokOkGd7AIzBMTE644m4-yTqc3OcP0",
+            "size": 590648,
             "addedAt": "2026-09-28"
           },
           {
@@ -13389,29 +13593,8 @@
         "name": "Computer Applications",
         "type": "folder",
         "fileId": "",
-        "size": 244930453,
+        "size": 191491671,
         "children": [
-          {
-            "name": "10th Std_Commercial Applications_Term 1.pdf",
-            "type": "file",
-            "fileId": "1JQ4KTWZc-oqx2R9om5beC_anbb8MuQte",
-            "size": 241555,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "20-21 X Comm Application CNMS.pdf",
-            "type": "file",
-            "fileId": "1-0HGpba8bkCj_AsQEPLvpB75P0mlI-lT",
-            "size": 241555,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "20-21 X Commercial Application DIAMOND.pdf",
-            "type": "file",
-            "fileId": "15_zLTpkIt_qrvDuRSwA5ivirbHo2YyWp",
-            "size": 1399865,
-            "addedAt": "2026-09-28"
-          },
           {
             "name": "20-21 X Comp. Applications Thakur Int..pdf",
             "type": "file",
@@ -13567,20 +13750,6 @@
             "addedAt": "2026-09-28"
           },
           {
-            "name": "20-21 X CS .pdf",
-            "type": "file",
-            "fileId": "1YGnZDnh-RdWKkJDrUXZFqSgJ7lMzCzQJ",
-            "size": 177617,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "20-21 X CS CAMBRIDGE.pdf",
-            "type": "file",
-            "fileId": "1XdWXF3Np-uQn3aE6hiqIBLQfK2_21sgH",
-            "size": 389558,
-            "addedAt": "2026-09-28"
-          },
-          {
             "name": "2020125_240823_144625.pdf",
             "type": "file",
             "fileId": "1nlKIcnS5C4Nr9e26b8OS1SGH-qZAmyiT",
@@ -13613,69 +13782,6 @@
             "type": "file",
             "fileId": "1eRrMnWF_uai0dApki0xaAjhJzmFK8s8Q",
             "size": 1499918,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "23-24 X CS   VIVEKANANDA.pdf",
-            "type": "file",
-            "fileId": "1EWexHzTpod40vpy6PLdEO9hFX0nMecaF",
-            "size": 527307,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "23-24 X CS 1 PAPER  VIVEKANANDA.pdf",
-            "type": "file",
-            "fileId": "1WsfSl8kllMaczOkMGw_1Edpt3rniDJ1d",
-            "size": 554860,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "23-24 X CS Vivekananda .pdf",
-            "type": "file",
-            "fileId": "1L-_kjCjxcQzFoRvyTZCZwOSEsyKl0pTt",
-            "size": 527307,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X COMM APP NEW CAMBRIDGE .pdf",
-            "type": "file",
-            "fileId": "17WXOslQWamTssbY8E4yAOQ_oGhdLqGY2",
-            "size": 4409806,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X COMM APP. GREGORIOS.pdf",
-            "type": "file",
-            "fileId": "1PavfedBC3fimNednVRECqQjGX7n6Q584",
-            "size": 2448962,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X COMM STUDIES ABVM.pdf.pdf",
-            "type": "file",
-            "fileId": "1t9tkju8JtmMcQHdDv_OQbObZqB4QWcBk",
-            "size": 1197611,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X COMM. STUDIES J.B PETIT.pdf",
-            "type": "file",
-            "fileId": "1LuUdDtuoReev0PyI-e-LuocXYLQ0MLSv",
-            "size": 3132262,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X Commercial Applications CNMS.pdf",
-            "type": "file",
-            "fileId": "1AXjaOIPlZUDBXt77Nk5FhH8HuV8nXMu-",
-            "size": 5695845,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X COMMERCIAL STUDIES GREENLAWNS.pdf",
-            "type": "file",
-            "fileId": "18bb6mUaN_QFlb4KenUSetCNdueHwD7W3",
-            "size": 594820,
             "addedAt": "2026-09-28"
           },
           {
@@ -13749,97 +13855,6 @@
             "addedAt": "2026-09-28"
           },
           {
-            "name": "24-25 X CS 20-1-25.pdf",
-            "type": "file",
-            "fileId": "1XkcW22QBaJYaDKx4eoCa4N3JkvBReNHE",
-            "size": 97786,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS ABVM.pdf",
-            "type": "file",
-            "fileId": "1OnWqojPk6IK6R7w1_Hd87sgFbEnBu8fS",
-            "size": 1197611,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS Christ church .pdf",
-            "type": "file",
-            "fileId": "1W_TneiSWlc50V22ZB5kUa7-D-EBgWNxc",
-            "size": 642029,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS Christ Church.pdf",
-            "type": "file",
-            "fileId": "19bxkQX59G_ph1fTyoo10dQtY2iU4jH8J",
-            "size": 642029,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS Diamond .pdf",
-            "type": "file",
-            "fileId": "1gx-__zTThkLXkSz9CnHUElc5pRgrmE8G",
-            "size": 8811351,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS GHS .pdf",
-            "type": "file",
-            "fileId": "1K1MTXh1zNQzSsqZSel0F2KI_qEiL9Sc-",
-            "size": 1048879,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS GREENLAWNS.pdf",
-            "type": "file",
-            "fileId": "1w_hxemi0Yn4rOTx0P7Lln7khawC-LVdk",
-            "size": 1048879,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS ICSE.pdf",
-            "type": "file",
-            "fileId": "1fgXsLJ83fI6sH7RgpRiZZHnjjyZdV64x",
-            "size": 97786,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS J B Petit pdf.pdf",
-            "type": "file",
-            "fileId": "10RcVRiu541zLQC1MekdyCavGtlCg3QLb",
-            "size": 3132262,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS TERM 1 DJHS.pdf",
-            "type": "file",
-            "fileId": "12oI8yq7fWfanQiR0j--tjamUMnXQX7Vv",
-            "size": 8811351,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS Villa Tressapdf.pdf",
-            "type": "file",
-            "fileId": "1PrUyxDBBsUPuYFmnl5fxd4fJDuMAujJG",
-            "size": 602970,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS Vissanji.pdf",
-            "type": "file",
-            "fileId": "1u5_lQWky7_544avC63RNcw6qdSVMuFaN",
-            "size": 2580514,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "24-25 X CS Witty Int.pdf",
-            "type": "file",
-            "fileId": "1ewTyPibMGKGmEWongYVBiYMktBWE9z_b",
-            "size": 2595757,
-            "addedAt": "2026-09-28"
-          },
-          {
             "name": "24-25 X- Computer App Orion.pdf",
             "type": "file",
             "fileId": "1RTafX1uDTBvILBQedQVkWZ3w4yKmkU4c",
@@ -13851,13 +13866,6 @@
             "type": "file",
             "fileId": "1_tPtTP6t1HJSNwJyFg6ocjl7q8E0tk9v",
             "size": 863280,
-            "addedAt": "2026-09-28"
-          },
-          {
-            "name": "25-26 X CS J.B.PETIT .pdf",
-            "type": "file",
-            "fileId": "1cAgokOkGd7AIzBMTE644m4-yTqc3OcP0",
-            "size": 590648,
             "addedAt": "2026-09-28"
           },
           {
