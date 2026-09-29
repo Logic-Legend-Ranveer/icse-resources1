@@ -1,4 +1,4 @@
-export type TabId = "syllabus" | "study" | "quizzes" | "sample-papers" | "about";
+export type TabId = "syllabus" | "study" | "quizzes" | "sample-papers" | "about" | "pyq-prelims";
 
 /** All tabs that resolve to a browsable FileItem tree (i.e. everything but About). */
 export type TreeTabId = Exclude<TabId, "about">;
