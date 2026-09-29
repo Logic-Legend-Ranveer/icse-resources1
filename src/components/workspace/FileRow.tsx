@@ -17,7 +17,7 @@ export default function FileRow({
   item,
   onOpenFolder,
   onOpenFile,
-  isLast: _isLast, // explicitly unused, but declared to avoid TS error
+  isLast,
   selectionMode,
   isSelected,
   onToggleSelect,
@@ -41,7 +41,9 @@ export default function FileRow({
     <button
       type="button"
       onClick={handleClick}
-      className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-surface-hover"
+      className={`flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-surface-hover ${
+        isLast ? "" : "border-b border-border"
+      } ${!isFolder && selectionMode && isSelected ? "bg-accent-indigo/10" : ""}`}
     >
       <span
         className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg ${
