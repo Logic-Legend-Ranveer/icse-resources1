@@ -111,12 +111,6 @@
   gap: 8px;
   margin: 32px 0 0;
 
-  /* Allow children to visually overflow when they pop */
-  li {
-    position: relative;
-    z-index: 1;
-  }
-
   .logo {
     height: 18px;
   }
@@ -131,22 +125,11 @@
     align-items: center;
     gap: 8px;
     text-decoration: none;
-
-    /* Smooth transition for transform and shadow */
-    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.2s ease;
-
-    /* Ensure the link itself can sit above siblings on hover */
-    position: relative;
-    z-index: 1;
+    transition: box-shadow 0.3s;
 
     &:hover {
-      /* Stronger pop */
-      transform: translateY(-8px) scale(1.06);
-      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.45);
-      background: color-mix(in srgb, var(--social-bg), white 8%);
-      z-index: 2;
+      box-shadow: var(--shadow);
     }
-
     .button-icon {
       height: 18px;
       width: 18px;
