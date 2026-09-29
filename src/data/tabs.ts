@@ -14,6 +14,7 @@ export const TAB_DEFS: TabDef[] = [
   { id: "quizzes", label: "Interactive Quizzes" },
   { id: "sample-papers", label: "CISCE Sample Papers & PYQs" },
   { id: "about", label: "About" },
+  { id: "pyq-prelims", label: "PYQ Prelims"}
 ];
 
 export const TAB_LABELS: Record<TabId, string> = Object.fromEntries(TAB_DEFS.map((t) => [t.id, t.label])) as Record<
@@ -31,4 +32,5 @@ export const TAB_SOURCE_FOLDER_NAME: Record<Exclude<TreeTabId, "quizzes">, strin
   syllabus: "ICSE 2027 Syllabus",
   study: "Study Assets",
   "sample-papers": "Sample Papers & PYQs from CICSE",
+  "pyq-prelims": "PYQ Prelims",
 };
