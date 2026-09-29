@@ -6,7 +6,7 @@ interface FileRowProps {
   item: FileItem;
   onOpenFolder: (item: FileItem) => void;
   onOpenFile: (item: FileItem) => void;
-  isLast?: boolean;
+  isLast: _isLast, // explicitly unused
   /** When true, clicking a file toggles selection instead of opening it (used by the Quizzes tab). */
   selectionMode?: boolean;
   isSelected?: boolean;
