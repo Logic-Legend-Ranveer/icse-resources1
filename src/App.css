@@ -116,25 +116,31 @@
   }
 
   a {
-    color: var(--text-h);
-    font-size: 16px;
-    border-radius: 6px;
-    background: var(--social-bg);
-    display: flex;
-    padding: 6px 12px;
-    align-items: center;
-    gap: 8px;
-    text-decoration: none;
-    transition: box-shadow 0.3s;
+  color: var(--text-h);
+  font-size: 16px;
+  border-radius: 6px;
+  background: var(--social-bg);
+  display: flex;
+  padding: 6px 12px;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
 
-    &:hover {
-      box-shadow: var(--shadow);
-    }
-    .button-icon {
-      height: 18px;
-      width: 18px;
-    }
+  // Smooth transition for both transform and shadow
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+  &:hover {
+    // Lift and slightly enlarge
+    transform: translateY(-4px) scale(1.03);
+    // Stronger shadow for depth
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
   }
+
+  .button-icon {
+    height: 18px;
+    width: 18px;
+  }
+}
 
   @media (max-width: 1024px) {
     margin-top: 20px;
