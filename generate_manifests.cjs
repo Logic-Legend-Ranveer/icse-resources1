@@ -6,7 +6,7 @@ const PARENT_FOLDER_NAME = 'icse-resources-webpage';
 const MIDDLE_FOLDER_NAME = 'icse-resources-files';
 const QUIZZES_FOLDER_NAME = 'quizzes';
 
-// The three top-level folders your website expects under icse-resources-files
+// Top-level folders expected from Account 1
 const TARGET_FOLDERS = [
   'Study Assets',
   'ICSE 2027 Syllabus',
@@ -85,7 +85,7 @@ async function scanFolder(drive, folderId, folderPath = '') {
   return items;
 }
 
-// Scans Account 2 root and packages it into the "PYQ Prelims" folder structure
+// Scans Account 2 root and packages it into the top-level "PYQ Prelims" folder structure
 async function scanAccount2RootAsPrelims(drive) {
   console.log(`🚀 Scanning root folders/files of Account 2 for PYQ Prelims...`);
   
@@ -226,24 +226,18 @@ async function main() {
   console.log('\n🚀 Scanning quizzes (Account 1)...');
   const quizzesManifest = quizzesId1 ? await scanQuizzes(drive1, quizzesId1) : [];
 
-  // ── 2. Process Account 2 and Inject into "Study Assets" ─────────
+  // ── 2. Process Account 2 and Append "PYQ Prelims" at Root Level ──
   const auth2 = await createAuthClient('credentials2.json', 'token2.json');
   if (auth2) {
     console.log('\n🔐 Authenticated with Account 2...');
     const drive2 = google.drive({ version: 'v3', auth: auth2 });
     
+    // Scan Account 2 root and bundle into PYQ Prelims structure
     const pyqPrelimsFolder = await scanAccount2RootAsPrelims(drive2);
     
-    // Find "Study Assets" in our filesManifest and push PYQ Prelims into it
-    const studyAssetsNode = filesManifest.find(f => f.name === 'Study Assets');
-    if (studyAssetsNode) {
-      studyAssetsNode.children.push(pyqPrelimsFolder);
-      studyAssetsNode.size = studyAssetsNode.children.reduce((acc, child) => acc + (child.size || 0), 0);
-      console.log(`✅ Successfully nested 'PYQ Prelims' inside 'Study Assets'.`);
-    } else {
-      console.log(`⚠️ 'Study Assets' node not found. Appending PYQ Prelims at root.`);
-      filesManifest.push(pyqPrelimsFolder);
-    }
+    // Push PYQ Prelims directly into the root of filesManifest (beside Study Assets)
+    filesManifest.push(pyqPrelimsFolder);
+    console.log(`✅ Successfully added 'PYQ Prelims' as a top-level root folder in files.json.`);
   } else {
     console.log('\nℹ️ Account 2 not configured yet. Skipping prelim papers append.');
   }
@@ -257,7 +251,7 @@ async function main() {
   fs.writeFileSync('known_ids.json', JSON.stringify(allIds, null, 2));
 
   console.log('\n✅ Manifest generation complete!');
-  console.log('   public/files.json    ← Contains Syllabus, Study Assets (with PYQ Prelims), and Sample Papers!');
+  console.log('   public/files.json    ← PYQ Prelims is now a top-level folder sitting right beside Study Assets!');
 }
 
 main().catch((err) => {
