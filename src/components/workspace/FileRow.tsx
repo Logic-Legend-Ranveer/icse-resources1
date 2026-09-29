@@ -42,7 +42,7 @@ export default function FileRow({
   type="button"
   onClick={handleClick}
   className={`group relative flex w-full items-center gap-3 px-4 py-3 text-left transition-all 
-    hover:-translate-y-1 hover:scale-[1.02] hover:shadow-xl hover:bg-surface-hover 
+    hover:-translate-y-0.5 hover:scale-[1.01] hover:shadow-lg 
     ${isLast ? "" : "border-b border-border"} 
     ${!isFolder && selectionMode && isSelected ? "bg-accent-indigo/10" : ""}`}
 >
