@@ -31,6 +31,6 @@ export const TAB_LABELS: Record<TabId, string> = Object.fromEntries(TAB_DEFS.map
 export const TAB_SOURCE_FOLDER_NAME: Record<Exclude<TreeTabId, "quizzes">, string> = {
   syllabus: "ICSE 2027 Syllabus",
   study: "Study Assets",
-  "sample-papers": "Sample Papers & PYQs from CICSE",
   "pyq-prelims": "PYQ Prelims",
+  "sample-papers": "Sample Papers & PYQs from CICSE",
 };
