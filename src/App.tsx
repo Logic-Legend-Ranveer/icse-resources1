@@ -79,10 +79,13 @@ function AppShell() {
   const searchIndex = useMemo(() => buildSearchIndex(contentTrees), [contentTrees]);
   const isSearching = searchQuery.trim().length > 0;
   const searchResults = useMemo<SearchEntry[]>(() => {
-    if (!isSearching) return [];
-    const termGroups = buildTermGroups(searchQuery, synonyms);
-    return searchIndex.filter((entry) => matchesTermGroups(entry, termGroups)).slice(0, 100);
-  }, [isSearching, searchQuery, synonyms, searchIndex]);
+  if (!isSearching) return [];
+  const termGroups = buildTermGroups(searchQuery, synonyms);
+  return searchIndex
+    .filter((entry) => entry.item.type !== "folder")
+    .filter((entry) => matchesTermGroups(entry, termGroups))
+    .slice(0, 100);
+}, [isSearching, searchQuery, synonyms, searchIndex]);
 
   function handleSelectTab(tabId: TabId) {
     setSearchQuery("");
