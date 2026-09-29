@@ -39,12 +39,13 @@ export default function FileRow({
 
   return (
     <button
-      type="button"
-      onClick={handleClick}
-      className={`flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-surface-hover ${
-        isLast ? "" : "border-b border-border"
-      } ${!isFolder && selectionMode && isSelected ? "bg-accent-indigo/10" : ""}`}
-    >
+  type="button"
+  onClick={handleClick}
+  className={`group relative flex w-full items-center gap-3 px-4 py-3 text-left transition-all 
+    hover:-translate-y-1 hover:scale-[1.02] hover:shadow-xl hover:bg-surface-hover 
+    ${isLast ? "" : "border-b border-border"} 
+    ${!isFolder && selectionMode && isSelected ? "bg-accent-indigo/10" : ""}`}
+>
       <span
         className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg ${
           isFolder ? "bg-accent-indigo/10 text-accent-indigo-soft" : "bg-white/5 text-slate-400"
