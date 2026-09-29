@@ -24,7 +24,7 @@ import QuizModal from "./components/modals/QuizModal";
 import RecentAdditionsModal from "./components/modals/RecentAdditionsModal";
 
 const DEFAULT_TAB_ID: TabId = "syllabus";
-const EMPTY_TREES: Record<TreeTabId, FileItem[]> = { syllabus: [], study: [], quizzes: [], "sample-papers": [] };
+const EMPTY_TREES: Record<TreeTabId, FileItem[]> = { syllabus: [], study: [], quizzes: [], "sample-papers": [], "pyq-prelims" };
 
 type DataStatus = "loading" | "ready" | "error";
 
@@ -52,6 +52,7 @@ function AppShell() {
           syllabus: findFolderChildren(normalizedRoot, TAB_SOURCE_FOLDER_NAME.syllabus),
           study: findFolderChildren(normalizedRoot, TAB_SOURCE_FOLDER_NAME.study),
           "sample-papers": findFolderChildren(normalizedRoot, TAB_SOURCE_FOLDER_NAME["sample-papers"]),
+          "pyq-prelims": findFolderChildren(normalizedRoot, TAB_SOURCE_FOLDER_NAME["pyq-prelims"]),
           quizzes: buildQuizTree(rawQuizzes),
         });
         setRecentFiles(normalizeFileTree(getRecentRawFiles(rawFiles, 5)));
