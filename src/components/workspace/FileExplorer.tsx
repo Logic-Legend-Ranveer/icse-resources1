@@ -56,28 +56,24 @@ export default function FileExplorer({
         ))}
       </div>
 
-      <div className="mt-3 flex flex-col gap-[1px] rounded-xl border border-border bg-surface p-[1px]">
-  {currentItems.length === 0 ? (
-    <p className="px-4 py-8 text-center text-sm text-slate-500">This folder is empty.</p>
-  ) : (
-    currentItems.map((item) => (
-      <div
-        key={item.id}
-        className="rounded-lg bg-surface transition-all hover:-translate-y-0.5 hover:scale-[1.005] hover:shadow-md"
-      >
-        <FileRow
-          item={item}
-          onOpenFolder={onOpenFolder}
-          onOpenFile={onOpenFile}
-          isLast={false}
-          selectionMode={selectionMode}
-          isSelected={selectedIds?.has(item.id)}
-          onToggleSelect={onToggleSelect}
-        />
+      <div className="mt-3 overflow-hidden rounded-xl border border-border bg-surface">
+        {currentItems.length === 0 ? (
+          <p className="px-4 py-8 text-center text-sm text-slate-500">This folder is empty.</p>
+        ) : (
+          currentItems.map((item, index) => (
+            <FileRow
+              key={item.id}
+              item={item}
+              onOpenFolder={onOpenFolder}
+              onOpenFile={onOpenFile}
+              isLast={index === currentItems.length - 1}
+              selectionMode={selectionMode}
+              isSelected={selectedIds?.has(item.id)}
+              onToggleSelect={onToggleSelect}
+            />
+          ))
+        )}
       </div>
-    ))
-  )}
-</div>
     </section>
   );
 }
