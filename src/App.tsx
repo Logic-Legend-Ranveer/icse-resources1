@@ -51,8 +51,8 @@ function AppShell() {
         setContentTrees({
           syllabus: findFolderChildren(normalizedRoot, TAB_SOURCE_FOLDER_NAME.syllabus),
           study: findFolderChildren(normalizedRoot, TAB_SOURCE_FOLDER_NAME.study),
-          "sample-papers": findFolderChildren(normalizedRoot, TAB_SOURCE_FOLDER_NAME["sample-papers"]),
           "pyq-prelims": findFolderChildren(normalizedRoot, TAB_SOURCE_FOLDER_NAME["pyq-prelims"]),
+          "sample-papers": findFolderChildren(normalizedRoot, TAB_SOURCE_FOLDER_NAME["sample-papers"]),
           quizzes: buildQuizTree(rawQuizzes),
         });
         setRecentFiles(normalizeFileTree(getRecentRawFiles(rawFiles, 5)));
