@@ -13,7 +13,7 @@ interface ViewerModalProps {
 
 export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
   const [contentUrl, setContentUrl] = useState<string | null>(null);
-  const [htmlContent, setHtmlContent] = useState<string | null>(null);
+  const [htmlObjectUrl, setHtmlObjectUrl] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -25,12 +25,12 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
   useEffect(() => {
     if (!file) return;
     setContentUrl(null);
-    setHtmlContent(null);
+    setHtmlObjectUrl(null);
     setError(null);
     setLoading(true);
 
     if (isPdf || isImage) {
-      // Use Worker 1 for PDFs and Images
+      // Use Worker 1 for PDFs and Images (expects JSON preview URL)
       fetch(`${WORKER_PREVIEW_URL}/file?id=${file.fileId}`)
         .then(res => res.json())
         .then(data => {
@@ -42,11 +42,23 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
           setLoading(false);
         });
     } else if (isHtml) {
-      // Use Worker 2 for Raw HTML files
+      // Use Worker 2 for HTML files (handles both JSON wrappers and raw text safely)
       fetch(`${WORKER_RAW_URL}/file?id=${file.fileId}`)
-        .then(res => res.text())
-        .then(text => {
-          setHtmlContent(text);
+        .then(async res => {
+          const contentType = res.headers.get('content-type') || '';
+          let htmlText = '';
+
+          if (contentType.includes('application/json')) {
+            const data = await res.json();
+            // Extract HTML from common JSON response keys, or fallback to stringified JSON
+            htmlText = data.html || data.content || data.text || data.rawText || JSON.stringify(data);
+          } else {
+            htmlText = await res.text();
+          }
+
+          const blob = new Blob([htmlText], { type: 'text/html;charset=utf-8' });
+          const blobUrl = URL.createObjectURL(blob);
+          setHtmlObjectUrl(blobUrl);
           setLoading(false);
         })
         .catch(() => {
@@ -57,6 +69,13 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
       setError('Unsupported file format.');
       setLoading(false);
     }
+
+    // Cleanup object URL on unmount or file change
+    return () => {
+      if (htmlObjectUrl) {
+        URL.revokeObjectURL(htmlObjectUrl);
+      }
+    };
   }, [file, isPdf, isImage, isHtml]);
 
   if (!file) return null;
@@ -104,10 +123,9 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
           )}
 
           {!loading && !error && (
-            isHtml ? (
-              // Renders the raw text output of Worker 2 visually using srcDoc
+            isHtml && htmlObjectUrl ? (
               <iframe
-                srcDoc={htmlContent || ''}
+                src={htmlObjectUrl}
                 className="w-full h-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white shadow-inner"
                 title={file.name ?? 'HTML Preview'}
                 sandbox="allow-scripts allow-same-origin"
