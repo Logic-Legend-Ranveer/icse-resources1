@@ -1,4 +1,4 @@
-export type TabId = "syllabus" | "study" | "quizzes" | "sample-papers" | "about" | "pyq-prelims";
+export type TabId = "syllabus" | "study" | "quizzes" | "sample-papers" | "about" | "pyq-prelims" | "book-solutions";
 
 /** All tabs that resolve to a browsable FileItem tree (i.e. everything but About). */
 export type TreeTabId = Exclude<TabId, "about">;
@@ -14,6 +14,7 @@ export const TAB_DEFS: TabDef[] = [
   { id: "quizzes", label: "Interactive Quizzes" },
   { id: "pyq-prelims", label: "PYQ Prelims"},
   { id: "sample-papers", label: "CISCE Sample Papers & PYQs" },
+  { id: "book-solutions", label: "Book Solutions" },
   { id: "about", label: "About" }
 ];
 
@@ -23,7 +24,7 @@ export const TAB_LABELS: Record<TabId, string> = Object.fromEntries(TAB_DEFS.map
 >;
 
 /**
- * The three tabs sourced from files.json are matched by the *real* Drive
+ * The tabs sourced from files.json are matched by the *real* Drive
  * folder name (which doesn't always match the tab's display label exactly —
  * e.g. the sample-papers folder is actually named "Sample Papers & PYQs
  * from CICSE"). Matching is case-insensitive/trimmed in lib/fileTree.ts.
@@ -33,4 +34,5 @@ export const TAB_SOURCE_FOLDER_NAME: Record<Exclude<TreeTabId, "quizzes">, strin
   study: "Study Assets",
   "pyq-prelims": "PYQ Prelims",
   "sample-papers": "Sample Papers & PYQs from CICSE",
+  "book-solutions": "ICSE Book Solutions"
 };
