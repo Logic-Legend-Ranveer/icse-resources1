@@ -13,7 +13,7 @@ interface ViewerModalProps {
 
 export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
   const [contentUrl, setContentUrl] = useState<string | null>(null);
-  const [htmlContent, setHtmlContent] = useState<string | null>(null);
+  const [htmlBlobUrl, setHtmlBlobUrl] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -25,12 +25,12 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
   useEffect(() => {
     if (!file) return;
     setContentUrl(null);
-    setHtmlContent(null);
+    setHtmlBlobUrl(null);
     setError(null);
     setLoading(true);
 
     if (isPdf || isImage) {
-      // Use Worker 1 for PDFs and Images (returns JSON preview URL)
+      // Use Worker 1 for PDFs and Images
       fetch(`${WORKER_PREVIEW_URL}/file?id=${file.fileId}`)
         .then(res => res.json())
         .then(data => {
@@ -42,11 +42,13 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
           setLoading(false);
         });
     } else if (isHtml) {
-      // Use Worker 2 for Raw HTML files (fetches text content for srcDoc rendering)
+      // Use Worker 2 for Raw HTML files, then turn it into a browser-executable Blob URL
       fetch(`${WORKER_RAW_URL}/file?id=${file.fileId}`)
         .then(res => res.text())
-        .then(text => {
-          setHtmlContent(text);
+        .then(htmlText => {
+          const blob = new Blob([htmlText], { type: 'text/html' });
+          const objectUrl = URL.createObjectURL(blob);
+          setHtmlBlobUrl(objectUrl);
           setLoading(false);
         })
         .catch(() => {
@@ -57,6 +59,13 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
       setError('Unsupported file format.');
       setLoading(false);
     }
+
+    // Cleanup blob URL when modal closes or file changes to prevent memory leaks
+    return () => {
+      if (htmlBlobUrl) {
+        URL.revokeObjectURL(htmlBlobUrl);
+      }
+    };
   }, [file, isPdf, isImage, isHtml]);
 
   if (!file) return null;
@@ -104,13 +113,12 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
           )}
 
           {!loading && !error && (
-            isHtml ? (
-              // Explicitly passes the fetched HTML text string into srcDoc so the browser renders it visually
+            isHtml && htmlBlobUrl ? (
+              // Renders the raw HTML using a local Blob URL so the browser parses it fully as a webpage
               <iframe
-                srcDoc={htmlContent || ''}
+                src={htmlBlobUrl}
                 className="w-full h-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white shadow-inner"
                 title={file.name ?? 'HTML Preview'}
-                sandbox="allow-scripts allow-same-origin"
               />
             ) : isImage && contentUrl ? (
               <div className="w-full h-full flex items-center justify-center bg-slate-900/5 dark:bg-slate-950/40 rounded-lg overflow-hidden border border-slate-200 dark:border-slate-800 p-2">
