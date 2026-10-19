@@ -10,7 +10,8 @@ const QUIZZES_FOLDER_NAME = 'quizzes';
 const TARGET_FOLDERS = [
   'Study Assets',
   'ICSE 2027 Syllabus',
-  'Sample Papers & PYQs from CICSE'
+  'Sample Papers & PYQs from CICSE',
+  'ICSE Book Solutions'
 ];
 
 const SCOPES = ['https://www.googleapis.com/auth/drive.readonly'];
