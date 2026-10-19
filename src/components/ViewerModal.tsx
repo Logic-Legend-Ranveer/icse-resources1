@@ -13,7 +13,7 @@ interface ViewerModalProps {
 
 export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
   const [contentUrl, setContentUrl] = useState<string | null>(null);
-  const [htmlDataUri, setHtmlDataUri] = useState<string | null>(null);
+  const [htmlContent, setHtmlContent] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -25,7 +25,7 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
   useEffect(() => {
     if (!file) return;
     setContentUrl(null);
-    setHtmlDataUri(null);
+    setHtmlContent(null);
     setError(null);
     setLoading(true);
 
@@ -42,12 +42,11 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
           setLoading(false);
         });
     } else if (isHtml) {
-      // Use Worker 2 for Raw HTML and encode it directly as a Data-URI
+      // Use Worker 2 for Raw HTML files
       fetch(`${WORKER_RAW_URL}/file?id=${file.fileId}`)
         .then(res => res.text())
-        .then(htmlText => {
-          const encodedUri = `data:text/html;charset=utf-8,${encodeURIComponent(htmlText)}`;
-          setHtmlDataUri(encodedUri);
+        .then(text => {
+          setHtmlContent(text);
           setLoading(false);
         })
         .catch(() => {
@@ -105,10 +104,10 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
           )}
 
           {!loading && !error && (
-            isHtml && htmlDataUri ? (
-              // Renders the HTML visually using a fully encoded Data-URI inside the embedded viewer
+            isHtml ? (
+              // Renders the raw text output of Worker 2 visually using srcDoc
               <iframe
-                src={htmlDataUri}
+                srcDoc={htmlContent || ''}
                 className="w-full h-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white shadow-inner"
                 title={file.name ?? 'HTML Preview'}
                 sandbox="allow-scripts allow-same-origin"
