@@ -8344,6 +8344,1990 @@
     ]
   },
   {
+    "name": "ICSE Book Solutions",
+    "type": "folder",
+    "fileId": "",
+    "size": 54376721,
+    "children": [
+      {
+        "name": "class-10-icse-commercial-applications-goyal",
+        "type": "folder",
+        "fileId": "",
+        "size": 1211323,
+        "children": [
+          {
+            "name": "Chapter 1 - Markets  Marketing.html",
+            "type": "file",
+            "fileId": "1uFHiHQ1g01TJ214v43mgcrTGYbkW7Zkh",
+            "size": 94891,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Recruitment Selection  Training.html",
+            "type": "file",
+            "fileId": "1KxpPS9V4cmONDgWG5CNGVMVBGfuPZpOY",
+            "size": 151474,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Public Relations.html",
+            "type": "file",
+            "fileId": "1xiwv8-zLNyx-o64xe-h2UFiPp4WbO0-j",
+            "size": 88346,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Issues of the Environment.html",
+            "type": "file",
+            "fileId": "1XWK2m0pBU43V8cSab88Kjohcx6oDzfqM",
+            "size": 128178,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Marketing Mix  4 PS.html",
+            "type": "file",
+            "fileId": "1BjS_USW6B2UWsauMGpoIybHHCbM1h_4k",
+            "size": 122594,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Advertising  Brand Promotion.html",
+            "type": "file",
+            "fileId": "1jxVoSUuu8_a0GPIVbEtax1BYVRuD1Wo4",
+            "size": 113096,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Sales  Selling Process.html",
+            "type": "file",
+            "fileId": "1pnXyzsMWuztqKmeXY06OLWovNtIr_0wc",
+            "size": 63722,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Generally Accepted Accounting Principles GAAP.html",
+            "type": "file",
+            "fileId": "1znIakgMWq8wW7mB2arK41qlI_T02PpCE",
+            "size": 73570,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Financial Accounting  Reporting.html",
+            "type": "file",
+            "fileId": "1aNVnCuFxtpYE2oIPRHMBo-X9-0YQa6hI",
+            "size": 71341,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Banking  Bank Transactions.html",
+            "type": "file",
+            "fileId": "1TSZ5clztl_8zEYju-wXHjvS4ZgFnPFUA",
+            "size": 143645,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Fundamental Concepts of Cost.html",
+            "type": "file",
+            "fileId": "1FKM2DshawF6HdIkJEeN7RaEK7CBg50Tz",
+            "size": 90961,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Importance of Human Resources.html",
+            "type": "file",
+            "fileId": "1Q5XwnID2ACoNUzF39oCLOQA9j7LaSjXO",
+            "size": 69505,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "class-10-icse-concise-biology-selina",
+        "type": "folder",
+        "fileId": "",
+        "size": 2613093,
+        "children": [
+          {
+            "name": "Chapter 1 - Cell  The Structural and Functional Unit of Life.html",
+            "type": "file",
+            "fileId": "1-mqGnwbhTpzxmdUK5NgAE1ER3kM9T54b",
+            "size": 13996,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - The Nervous System.html",
+            "type": "file",
+            "fileId": "1ODZqLLZeFXyH0pCHe7TXkrMbtRVhs0eT",
+            "size": 154976,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Sense Organs.html",
+            "type": "file",
+            "fileId": "1a86xJJqI4bgXNY5ymPo-3C9tvl-LAzBp",
+            "size": 72054,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - The Endocrine System.html",
+            "type": "file",
+            "fileId": "1sKTaNXH_DWp4CPS8_anjG6KKJ-G9BN1D",
+            "size": 167892,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - The Reproductive System.html",
+            "type": "file",
+            "fileId": "1PZGs8scItNMfPRqcw6Ps4fpqVB_5PPSG",
+            "size": 259911,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Human Evolution.html",
+            "type": "file",
+            "fileId": "12ybnROEMnmN6mhqiOm59n9MCkdQ047Ef",
+            "size": 30323,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Population  The Increasing Numbers and Rising Problems.html",
+            "type": "file",
+            "fileId": "19OURBjzwzHzM5Gu-celxLaizF9BR647S",
+            "size": 249627,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Pollution  A Rising Environmental Problem.html",
+            "type": "file",
+            "fileId": "1ARt8LiBRDRXa4t1yZ--teOt0pFwwEILX",
+            "size": 149860,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Structure of Chromosomes Cell Cycle and Cell Division.html",
+            "type": "file",
+            "fileId": "1Y_RrQaBGeqs9e07QTOQob8dI1a_FdEzv",
+            "size": 152415,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Genetics  Some Basic Fundamentals.html",
+            "type": "file",
+            "fileId": "1mlzi8qImNZKSSY2pURAab-o2m9IZJTOL",
+            "size": 246756,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Absorption by Roots  The Process Involved.html",
+            "type": "file",
+            "fileId": "11-fpFIKt52Ymb0qrrMeD0y7zyVwTNrSW",
+            "size": 169893,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Transpiration.html",
+            "type": "file",
+            "fileId": "13kzjdfqie0n3x_dgypKK2FIDA8thufSZ",
+            "size": 160731,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Photosynthesis.html",
+            "type": "file",
+            "fileId": "11rqVtwhOi2nbinuBXSw706iqNX5keuTj",
+            "size": 187264,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Chemical Coordination in Plants.html",
+            "type": "file",
+            "fileId": "1rQGvzzZMEafOBwLUCpS64wDFLRV9wdEB",
+            "size": 37772,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - The Circulatory System.html",
+            "type": "file",
+            "fileId": "1SsKl-9-9HrHNWwCOp2MBZDOTpbgKsSqe",
+            "size": 278783,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - The Excretory System.html",
+            "type": "file",
+            "fileId": "1Be902N0UBtq8nVH4N1_H_OZSGO0aGSkP",
+            "size": 148081,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Model Question Paper - Model Question Paper 1.html",
+            "type": "file",
+            "fileId": "1_NpDQWa45izXTFsaj4fKVNMdtrOU3fno",
+            "size": 46161,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Model Question Paper - Model Question Paper 2.html",
+            "type": "file",
+            "fileId": "1pSdcegKD3_P9g1DMOtuWKVRaC7zSk7yc",
+            "size": 46085,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Model Question Paper - Model Question Paper 3.html",
+            "type": "file",
+            "fileId": "15pf0PBL0UwTWA5M5vbIQZ8i-LPZm8NI0",
+            "size": 40513,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "class-10-icse-concise-chemistry-selina",
+        "type": "folder",
+        "fileId": "",
+        "size": 4519732,
+        "children": [
+          {
+            "name": "Chapter 1 - Periodic Table Periodic Properties and Variations of Properties.html",
+            "type": "file",
+            "fileId": "16Gr8ry3sje0QzG4uffMeMSPzihJG8d8J",
+            "size": 120316,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Study of Compounds  Nitric Acid.html",
+            "type": "file",
+            "fileId": "1qaPVtMU3YlyaDeoyIqMj9QI-K6QFy9p2",
+            "size": 181594,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Study of Compounds  Sulphuric Acid.html",
+            "type": "file",
+            "fileId": "1W_wZzLUiqvdJogRFTY6YztrG5zn-ijs9",
+            "size": 176574,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Organic Chemistry.html",
+            "type": "file",
+            "fileId": "1i7agMKYqWOepBO1Q0CzUSsqdp5xuw79v",
+            "size": 1083351,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Practical Work.html",
+            "type": "file",
+            "fileId": "1yynZzN1Fz3wOlmIa8q44AJyW4AvnxC4m",
+            "size": 66603,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Chemical Bonding.html",
+            "type": "file",
+            "fileId": "1IeMXOO5Q1eAln2wTB41_VSDAGStOnuuN",
+            "size": 101635,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Acids Bases and Salts.html",
+            "type": "file",
+            "fileId": "1nXqQp0rQSS5tNR9wziHWE-Jfg8xeC0_h",
+            "size": 174522,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Miscellaneous Exercises - Mole Concept  Stoichiometry Miscellaneous Exercises.html",
+            "type": "file",
+            "fileId": "18kyL2Mr7QvXPV8ko5eWJclKp7bC58NWl",
+            "size": 838738,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Mole Concept and Stoichiometry.html",
+            "type": "file",
+            "fileId": "1dtzddsd-tWoBrcmkG_5onboiuk8uQbgh",
+            "size": 732967,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Electrolysis.html",
+            "type": "file",
+            "fileId": "1t5wPDv-QwyVZJlOl-Ll2Mz02VSuQvk3h",
+            "size": 110437,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Metallurgy.html",
+            "type": "file",
+            "fileId": "1Gxv0rsX6qTsaFilJeIbLSsLnSPUut58U",
+            "size": 175272,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Study of Compounds  Hydrogen Chloride.html",
+            "type": "file",
+            "fileId": "1rU0Nnmv2ONfQKbsk_zKmUwjlxaqGaiCs",
+            "size": 135904,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Study of Compounds  Ammonia.html",
+            "type": "file",
+            "fileId": "1pYl5m4YzrIW-uyLEOmND9FGDM9QNPQsp",
+            "size": 123141,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Model Paper - Model Paper 1.html",
+            "type": "file",
+            "fileId": "1CIgQUIX-BOHyFxcMhMXdydF4fhIv64Ug",
+            "size": 129864,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Model Paper - Model Paper 2.html",
+            "type": "file",
+            "fileId": "1JKo_tCb7vxuOhJg4Y1IaOv2lg9jEd0ns",
+            "size": 179918,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Model Paper - Model Paper 3.html",
+            "type": "file",
+            "fileId": "1eM1DsEK_sw3YAshjy7atv_LVv9UDdWUg",
+            "size": 188896,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "class-10-icse-concise-maths-selina",
+        "type": "folder",
+        "fileId": "",
+        "size": 30234323,
+        "children": [
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1dO3GaztB3xaYAMS__ZdviPM3KpvTa3YE",
+            "size": 9052,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Exercise 1A.html",
+            "type": "file",
+            "fileId": "1VTO-_3liPiP8P5vmmk4a-sEpe5oGanLx",
+            "size": 103453,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Exercise 1B.html",
+            "type": "file",
+            "fileId": "1uhdsRcvH1tjGkM7kNDW_OPwlIPnhW7GU",
+            "size": 45052,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Test Yourself.html",
+            "type": "file",
+            "fileId": "1EQliRVjBcUrCigX81tr6TtRsa80jiAFl",
+            "size": 160353,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1AK8rzzvfys1Cm32R1Fb6Dv00fFoAi2mO",
+            "size": 54827,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Exercise 10A.html",
+            "type": "file",
+            "fileId": "1VzOJZ29iR1hBgfczkV2CBm8w97Dw3ars",
+            "size": 165523,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Exercise 10B.html",
+            "type": "file",
+            "fileId": "1L_i8BU0m8qi0YJIgG3u4qB7ielJcE8t0",
+            "size": 36309,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Exercise 10C.html",
+            "type": "file",
+            "fileId": "10BagbW_dw_Uc3pl0v-oaXOTddTzdUBkM",
+            "size": 178338,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Exercise 10D.html",
+            "type": "file",
+            "fileId": "15WLJMsHKPbfPUVubvJqptBoKnOLtTopE",
+            "size": 185496,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Test Yourself.html",
+            "type": "file",
+            "fileId": "1XyPAL3oajgsINs1JDVIZZr_iRhimfdgm",
+            "size": 237236,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Geometric Progression  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1jml7wV8v8JCKFN7XCk9ot_rjDnjIXHoU",
+            "size": 17155,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Geometric Progression  Exercise 11A.html",
+            "type": "file",
+            "fileId": "1gYeya9YBHOKGHZhpO9In-7auYEWoDC2l",
+            "size": 579401,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Geometric Progression  Exercise 11B.html",
+            "type": "file",
+            "fileId": "16O7bTuwWkXtGgMHeocrvjbe6Tn1xXnPj",
+            "size": 510991,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Geometric Progression  Test Yourself.html",
+            "type": "file",
+            "fileId": "1iLVykBvQu0CCuCbKprsIxR14BxihTQSy",
+            "size": 330420,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Reflection  Exercise 12.html",
+            "type": "file",
+            "fileId": "13q3EPYbQozPAAWHyxg9GUWYkTpPDjenP",
+            "size": 33486,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Reflection  Test Yourself.html",
+            "type": "file",
+            "fileId": "1qwXG7TmpgeA_zVLX4QShwAT-Uh6L15fU",
+            "size": 77192,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Section  Mid-Point Formula  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1nYZC4j0Ct6PAFuy3q4_wfjWIxwHEAPwE",
+            "size": 38236,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Section  Mid-Point Formula  Exercise 13A.html",
+            "type": "file",
+            "fileId": "1tBHjcRT0ch4GNPp7CoZzh-nhxx95WwNo",
+            "size": 870033,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Section  Mid-Point Formula  Exercise 13B.html",
+            "type": "file",
+            "fileId": "18ZCU48dKNbWbfwkXgyMoS23xAk1P-2M5",
+            "size": 364528,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Section  Mid-Point Formula  Test Yourself.html",
+            "type": "file",
+            "fileId": "17JV-A9ZqBMnlrvNKMj3HQnqutHg9tk9s",
+            "size": 844328,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Equation of a Line  Exercise 14A.html",
+            "type": "file",
+            "fileId": "1_5OF3AmARCIEK-NzwdnjjGyXt1weiXSM",
+            "size": 169385,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Equation of a Line  Exercise 14B.html",
+            "type": "file",
+            "fileId": "1oZyiKEXo4B7YEhY9wZaFsCJ7P7YZ__t2",
+            "size": 329831,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Equation of a Line  Exercise 14C.html",
+            "type": "file",
+            "fileId": "1AXjkdXyoPyY8SqbLE29Ivarc02Lq471m",
+            "size": 309773,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Equation of a Line  Exercise 14D.html",
+            "type": "file",
+            "fileId": "1KzdYkavyEiazr26MkgtvO_is-oTTVPQa",
+            "size": 409541,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Equation of a Line  Test Yourself.html",
+            "type": "file",
+            "fileId": "17I1KdyUUIoFRDOqqOAVbr9G-TeeFitXx",
+            "size": 935291,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Similarity  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1O45tSksrAr8dNPjZoqjTfjHxp7PWVY_6",
+            "size": 29327,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Similarity  Exercise 15A.html",
+            "type": "file",
+            "fileId": "1XHPbelOmFCyc4ELnbCC0j9Acaz5A2kvC",
+            "size": 468105,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Similarity  Exercise 15B.html",
+            "type": "file",
+            "fileId": "1sktB9Dan1YYATqTKv_13sDojRBHMhyph",
+            "size": 320641,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Similarity  Exercise 15C.html",
+            "type": "file",
+            "fileId": "1S8O0YwzGZlZm_Z2ULDZcI0k5ADTgem9j",
+            "size": 346171,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Similarity  Exercise 15D.html",
+            "type": "file",
+            "fileId": "1rh6yO3FIbHd3i64sYgjxzK3MAwJY73cX",
+            "size": 105526,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Similarity  Test Yourself.html",
+            "type": "file",
+            "fileId": "1IcerjwLIoqO07XzCHKIKlXJ2KdBcdzqd",
+            "size": 697341,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Loci  its Contructions  Exercise 16A.html",
+            "type": "file",
+            "fileId": "1Q7kTfJS7RvxDZ4GOjeoT1Qcthn_imdGQ",
+            "size": 28688,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Loci  its Contructions  Exercise 16B.html",
+            "type": "file",
+            "fileId": "15V5MUKl8GgxLUEUo3upGra4xRdyYXMIw",
+            "size": 35740,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Loci  its Contructions  Test Yourself.html",
+            "type": "file",
+            "fileId": "1JJOEohT-I_BOub577DHqOu7Q1DuPj178",
+            "size": 18487,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Circles  Exercise 17A.html",
+            "type": "file",
+            "fileId": "1auYKTHaxj9Us_-HPmJ-0MZFy18xiUCyB",
+            "size": 96813,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Circles  Exercise 17B.html",
+            "type": "file",
+            "fileId": "1knjGcHK6szAvsTI_2E_XbkXdQu5Tvn0O",
+            "size": 112365,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Circles  Exercise 17C.html",
+            "type": "file",
+            "fileId": "1OYW9VYN3_kJDzGV7HVK-_x9jIuo3_SIv",
+            "size": 97305,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Circles  Test Yourself.html",
+            "type": "file",
+            "fileId": "1SsMpr8wIJSPz-Dy9Skx9MX33jLXTGBPK",
+            "size": 112215,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Tangents  Intersecting Chords  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1i1dvRJmQady4JiZrmQ2y2ewOcVOXeXr5",
+            "size": 8224,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Tangents  Intersecting Chords  Exercise 18A.html",
+            "type": "file",
+            "fileId": "166Oe4iJhUqZn8L3revTZ14Pxc_3E86RM",
+            "size": 67346,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Tangents  Intersecting Chords  Exercise 18B.html",
+            "type": "file",
+            "fileId": "1vanIM8wSbevEWO9wWHvm5i4vypkdcVhG",
+            "size": 64064,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Tangents  Intersecting Chords  Test Yourself.html",
+            "type": "file",
+            "fileId": "1PdXVZBbb7WxMCAm2nH524Fz_IQ-j2n4D",
+            "size": 160016,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 19 - Constructions Circles  Exercise 19.html",
+            "type": "file",
+            "fileId": "1KKrMjsjtrBwaDBYWwyKdfZW4rAiOcXif",
+            "size": 68394,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Banking  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1zL4VVlYpwScdigKoZ2Je9A2uGXghAiOQ",
+            "size": 22679,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Banking  Exercise 2.html",
+            "type": "file",
+            "fileId": "1b3r0AcoUONwccSNtVzMKuLEK_LoxKzFK",
+            "size": 230601,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Banking  Test Yourself.html",
+            "type": "file",
+            "fileId": "1_7f240iPh4RAR7gpefpgeMXKTl3Hqxhw",
+            "size": 357630,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Cylinder Cone  Sphere Surface Area  Volume  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1EGY26i78QHuW3daEORfd85C2oyASiYSI",
+            "size": 49254,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Cylinder Cone  Sphere Surface Area  Volume  Exercise 20A.html",
+            "type": "file",
+            "fileId": "1FwL6_1uHnHahQqRvI-3ofQUjxhk2eX49",
+            "size": 332306,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Cylinder Cone  Sphere Surface Area  Volume  Exercise 20B.html",
+            "type": "file",
+            "fileId": "1DEJeVo__1npiMotAZ3VXojyNIBr2Ufkw",
+            "size": 276506,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Cylinder Cone  Sphere Surface Area  Volume  Exercise 20C.html",
+            "type": "file",
+            "fileId": "1O_Pi7XJpc7w4oTUAi4YjHKQ4Q9qyIsFU",
+            "size": 349810,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Cylinder Cone  Sphere Surface Area  Volume  Exercise 20D.html",
+            "type": "file",
+            "fileId": "1db-CA8Vir8t4EnBvt_0omdX6pYUUeqJu",
+            "size": 234270,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Cylinder Cone  Sphere Surface Area  Volume  Exercise 20E.html",
+            "type": "file",
+            "fileId": "1_AIGxrTWfZ685-Bl-Zcf739aY2YedyNZ",
+            "size": 219370,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Cylinder Cone  Sphere Surface Area  Volume  Exercise 20F.html",
+            "type": "file",
+            "fileId": "1DHtQHvzgCopnzdTOvp2k_HA_ZtrIH_0d",
+            "size": 327587,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Cylinder Cone  Sphere Surface Area  Volume  Test Yourself.html",
+            "type": "file",
+            "fileId": "1CsQRIZ0v0wY1qymF6CLND1Qv5iIKbQXN",
+            "size": 620939,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Trigonometrical Identities  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1NmIH1htD4IfND3-di8wRy6xTd_FN-V12",
+            "size": 70590,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Trigonometrical Identities  Exercise 21A.html",
+            "type": "file",
+            "fileId": "1KySuhzgS6utjdV_14eO5DLI7DP3wt0Pn",
+            "size": 583710,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Trigonometrical Identities  Exercise 21B.html",
+            "type": "file",
+            "fileId": "1WJ1mJVaIoYnNPpzWzsSZub1KFn2rqPBu",
+            "size": 297435,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Trigonometrical Identities  Exercise 21C.html",
+            "type": "file",
+            "fileId": "1XJ7QCGYGZFNmyyF4oE8F1ZYafqzClDVZ",
+            "size": 163960,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Trigonometrical Identities  Exercise 21D.html",
+            "type": "file",
+            "fileId": "1Oqoq6OmlYbdM_QK5tCbqsnHvRjLkDi4d",
+            "size": 37164,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Trigonometrical Identities  Test Yourself.html",
+            "type": "file",
+            "fileId": "1gnn26AinlVRlU-N2deb-2ctXVo4mjd3W",
+            "size": 1192498,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Heights  Distances  Exercise 22A.html",
+            "type": "file",
+            "fileId": "1fq8hnTbRxaFdfVkCtUi43EfIV94D3PPM",
+            "size": 281709,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Heights  Distances  Exercise 22B.html",
+            "type": "file",
+            "fileId": "1vnal9-qG2_QY7_ZlJ1YhRMCd5zoYfCl2",
+            "size": 640212,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Heights  Distances  Test Yourself.html",
+            "type": "file",
+            "fileId": "17ZxAZuEyvA3naospJ_HA2YF19qMQiejC",
+            "size": 621837,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 23 - Graphical Representation Histograms  Ogives  Exercise 23.html",
+            "type": "file",
+            "fileId": "1cSF9Mrg8X8N9jqWWwtqaYqmPXqEj_1QS",
+            "size": 51411,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 24 - Measures of Central Tendency  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1j681LwzxiUPS_a3D8806u_ZKEB7-cyqT",
+            "size": 24373,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 24 - Measures of Central Tendency  Exercise 24A.html",
+            "type": "file",
+            "fileId": "1NtlbGumzSqiBB5MSMGM-Gt4aPmCzDUMO",
+            "size": 149554,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 24 - Measures of Central Tendency  Exercise 24B.html",
+            "type": "file",
+            "fileId": "1XmT7Hr41u4CuFMef75ktKyAvNKbiewzY",
+            "size": 112744,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 24 - Measures of Central Tendency  Exercise 24C.html",
+            "type": "file",
+            "fileId": "1hWHWX_LovRWSzXqAO204p3wc1kcGPmxG",
+            "size": 127069,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 24 - Measures of Central Tendency  Test Yourself.html",
+            "type": "file",
+            "fileId": "1O0WJvlG6nAfU8LqAgHy-mXVzVcF4O0Wy",
+            "size": 244590,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 25 - Probability  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "10Vhdm5ydzXMk6kAjsTTG5_ZzviY1GO9Z",
+            "size": 39010,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 25 - Probability  Exercise 25A.html",
+            "type": "file",
+            "fileId": "1IdcD9b4P5kqNt7OwbnpgbtBViEPkNjCp",
+            "size": 174809,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 25 - Probability  Exercise 25B.html",
+            "type": "file",
+            "fileId": "1WXecmduDfPwhQ6BoD1Zk9t-fHVsmxa6s",
+            "size": 321409,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 25 - Probability  Test Yourself.html",
+            "type": "file",
+            "fileId": "1emnYggUQNdHL3GjR-TjH4XkJ10s3Bvtk",
+            "size": 578150,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 27 - Mixed Practice.html",
+            "type": "file",
+            "fileId": "1UBaz_ECepttnjcZ4AOPW9yao4NRdiVO1",
+            "size": 2063000,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1D2Hzd2l6PjxFOzDERYKah7PPqXWGxjrh",
+            "size": 11774,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Exercise 3A.html",
+            "type": "file",
+            "fileId": "1oCRyTo3c0n4lwyjcVLt_sMDsq7muZRqj",
+            "size": 62762,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Exercise 3B.html",
+            "type": "file",
+            "fileId": "18oq57BMw-B6O47oV9D0TBIMuan7kYp4V",
+            "size": 153228,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Test Yourself.html",
+            "type": "file",
+            "fileId": "1pxZQu-qSAcmQdkJSAbLJnqeWTYDxpAqB",
+            "size": 290444,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "14eXUZxkIsANfEBfna-I8CP8vql9Rd_-O",
+            "size": 7523,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Exercise 4A.html",
+            "type": "file",
+            "fileId": "1AUb1a6xqBkOM6N63vu58sB3LlAKz9MAD",
+            "size": 60698,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Exercise 4B.html",
+            "type": "file",
+            "fileId": "1tRAz8GUALKKYfTk8SiR7UP0B7mqY89fM",
+            "size": 171004,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Test Yourself.html",
+            "type": "file",
+            "fileId": "1DU6ncdD_H8nyFBkrmGJrnonGAiIOdpT5",
+            "size": 206696,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1xi2FMUAqqGy7joO_lOINlxeGM7lFCGDb",
+            "size": 35810,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5A.html",
+            "type": "file",
+            "fileId": "1sIQBllLjAzkEcbqti0g2s-NxindXwaNA",
+            "size": 91559,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5B.html",
+            "type": "file",
+            "fileId": "1d44aOZ7qrHFkcyIYNlCVTcDrp62VrS72",
+            "size": 500985,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5C.html",
+            "type": "file",
+            "fileId": "1QbitvyBSLNXpnHEaqS5WITehCSvRSO5o",
+            "size": 328519,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5D.html",
+            "type": "file",
+            "fileId": "1ID-GW5jcMPmdz-ZjiO3rb_7TNwoU9r7E",
+            "size": 128507,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5E.html",
+            "type": "file",
+            "fileId": "187NBQ6Q964I4zWLYcFV0LyqapyPg5l_8",
+            "size": 381017,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Test Yourself.html",
+            "type": "file",
+            "fileId": "1inmrmLRNambPA23BHDKbHn7MDmYb-Xa5",
+            "size": 326350,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Solving Problems Based on Quadratic Equations  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1OPXXWCjhd4S6WMEcPHOCltSUBl27TTSP",
+            "size": 13673,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Solving Problems Based on Quadratic Equations  Exercise 6A.html",
+            "type": "file",
+            "fileId": "1G7ReLOVXoU2MYj9fwpMlqDZl4icTkwJB",
+            "size": 151499,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Solving Problems Based on Quadratic Equations  Exercise 6B.html",
+            "type": "file",
+            "fileId": "1Xtq3-XseWN1dIADzYz-sFGgv0go8fZua",
+            "size": 396099,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Solving Problems Based on Quadratic Equations  Exercise 6C.html",
+            "type": "file",
+            "fileId": "1nfoPCM9MYuZ8U0xSEs4nW6KEnRxttOU6",
+            "size": 326841,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Solving Problems Based on Quadratic Equations  Exercise 6D.html",
+            "type": "file",
+            "fileId": "1aSDeZxlFD3WGfiO4lUTfGpDvheEgylCr",
+            "size": 220791,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Solving Problems Based on Quadratic Equations  Exercise 6E.html",
+            "type": "file",
+            "fileId": "1lr553D-62YMVnmTIUpzFHauoucYzRTYI",
+            "size": 181740,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Solving Problems Based on Quadratic Equations  Test Yourself.html",
+            "type": "file",
+            "fileId": "1eA97IyIDGPlzSbyAwdHN2v2L21QEDtKF",
+            "size": 376847,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Ratio  Proportion  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1lUjDf9ZGvr4nphkAnshosLc4FsENYXji",
+            "size": 12619,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Ratio  Proportion  Exercise 7A.html",
+            "type": "file",
+            "fileId": "193rB9kivcSzAHQy7tPlOMsHjIn5PDrQw",
+            "size": 323978,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Ratio  Proportion  Exercise 7B.html",
+            "type": "file",
+            "fileId": "1WTZ7I3f9f0JhcmjA3IFBPLbhnfpGHA7V",
+            "size": 307810,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Ratio  Proportion  Test Yourself.html",
+            "type": "file",
+            "fileId": "1TlHlo88ZB9-KLrTV2DL-CZkUUFPJ1os8",
+            "size": 1172725,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Factorization of Polynomial  Exercise 8A.html",
+            "type": "file",
+            "fileId": "1OBA7a2CtOTj4cA2imRO6C9J1aQHj0mD5",
+            "size": 80342,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Factorization of Polynomial  Exercise 8B.html",
+            "type": "file",
+            "fileId": "1blGHjZne-_libhzWbBaDyoogfvXKE1zi",
+            "size": 345423,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Factorization of Polynomial  Test Yourself.html",
+            "type": "file",
+            "fileId": "1yyJ665inWZ-YsvWAJpoPhKWrRFQWJu1c",
+            "size": 138528,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Matrices  Case-Study Based Question.html",
+            "type": "file",
+            "fileId": "1bnCAjEDPcPpiSh4E5JF5aJCNhhl6Hg6I",
+            "size": 32576,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Matrices  Exercise 9A.html",
+            "type": "file",
+            "fileId": "1j21rnA2F_93VV3PxrPgmRNclbaq4RTdD",
+            "size": 389992,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Matrices  Exercise 9B.html",
+            "type": "file",
+            "fileId": "1mVsNnIjrhSTD2XsJhmm2cuWL9fyYb2xZ",
+            "size": 659588,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Matrices  Exercise 9C.html",
+            "type": "file",
+            "fileId": "1WpCDsur2_wqM1V2Nia6dPV5Ha7XAEugb",
+            "size": 959801,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Matrices  Test Yourself.html",
+            "type": "file",
+            "fileId": "1q-2QyFoB0Xwpw7EkGalL5xvN549uWkuE",
+            "size": 758391,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "class-10-icse-concise-physics-selina",
+        "type": "folder",
+        "fileId": "",
+        "size": 5364975,
+        "children": [
+          {
+            "name": "Chapter 1 - Force.html",
+            "type": "file",
+            "fileId": "1KGBpcJkkXPzBg_P2gdOb2pKfvkf3R58r",
+            "size": 218275,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Electro-magnetism.html",
+            "type": "file",
+            "fileId": "1l3193uGJlTam7Cc_I2Tu0XMv-23l4afn",
+            "size": 237923,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Calorimetry.html",
+            "type": "file",
+            "fileId": "1BfWVHdsGaH51gyZJqTNyoaBHqC_XdGr9",
+            "size": 349037,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Radioactivity.html",
+            "type": "file",
+            "fileId": "1q2qDRbR487HLwjLp5xDFr9Gry4CvZXiH",
+            "size": 464582,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Work Energy and Power.html",
+            "type": "file",
+            "fileId": "1Z2pINxIbBPidxn6cUp4tBlrRZ98k-xm9",
+            "size": 724113,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Machines.html",
+            "type": "file",
+            "fileId": "1bRCqLJ-baQZisdJrqVoEHh7DYg6mciFr",
+            "size": 487260,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Refraction of Light at Plane Surfaces.html",
+            "type": "file",
+            "fileId": "1Ojm8FXdWZtpEVSc70f57KST8dE5LWuzR",
+            "size": 453890,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Refraction Through a Lens.html",
+            "type": "file",
+            "fileId": "1hyCpbLzPeJzRONA7GwlsgbFEX_bEY2XZ",
+            "size": 552504,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Spectrum.html",
+            "type": "file",
+            "fileId": "1EtH2OblYjY6zXCBhP5PsPfJbAEoqQik1",
+            "size": 161178,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Sound.html",
+            "type": "file",
+            "fileId": "1YiTReat7x03OPOymgovlEV1-ClVITh9g",
+            "size": 346697,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Current Electricity.html",
+            "type": "file",
+            "fileId": "1iXIjHoqBwIgMMQ--hF7SaCvOQ3dFoaJb",
+            "size": 999458,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Household Circuits.html",
+            "type": "file",
+            "fileId": "1IeP0dwym7rPeUUwuAUx-sEhH3v2HbKpB",
+            "size": 100880,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Model Paper - Model Paper 1.html",
+            "type": "file",
+            "fileId": "145Hq4Ke7ypFJHNpxvMmhIJ1Fzt_ZCEyq",
+            "size": 269178,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "class-10-icse-exploring-robotics-ai",
+        "type": "folder",
+        "fileId": "",
+        "size": 529577,
+        "children": [
+          {
+            "name": "Part I Robotics  Chapter 1 - New Age Robotic System.html",
+            "type": "file",
+            "fileId": "1F_l1zzWZfGyUWHwiwnHUug8ALl1YNB5z",
+            "size": 37966,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part I Robotics  Chapter 2 - From Robots to Cobots.html",
+            "type": "file",
+            "fileId": "15Tk4kMLc_bOD71YVohF_iFiOoU66QiU4",
+            "size": 30940,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part I Robotics  Chapter 3 - Components of Robots as a System.html",
+            "type": "file",
+            "fileId": "15jex3VrOsxlGsqwpx-9mcyKgzdpzSCda",
+            "size": 37531,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part I Robotics  Chapter 4 - Visualisation Design and Creation of Components.html",
+            "type": "file",
+            "fileId": "1rVoLr7TjKdTKnPGWKXkKI67E4HHNy3H0",
+            "size": 26068,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part I Robotics  Chapter 5 - Integrating Robots as a System.html",
+            "type": "file",
+            "fileId": "1wxBdF9ct8i6oYx4HUVfWDn5CdMGgMgjX",
+            "size": 28152,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part II AI  Chapter 1.1 - Automated vs Autonomous System Decision Making and Machine LearningML.html",
+            "type": "file",
+            "fileId": "1BbVX6b-DYDcUKqX244FxqZp3WNRD_4D4",
+            "size": 33065,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part II AI  Chapter 2.1 - Machine Intelligence.html",
+            "type": "file",
+            "fileId": "1wno9JGYrk4DO50OK6EP0r9YnF00oWHK7",
+            "size": 25860,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part II AI  Chapter 2.2 - Cyber Security.html",
+            "type": "file",
+            "fileId": "1SBW3UCQK-l2NyvJB5UV98CElQDQAbR86",
+            "size": 26117,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part II AI  Chapter 3.1 - Problem Scoping.html",
+            "type": "file",
+            "fileId": "1huAIHtAR_aOMD83GRolRdwDxxeC06g46",
+            "size": 26236,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part II AI  Chapter 3.2 - Data Acquisition.html",
+            "type": "file",
+            "fileId": "1jJyohDID-SahlxZRORWi3OIaYCNTEMXE",
+            "size": 32610,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part II AI  Chapter 3.3 - Data Exploration.html",
+            "type": "file",
+            "fileId": "1pm_tfnjFu7jRqp1B0et2n5n2wx0Tvkwk",
+            "size": 32474,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part II AI  Chapter 3.4 - Modelling and Evaluation.html",
+            "type": "file",
+            "fileId": "1mXC9OAiCAE5_IjuTBb4JFCBXzpg-KFYP",
+            "size": 34705,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part II AI  Chapter 4.1 - Modules  Packages.html",
+            "type": "file",
+            "fileId": "1ipPKrFx934nz5jS6AmLJBuIFgB6JoKLJ",
+            "size": 34797,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part II AI  Chapter 4.2 - Lists in Python.html",
+            "type": "file",
+            "fileId": "11S988VmeTWzCuDqQ5xqZOfHsSHJRl1q5",
+            "size": 47085,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part II AI  Chapter 4.3 - Tuples in Python.html",
+            "type": "file",
+            "fileId": "1Auhm5HGDq74oZDmvCd7xfQRD7haCOLGu",
+            "size": 41971,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Part II AI  Chapter 4.4 - Strings in Python.html",
+            "type": "file",
+            "fileId": "1BrwNzm4DFdRxMRMhHLEQw_vyJzjKJVUI",
+            "size": 34000,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "class-10-icse-kips-robotics-ai",
+        "type": "folder",
+        "fileId": "",
+        "size": 2737525,
+        "children": [
+          {
+            "name": "Chapter 1 - Revision of Robotics.html",
+            "type": "file",
+            "fileId": "1Feq6sEGHao6rrHW7kuQtSSYruJu1BJjB",
+            "size": 143122,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Cybersecurity.html",
+            "type": "file",
+            "fileId": "1g3lfZEUFdExe3zC_4yz8T9C-KRUjDLlA",
+            "size": 317829,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Components of AI Project Framework.html",
+            "type": "file",
+            "fileId": "1jHli6w-dsEYcTEJjYr1uEmzmegs0LkHU",
+            "size": 38581,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Revision of Python.html",
+            "type": "file",
+            "fileId": "1RoPL6kt-3JhcgqxMLXD8JG2Y5qJDgNDs",
+            "size": 145585,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Modules and Packages in Python.html",
+            "type": "file",
+            "fileId": "1KZXpYd0niDFGMZjrHU0hF9Ex_R2jhpx5",
+            "size": 130247,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Lists and Tuples in Python.html",
+            "type": "file",
+            "fileId": "1uYfflM6sXAyhd36TPWNQDHgXZZr_fL4F",
+            "size": 225452,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Strings in Python.html",
+            "type": "file",
+            "fileId": "1z0qHTzcX4bnIJsT2hDBrJwTOk3MojZyU",
+            "size": 254500,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Sample Paper.html",
+            "type": "file",
+            "fileId": "1yu7IWY8-jvU_U6mCg5rtwZlKgt3Kpgrt",
+            "size": 37361,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - New Age Robotic Systems.html",
+            "type": "file",
+            "fileId": "1ECB9gY3eOiBCX82CGaTaD-ho-sEHmE5f",
+            "size": 233647,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - From Robots to Cobots.html",
+            "type": "file",
+            "fileId": "137cQT_q3JSHtDQ27_G7X43deAlE6_Dz_",
+            "size": 237285,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Components of Robots as a System.html",
+            "type": "file",
+            "fileId": "1I1bqm92MXC6zHQOslpJhumo2iE3Q9nvN",
+            "size": 129597,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Visualisation Design and Creation of Components.html",
+            "type": "file",
+            "fileId": "1_Nb-OVomtJiU3wXL2UDMwrfSu9Hg1S9q",
+            "size": 17142,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Integrating Robots as a System.html",
+            "type": "file",
+            "fileId": "1lwV0PMLRk3bRz-0r1Khw9-w7fP1T4vYU",
+            "size": 124709,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Revision of Artificial Intelligence AI.html",
+            "type": "file",
+            "fileId": "1Iq7i72hBfBTDJyUrj04hU-sLhtvBHTC6",
+            "size": 251011,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Decision-Making in MachinesComputers.html",
+            "type": "file",
+            "fileId": "1PPqeR4k9txr9uwRXmSF2AJWdvYvNnSxx",
+            "size": 232839,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Machine Intelligence.html",
+            "type": "file",
+            "fileId": "1jlT-CBW-LPuuuwnpxuzLR2aqwSZUF-Ai",
+            "size": 218618,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "class-10-icse-kundra-history-civics",
+        "type": "folder",
+        "fileId": "",
+        "size": 770749,
+        "children": [
+          {
+            "name": "Section A  Civics  Chapter 1 - The Union LegislatureThe Union Parliament.html",
+            "type": "file",
+            "fileId": "1Ki_q4JQhgw52u7Ecqg9XyuTnbqxfAaG0",
+            "size": 51761,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Civics  Chapter 2 - The Union Executive.html",
+            "type": "file",
+            "fileId": "13KFntOzvYllrRr5wBI6rTFUz4c-OfyOe",
+            "size": 58125,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Civics  Chapter 3 - The Prime Minister Council of Ministers and the Cabinet.html",
+            "type": "file",
+            "fileId": "1u0y3e5IZ8vL-D9Ov6WRF5R2NHkrQkCNE",
+            "size": 43559,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Civics  Chapter 4 - The Union Judiciary  The Supreme Court.html",
+            "type": "file",
+            "fileId": "1xZJ9EBzejwe4q6lgD__gyV8UrMpw5gKh",
+            "size": 36562,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Civics  Chapter 5 - The State Judiciary  The High Courts.html",
+            "type": "file",
+            "fileId": "1J2enws6-gYNVh9Daq0F48oyTKoiWGNtQ",
+            "size": 36611,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Civics  Chapter 6 - Subordinate Courts.html",
+            "type": "file",
+            "fileId": "1sylZRM4i9EUVqHWY-pFMqWfaZrFP26Yk",
+            "size": 27850,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 1 - The First War of Independence The Great Uprising of 1857.html",
+            "type": "file",
+            "fileId": "1KWw43X1kssN_5rH5ru57EuJLv2WQYk_t",
+            "size": 49461,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 10 - The First World War 1914-18.html",
+            "type": "file",
+            "fileId": "1CtfKzd3GgGx0GA7QjObXOTRtBaI_q8Bg",
+            "size": 34777,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 11 - Rise of Dictatorship Fascism and Nazism.html",
+            "type": "file",
+            "fileId": "1AUrtndzH0VhZm9mduxlqR_AmXa__1I8J",
+            "size": 33365,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 12 - The Second World War 1939-45.html",
+            "type": "file",
+            "fileId": "1vS3l4wPEmXeJUtDZSODmbB-xtNCN62qg",
+            "size": 27197,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 13 - The United Nations.html",
+            "type": "file",
+            "fileId": "1V0iuNWEOBbEYK-zPQAjWw4gl9OXfUyYk",
+            "size": 27822,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 14 - Major Agencies of the United Nations Organisation.html",
+            "type": "file",
+            "fileId": "1C0-wuIWPpskezmrmN3gQzwiqJGlbyB8Z",
+            "size": 33183,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 15 - The Non-Aligned Movement.html",
+            "type": "file",
+            "fileId": "10hPgF1WgOxkSykXSJRnLimMYoc4-GHTZ",
+            "size": 23987,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 2 - Factors Promoting the Growth of Nationalism and Foundation of the Indian National Congress.html",
+            "type": "file",
+            "fileId": "1l8jAs4mUbOlqpC5BCibT6F7o07NGUQqF",
+            "size": 41922,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 3 - Programme and Achievements of the Early Nationalists Moderates.html",
+            "type": "file",
+            "fileId": "1L6L1OWnp5RmiUGkw8iYIc-IcfRJR1cDX",
+            "size": 32707,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 4 - The Partition of Bengal - The Rise of AssertiveRadical Nationalism.html",
+            "type": "file",
+            "fileId": "191UteiXT867GxhD2hKw8M6N0T7uoErbJ",
+            "size": 38579,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 5 - Formation of the Muslim League.html",
+            "type": "file",
+            "fileId": "1Z-ngPtB_QxDOupr6LUFY4YJiY5oxmFpn",
+            "size": 23975,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 6 - The National Movement During the First World War.html",
+            "type": "file",
+            "fileId": "14KWCTXUJEJcNhEBUmdJdZA72P5D0SLqY",
+            "size": 20015,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 7 - Mahatma Gandhi and the National Movement.html",
+            "type": "file",
+            "fileId": "1h91cr5fXvqWCgkN5gIUdlinuA5t4Zg8J",
+            "size": 45343,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 8 - The National Movement 1935-42-The Quit India Movement and the INA.html",
+            "type": "file",
+            "fileId": "11CDaAx1-PfFZrZci843jJP8hPqz4Jymr",
+            "size": 38001,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  History  Chapter 9 - The Last Phase - Independence and Partition of India1942-47.html",
+            "type": "file",
+            "fileId": "1Vn5VuHGScJ6y-am2QaRhjCPntQ3m25Eg",
+            "size": 45947,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "class-10-icse-ml-aggarwal-maths",
+        "type": "folder",
+        "fileId": "",
+        "size": 6395424,
+        "children": [
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Assertion-Reason Type Question.html",
+            "type": "file",
+            "fileId": "14V46lftmx2osoxlRfk2Hlzb7PFQXV5cI",
+            "size": 8824,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Chapter Test.html",
+            "type": "file",
+            "fileId": "1XKSoQhUqZyQHKLrhyUBkE7m4HFfINGUb",
+            "size": 140445,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Exercise 1.html",
+            "type": "file",
+            "fileId": "12LuU2GVYGN-zPNsONv46BD9ncgr5TkNU",
+            "size": 234586,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1YAs5sxBNStnoYoK8wrUkuB-Z4PZW192C",
+            "size": 48623,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Reflection  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1-3ZQJU-M-9_eUpntOeyvQ5PV7S7G9zTH",
+            "size": 8742,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Reflection  Chapter Test.html",
+            "type": "file",
+            "fileId": "1MoEoApfwii4tkUlXt7p-iarOSmRAoEEW",
+            "size": 17104,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Reflection  Exercise 10.html",
+            "type": "file",
+            "fileId": "1My04iX6aWzvJ6-Ms7-y6bnjdtK_bGk8F",
+            "size": 123225,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Reflection  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "10WV1S0MHOCGW33-e0TRoaYvmfesTmgbQ",
+            "size": 6244,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Section Formula  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1eeQg9C4IhVUditURfct-YKvQ--4xlYYj",
+            "size": 51209,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Section Formula  Chapter Test.html",
+            "type": "file",
+            "fileId": "1cDACnBG70dBH-dNDGd76bKPvuy5cm8Pb",
+            "size": 531034,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Section Formula  Exercise 11.html",
+            "type": "file",
+            "fileId": "11EdGFGG8gUlvZXKgoiTWZCuE5un-SOh-",
+            "size": 968297,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Section Formula  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1qEJehy2qHTPsh1aWpGEZOy_20TllTYL1",
+            "size": 178994,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Equation of a Straight Line  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1AwoN6xWTosIZJoNBgrNk2ttjKQruFipw",
+            "size": 41759,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Equation of a Straight Line  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1j2dqSH3KEuRVu-s1a6KIV0tw8M1DhGH8",
+            "size": 174839,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Similarity  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "11Ff2iHAuaHu0VdxM6KfuznWfteWcPYQs",
+            "size": 106582,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Similarity  Chapter Test.html",
+            "type": "file",
+            "fileId": "1y0mQu6YTF_vkdkKrEk3bYub9AeUzFCZJ",
+            "size": 253414,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Similarity  Exercise 13.1.html",
+            "type": "file",
+            "fileId": "1PgOkZ2yKTMhNH9TQKgpT1M7h3srdluTG",
+            "size": 334671,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Similarity  Exercise 13.2.html",
+            "type": "file",
+            "fileId": "1DbMzym-NNHIc2x6bSLl5QphgPmJ-8Gpv",
+            "size": 228276,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Similarity  Exercise 13.3.html",
+            "type": "file",
+            "fileId": "1WQpFxnsbkYL_O3cEyuRTMJl8SRCenFSv",
+            "size": 783747,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Similarity  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1dp2zh1hNuHN3srbBwJedOWimgk_SUxUE",
+            "size": 251645,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Locus  Chapter Test.html",
+            "type": "file",
+            "fileId": "1NDpmXxtaq9rTVkstyg6Hw5ntzwftit6X",
+            "size": 28904,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Locus  Exercise 14.html",
+            "type": "file",
+            "fileId": "1DcAnvqGF2Oc7LKVmxdNr2EsU_lLmv_Yi",
+            "size": 82076,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Circles  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1Im9JtUANr6BoMGwyJI1EwLev-SvJwRn8",
+            "size": 11395,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Circles  Chapter Test.html",
+            "type": "file",
+            "fileId": "1I7dKqU71vfKas23pZgorEqSHOlMit7Yp",
+            "size": 148420,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Circles  Exercise 15.1.html",
+            "type": "file",
+            "fileId": "1G0HkvTE0kP3EW3QEyV6nLWjGDMvjKdFU",
+            "size": 224465,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Circles  Exercise 15.2.html",
+            "type": "file",
+            "fileId": "15HaxejJGEWvbJgZPtqfcCHwGy8oXCvak",
+            "size": 113863,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Trigonometrical Identities  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1dMj6SUdfA8okRsBU255FTPu_T-8KFIXl",
+            "size": 79814,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 19 - Trigonometrical Tables  Exercise 19.html",
+            "type": "file",
+            "fileId": "1jfjTTxyiITXAcakPCtugZ-ACVxMyw-Gz",
+            "size": 12151,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Banking  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1ckZlOy8-rgoUMWhy01nj4BtlyPlQsZZH",
+            "size": 55497,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Banking  Exercise 2.html",
+            "type": "file",
+            "fileId": "1EkwZZ0gkJ7BLOLNvzYJEDtQmCQQfvqrw",
+            "size": 189570,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Banking  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "13bmNPfHRnSIIhI1Bwv5HWLTcCUO2PTyu",
+            "size": 30489,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Heights  Distances  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1IgwYauW4T7ZtfznAWh8PTG95gCHFlI0C",
+            "size": 122149,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Measures of Central Tendency  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1yfGmVdgwqr24M4Qr3wFAZn19EhO-LJ-R",
+            "size": 53533,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Measures of Central Tendency  Chapter Test.html",
+            "type": "file",
+            "fileId": "1b_T_Xl-iUhpdnwV-wObFHDYnjxp6QA10",
+            "size": 156155,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Measures of Central Tendency  Exercise 21.1.html",
+            "type": "file",
+            "fileId": "1GGRLJ16UGP3OCzRqn21k6aHcsRv8Oegy",
+            "size": 275756,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Measures of Central Tendency  Exercise 21.2.html",
+            "type": "file",
+            "fileId": "1gBihYL6P8r0wCS6aggEFesheB9dfYxkp",
+            "size": 175513,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Measures of Central Tendency  Exercise 21.3.html",
+            "type": "file",
+            "fileId": "1fJ5Q8lRwiygZTMXOjjEMpMOmAjWse2ha",
+            "size": 107297,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Measures of Central Tendency  Exercise 21.4.html",
+            "type": "file",
+            "fileId": "1EsbN0QCfQjg0VgzEMqv-syB3dYWmyYsq",
+            "size": 24488,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Measures of Central Tendency  Exercise 21.5.html",
+            "type": "file",
+            "fileId": "1b53U3SuUnREiewhav4Yv6mobZWfoPvcE",
+            "size": 11629,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "class-10-icse-rs-aggarwal-maths",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "class-10-icse-sumita-arora-computer-applications-bluej",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "class-10-icse-total-geography",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "class-10-icse-total-history-civics",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "class-10-icse-veena-bhargava-goyal-geography",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "class-10-logix-icse-computer-applications-java-bluej",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-biology-competency-focused-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-biology-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-chemistry-competency-focused-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-chemistry-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-computer-applications-competency-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-geography-competency-focused-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      }
+    ]
+  },
+  {
     "name": "PYQ Prelims",
     "type": "folder",
     "fileId": "",
