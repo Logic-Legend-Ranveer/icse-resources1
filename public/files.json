@@ -8347,28 +8347,382 @@
     "name": "ICSE Book Solutions",
     "type": "folder",
     "fileId": "",
-    "size": 88855125,
+    "size": 143254974,
     "children": [
       {
         "name": "biology-competency-focused-practice",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 52683,
+        "children": [
+          {
+            "name": "Question Type 1 - Multiple-Choice Questions.html",
+            "type": "file",
+            "fileId": "1H92HjexjZ02O5DNufAKpVh-qvx893Pyd",
+            "size": 21751,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 2 - Fill in the Blanks.html",
+            "type": "file",
+            "fileId": "1VWwQbZoPrkTDb2wIivAl_5POdkLR_McI",
+            "size": 5989,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 3 - Short Answer Questions.html",
+            "type": "file",
+            "fileId": "1douPwa_6hVcJWb5WBA4OUeEfVtvov4VP",
+            "size": 15617,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 4 - Long Answer Questions.html",
+            "type": "file",
+            "fileId": "1AROrEOsHLioo-rsTcmF_3oOM3U5t_fs3",
+            "size": 9326,
+            "addedAt": "2026-10-19"
+          }
+        ]
       },
       {
         "name": "biology-previous-year-question-papers",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 961075,
+        "children": [
+          {
+            "name": "2012 - Solved 2012 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1hos6dB8lKsXsvBqM7XO7j5d5ziachdZE",
+            "size": 48441,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2013 - Solved 2013 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1ETe5xwvLbRzSB-5xoBFOUphlmV4GIfc4",
+            "size": 39002,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2014 - Solved 2014 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1-DdLgmLML2ehIIBHSdMu8J10JKDT-LAR",
+            "size": 47655,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2015 - Solved 2015 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1oKe0UVaYbTMosudRX7_vF4jkqjYrFKK9",
+            "size": 44382,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2016 - Solved 2016 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1qAJyazRKmOmxGLiCR5vlkwOcXSYkr1P1",
+            "size": 47455,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2017 - Solved 2017 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1-dkXr07VwyfST6tnNkHs10tqEnVB93yi",
+            "size": 48887,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2018 - Solved 2018 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1tniVmOVErGPogN803zTfJC73vGNTviAn",
+            "size": 48190,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2019 - Solved 2019 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1bD3yYJsbN6rVGF6RofTlsDEoPIdlCc-H",
+            "size": 49640,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2020 - Solved 2020 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1AVjwQ3OPs2psCHIdy77hrIkGAmBuok3-",
+            "size": 45453,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2022 - Solved 2022 Semester 2 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1fjK9h2lvHZetirv9d2ZtH2DCCRdD0u0d",
+            "size": 21160,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2023 - Solved 2023 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1X2VQoNi77-e3PN_vGGezoSYU7Q1DaKPy",
+            "size": 46509,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2024 - Solved 2024 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1pAHEVJMdCQWgEw2Zz_7LJdZ74zuU06ZV",
+            "size": 43803,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2025 - Solved 2025 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1qrfmtZt1d0uA8K3mGdJeD2rBrT2-jJpE",
+            "size": 58945,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2026 - Solved 2026 Question Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1SEM_vDBgW3gbuOaCCv1cG_0x_0s9Pnbc",
+            "size": 62215,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Improvement 2025 - Solved 2025 Improvement Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "16nuEgiOUg7j5XwicPq7PumHBXe2FRacd",
+            "size": 56280,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Improvement 2026 - Solved 2026 Improvement Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1eIXHH3BOendt7Z8zxAZz5KV16Pr2mhtH",
+            "size": 47681,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2024 - Solved 2024 Specimen Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "15-Qd7qfal96e9gk77B3JHADuV-riY2cn",
+            "size": 47215,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2025 - Solved 2025 Specimen Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1iGvRVpy8RnzGcZuvUqf54QPCU33HHpMc",
+            "size": 51717,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2026 - Solved 2026 Specimen Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1bf3z3SGOBT0F9JouVouct-yXqgXDwqiS",
+            "size": 53471,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2027 - Solved 2027 Specimen Paper ICSE Class 10 Biology.html",
+            "type": "file",
+            "fileId": "1IHzaPur3y-FAV6bEhmFudMxDr4n0pRFi",
+            "size": 52974,
+            "addedAt": "2026-10-19"
+          }
+        ]
       },
       {
         "name": "chemistry-competency-focused-practice",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 283946,
+        "children": [
+          {
+            "name": "Question Type 1 - Multiple-Choice Questions.html",
+            "type": "file",
+            "fileId": "1PzBPTuNu5B6MA2JN8xctZHgWgmzqutRL",
+            "size": 106408,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 2 - Fill in the blanks.html",
+            "type": "file",
+            "fileId": "1TTEoHL-dvIhozmrbHFRGkshK4l2AdFyg",
+            "size": 8377,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 3 - Match the following.html",
+            "type": "file",
+            "fileId": "1PsBc-VzVpgFCJXDboquj7xhoSfe1KDDf",
+            "size": 13734,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 4 - One Word Answer.html",
+            "type": "file",
+            "fileId": "10kAQ225yCEiXq-oMvwjKrkkAlO0aFnRN",
+            "size": 29944,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 5 - Structural Diagrams.html",
+            "type": "file",
+            "fileId": "1RmWylbc0T8iuW38laQb-3xn0agPpGe52",
+            "size": 13079,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 6 - IUPAC Names.html",
+            "type": "file",
+            "fileId": "1-Kmf8x53S4QHUOS-OJyY6apJIVq-IJgz",
+            "size": 8874,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 7 - Very Short Answer Questions.html",
+            "type": "file",
+            "fileId": "1iikM1mWGjsWKh5CP-r9jaJAF5bIF0d8e",
+            "size": 5292,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 8 - Short Answer Questions.html",
+            "type": "file",
+            "fileId": "10ksSUbbsB3-ogka1IsPLNWmzh8Muf__g",
+            "size": 56970,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 9 - Long Answer Questions.html",
+            "type": "file",
+            "fileId": "14OeuV9fKWsVpjk5eWxJmVVmM61n7isGW",
+            "size": 41268,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "chemistry-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 1786353,
+        "children": [
+          {
+            "name": "2016 - Solved 2016 Question Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1g8MwwfYjacRtolK3zUbU9FaM4m2Yl2TQ",
+            "size": 129574,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2017 - Solved 2017 Question Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1533KruYjKtM4CHZsU2whutdZEv_DEztw",
+            "size": 122400,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2018 - Solved 2018 Question Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1R5ZzyEB-NcOBgyJhd54uqKwESsetrLYH",
+            "size": 108140,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2019 - Solved 2019 Question Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1mRgIhDrMFvcm0pjarXoJ2aw6KzJzhSO9",
+            "size": 126018,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2020 - Solved 2020 Question Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "14ByEC-c2edS3X7jzWKCzGYDvFaLS-VpC",
+            "size": 136378,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2022 - Solved 2022 Semester 2 Question Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1cEwHWtIUkaNtb8G9vTnBz4xBAlSlypjL",
+            "size": 46615,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2023 - Solved 2023 Question Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1oma3x08oNP_cJPavMdkF8K3T5zv_RGLw",
+            "size": 152868,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2024 - Solved 2024 Question Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "121wkdQ6RB1FELkSpC4YBJ8b4T8d7YFV8",
+            "size": 71164,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2025 - Solved 2025 Question Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1vzcTUW_DlFpVHBej0CxWgyDoogeWNUnr",
+            "size": 142340,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2026 - Solved 2026 Question Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1l7om0gYGNUNh9A7PT5M9tLyn-fhbR-Ze",
+            "size": 126620,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Improvement 2025 - Solved 2025 Improvement Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1e3azskCunFx9RZkXLTRPU7NT7Wa2bcFi",
+            "size": 118589,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Improvement 2026 - Solved 2026 Improvement Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1iI5JkZVmbtB2evejptSm9h2MFIXV5n2T",
+            "size": 82174,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2024 - Solved 2024 Specimen Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1jEXcscNXblCoL2HOJ5qxNWQ7MLhGOSth",
+            "size": 109505,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2025 - Solved 2025 Specimen Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1QSzXeN7Ym84W-jXOU-HF9hgDXlM3cPM_",
+            "size": 107260,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2026 - Solved 2026 Specimen Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "19UgsGpK-eOTQO5IAPXTHkt6hnnUhOPSk",
+            "size": 100665,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2027 - Solved 2027 Specimen Paper ICSE Class 10 Chemistry.html",
+            "type": "file",
+            "fileId": "1NAilgciLAFtRH6VpQ4SYF782aFTAp4y0",
+            "size": 106043,
+            "addedAt": "2026-10-19"
+          }
+        ]
       },
       {
         "name": "commercial-applications-goyal",
@@ -8458,6 +8812,28 @@
             "type": "file",
             "fileId": "1Q5XwnID2ACoNUzF39oCLOQA9j7LaSjXO",
             "size": 69505,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "computer-applications-competency-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 88704,
+        "children": [
+          {
+            "name": "Question Type 1 - Multiple Choice Questions MCQs.html",
+            "type": "file",
+            "fileId": "1wTChV8Tlc25q2gJ3ADifktu5Mr_kfG8I",
+            "size": 47995,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 2 - Very Short Answer Questions.html",
+            "type": "file",
+            "fileId": "1gOSZpMQQk9ZfFiPSPql0f2DGQvpXGB9h",
+            "size": 40709,
             "addedAt": "2026-10-19"
           }
         ]
@@ -8727,7 +9103,7 @@
         "name": "concise-maths-selina",
         "type": "folder",
         "fileId": "",
-        "size": 31138864,
+        "size": 34533499,
         "children": [
           {
             "name": "Chapter 1 - Goods  Services Tax  Case-Study Based Question.html",
@@ -9241,6 +9617,13 @@
             "addedAt": "2026-10-19"
           },
           {
+            "name": "Chapter 26 - Chapterwise Revision.html",
+            "type": "file",
+            "fileId": "1g3oSWsB2ZLh1A18BU3Ne4vRu2ij5i2NI",
+            "size": 3394635,
+            "addedAt": "2026-10-19"
+          },
+          {
             "name": "Chapter 27 - Mixed Practice.html",
             "type": "file",
             "fileId": "1UBaz_ECepttnjcZ4AOPW9yao4NRdiVO1",
@@ -9714,74 +10097,168 @@
         ]
       },
       {
-        "name": "icse-class-10-chemistry-previous-year-question-papers",
+        "name": "geography-competency-focused-practice",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 69778,
+        "children": [
+          {
+            "name": "Question Type 1 - Mark or label on the Map.html",
+            "type": "file",
+            "fileId": "1OHqHk8ws4BsOaaWHMZlRUx7r53tOYnOQ",
+            "size": 2271,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 2 - Multiple-Choice Questions.html",
+            "type": "file",
+            "fileId": "1tQhwy0yOpGdetIg0o8gY5aMye0iU7Ajm",
+            "size": 22834,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 3 - Fill in the blank.html",
+            "type": "file",
+            "fileId": "1RlG5GAyHlGpXBGEFOGFlUwCLtQw2HTsv",
+            "size": 2780,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 4 - Short Answer Questions.html",
+            "type": "file",
+            "fileId": "1A1FcEtReMAf_wFBVAG_BtpO49kawcm3J",
+            "size": 26090,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 5 - Long Answer Questions.html",
+            "type": "file",
+            "fileId": "1aXgJHGwcFiJz_KqhazAmf0wnP9aJYYFT",
+            "size": 15803,
+            "addedAt": "2026-10-19"
+          }
+        ]
       },
       {
-        "name": "icse-class-10-computer-applications-competency-practice",
+        "name": "history-civics-competency-focused-practice",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 93205,
+        "children": [
+          {
+            "name": "Question Type 1 - Multiple-Choice Questions.html",
+            "type": "file",
+            "fileId": "1DVbBI-0k6WGQAkAsF76DA3_oflJTUB25",
+            "size": 33218,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 2 - Very Short Answer Questions Source-based.html",
+            "type": "file",
+            "fileId": "12z0EqCNqtUDi1PguThjJN-DI61Ze0lxN",
+            "size": 20361,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 3 - Very Short Answer Questions.html",
+            "type": "file",
+            "fileId": "1b0t2NaMprhWS02F3_L01t2qzOgSqVFa5",
+            "size": 7221,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 4 - Short Answer Questions.html",
+            "type": "file",
+            "fileId": "1zkcCtngv69Mb0M2LvnPVoOAqh5OjqKAl",
+            "size": 19497,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 5 - Long Answer Questions.html",
+            "type": "file",
+            "fileId": "1jyagPt0frIMgLDCrIc87Bdi6FSSLqjWM",
+            "size": 12908,
+            "addedAt": "2026-10-19"
+          }
+        ]
       },
       {
-        "name": "icse-class-10-geography-competency-focused-practice",
+        "name": "history-civics-previous-year-question-papers",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-history-civics-competency-focused-practice",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-history-civics-previous-year-question-papers",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-mathematics-previous-year-question-papers",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-maths-competency-focused-practice",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-physics-competency-focused-practice",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-physics-previous-year-question-papers",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-robotics-ai-previous-year-question-papers",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 481140,
+        "children": [
+          {
+            "name": "2023 - Solved 2023 Question Paper ICSE Class 10 History  Civics.html",
+            "type": "file",
+            "fileId": "1mVrY_5b-RlhexjdAoBv50X0epgHHEvn_",
+            "size": 44035,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2024 - Solved 2024 Question Paper ICSE Class 10 History  Civics.html",
+            "type": "file",
+            "fileId": "1BGsWWQgx3BggZqRF5y198B8zJ6cwJB7H",
+            "size": 45566,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2025 - Solved 2025 Question Paper ICSE Class 10 History  Civics.html",
+            "type": "file",
+            "fileId": "1Lb9nppNID3oGZlCSIPKAVpXYCaRms6Le",
+            "size": 47788,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2026 - Solved 2026 Question Paper ICSE Class 10 History  Civics.html",
+            "type": "file",
+            "fileId": "18oOZUzrc0qF8elalaukf6OhAHd-x0RS5",
+            "size": 51654,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Improvement 2025 - Solved 2025 Improvement Paper ICSE Class 10 History  Civics.html",
+            "type": "file",
+            "fileId": "1MT4OWXu6fjPgneGhEUCtoAeuVZGpfsNq",
+            "size": 48618,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Improvement 2026 - Solved 2026 Improvement Paper ICSE Class 10 History  Civics.html",
+            "type": "file",
+            "fileId": "1FIoJyCtA__lBw1kEaNtw7Jgyzn9IZtQK",
+            "size": 47929,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2024 - Solved 2024 Specimen Paper ICSE Class 10 History  Civics.html",
+            "type": "file",
+            "fileId": "1xRyMBhwQBTq_t_ge17krs43Fs_-tpkl3",
+            "size": 46552,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2025 - Solved 2025 Specimen Paper ICSE Class 10 History  Civics.html",
+            "type": "file",
+            "fileId": "1BR7gC0_NAi75SvEj1IzPymn4FKZ0pnMA",
+            "size": 47423,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2026 - Solved 2026 Specimen Paper ICSE Class 10 History  Civics.html",
+            "type": "file",
+            "fileId": "1qkJI8e6EM0PG1cH925H-AQV5uesGq8Xn",
+            "size": 48834,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2027 - Solved 2027 Specimen Paper ICSE Class 10 History  Civics.html",
+            "type": "file",
+            "fileId": "15wYHtkq-PljD50L9GA_Cxqe5I8uDHb11",
+            "size": 52741,
+            "addedAt": "2026-10-19"
+          }
+        ]
       },
       {
         "name": "kips-robotics-ai",
@@ -10062,14 +10539,227 @@
         "name": "logix-computer-applications-java-bluej",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 906471,
+        "children": [
+          {
+            "name": "Chapter 1 - Object Oriented Programming Concepts.html",
+            "type": "file",
+            "fileId": "15dVp6r99hC8AHcdfomaE3w1V1rA_birv",
+            "size": 42147,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Constructors.html",
+            "type": "file",
+            "fileId": "1SH6ZUR5PyZE3gbVD-V3PuSy5KOidBbgy",
+            "size": 22294,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Library Classes.html",
+            "type": "file",
+            "fileId": "1L5TssNsmWo5HOhI5hwVy3b4ecNJYIfbg",
+            "size": 28623,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Encapsulation and Inheritance.html",
+            "type": "file",
+            "fileId": "1EgAKrNTJramLYgTxjgHB-M8L7c5FNiOt",
+            "size": 19710,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Arrays.html",
+            "type": "file",
+            "fileId": "1TPbBM2DG5LzKafbi5ErZX9hHkmAl12FQ",
+            "size": 102092,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - String Handling.html",
+            "type": "file",
+            "fileId": "1D_jMFEfn7mB8NVCY0HZrRq_JS0ZHJKUj",
+            "size": 123521,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Introduction to Java.html",
+            "type": "file",
+            "fileId": "1KRuNfiFO8kexBML8ob_hinj0BWB1YUFK",
+            "size": 19212,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Operators in Java.html",
+            "type": "file",
+            "fileId": "17CZgTeNJ_8e3wTQH5GvC1LJaalYyJQIJ",
+            "size": 40522,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - User-Defined Methods.html",
+            "type": "file",
+            "fileId": "1XYtDsUwQfop6ixRJKEMuepBuROgwlHoL",
+            "size": 25882,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Input in Java.html",
+            "type": "file",
+            "fileId": "1nsSVup3_S-zvYDTAtTgCOCRwN5m7hS2L",
+            "size": 40678,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Mathematical Library Methods.html",
+            "type": "file",
+            "fileId": "1HUWl9D6NlspE-0qbgqWlHVh37FfCgVXI",
+            "size": 67672,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Conditional Constructs in Java.html",
+            "type": "file",
+            "fileId": "17PoHzrT37dQiLswWbxIV8Ozxru4huxR9",
+            "size": 175932,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Iterative Constructs in Java.html",
+            "type": "file",
+            "fileId": "1Jt1mvZSWjXP1-rzvTKsnkZXDVoAv3LjC",
+            "size": 198186,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "mathematics-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 6649366,
+        "children": [
+          {
+            "name": "2023 - Solved 2023 Question Paper ICSE Class 10 Mathematics.html",
+            "type": "file",
+            "fileId": "1adeKTDeXwOawEu0cd2_8vlFVJlgGD5jX",
+            "size": 485264,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2024 - Solved 2024 Question Paper ICSE Class 10 Mathematics.html",
+            "type": "file",
+            "fileId": "1BHaBkjWhQ8aAIhEYZnAQUS2QiHvUNj1V",
+            "size": 559854,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2025 - Solved 2025 Question Paper ICSE Class 10 Mathematics.html",
+            "type": "file",
+            "fileId": "1ooZ6BcFMdgTqCIuP6XmXIsqPr25kDyOy",
+            "size": 783563,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2026 - Solved 2026 Question Paper ICSE Class 10 Mathematics.html",
+            "type": "file",
+            "fileId": "1YMMaN6WcwurfUpujzS2JLBYFbOtm8JV9",
+            "size": 525522,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Improvement 2025 - Solved 2025 Improvement Paper ICSE Class 10 Mathematics.html",
+            "type": "file",
+            "fileId": "1HNY4XH2NJEKLlcLHQGANM7K29dw5VS3R",
+            "size": 561345,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Improvement 2026 - Solved 2026 Improvement Paper ICSE Class 10 Mathematics.html",
+            "type": "file",
+            "fileId": "1__RvcCWjrw4hzkgN8G3LyogF9Y4ULypY",
+            "size": 1069909,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2024 - Solved 2024 Specimen Paper ICSE Class 10 Mathematics.html",
+            "type": "file",
+            "fileId": "1sE0WyH3T3pIe9saYKarVnNB0blRlEc1r",
+            "size": 565761,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2025 - Solved 2025 Specimen Paper ICSE Class 10 Mathematics.html",
+            "type": "file",
+            "fileId": "1EfWZDaA1F-eMitR2KCTi52yXEkvipA9L",
+            "size": 615422,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2026 - Solved 2026 Specimen Paper ICSE Class 10 Mathematics.html",
+            "type": "file",
+            "fileId": "1bbElrT4sBBq9TN6FdJK0HR6n3oUrCr5F",
+            "size": 632370,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2027 - Solved 2027 Specimen Paper ICSE Class 10 Mathematics.html",
+            "type": "file",
+            "fileId": "1nK4PcRDKSXv1r-dHbL7OvxHjvkIq-2qk",
+            "size": 850356,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "maths-competency-focused-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 1810012,
+        "children": [
+          {
+            "name": "Question Type 1 - Multiple-Choice Questions.html",
+            "type": "file",
+            "fileId": "1zYvRtlIP2SBFuIeCFl8xDz_p5kazUqD4",
+            "size": 344588,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 2 - Short Answer Questions 1.html",
+            "type": "file",
+            "fileId": "1qMt5LsWBh8sJrQmPbrRf_a6jJuMz5wIi",
+            "size": 549450,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 3 - Short Answer Questions 2.html",
+            "type": "file",
+            "fileId": "16Z6cL36xxKwziqYOxUM-phONWo6DeDpD",
+            "size": 628140,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 4 - Long Answer Questions 1 Graph-based.html",
+            "type": "file",
+            "fileId": "1UBWe27Mp2cb2JkRkiOD4l0EPcWU-s30m",
+            "size": 17744,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 5 - Long Answer Questions 2.html",
+            "type": "file",
+            "fileId": "1yR0MY4_3Om-FmNuZoUoRGN3WYU3S7OlJ",
+            "size": 270090,
+            "addedAt": "2026-10-19"
+          }
+        ]
       },
       {
         "name": "ml-aggarwal-maths",
         "type": "folder",
         "fileId": "",
-        "size": 25011221,
+        "size": 34204473,
         "children": [
           {
             "name": "Chapter 1 - Goods  Services Tax  Assertion-Reason Type Question.html",
@@ -10604,6 +11294,13 @@
             "addedAt": "2026-10-19"
           },
           {
+            "name": "Chapter 5 - Quadratic Equations  Chapter Test.html",
+            "type": "file",
+            "fileId": "144zaNzkBQZJVue_Yz2e9EOFvDAx5u6DJ",
+            "size": 1134854,
+            "addedAt": "2026-10-19"
+          },
+          {
             "name": "Chapter 5 - Quadratic Equations  Exercise 5.1.html",
             "type": "file",
             "fileId": "1ZY9eKiVdJ-f_GsX8u6N74gFAjkj487Q_",
@@ -10615,6 +11312,20 @@
             "type": "file",
             "fileId": "1FOKKOwfKEv6ECIIhl7I3F4jRbsevh-71",
             "size": 1028438,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5.3.html",
+            "type": "file",
+            "fileId": "1vOMgA3hU7woezriL1kuL_TByrhfTLZ8U",
+            "size": 807356,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5.4.html",
+            "type": "file",
+            "fileId": "1dmgv3EJlv9SszTn-F-wRV07K4wk9IJm2",
+            "size": 553889,
             "addedAt": "2026-10-19"
           },
           {
@@ -10636,6 +11347,34 @@
             "type": "file",
             "fileId": "1O-hsdWf94D_bRV8Hc15HC3oSnzAOWcjP",
             "size": 52172,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Ratio and Proportion  Chapter Test.html",
+            "type": "file",
+            "fileId": "18K-L1gkyK-M-Adt98wp2ElgFVdA6FtyV",
+            "size": 1022577,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Ratio and Proportion  Exercise 6.1.html",
+            "type": "file",
+            "fileId": "1pX4QDrlgol9r0zIgQjFSfsqRniJ4Ob2S",
+            "size": 669650,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Ratio and Proportion  Exercise 6.2.html",
+            "type": "file",
+            "fileId": "1uAs8hc4xn1G8BUaIh-VsvZnqvvxhl5J9",
+            "size": 1734217,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Ratio and Proportion  Exercise 6.3.html",
+            "type": "file",
+            "fileId": "1KrCbpGP991zmqWuCy_LRZg_-hPH4h3ce",
+            "size": 1596075,
             "addedAt": "2026-10-19"
           },
           {
@@ -10699,6 +11438,13 @@
             "type": "file",
             "fileId": "1VQTknPdt0dH-lI9fTKzIXsm0OtYk85Hb",
             "size": 494309,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Matrices  Exercise 8.3.html",
+            "type": "file",
+            "fileId": "1fyjYNcbKPW43zmd8--SBAMDWt6laQEvY",
+            "size": 1674634,
             "addedAt": "2026-10-19"
           },
           {
@@ -10767,10 +11513,209 @@
         ]
       },
       {
+        "name": "physics-competency-focused-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 736710,
+        "children": [
+          {
+            "name": "Question Type 1 - Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1aKyBq4bdZtVN5ZeAE6Tb-LS9ILryn6vt",
+            "size": 269761,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 2 - Very Short Answer Questions.html",
+            "type": "file",
+            "fileId": "1hBsKuQPFQ0n355_f_eKMkWCvh0Y2hso3",
+            "size": 156504,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 3 - Short Answer Questions.html",
+            "type": "file",
+            "fileId": "1fkcH0Z8gK6zFtUfPSVZUJ4dZaxwNbel1",
+            "size": 169472,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Question Type 4 - Long Answer Type.html",
+            "type": "file",
+            "fileId": "1rC6Eeo53WhVwsqRa80SlNr0W59dOPVfz",
+            "size": 140973,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "physics-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 2982839,
+        "children": [
+          {
+            "name": "2016 - Solved 2016 Question Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1szPexS23U8r91aVX5qm7Eca_p-je2kpN",
+            "size": 112367,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2017 - Solved 2017 Question Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1bRG_JTAn2dxK_D4jCSFISpvjXhN73Q_y",
+            "size": 106781,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2018 - Solved 2018 Question Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1uNR3wc5f7cQuNn8aXGD6SEy1VGK4LnXd",
+            "size": 156199,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2019 - Solved 2019 Question Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1R_bRXOVyLFWuW1P1gTf_jf6EBr5sx7J6",
+            "size": 190006,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2020 - Solved 2020 Question Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1gPTv3CpAFW0lf5b2X4fYhItE1RO81AJu",
+            "size": 207693,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2022 - Solved 2022 Semester 2 Question Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "13vqqLEo1CBZCYIoYkueNtyMjvt9poxhJ",
+            "size": 74755,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2023 - Solved 2023 Question Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1XBw6X1FIumO9HsSB8XRb1uryntfR8czf",
+            "size": 120735,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2024 - Solved 2024 Question Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1daWgjna_c1lggjxsrUK1Sqo4BqxqNWhz",
+            "size": 242674,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2025 - Solved 2025 Question Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1o9OCVkxM9sdclt5FTkC4u_DxlZkD4DSH",
+            "size": 175282,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2026 - Solved 2026 Question Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "17MbcZcqrKoPCayXgbjecC7E_gM4Eflvz",
+            "size": 347731,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Improvement 2025 - Solved 2025 Improvement Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1UP8BZMN5K49QipjTz8Vm4tIPKuznnWYf",
+            "size": 248415,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Improvement 2026 - Solved 2026 Improvement Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1b4ekl-QRqHsMeD7sAaXt-DiMQwv1GPqw",
+            "size": 211970,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2024 - Solved 2024 Specimen Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "19nNRkfe6y0_z81B-pd_rgWXUbkNU275b",
+            "size": 180120,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2025 - Solved 2025 Specimen Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1EbnLDjhy4tyI85UrdxVD6sADj_pDLVSi",
+            "size": 196160,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2026 - Solved 2026 Specimen Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "1d7Pkg5EqQr8UGAkjOG0wyBN_MYTgVrMy",
+            "size": 224728,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2027 - Solved 2027 Specimen Paper ICSE Class 10 Physics.html",
+            "type": "file",
+            "fileId": "13xHBWRt5CbFqJRaxHQy9FmtLYJ89Eti2",
+            "size": 187223,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "robotics-ai-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 286217,
+        "children": [
+          {
+            "name": "2025 - Solved 2025 Question Paper ICSE Class 10 Robotics  Artificial Intelligence.html",
+            "type": "file",
+            "fileId": "1cjJ7hoW21QePXlm1EIiWVBf1Zgwbl3WB",
+            "size": 54623,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2026 - Solved 2026 Improvement Paper ICSE Class 10 Robotics  Artificial Intelligence.html",
+            "type": "file",
+            "fileId": "1VA9cbb41EHbbWSRH4KqGiZsA8M9J-qb1",
+            "size": 57817,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2026 - Solved 2026 Question Paper ICSE Class 10 Robotics  Artificial Intelligence.html",
+            "type": "file",
+            "fileId": "1HCx96KEfuDes9PptTfcn9Lih8G9uZDrJ",
+            "size": 59966,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2025 - Solved 2025 Specimen Paper ICSE Class 10 Robotics  Artificial Intelligence.html",
+            "type": "file",
+            "fileId": "1NrDUiP1DDhyMrTQMNeISskPk3UTAkzpj",
+            "size": 54981,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2027 - Solved 2027 Specimen Paper ICSE Class 10 Robotics  Artificial Intelligence.html",
+            "type": "file",
+            "fileId": "1-TWgYGN5xGV-GHvWI9I8B5lFEUDFdil9",
+            "size": 58830,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
         "name": "rs-aggarwal-maths",
         "type": "folder",
         "fileId": "",
-        "size": 14958066,
+        "size": 34856231,
         "children": [
           {
             "name": "Chapter 1 - Goods  Services Tax  Analytical  Application Based Questions.html",
@@ -11074,10 +12019,52 @@
             "addedAt": "2026-10-19"
           },
           {
+            "name": "Chapter 17 - Loci  Exercise 17.html",
+            "type": "file",
+            "fileId": "13R3txJ0aGfFRkiIL7lCOuEYN3C5z20oP",
+            "size": 58406,
+            "addedAt": "2026-10-19"
+          },
+          {
             "name": "Chapter 17 - Loci  Multiple Choice Questions.html",
             "type": "file",
             "fileId": "1X4_h-wRakMOUBq2GEkPKLogq1KnIswYP",
             "size": 14076,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Angle  Cyclic Properties of a Circle  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1YAZgURppuw1PHnwn9JJyWHU7pFnZrpic",
+            "size": 2815,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Angle  Cyclic Properties of a Circle  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1E-CxTzfgrwYrKGNBasyKgiLxZ_H5j7J7",
+            "size": 13275,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Angle  Cyclic Properties of a Circle  Exercise 18.html",
+            "type": "file",
+            "fileId": "1YfTHVubEjrK0LhnUOSu3Y-3MUqi_glK0",
+            "size": 150521,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Angle  Cyclic Properties of a Circle  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1q70vKsJwJbwieTZxr29QJqUntN4pT5AM",
+            "size": 112251,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 19 - Tangent Properties of Circles  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1H4JH0-p9KC_QUQzbhAilmZ3akO0CNwjP",
+            "size": 43331,
             "addedAt": "2026-10-19"
           },
           {
@@ -11092,6 +12079,13 @@
             "type": "file",
             "fileId": "1N_FbTARsBtLgXL7kQRM0So_Fk6RTIxi2",
             "size": 114700,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 19 - Tangent Properties of Circles  Exercise 19B.html",
+            "type": "file",
+            "fileId": "1LIXc1q0gUguIwmGrshatnaITj75EilTR",
+            "size": 99117,
             "addedAt": "2026-10-19"
           },
           {
@@ -11120,6 +12114,13 @@
             "type": "file",
             "fileId": "1ZpVu5PaS2EYFfjX5rVnV-nXbXZWebz07",
             "size": 36586,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Banking  Exercise 2.html",
+            "type": "file",
+            "fileId": "1K469-mIqC6mTjCd-3Hk_RHoPXRVhZuHl",
+            "size": 365715,
             "addedAt": "2026-10-19"
           },
           {
@@ -11263,6 +12264,20 @@
             "addedAt": "2026-10-19"
           },
           {
+            "name": "Chapter 23 - Heights  Distances  Exercise 23.html",
+            "type": "file",
+            "fileId": "16WA_S9nkc5_QlmLk4bKvkjf8COzFz1WV",
+            "size": 1000863,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 23 - Heights  Distances  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1O6g8SiHlXqQu9xUt0iCLvUaL8ADMFYKe",
+            "size": 1082367,
+            "addedAt": "2026-10-19"
+          },
+          {
             "name": "Chapter 24 - Graphical Representation of Statistical Data  Assertion-Reason Type Questions.html",
             "type": "file",
             "fileId": "1NwvHVsIp8hgEdCZWgHza3gkg5ZhOuCsB",
@@ -11291,10 +12306,45 @@
             "addedAt": "2026-10-19"
           },
           {
+            "name": "Chapter 25 - Measures of Central Tendency Mean  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1uOluVGWJGwqkLEWapklAUxY9nPfD0fBW",
+            "size": 62143,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 25 - Measures of Central Tendency Mean  Exercise 25.html",
+            "type": "file",
+            "fileId": "1bAM4Hh7J7dHd4qqg6aVHt75ljQ668GRA",
+            "size": 240940,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 25 - Measures of Central Tendency Mean  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1NWi0IFAb_9H-8-rf92HzNpb7V6LvxeMK",
+            "size": 325012,
+            "addedAt": "2026-10-19"
+          },
+          {
             "name": "Chapter 26 - Median Quartiles  Mode  Analytical  Application Based Questions.html",
             "type": "file",
             "fileId": "1wjpaWbIUoPTYxUd0H_I1HASbsNbZ8yp8",
             "size": 40713,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 26 - Median Quartiles  Mode  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1wdOT04K_xgex0V0MtMunCfsCiGKFIpzr",
+            "size": 42027,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 26 - Median Quartiles  Mode  Exercise 26A.html",
+            "type": "file",
+            "fileId": "1TvDvRFSUH5ahS-gIulF3g0qnfarg4Vxv",
+            "size": 320188,
             "addedAt": "2026-10-19"
           },
           {
@@ -11305,10 +12355,45 @@
             "addedAt": "2026-10-19"
           },
           {
+            "name": "Chapter 26 - Median Quartiles  Mode  Exercise 26C.html",
+            "type": "file",
+            "fileId": "1s4J6Su5NbOW0hOquR_hVc-3_T9oP5kO-",
+            "size": 159886,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 26 - Median Quartiles  Mode  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1cwoZFTD7NQqMEwCZYjyPJnbQDl49Z29X",
+            "size": 184054,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 27 - Probability  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1YpBC4wSWnmDykX4R2o1b8Zdvu91UpPkT",
+            "size": 65537,
+            "addedAt": "2026-10-19"
+          },
+          {
             "name": "Chapter 27 - Probability  Assertion-Reason Type Questions.html",
             "type": "file",
             "fileId": "1swWqM5AxwvPgSQdPndDaCHgoNdBQO1OV",
             "size": 33388,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 27 - Probability  Exercise 27.html",
+            "type": "file",
+            "fileId": "1jGi1mIXbO2EZloRANXwGi7H218x2jvd7",
+            "size": 390178,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 27 - Probability  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1cB_37PWOACk1xY2fcfGsrNiQuAVUV4J2",
+            "size": 591595,
             "addedAt": "2026-10-19"
           },
           {
@@ -11317,43 +12402,895 @@
             "fileId": "1XdZo9Bv5iygNhsfgRltBmPFPXn-gG41A",
             "size": 15371,
             "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "198YVGl4IbpqFmD3H2CgtSJak9_oakvhO",
+            "size": 31306,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Exercise 3.html",
+            "type": "file",
+            "fileId": "1D3IlNQbSAHBxQJ4Y2z6agfnKWtC1n7YR",
+            "size": 345804,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1ns-mmu6myaaq3azInfBqif2l_AEth88K",
+            "size": 105769,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1vyPu4X3cux-suPvwTbGGFjfKf86uwuch",
+            "size": 70199,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1fYmTWxWe0pOmb_juGPSLx4TxchL5G1of",
+            "size": 11593,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Case-Study Based Questions.html",
+            "type": "file",
+            "fileId": "1vPJDK5i2hTnfB7p1PPV5Few8jf25R3on",
+            "size": 60068,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Exercise 4.html",
+            "type": "file",
+            "fileId": "1GAmJlyF0x1ith9zSh3Vlt-lst1CRHhFp",
+            "size": 588860,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1eUjjzB9xXSFRqkeSzLqp03zFeWBYEkFP",
+            "size": 165856,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1qNEFyc3c-iWDTIIcIjCW12Ds1VVvn1Xc",
+            "size": 71777,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1KmanggNSj0cHMqvfduJTTI8dEjwPyz-S",
+            "size": 48345,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Case-Study Based Questions.html",
+            "type": "file",
+            "fileId": "1ALlnRYZe4Up2iRzysHXinNI0regeJObn",
+            "size": 4135,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5A.html",
+            "type": "file",
+            "fileId": "10fzdurpMRR66bvgLHq1EUMlvTm5x8uYU",
+            "size": 608851,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5B.html",
+            "type": "file",
+            "fileId": "1mPdC8JsQeb92VngrNfraAbwXepV7C8ZA",
+            "size": 795132,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5C.html",
+            "type": "file",
+            "fileId": "15lRiZErQ3jMfx8dBNT39MVNeyOEaEzxd",
+            "size": 61841,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1RpJ38AMCiCWmMuWR8yFWhqV5xqXEFCLq",
+            "size": 303344,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Problems on Quadratic Equations  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1JOvQEPAqqLcD91nMRXDpE3WnW0RbWhtB",
+            "size": 6369,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Problems on Quadratic Equations  Case-Study Based Questions.html",
+            "type": "file",
+            "fileId": "1u6X5_TAfxJraXOjSvx-Yf2y6XhydEODA",
+            "size": 173056,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Problems on Quadratic Equations  Exercise 6.html",
+            "type": "file",
+            "fileId": "1_IEW-T5S7RFxlFYP52ENPqzMhta1eo4a",
+            "size": 661698,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Problems on Quadratic Equations  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1IjwsaCA74HLNs8UKzSB1ShvLM96PSarj",
+            "size": 110035,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Ratio  Proportion  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1b-P2vxBxNwA-9XjaTJidJcAux-k8c8IJ",
+            "size": 24796,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Ratio  Proportion  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "113Vdf45eW1ptKqqVq-1iYnnGld0C0kN9",
+            "size": 42876,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Ratio  Proportion  Exercise 7A.html",
+            "type": "file",
+            "fileId": "16mlKdIWi6NEpnaljmEXDrkrNJTUaqg3e",
+            "size": 655053,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Ratio  Proportion  Exercise 7B.html",
+            "type": "file",
+            "fileId": "1hbynzZk34m-j_WOzNNeAekQiMHa6BRPz",
+            "size": 1913146,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Ratio  Proportion  Exercise 7C.html",
+            "type": "file",
+            "fileId": "1fHl-hn2uTAnrk_jRcVKT1hcOSD3YDJWA",
+            "size": 1491993,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Ratio  Proportion  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1UeFkcfeUXfB3V3NIFLfSwkREGDjB2lCC",
+            "size": 1143047,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Remainder  Factor Theorem  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1wJretLYfAk7_XlDE101hnRLagdTZ_1rt",
+            "size": 133022,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Remainder  Factor Theorem  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "11tBueJluygHwXypofBkYsRQU6iHlvr6H",
+            "size": 20107,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Remainder  Factor Theorem  Exercise 8A.html",
+            "type": "file",
+            "fileId": "1ItLy8XxeutwPkjSbs9WvCPAwbJjU1FCE",
+            "size": 98662,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Remainder  Factor Theorem  Exercise 8B.html",
+            "type": "file",
+            "fileId": "1wKQG1B8vgRmkDgl4LVmM3Pmbyj2MJRmJ",
+            "size": 690623,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Remainder  Factor Theorem  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "18FIbLjMvI1KTv6eISUjfxjSO-6SsXb48",
+            "size": 175232,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Matrices  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1bcjOZHQcDy2RRjC6pqWWaGwcGSA6ttnE",
+            "size": 123513,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Matrices  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1PwkBiwoQaf6BR8bCSS7YtUeqryo8xHz5",
+            "size": 11020,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Matrices  Exercise 9A.html",
+            "type": "file",
+            "fileId": "1-T_RRVQyxdChMaHohYnog9t2ZAIndRL8",
+            "size": 115018,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Matrices  Exercise 9B.html",
+            "type": "file",
+            "fileId": "1aDnrbNNjUR5cfWBD9NNlPEiG2CoHB-ZQ",
+            "size": 872881,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Matrices  Exercise 9C.html",
+            "type": "file",
+            "fileId": "1uSRwttBFj3RhLK5xrcql_41v052uMLXT",
+            "size": 2008363,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Matrices  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1jXdBnAvgDO_frCOC63TQWKouejNTgEaS",
+            "size": 844554,
+            "addedAt": "2026-10-19"
           }
         ]
       },
       {
-        "name": "solved-icse-question-papers-computer-applications-class-10",
+        "name": "solved-question-papers-computer-applications",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 1028749,
+        "children": [
+          {
+            "name": "2010 - Solved 2010 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "108FAl7yT30pl-EWNwgDPM3smm8is3QK7",
+            "size": 52756,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2011 - Solved 2011 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "11TzyMpw_eexRMaUmiTQwhtn8lMFy_Vjz",
+            "size": 52622,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2012 - Solved 2012 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1GNqCJ4ctPyqThIZaPVLXnNKAS01nGLT-",
+            "size": 52404,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2013 - Solved 2013 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1dluvuDcoCRnWLYQPqyRufO42ol6U3rNo",
+            "size": 46053,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2014 - Solved 2014 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1Y_rJbcA8ib1QECvoSdARrJt3uPmk50zG",
+            "size": 48882,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2015 - Solved 2015 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1G_8liaI7VNis8g4E3CPfQ0-rHkKX6vc0",
+            "size": 47977,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2016 - Solved 2016 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1dMthgc0Wotqt3fS4O_ECVSTLSG0LfxV8",
+            "size": 56890,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2017 - Solved 2017 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1o0MFRxq7rVxI_LGfKNYrmdUeblkzTdqa",
+            "size": 46436,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2018 - Solved 2018 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1t3MmQS4XsXhfdWwqmTibg5XeUNZT8-sT",
+            "size": 46916,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2019 - Solved 2019 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1KcVYKpCtFyNQd6xXAID9_BJSWDJ0igpW",
+            "size": 41645,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2022 - Solved 2022 Semester 2 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1DPlOtjlSQ438g6JBABDwuHH42oyxcLIl",
+            "size": 35622,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2023 - Solved 2023 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1NZRspIzb8ZGoTLoxWBv63w3fYrw1H4hW",
+            "size": 60240,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2024 - Solved 2024 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "194HiBVROxTgV_h0drPwS4AKP3-F-5ixU",
+            "size": 78584,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2025 - Solved 2025 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1VhChTpQhvqigDyxNNJKMlyh2dwwbEs7i",
+            "size": 72637,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "2026 - Solved 2026 Question Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1EGV8FbYobYXWxBRurzxbpHCmaExXCagz",
+            "size": 68229,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Improvement 2025 - Solved 2025 Improvement Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1XSTPfV3GdaT0R02mmzyJloXKRgFQL5bO",
+            "size": 68547,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2024 - Solved 2024 Specimen Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "19uNeyBjeFoT7Ed4PomVt3nmizJ_kogJN",
+            "size": 60273,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Specimen 2025 - Solved 2025 Specimen Paper ICSE Class 10 Computer Applications.html",
+            "type": "file",
+            "fileId": "1klAQcxNJmDvTD9dYkn1GKZNdZYnRAo_F",
+            "size": 92036,
+            "addedAt": "2026-10-19"
+          }
+        ]
       },
       {
         "name": "sumita-arora-computer-applications-bluej",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 1033819,
+        "children": [
+          {
+            "name": "Chapter 1 - Revising Basic Java Concepts.html",
+            "type": "file",
+            "fileId": "1QC2bN4XcQVP26xLDg0SSQg_II9Vm7TLD",
+            "size": 168878,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Class as Basis of All Computation.html",
+            "type": "file",
+            "fileId": "16M4c34MD63-CkFuc9gVIneU4O3QzNcJ-",
+            "size": 123774,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - User-Defined Methods.html",
+            "type": "file",
+            "fileId": "152C-6P3LDlljh9V79z3zAv_jrZKvJmIz",
+            "size": 84315,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Constructors.html",
+            "type": "file",
+            "fileId": "1KrjvAEmyYyME3HFsQs0RkYkEfXCSlsUS",
+            "size": 118745,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Using Library Classes.html",
+            "type": "file",
+            "fileId": "1S5I9bdyIxRJCmzZL8wmTOJlB3N642Aca",
+            "size": 27539,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Encapsulation.html",
+            "type": "file",
+            "fileId": "1Bob730Opz7ihAejcjXIsbtIaIT5TfEEO",
+            "size": 17161,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Arrays.html",
+            "type": "file",
+            "fileId": "1DX8NxS0d6s1lkFkqXhkLL-96tgx06bSL",
+            "size": 443750,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - String Handling.html",
+            "type": "file",
+            "fileId": "1_44SUyolHSGJZN1MIjEF2ayFLDdqWn6i",
+            "size": 49657,
+            "addedAt": "2026-10-19"
+          }
+        ]
       },
       {
         "name": "total-geography",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 1203919,
+        "children": [
+          {
+            "name": "Appendix - Specimen Paper.html",
+            "type": "file",
+            "fileId": "1C9wnsZTrK_lA6xzW7tbDpRk1higJilnr",
+            "size": 37403,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 1 - Interpretation of Topographical Maps.html",
+            "type": "file",
+            "fileId": "1MZe_w8cPS37G8_o7Q8g6K5kk0kJ49UTb",
+            "size": 101821,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Mineral Resources.html",
+            "type": "file",
+            "fileId": "1fLFAf8syXxi71x1iPB6af-tWKFbXs7CT",
+            "size": 30518,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Conventional Sources of Energy.html",
+            "type": "file",
+            "fileId": "10Md8JVf7_XmGb_m75SitfOqJ7DiwHN0Z",
+            "size": 45660,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Non-Conventional Sources of Energy.html",
+            "type": "file",
+            "fileId": "1cKv95RtNCvpMC7CfnPlEWpPmnx_l8Q37",
+            "size": 37943,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Agriculture  I.html",
+            "type": "file",
+            "fileId": "1JcL_otzvS8j5iwCxiPOCFLA16Ut-9CVS",
+            "size": 43246,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Agriculture  II Food Crops.html",
+            "type": "file",
+            "fileId": "169VbRM9KotajRyNKh9SGvifsnSrsvrcI",
+            "size": 46380,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Agriculture  III Cash Crops 1.html",
+            "type": "file",
+            "fileId": "17IWHZTD8hNcAafBbOqggVv6mAvrwzvQD",
+            "size": 38572,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Agriculture  IV Cash Crops 2.html",
+            "type": "file",
+            "fileId": "1Zeq-gzRFrV3fJTDxYnIQJc8TMF1QpjnP",
+            "size": 40643,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Manufacturing Industries Agro-Based.html",
+            "type": "file",
+            "fileId": "1DpKiByKzV7ORzG7xSu0nEm8wSe7D-izz",
+            "size": 47849,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Mineral Based Industry.html",
+            "type": "file",
+            "fileId": "1K1n3J8kU_6j_ParSMW43ug54OeYettz5",
+            "size": 40976,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 19 - Transport.html",
+            "type": "file",
+            "fileId": "1SK5_PIIVbyXISN_OtkLOrpTZk8-npDrt",
+            "size": 50362,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Contours.html",
+            "type": "file",
+            "fileId": "1NrJU-ta9Ctulf1-r9rXp1gtihoZnqz6x",
+            "size": 123620,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Waste Management  I Impact of Waste Accumulation.html",
+            "type": "file",
+            "fileId": "18NxffclGljdvMZmH7y0UEgjt2J_sOoow",
+            "size": 47215,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Waste Management  II Safe Disposal of Waste.html",
+            "type": "file",
+            "fileId": "1ktzC3s62A45FGsR3xa9IBeg5vKUGzybj",
+            "size": 31190,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Scales and Direction.html",
+            "type": "file",
+            "fileId": "1Rj57YPoWj7G7gZPw0IuwsqDnJcbWPUtB",
+            "size": 117643,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Map Reading and Interpretation.html",
+            "type": "file",
+            "fileId": "1YagkTvRQPov_83bFRtUuGXBon4wKHWbA",
+            "size": 101231,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Climate.html",
+            "type": "file",
+            "fileId": "1hOCyTFtPdzoQbzS_zOvbp7OVIXQ2p_QJ",
+            "size": 76770,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Soil Resources.html",
+            "type": "file",
+            "fileId": "1pTb01t7XUUbQtkOObOoUXZytI-__q5iu",
+            "size": 56535,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Natural Vegetation.html",
+            "type": "file",
+            "fileId": "1LNmWfvvG3d1CpWfCHp0xfGTO281EFpmx",
+            "size": 40637,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Water Resources.html",
+            "type": "file",
+            "fileId": "1IUA-Owg_3SGoUjD3oonLhqvxCBcIIgOc",
+            "size": 47705,
+            "addedAt": "2026-10-19"
+          }
+        ]
       },
       {
         "name": "total-history-civics",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 1052400,
+        "children": [
+          {
+            "name": "Appendix - Specimen Paper 1.html",
+            "type": "file",
+            "fileId": "1ueiZ7505n-oxEcp40d5lP3mtC00vTbGu",
+            "size": 42777,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 1 - The First War of Independence 1857.html",
+            "type": "file",
+            "fileId": "1oywJJ07rBLru7vxpxSD6glSIHx2vc519",
+            "size": 64928,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 10 - The First World War.html",
+            "type": "file",
+            "fileId": "1F4gQNdFQZ3woIU4-Ub0MMmKy24S9CA6V",
+            "size": 50746,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 11 - Rise of Dictatorships.html",
+            "type": "file",
+            "fileId": "1ZfM64e-DJhBBeBmeoVWVE5DchK8QiHi2",
+            "size": 58231,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 12 - The Second World War.html",
+            "type": "file",
+            "fileId": "1pThXyyDXB0pLmYs3xzIi5IjsOk71qWzI",
+            "size": 57209,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 13 - United Nations.html",
+            "type": "file",
+            "fileId": "1yCbIurSiiajQ88q3F8MTj1KCt4yTBEcu",
+            "size": 46516,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 14 - Major Agencies of the United Nations.html",
+            "type": "file",
+            "fileId": "1wZz-qI7rhdwETUCdYt6oWHrzq4A7rcdg",
+            "size": 34972,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 15 - Non-Aligned Movement.html",
+            "type": "file",
+            "fileId": "1PIBwo5a2aC4oj1PbInX01FeaeiAxwMlf",
+            "size": 31506,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 2 - Growth of Nationalism.html",
+            "type": "file",
+            "fileId": "1cJ3SLWn_77Ouie5TmlZ69rIccXWlwyX_",
+            "size": 47838,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 3 - First Phase of the Indian National Movement.html",
+            "type": "file",
+            "fileId": "1leZNp6wyC11ujC09tPxSgumf--xOLAKL",
+            "size": 49141,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 4 - Second Phase of the Indian National Movement.html",
+            "type": "file",
+            "fileId": "19inBspkvM1RAKp6DCxwdI9XXtAQ3g_JO",
+            "size": 61251,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 5 - The Muslim League.html",
+            "type": "file",
+            "fileId": "19A4S8NJy-5VCn20IsG4E5r4P4Tz69w6C",
+            "size": 45822,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 6 - Mahatma Gandhi and the National Movement.html",
+            "type": "file",
+            "fileId": "1t4Z1TB5gk09UpgiCG9tnA2Yrb9ss2j5U",
+            "size": 67006,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 7 - Quit India Movement.html",
+            "type": "file",
+            "fileId": "11ambNFpt3jYtdgb1w7KjgcROzVvGTkQQ",
+            "size": 35908,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 8 - Forward Bloc and The INA.html",
+            "type": "file",
+            "fileId": "1isvQ1f3LIzh9KDtvGxPPX_N_0IH2Z3W8",
+            "size": 31320,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section A  Chapter 9 - Independence and Partition of India.html",
+            "type": "file",
+            "fileId": "1smMmbk0JYDa8u3CTyLduKJkSZC6lqegk",
+            "size": 46921,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  Chapter 1 - The Union Parliament - I.html",
+            "type": "file",
+            "fileId": "17NoieO-Gxo1EdB7OrRZN7wCj_f5tnZ59",
+            "size": 49858,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  Chapter 2 - The Union Parliament - II.html",
+            "type": "file",
+            "fileId": "1OrLQ7rpmBnWAAztANAobwPdAhMyIy1Q2",
+            "size": 43186,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  Chapter 3 - The President and the Vice-President.html",
+            "type": "file",
+            "fileId": "10IqYoW-TDFjtbtMKVEr146gJfqtaVmjB",
+            "size": 51653,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  Chapter 4 - Prime Minister and Council of Ministers.html",
+            "type": "file",
+            "fileId": "1raT1oRXv1W2mrPzQdzqC9kcTgP_xT8jN",
+            "size": 40744,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  Chapter 5 - The Supreme Court.html",
+            "type": "file",
+            "fileId": "1j7VX14vf7JQe9d57QohQSIut7IGwn_bI",
+            "size": 47405,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Section B  Chapter 6 - The High Courts and Subordinate Courts.html",
+            "type": "file",
+            "fileId": "18z-wFvQSbozmqWzadXJS0zyBAckel9LI",
+            "size": 47462,
+            "addedAt": "2026-10-19"
+          }
+        ]
       },
       {
         "name": "veena-bhargava-goyal-geography",
         "type": "folder",
         "fileId": "",
-        "size": 0,
-        "children": []
+        "size": 406411,
+        "children": [
+          {
+            "name": "Chapter 1 - Interpretation of Topographical Maps  I.html",
+            "type": "file",
+            "fileId": "16ZPUp91uIZTZRawxMlvmXoFTZxxOutCo",
+            "size": 15193,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Agriculture in India  I  Introduction.html",
+            "type": "file",
+            "fileId": "1O3NRng3FXC-Km6BAkT7DfKr5ZAMx10NE",
+            "size": 16804,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Agriculture in India  II  Food Crops.html",
+            "type": "file",
+            "fileId": "1X_6NbjPeDAdVTLcBaaUyFeUKxv70Mbg1",
+            "size": 16988,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Agriculture in India  III  Cash Crops.html",
+            "type": "file",
+            "fileId": "1RV9Lekfra73cJsgPBdaGYiaT_Pw8KOFy",
+            "size": 31780,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Manufacturing Industries in India - I  Agro-based.html",
+            "type": "file",
+            "fileId": "1BV3X4pVODioHEQns24wPJaMOGN0NIxnR",
+            "size": 14355,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Manufacturing Industries in India - II  Mineral-based.html",
+            "type": "file",
+            "fileId": "1Vi2No_5lDeNw08wrl9SDfK31ghVR-R8K",
+            "size": 22986,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Transport.html",
+            "type": "file",
+            "fileId": "16LjA1vEvj4Tt2jJN0vYPvsBsw2shwBwT",
+            "size": 22223,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Waste Management  Impact of Waste Accumulation.html",
+            "type": "file",
+            "fileId": "1jA25mw0UDslMBOtcaX4_f5I-ZMdDCW1z",
+            "size": 28946,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Waste Generation and Management  Methods of Safe Disposal of Waste.html",
+            "type": "file",
+            "fileId": "1ac1x9igmtvzAnKmnThP03Gxn1t_rULhy",
+            "size": 15835,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Interpretation of Topographical Maps  II.html",
+            "type": "file",
+            "fileId": "1MGiWKSkjv2GAuq3rc89iI-fBow-LfEo6",
+            "size": 64432,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Climate of India.html",
+            "type": "file",
+            "fileId": "1TnHgKKU_IjmtyK39-euNre5JRRn49cYa",
+            "size": 34531,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Soil Resources in India.html",
+            "type": "file",
+            "fileId": "1qXF_kAmbANWA6mGN6og123PQDJlCC_Zk",
+            "size": 21216,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Natural Vegetation.html",
+            "type": "file",
+            "fileId": "1PG5_7Lc8kGOFFQ-9tSJph9ycWrm9PwUx",
+            "size": 27073,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Water Resources.html",
+            "type": "file",
+            "fileId": "1XSrBp07kFelvN6Yb5TBE7uYpmiXBD2jK",
+            "size": 31815,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Mineral and Energy Resources  I.html",
+            "type": "file",
+            "fileId": "1kZR0gj5otvzUPQVh4nsD2yJ-rxlUeVYN",
+            "size": 11847,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Mineral and Energy Resources  II.html",
+            "type": "file",
+            "fileId": "1C7KmfyKrjhuiX1uozM6pMiMq7RnzFsN4",
+            "size": 30387,
+            "addedAt": "2026-10-19"
+          }
+        ]
       }
     ]
   },
