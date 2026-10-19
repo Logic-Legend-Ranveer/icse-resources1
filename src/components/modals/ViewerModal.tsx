@@ -248,20 +248,31 @@ export default function ViewerModal() {
               <span className="hidden sm:inline">Open in Drive</span>
             </a>
 
-            <a
-              href={driveDownloadUrl}
-              target="_blank"
-              rel="noreferrer noopener"
-              aria-disabled={status !== "ready"}
-              className={`flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-accent-indigo to-accent-violet px-3 py-1.5 text-xs font-medium text-white transition-transform hover:scale-[1.02] ${
-                status === "ready"
-                  ? ""
-                  : "pointer-events-none opacity-40"
-              }`}
-            >
-              <Download className="h-3.5 w-3.5" />
-              <span className="hidden sm:inline">Download</span>
-            </a>
+            {/* Determine the correct download URL: Worker 2 for HTML files (includes banner), Google Drive for others */}
+             {(() => {
+           const fileName = file?.name?.toLowerCase() || '';
+          const isHtml = fileName.endsWith('.html') || fileName.endsWith('.htm');
+          const downloadHref = isHtml
+          ? `https://icse-file-proxy2.bybro.workers.dev/file?id=${file.fileId}&download=true`
+           : driveDownloadUrl;
+
+    return (
+    <a
+      href={downloadHref}
+      target="_blank"
+      rel="noreferrer noopener"
+      aria-disabled={status !== "ready"}
+      className={`flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-accent-indigo to-accent-violet px-3 py-1.5 text-xs font-medium text-white transition-transform hover:scale-[1.02] ${
+        status === "ready"
+          ? ""
+          : "pointer-events-none opacity-40"
+      }`}
+    >
+      <Download className="h-3.5 w-3.5" />
+      <span className="hidden sm:inline">Download</span>
+    </a>
+  );
+})()}
           </div>
         </div>
       </div>
