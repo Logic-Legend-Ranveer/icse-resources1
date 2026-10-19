@@ -8347,10 +8347,31 @@
     "name": "ICSE Book Solutions",
     "type": "folder",
     "fileId": "",
-    "size": 54376721,
+    "size": 88855125,
     "children": [
       {
-        "name": "class-10-icse-commercial-applications-goyal",
+        "name": "biology-competency-focused-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "biology-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "chemistry-competency-focused-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "commercial-applications-goyal",
         "type": "folder",
         "fileId": "",
         "size": 1211323,
@@ -8442,7 +8463,7 @@
         ]
       },
       {
-        "name": "class-10-icse-concise-biology-selina",
+        "name": "concise-biology-selina",
         "type": "folder",
         "fileId": "",
         "size": 2613093,
@@ -8583,7 +8604,7 @@
         ]
       },
       {
-        "name": "class-10-icse-concise-chemistry-selina",
+        "name": "concise-chemistry-selina",
         "type": "folder",
         "fileId": "",
         "size": 4519732,
@@ -8703,10 +8724,10 @@
         ]
       },
       {
-        "name": "class-10-icse-concise-maths-selina",
+        "name": "concise-maths-selina",
         "type": "folder",
         "fileId": "",
-        "size": 30234323,
+        "size": 31138864,
         "children": [
           {
             "name": "Chapter 1 - Goods  Services Tax  Case-Study Based Question.html",
@@ -9402,6 +9423,13 @@
             "addedAt": "2026-10-19"
           },
           {
+            "name": "Chapter 7 - Ratio  Proportion  Exercise 7C.html",
+            "type": "file",
+            "fileId": "1KbNsAjq3IqBCTWDZozlcjUncRgtFXZO3",
+            "size": 904541,
+            "addedAt": "2026-10-19"
+          },
+          {
             "name": "Chapter 7 - Ratio  Proportion  Test Yourself.html",
             "type": "file",
             "fileId": "1TlHlo88ZB9-KLrTV2DL-CZkUUFPJ1os8",
@@ -9467,7 +9495,7 @@
         ]
       },
       {
-        "name": "class-10-icse-concise-physics-selina",
+        "name": "concise-physics-selina",
         "type": "folder",
         "fileId": "",
         "size": 5364975,
@@ -9566,7 +9594,7 @@
         ]
       },
       {
-        "name": "class-10-icse-exploring-robotics-ai",
+        "name": "exploring-robotics-ai",
         "type": "folder",
         "fileId": "",
         "size": 529577,
@@ -9686,7 +9714,77 @@
         ]
       },
       {
-        "name": "class-10-icse-kips-robotics-ai",
+        "name": "icse-class-10-chemistry-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-computer-applications-competency-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-geography-competency-focused-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-history-civics-competency-focused-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-history-civics-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-mathematics-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-maths-competency-focused-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-physics-competency-focused-practice",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-physics-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "icse-class-10-robotics-ai-previous-year-question-papers",
+        "type": "folder",
+        "fileId": "",
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "kips-robotics-ai",
         "type": "folder",
         "fileId": "",
         "size": 2737525,
@@ -9806,7 +9904,7 @@
         ]
       },
       {
-        "name": "class-10-icse-kundra-history-civics",
+        "name": "kundra-history-civics",
         "type": "folder",
         "fileId": "",
         "size": 770749,
@@ -9961,10 +10059,17 @@
         ]
       },
       {
-        "name": "class-10-icse-ml-aggarwal-maths",
+        "name": "logix-computer-applications-java-bluej",
         "type": "folder",
         "fileId": "",
-        "size": 6395424,
+        "size": 0,
+        "children": []
+      },
+      {
+        "name": "ml-aggarwal-maths",
+        "type": "folder",
+        "fileId": "",
+        "size": 25011221,
         "children": [
           {
             "name": "Chapter 1 - Goods  Services Tax  Assertion-Reason Type Question.html",
@@ -10055,6 +10160,27 @@
             "type": "file",
             "fileId": "1AwoN6xWTosIZJoNBgrNk2ttjKQruFipw",
             "size": 41759,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Equation of a Straight Line  Chapter Test.html",
+            "type": "file",
+            "fileId": "1VKGfoE4opIzg7ZE3V87_ZXPmi6U4dlJD",
+            "size": 438009,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Equation of a Straight Line  Exercise 12.1.html",
+            "type": "file",
+            "fileId": "1gZZl6bh8kIl8ZA1nMpy5-yjIHd6bBw7b",
+            "size": 662004,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Equation of a Straight Line  Exercise 12.2.html",
+            "type": "file",
+            "fileId": "1OnbFiIIXqjSBlSr2zWXjeo5QISB3z8j2",
+            "size": 840917,
             "addedAt": "2026-10-19"
           },
           {
@@ -10149,6 +10275,118 @@
             "addedAt": "2026-10-19"
           },
           {
+            "name": "Chapter 15 - Circles  Exercise 15.3.html",
+            "type": "file",
+            "fileId": "1u-eUucoXiuEbkvRiIPYbsE6_bqKoHc2m",
+            "size": 427822,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Circles  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1el8m4FvekG4LUUcmmyCL82rygwE8lETl",
+            "size": 134770,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Constructions  Chapter Test.html",
+            "type": "file",
+            "fileId": "1GbuSxya9sksv1ySZUolfnxTGjCWStiAv",
+            "size": 20632,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Constructions  Exercise 16.1.html",
+            "type": "file",
+            "fileId": "1CWZ_8lKyuyQQf3QLA0GUPdbYfKBJRgeg",
+            "size": 10515,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Constructions  Exercise 16.2.html",
+            "type": "file",
+            "fileId": "1ryQwLEyhEAJ6uwaM-dr-fC_ha9nmVQKn",
+            "size": 22305,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Mensuration  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1Yz1MyV6GGHUdvqdiFtB4pamslm94InX5",
+            "size": 44982,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Mensuration  Chapter Test.html",
+            "type": "file",
+            "fileId": "1QV7PkObIjwCr-uuHESkg3_ZTf4JjHFUw",
+            "size": 450165,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Mensuration  Exercise 17.1.html",
+            "type": "file",
+            "fileId": "16q9RQjHiBtyV0gqYqTXe0YBjPYR6HdYm",
+            "size": 365418,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Mensuration  Exercise 17.2.html",
+            "type": "file",
+            "fileId": "1Gfdf5syo7N1eog2h1PGRytFuDbcLyK4u",
+            "size": 345634,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Mensuration  Exercise 17.3.html",
+            "type": "file",
+            "fileId": "1iWFbxIpYZjUr6BpvCtCBKIasoDrXOQSc",
+            "size": 298214,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Mensuration  Exercise 17.4.html",
+            "type": "file",
+            "fileId": "1rEznHovOBss5JIfTfHjdZPW4YP8l_Xv2",
+            "size": 503099,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Mensuration  Exercise 17.5.html",
+            "type": "file",
+            "fileId": "1xn1P4r6LE5x92Kmac31mZjVhCSUI0xk-",
+            "size": 467550,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Mensuration  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1CMsZfcy-NbT3gzq5mRHPa4spbDIjSfKU",
+            "size": 365296,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Trigonometrical Identities  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1WGmw8mcRRoscD6WpUdoBLObZqRNsqcXw",
+            "size": 44621,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Trigonometrical Identities  Chapter Test.html",
+            "type": "file",
+            "fileId": "1-Tpy9zx5XCpGm_GtAVlHPnYj_e_6SDfm",
+            "size": 590175,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 18 - Trigonometrical Identities  Exercise 18.html",
+            "type": "file",
+            "fileId": "1UZ_7QE0L40ttTFaHdKhSZXrn3bXAa0o5",
+            "size": 1300251,
+            "addedAt": "2026-10-19"
+          },
+          {
             "name": "Chapter 18 - Trigonometrical Identities  Multiple Choice Questions.html",
             "type": "file",
             "fileId": "1dMj6SUdfA8okRsBU255FTPu_T-8KFIXl",
@@ -10170,6 +10408,13 @@
             "addedAt": "2026-10-19"
           },
           {
+            "name": "Chapter 2 - Banking  Chapter Test.html",
+            "type": "file",
+            "fileId": "1l3o6wkb4GRSSIjbcNfpPrFCI6XXuupOt",
+            "size": 150334,
+            "addedAt": "2026-10-19"
+          },
+          {
             "name": "Chapter 2 - Banking  Exercise 2.html",
             "type": "file",
             "fileId": "1EkwZZ0gkJ7BLOLNvzYJEDtQmCQQfvqrw",
@@ -10181,6 +10426,20 @@
             "type": "file",
             "fileId": "13bmNPfHRnSIIhI1Bwv5HWLTcCUO2PTyu",
             "size": 30489,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Heights  Distances  Chapter Test.html",
+            "type": "file",
+            "fileId": "1s5ldW6mI_LG2xNB1JOICpnFcVi2qv6iV",
+            "size": 184958,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Heights  Distances  Exercise 20.html",
+            "type": "file",
+            "fileId": "1TVXfx-HhoV-1iee4uGIA0ZoG55tbcLTp",
+            "size": 686099,
             "addedAt": "2026-10-19"
           },
           {
@@ -10238,88 +10497,859 @@
             "fileId": "1b53U3SuUnREiewhav4Yv6mobZWfoPvcE",
             "size": 11629,
             "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Measures of Central Tendency  Exercise 21.6.html",
+            "type": "file",
+            "fileId": "1aas_OORDOA6PlFy5z3Z6RKnyP7Rtq-dg",
+            "size": 94983,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Measures of Central Tendency  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1Dlwk5rHcULKsJCPWqcDsjy2CL7ICnvqq",
+            "size": 56367,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Probability  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1LPWGpcbeKvznmYeTOvpYTU5crMRsN8dr",
+            "size": 47336,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Probability  Chapter Test.html",
+            "type": "file",
+            "fileId": "1s0ftZGrCjNOu1k_QlDc-O1mQztfUakK7",
+            "size": 176829,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Probability  Exercise 22.html",
+            "type": "file",
+            "fileId": "1twK0PiiIR885nNeMDbKTMhpmAaS628qx",
+            "size": 661108,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Probability  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1c8s302cdkS5HBJO6jZjk6X89U7fj_Gqj",
+            "size": 143741,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1aAXTPqvQcTVhNbU-K-GmycOmKL4JBfMI",
+            "size": 4831,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Chapter Test.html",
+            "type": "file",
+            "fileId": "1l3EHKz55hiY52gUu9IlYqSeamv7BKfG3",
+            "size": 197453,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Exercise 3.html",
+            "type": "file",
+            "fileId": "18-G7Rzi3J6rPx8zh0eaOEim6r37Bs9zG",
+            "size": 363595,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1CIoqdDolcoG-7kROlh7ck-St1QF_V0Yv",
+            "size": 29960,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Assertion-Reason Type Question.html",
+            "type": "file",
+            "fileId": "1o_k756SwTuEmbN0NZUsX05625PRHWtU9",
+            "size": 16036,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Chapter Test.html",
+            "type": "file",
+            "fileId": "1dctPvvSMHHvFAcKue2ZqLaVq-3N1QZoM",
+            "size": 122809,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Exercise 4.html",
+            "type": "file",
+            "fileId": "1Qx6iyEsdN3c-6gpZxNUqbwF50C7ReVd2",
+            "size": 568841,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 4 - Linear Inequations  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1sG4W7CXN3ofZd9CBF7Q5zTxezbuEPLtv",
+            "size": 60143,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1eYjcubarbG-d57vT7HinmqA8ebCqFUpJ",
+            "size": 9371,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5.1.html",
+            "type": "file",
+            "fileId": "1ZY9eKiVdJ-f_GsX8u6N74gFAjkj487Q_",
+            "size": 233497,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5.2.html",
+            "type": "file",
+            "fileId": "1FOKKOwfKEv6ECIIhl7I3F4jRbsevh-71",
+            "size": 1028438,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Exercise 5.5.html",
+            "type": "file",
+            "fileId": "1Rmq8V30jelv6Zu_P2jEyslKk_mlhObCi",
+            "size": 1295769,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 5 - Quadratic Equations  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1o1PMOeX1Ab3s2cLdIH6MHn1hhtW8NY55",
+            "size": 156755,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Ratio and Proportion  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1O-hsdWf94D_bRV8Hc15HC3oSnzAOWcjP",
+            "size": 52172,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 6 - Ratio and Proportion  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1u4Y8fJxZP4ZRpbkUd4dhkBsr_n-Bm_Ww",
+            "size": 102380,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Factorisation  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1bwjWQ0L9a1uT8XH-6lo-9GhuXATcLfEB",
+            "size": 42068,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Factorisation  Chapter Test.html",
+            "type": "file",
+            "fileId": "1FCB-P-X7aAi_jrApeP96GLI2MAd-P6Ha",
+            "size": 527406,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Factorisation  Exercise 7.html",
+            "type": "file",
+            "fileId": "1zkcwnM4pZiLKBh8RnjK0Ui3keew5pNJ4",
+            "size": 813242,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 7 - Factorisation  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1ubbzkpzFAukhltpKBFk_rBpOGbeulFMq",
+            "size": 52152,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Matrices  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1u8Jlc_gu-a-szu0ycpM9vFsix8fk4ZNY",
+            "size": 13186,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Matrices  Chapter Test.html",
+            "type": "file",
+            "fileId": "10vJ1Z4g3-JX2BX5mhb5q4KhAIsponYtK",
+            "size": 557538,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Matrices  Exercise 8.1.html",
+            "type": "file",
+            "fileId": "178H0BqUwTH6pxP0sUX6vkOI8CoNV4G6S",
+            "size": 115645,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Matrices  Exercise 8.2.html",
+            "type": "file",
+            "fileId": "1VQTknPdt0dH-lI9fTKzIXsm0OtYk85Hb",
+            "size": 494309,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 8 - Matrices  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "182npZ1Fi4gSVL3sBPqRVjg-g8h36DdV8",
+            "size": 239817,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Arithmetic  Geometric Progression  Assertion-Reason Type Question.html",
+            "type": "file",
+            "fileId": "13k6sHAKVjDe2KEp9SIisBeX06zNipe-L",
+            "size": 26158,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Arithmetic  Geometric Progression  Chapter Test.html",
+            "type": "file",
+            "fileId": "140SGr3Zbla0XA_mscKOrH81KbMwqGUSC",
+            "size": 255254,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Arithmetic  Geometric Progression  Exercise 9.1.html",
+            "type": "file",
+            "fileId": "1V6oW3b2XouM9G0uFIf0m6uqy1XwQUZ6I",
+            "size": 64431,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Arithmetic  Geometric Progression  Exercise 9.2.html",
+            "type": "file",
+            "fileId": "1EHr79oHb8D1YYJq6j2FAeiHX8b_f0epT",
+            "size": 149204,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Arithmetic  Geometric Progression  Exercise 9.3.html",
+            "type": "file",
+            "fileId": "17ed58y4N-3ednjvqGazPRQaf4VKWC_T2",
+            "size": 405235,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Arithmetic  Geometric Progression  Exercise 9.4.html",
+            "type": "file",
+            "fileId": "1GoGJqTpeysRYjWuEkys6zPJN1VAVA6gW",
+            "size": 383090,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Arithmetic  Geometric Progression  Exercise 9.5.html",
+            "type": "file",
+            "fileId": "1J32nM7B7wyGSweK4xpmBS74PTEhg-Hi2",
+            "size": 522791,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 9 - Arithmetic  Geometric Progression  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1G0otypEpJoPSgZCyUgl_F4C1KewwWw5q",
+            "size": 178087,
+            "addedAt": "2026-10-19"
           }
         ]
       },
       {
-        "name": "class-10-icse-rs-aggarwal-maths",
+        "name": "rs-aggarwal-maths",
+        "type": "folder",
+        "fileId": "",
+        "size": 14958066,
+        "children": [
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1CtQKnjnHaTh9h9ULxyozBLb9QaR2xNfy",
+            "size": 15004,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "10wDIejFBW_HgkQRWIJPcUMFhA7l62UUt",
+            "size": 8141,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Case-Study Based Questions.html",
+            "type": "file",
+            "fileId": "1F2kYkleqQWWqh7CDBtrf94iepMupCT1V",
+            "size": 20184,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Exercise 1.html",
+            "type": "file",
+            "fileId": "1Jg-iUgJ16xC-UXHnz2GJ4Rh4cuI2rvS9",
+            "size": 250391,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 1 - Goods  Services Tax  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1VeafZAHtRqrlJSDPr1E_CAQPW5_ORs8F",
+            "size": 92837,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1bSCo4UtSq_WfQYt8vy1VSwsxHxAarLCv",
+            "size": 64998,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "170e6yLxf_CmUXVS-vwuvmQHjsW5A6GH2",
+            "size": 22522,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Case-Study Based Questions.html",
+            "type": "file",
+            "fileId": "144lhWJxN0918oFQEFQRn8wZpKrlLMT36",
+            "size": 29038,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Exercise 10A.html",
+            "type": "file",
+            "fileId": "1aCtBjRql6S_M-93_UZ7fBe86WKsaZpQv",
+            "size": 90522,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Exercise 10B.html",
+            "type": "file",
+            "fileId": "164zjvfTmz5_J_rjCsQLtjW2uG1oicfpb",
+            "size": 204731,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 10 - Arithmetic Progression  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1c5G45fbB_lu-j_qeYYvOOM8sRrDUU3L_",
+            "size": 234016,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Geometric Progression  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1A2tcx1JPO8gPzMGgrxZSWGUjwx_9Hh-K",
+            "size": 72958,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Geometric Progression  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1t27RDrtK9QihtTdzh_pddy_lySbut-7u",
+            "size": 61621,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Geometric Progression  Case-Study Based Questions.html",
+            "type": "file",
+            "fileId": "1Jedzz8ykC3ZBlzVdXAj5LRqbZyf6POiE",
+            "size": 75290,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Geometric Progression  Exercise 11A.html",
+            "type": "file",
+            "fileId": "1NMnfWDlRHcBgLrnnHAVs3sr-3vigMEa_",
+            "size": 368208,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Geometric Progression  Exercise 11B.html",
+            "type": "file",
+            "fileId": "1LcfisGAG0zC4zcUxdLshH4B6BzzQlwKD",
+            "size": 510162,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 11 - Geometric Progression  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1MH2MMQfUdsPycir_TY90MeMmwRvKOhux",
+            "size": 334057,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Reflection  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1FYE4H_1ha2TIAZNniQx7jmlVY9coGCiJ",
+            "size": 8173,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Reflection  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1dr0KEGZGqivaKtpHc1pbLqJNKvryokWP",
+            "size": 5575,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Reflection  Exercise 12A.html",
+            "type": "file",
+            "fileId": "1UwPypnnppSo-H0j3EuWdDc0509F1KA-J",
+            "size": 6478,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Reflection  Exercise 12B.html",
+            "type": "file",
+            "fileId": "1J4YOtbar3s57oSpOng_3OAd7bSrNKiKg",
+            "size": 62073,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 12 - Reflection  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1j4UQVbYBDZiFof5GwJKgNl5eG0Nig7pV",
+            "size": 31603,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Section  Mid-Point Formulae  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1YSqq7V5KMGuqNsQwI8au3lH62_x0broO",
+            "size": 116346,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Section  Mid-Point Formulae  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1W0vtHZ3fWwHqkWWWVAy_DrBg5qiufRRP",
+            "size": 111438,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Section  Mid-Point Formulae  Exercise 13.html",
+            "type": "file",
+            "fileId": "1_SmE1CEI7KIDDwkb-l-MIhaBC5_cmbBp",
+            "size": 1104704,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 13 - Section  Mid-Point Formulae  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1hVxiPFC-zlJZudxc9poPSfSaLCUFuq7u",
+            "size": 730699,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Equation of a Straight Line  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1xIuKOl0XNZP9q8J4sy7v8jeNC4PEA7a2",
+            "size": 49976,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Equation of a Straight Line  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1VTWunnpEvqphJvnrkP8BkRAXi8aDlOmC",
+            "size": 62924,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Equation of a Straight Line  Exercise 14A.html",
+            "type": "file",
+            "fileId": "1zI2jTXPaGFR48Sa98CiLwl_bXwRyr-qn",
+            "size": 785312,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Equation of a Straight Line  Exercise 14B.html",
+            "type": "file",
+            "fileId": "1ntK_JQcNCQ3dElxYgfCuHvTShDZNRvw3",
+            "size": 832790,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 14 - Equation of a Straight Line  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1yP_IrYk_X6X86kK0cwA-6IxDbt5hNWLF",
+            "size": 362697,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Similarity As a Size Transformation  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1K9STDHX3FV3xGcMpmXUvl2_LHuz7nNF5",
+            "size": 39975,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Similarity As a Size Transformation  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1EcKMoDzv9rR5QdL0s2uK6gBYZ2Px5e1e",
+            "size": 2862,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Similarity As a Size Transformation  Exercise 15.html",
+            "type": "file",
+            "fileId": "1QlatRr1PYRyeur3vTUJPKRNflcwj3uuV",
+            "size": 123284,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 15 - Similarity As a Size Transformation  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1NFGA49BID0l4g1ECOtaGEeSdtcCmMNlU",
+            "size": 23678,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Similarity of Triangles  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1sdIQKybe5bnfRBvyJ3NmzJkwWmlpWcYw",
+            "size": 133543,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Similarity of Triangles  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1s-8vjsO2VeKm9P-FkF9AH9PaNNTC4pDK",
+            "size": 46071,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Similarity of Triangles  Case-Study Based Questions.html",
+            "type": "file",
+            "fileId": "1MQX-u6OiJOAPcuYeYGtlMt9cRs7Hl8YW",
+            "size": 31995,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Similarity of Triangles  Exercise 16A.html",
+            "type": "file",
+            "fileId": "1FI4P_HhiXfnySDzHljE6a8aDdmM74MzC",
+            "size": 332700,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Similarity of Triangles  Exercise 16B.html",
+            "type": "file",
+            "fileId": "11Pe4K2WskmBXHjVTbZORYFD3HPtnKBrx",
+            "size": 481987,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 16 - Similarity of Triangles  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1dP_8yd7wf9dBt0DYyjjrJsMOYiY9vwtG",
+            "size": 870134,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Loci  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1CEGI-YyHOFfifI_EZiWZWsv2_rITPPkr",
+            "size": 5291,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Loci  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1bZPDl6uSaVKQBbn9-ortHDuysfDPjbXW",
+            "size": 4351,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 17 - Loci  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1X4_h-wRakMOUBq2GEkPKLogq1KnIswYP",
+            "size": 14076,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 19 - Tangent Properties of Circles  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1tBTL-ODvVSagW95QDGg6cXo6TEZJPp7d",
+            "size": 6073,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 19 - Tangent Properties of Circles  Exercise 19A.html",
+            "type": "file",
+            "fileId": "1N_FbTARsBtLgXL7kQRM0So_Fk6RTIxi2",
+            "size": 114700,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 19 - Tangent Properties of Circles  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1bPCxYH-Rk_Dwh-8Dqlol2VnIbL6xUNq1",
+            "size": 50935,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Banking  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "117WwEcc8hdDHvGCVdonT7HRRRzWd-SFk",
+            "size": 56160,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Banking  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "18h-P6Qc1fnz7ul5iPl0nBjncxVnoMbnr",
+            "size": 35821,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Banking  Case-Study Based Questions.html",
+            "type": "file",
+            "fileId": "1ZpVu5PaS2EYFfjX5rVnV-nXbXZWebz07",
+            "size": 36586,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 2 - Banking  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "16FNysAm0KIsr5uRd4j-3xk5XquHlHIY5",
+            "size": 69050,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Constructions  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1sG5vJJDBHdCU2p4y8OJebCsE2oA66_7L",
+            "size": 17403,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Constructions  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "18mSig4hEsghMEKNsY14VfOqzGxlvD2vK",
+            "size": 1789,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Constructions  Exercise 20A.html",
+            "type": "file",
+            "fileId": "1MRURQuu6kqenvyboZIt_hQv3qSHDCE4g",
+            "size": 15860,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Constructions  Exercise 20B.html",
+            "type": "file",
+            "fileId": "1xR2bl52ArEamn6ticfxPDPAG7mi8ZyBZ",
+            "size": 39729,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 20 - Constructions  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1XO-FDKB7-LCB82cftVUWGv3hnFsK0eDu",
+            "size": 3783,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Volume  Surface Area of Solids  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1TGzv04fxB3rw8NF8Gu6Di2eY3sAidQW6",
+            "size": 131228,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Volume  Surface Area of Solids  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1NIfK7vnchWKfyfKrHNM1wNbycA2Ye-03",
+            "size": 33955,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Volume  Surface Area of Solids  Exercise 21A.html",
+            "type": "file",
+            "fileId": "1Dvr1D508-_DSz2_PvH4rerSEsatoMMm8",
+            "size": 377352,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Volume  Surface Area of Solids  Exercise 21B.html",
+            "type": "file",
+            "fileId": "14gRxcnA5pmULVEj1FTvAo2wNCEvPU1ti",
+            "size": 471880,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Volume  Surface Area of Solids  Exercise 21C.html",
+            "type": "file",
+            "fileId": "1V_XkO2MFD1hk4HhXXFCQyVlaXl9Dt8X6",
+            "size": 824645,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 21 - Volume  Surface Area of Solids  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1crvhwOQtNQzyW6wWg7dp6OZr23aR88ee",
+            "size": 1346224,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Trigonometrical Identities  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1l27ptcdfEf1C33SYM7wZlZnsZUtuIOhU",
+            "size": 39626,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Trigonometrical Identities  Exercise 22A.html",
+            "type": "file",
+            "fileId": "1Z78EWUmtoXf1KdcsdGS-QBRyIjMnijFq",
+            "size": 1162307,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Trigonometrical Identities  Exercise 22B.html",
+            "type": "file",
+            "fileId": "183N2AVYcdeik6tYiK8L5hLx1l3WXJSef",
+            "size": 210909,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Trigonometrical Identities  Exercise 22C.html",
+            "type": "file",
+            "fileId": "1xNDBSzxvkLOcbqylp8phzIIXbqSDnhfI",
+            "size": 10275,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 22 - Trigonometrical Identities  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1lRydn513XHM9QpAIcQHFjuMtjOeUR8H6",
+            "size": 584142,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 23 - Heights  Distances  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1h5NyL4DD3IL35TNZtVfVaHWyTVwnge9a",
+            "size": 84068,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 23 - Heights  Distances  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1IjvH2KHNZVvZ-8vNoWJQerJZbAHUJbB3",
+            "size": 14565,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 23 - Heights  Distances  Case-Study Based Questions.html",
+            "type": "file",
+            "fileId": "1vrsSB2q-OOaMRoAR-N9d1-St6nUZ8N71",
+            "size": 34065,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 24 - Graphical Representation of Statistical Data  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1NwvHVsIp8hgEdCZWgHza3gkg5ZhOuCsB",
+            "size": 12409,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 24 - Graphical Representation of Statistical Data  Exercise 24.html",
+            "type": "file",
+            "fileId": "1HOPhi2oFbVAzi6Xskf_HxGw93sBAv9gp",
+            "size": 54713,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 24 - Graphical Representation of Statistical Data  Multiple Choice Questions.html",
+            "type": "file",
+            "fileId": "1u3reo478zmKq0fyKO7VratgJU9iId5VD",
+            "size": 48435,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 25 - Measures of Central Tendency Mean  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1UtXKPX1pY7gZ4Fa3wZn5pGNOkZ7Nh8UE",
+            "size": 31487,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 26 - Median Quartiles  Mode  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1wjpaWbIUoPTYxUd0H_I1HASbsNbZ8yp8",
+            "size": 40713,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 26 - Median Quartiles  Mode  Exercise 26B.html",
+            "type": "file",
+            "fileId": "1bAAu826z6uqGHFqPwHyyOaaPrmNRIb9E",
+            "size": 113005,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 27 - Probability  Assertion-Reason Type Questions.html",
+            "type": "file",
+            "fileId": "1swWqM5AxwvPgSQdPndDaCHgoNdBQO1OV",
+            "size": 33388,
+            "addedAt": "2026-10-19"
+          },
+          {
+            "name": "Chapter 3 - Shares  Dividends  Analytical  Application Based Questions.html",
+            "type": "file",
+            "fileId": "1XdZo9Bv5iygNhsfgRltBmPFPXn-gG41A",
+            "size": 15371,
+            "addedAt": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "solved-icse-question-papers-computer-applications-class-10",
         "type": "folder",
         "fileId": "",
         "size": 0,
         "children": []
       },
       {
-        "name": "class-10-icse-sumita-arora-computer-applications-bluej",
+        "name": "sumita-arora-computer-applications-bluej",
         "type": "folder",
         "fileId": "",
         "size": 0,
         "children": []
       },
       {
-        "name": "class-10-icse-total-geography",
+        "name": "total-geography",
         "type": "folder",
         "fileId": "",
         "size": 0,
         "children": []
       },
       {
-        "name": "class-10-icse-total-history-civics",
+        "name": "total-history-civics",
         "type": "folder",
         "fileId": "",
         "size": 0,
         "children": []
       },
       {
-        "name": "class-10-icse-veena-bhargava-goyal-geography",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "class-10-logix-icse-computer-applications-java-bluej",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-biology-competency-focused-practice",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-biology-previous-year-question-papers",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-chemistry-competency-focused-practice",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-chemistry-previous-year-question-papers",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-computer-applications-competency-practice",
-        "type": "folder",
-        "fileId": "",
-        "size": 0,
-        "children": []
-      },
-      {
-        "name": "icse-class-10-geography-competency-focused-practice",
+        "name": "veena-bhargava-goyal-geography",
         "type": "folder",
         "fileId": "",
         "size": 0,
