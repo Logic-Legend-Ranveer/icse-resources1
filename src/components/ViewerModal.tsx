@@ -30,7 +30,7 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
     setLoading(true);
 
     if (isPdf || isImage) {
-      // Use Worker 1 for PDFs and Images
+      // Use Worker 1 for PDFs and Images (returns JSON preview URL)
       fetch(`${WORKER_PREVIEW_URL}/file?id=${file.fileId}`)
         .then(res => res.json())
         .then(data => {
@@ -42,7 +42,7 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
           setLoading(false);
         });
     } else if (isHtml) {
-      // Use Worker 2 for Raw HTML files (fetches text content so it renders visually via srcDoc)
+      // Use Worker 2 for Raw HTML files (fetches text content for srcDoc rendering)
       fetch(`${WORKER_RAW_URL}/file?id=${file.fileId}`)
         .then(res => res.text())
         .then(text => {
@@ -63,7 +63,6 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
 
   return (
     <Dialog open={!!file} onOpenChange={() => onClose()}>
-      {/* Optimized dimensions to prevent awkward whitespace on large WUXGA screens */}
       <DialogContent className="max-w-6xl w-[90vw] h-[88vh] flex flex-col p-4 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl shadow-2xl gap-2">
         <DialogHeader className="flex flex-row items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-2 pt-0 px-1 space-y-0 shrink-0">
           <DialogTitle className="text-base font-semibold truncate max-w-[65%] text-slate-800 dark:text-slate-100">
@@ -106,7 +105,7 @@ export const ViewerModal: React.FC<ViewerModalProps> = ({ file, onClose }) => {
 
           {!loading && !error && (
             isHtml ? (
-              // Renders the raw HTML string visually inside the iframe sandbox using srcDoc
+              // Explicitly passes the fetched HTML text string into srcDoc so the browser renders it visually
               <iframe
                 srcDoc={htmlContent || ''}
                 className="w-full h-full rounded-lg border border-slate-200 dark:border-slate-800 bg-white shadow-inner"
