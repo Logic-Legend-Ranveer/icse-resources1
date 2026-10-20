@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from "react";
 import {
   AlertTriangle,
@@ -27,9 +26,11 @@ export default function ViewerModal() {
     if (!viewerFile) return;
 
     let cancelled = false;
+    const controller = new AbortController();
 
     const fileName = viewerFile.name.toLowerCase();
-    const isHtml = fileName.endsWith(".html") || fileName.endsWith(".htm");
+    const isHtml =
+      fileName.endsWith(".html") || fileName.endsWith(".htm");
 
     setStatus("loading");
     setImageUrl(null);
@@ -39,13 +40,14 @@ export default function ViewerModal() {
     if (!viewerFile.driveId) {
       setErrorMessage("This file has no linked Drive document yet.");
       setStatus("error");
-      return;
+
+      return () => {
+        cancelled = true;
+        controller.abort();
+      };
     }
 
-    // HTML files are fetched as raw HTML and rendered locally.
     if (isHtml) {
-      const controller = new AbortController();
-
       fetch(
         `https://icse-file-proxy2.bybro.workers.dev/file?id=${encodeURIComponent(
           viewerFile.driveId
@@ -54,7 +56,9 @@ export default function ViewerModal() {
       )
         .then(async (response) => {
           if (!response.ok) {
-            throw new Error(`Failed to load HTML (${response.status}).`);
+            throw new Error(
+              `Failed to load HTML (${response.status}).`
+            );
           }
 
           return response.text();
@@ -80,7 +84,6 @@ export default function ViewerModal() {
       };
     }
 
-    // Preserve the existing image and embedded-file handling.
     fetchFileEmbed(viewerFile.driveId)
       .then((result) => {
         if (cancelled) return;
@@ -91,12 +94,15 @@ export default function ViewerModal() {
       .catch((error: Error) => {
         if (cancelled) return;
 
-        setErrorMessage(error.message || "Failed to load this file.");
+        setErrorMessage(
+          error.message || "Failed to load this file."
+        );
         setStatus("error");
       });
 
     return () => {
       cancelled = true;
+      controller.abort();
     };
   }, [viewerFile]);
 
@@ -105,11 +111,22 @@ export default function ViewerModal() {
   const driveId = viewerFile.driveId;
   const fileName = viewerFile.name.toLowerCase();
 
-  const isHtml = fileName.endsWith(".html") || fileName.endsWith(".htm");
+  const isHtml =
+    fileName.endsWith(".html") || fileName.endsWith(".htm");
   const isImage = isImageFile(viewerFile.name);
 
-  const driveViewUrl = `https://drive.google.com/file/d/${driveId}/view`;
-  const driveDownloadUrl = `https://drive.google.com/uc?export=download&id=${driveId}`;
+  const driveViewUrl = driveId
+    ? `https://drive.google.com/file/d/${encodeURIComponent(driveId)}/view`
+    : "#";
+
+  const driveDownloadUrl = driveId
+    ? `https://drive.google.com/uc?export=download&id=${encodeURIComponent(driveId)}`
+    : "#";
+
+  const downloadHref =
+    isHtml && driveId
+      ? `https://icse-file-proxy2.bybro.workers.dev/file?id=${encodeURIComponent(driveId)}&download=true`
+      : driveDownloadUrl;
 
   const htmlSrcDoc = htmlContent
     ? `<!DOCTYPE html>
@@ -170,7 +187,7 @@ export default function ViewerModal() {
 
   return (
     <ModalShell
-      title={viewerFile.name}
+      title={`${viewerFile.name} · V${VIEWER_VERSION}`}
       onClose={closeModal}
       widthClassName="w-full"
       heightClassName="h-full"
@@ -212,7 +229,7 @@ export default function ViewerModal() {
                 </div>
               ) : (
                 <iframe
-                  src={`https://drive.google.com/file/d/${driveId}/preview`}
+                  src={`https://drive.google.com/file/d/${encodeURIComponent(driveId!)}/preview`}
                   title={viewerFile.name}
                   className="h-full w-full border-0"
                 />
@@ -221,9 +238,8 @@ export default function ViewerModal() {
           )}
         </div>
 
-        {/* Slim footer with version badge */}
+        {/* Slim footer */}
         <div className="flex shrink-0 flex-wrap items-center justify-between gap-2 border-t border-border px-3 py-1.5">
-          {/* Version indicator */}
           <span
             title="Viewer code version"
             className="inline-flex items-center rounded border border-emerald-500/50 bg-emerald-500/10 px-2 py-1 text-[10px] font-semibold leading-none tracking-wide text-emerald-600 dark:border-emerald-400/40 dark:bg-emerald-400/10 dark:text-emerald-300"
@@ -231,15 +247,19 @@ export default function ViewerModal() {
             V{VIEWER_VERSION}
           </span>
 
-          {/* Footer actions */}
           <div className="ml-auto flex items-center justify-end gap-2">
             <a
               href={driveViewUrl}
               target="_blank"
               rel="noreferrer noopener"
-              aria-disabled={status !== "ready"}
+              aria-disabled={status !== "ready" || !driveId}
+              onClick={(event) => {
+                if (status !== "ready" || !driveId) {
+                  event.preventDefault();
+                }
+              }}
               className={`flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs font-medium text-slate-300 transition-colors hover:bg-surface-hover ${
-                status === "ready"
+                status === "ready" && driveId
                   ? ""
                   : "pointer-events-none opacity-40"
               }`}
@@ -248,31 +268,25 @@ export default function ViewerModal() {
               <span className="hidden sm:inline">Open in Drive</span>
             </a>
 
-            {/* Determine the correct download URL: Worker 2 for HTML files (includes banner), Google Drive for others */}
-             {(() => {
-           const fileName = file?.name?.toLowerCase() || '';
-          const isHtml = fileName.endsWith('.html') || fileName.endsWith('.htm');
-          const downloadHref = isHtml
-          ? `https://icse-file-proxy2.bybro.workers.dev/file?id=${file.fileId}&download=true`
-           : driveDownloadUrl;
-
-    return (
-    <a
-      href={downloadHref}
-      target="_blank"
-      rel="noreferrer noopener"
-      aria-disabled={status !== "ready"}
-      className={`flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-accent-indigo to-accent-violet px-3 py-1.5 text-xs font-medium text-white transition-transform hover:scale-[1.02] ${
-        status === "ready"
-          ? ""
-          : "pointer-events-none opacity-40"
-      }`}
-    >
-      <Download className="h-3.5 w-3.5" />
-      <span className="hidden sm:inline">Download</span>
-    </a>
-  );
-})()}
+            <a
+              href={downloadHref}
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-disabled={status !== "ready" || !driveId}
+              onClick={(event) => {
+                if (status !== "ready" || !driveId) {
+                  event.preventDefault();
+                }
+              }}
+              className={`flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-accent-indigo to-accent-violet px-3 py-1.5 text-xs font-medium text-white transition-transform hover:scale-[1.02] ${
+                status === "ready" && driveId
+                  ? ""
+                  : "pointer-events-none opacity-40"
+              }`}
+            >
+              <Download className="h-3.5 w-3.5" />
+              <span className="hidden sm:inline">Download</span>
+            </a>
           </div>
         </div>
       </div>
