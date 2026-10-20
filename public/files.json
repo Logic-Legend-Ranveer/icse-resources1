@@ -8350,7 +8350,7 @@
     "size": 143255008,
     "children": [
       {
-        "name": "biology-competency-focused-practice",
+        "name": "Biology solved CFQ",
         "type": "folder",
         "fileId": "",
         "size": 52683,
@@ -8386,7 +8386,7 @@
         ]
       },
       {
-        "name": "biology-previous-year-question-papers",
+        "name": "Biology solved PYQ",
         "type": "folder",
         "fileId": "",
         "size": 961075,
@@ -8534,7 +8534,7 @@
         ]
       },
       {
-        "name": "chemistry-competency-focused-practice",
+        "name": "Chemistry solved CFQ",
         "type": "folder",
         "fileId": "",
         "size": 283946,
@@ -8605,7 +8605,7 @@
         ]
       },
       {
-        "name": "chemistry-previous-year-question-papers",
+        "name": "Chemistry solved PYQ",
         "type": "folder",
         "fileId": "",
         "size": 1786353,
@@ -8817,7 +8817,7 @@
         ]
       },
       {
-        "name": "computer-applications-competency-practice",
+        "name": "computer-applications-CFQ",
         "type": "folder",
         "fileId": "",
         "size": 88704,
@@ -10097,7 +10097,7 @@
         ]
       },
       {
-        "name": "geography-competency-focused-practice",
+        "name": "geography-CFQ",
         "type": "folder",
         "fileId": "",
         "size": 69778,
@@ -10140,7 +10140,7 @@
         ]
       },
       {
-        "name": "history-civics-competency-focused-practice",
+        "name": "history-civics-CFQ",
         "type": "folder",
         "fileId": "",
         "size": 93205,
@@ -10183,7 +10183,7 @@
         ]
       },
       {
-        "name": "history-civics-previous-year-question-papers",
+        "name": "history-civics-PYQ",
         "type": "folder",
         "fileId": "",
         "size": 481140,
@@ -10635,7 +10635,7 @@
         ]
       },
       {
-        "name": "mathematics-previous-year-question-papers",
+        "name": "mathematics-PYQ",
         "type": "folder",
         "fileId": "",
         "size": 6649366,
@@ -10713,7 +10713,7 @@
         ]
       },
       {
-        "name": "maths-competency-focused-practice",
+        "name": "maths-CFQ",
         "type": "folder",
         "fileId": "",
         "size": 1810012,
@@ -11513,7 +11513,7 @@
         ]
       },
       {
-        "name": "physics-competency-focused-practice",
+        "name": "physics-CFQ",
         "type": "folder",
         "fileId": "",
         "size": 736710,
@@ -11549,7 +11549,7 @@
         ]
       },
       {
-        "name": "physics-previous-year-question-papers",
+        "name": "physics-PYQ",
         "type": "folder",
         "fileId": "",
         "size": 2982839,
@@ -11669,7 +11669,7 @@
         ]
       },
       {
-        "name": "robotics-ai-previous-year-question-papers",
+        "name": "robotics-ai-PYQ",
         "type": "folder",
         "fileId": "",
         "size": 286217,
@@ -12658,7 +12658,7 @@
         ]
       },
       {
-        "name": "solved-question-papers-computer-applications",
+        "name": "solved-QPs-computer-applications",
         "type": "folder",
         "fileId": "",
         "size": 1028749,
