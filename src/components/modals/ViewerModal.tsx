@@ -143,27 +143,90 @@ export default function ViewerModal() {
     href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
 
   <style>
-    html { background: #fff; }
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    background: #0b1120 !important;
+    color: #f1f5f9;
+  }
+
+  body {
+    box-sizing: border-box;
+    max-width: 980px;
+    min-width: 200px;
+    margin: 0 auto;
+    padding: 24px;
+    background: #0b1120 !important;
+    color: #f1f5f9 !important;
+    font-family: Arial, sans-serif;
+  }
+
+  .markdown-body {
+    background: #0b1120 !important;
+    color: #f1f5f9 !important;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  p, li, span, div, strong, em, label {
+    color: inherit;
+  }
+
+  a {
+    color: #93c5fd !important;
+  }
+
+  table, th, td, hr {
+    border-color: #334155 !important;
+  }
+
+  th {
+    background: #1e293b !important;
+    color: #f1f5f9 !important;
+  }
+
+  td {
+    background: #0b1120 !important;
+    color: #f1f5f9 !important;
+  }
+
+  blockquote {
+    color: #cbd5e1 !important;
+    border-left-color: #64748b !important;
+  }
+
+  pre, code {
+    background: #1e293b !important;
+    color: #f1f5f9 !important;
+    border-color: #334155 !important;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  pre {
+    overflow-x: auto;
+  }
+
+  .katex,
+  .katex-display {
+    color: #f1f5f9 !important;
+  }
+
+  .katex-display {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  @media (max-width: 600px) {
     body {
-      box-sizing: border-box;
-      max-width: 980px;
-      min-width: 200px;
-      margin: 0 auto;
-      padding: 24px;
-      background: #fff;
-      color: #24292f;
-      font-family: Arial, sans-serif;
+      padding: 12px;
     }
-    img { max-width: 100%; height: auto; }
-    pre { overflow-x: auto; }
-    .katex-display {
-      overflow-x: auto;
-      overflow-y: hidden;
-    }
-    @media (max-width: 600px) {
-      body { padding: 12px; }
-    }
-  </style>
+  }
+</style>
 </head>
 <body>
   <main class="markdown-body">${htmlContent}</main>
@@ -187,7 +250,7 @@ export default function ViewerModal() {
 
   return (
     <ModalShell
-      title={`${viewerFile.name} · V${VIEWER_VERSION}`}
+      title={viewerFile.name}
       onClose={closeModal}
       widthClassName="w-full"
       heightClassName="h-full"
