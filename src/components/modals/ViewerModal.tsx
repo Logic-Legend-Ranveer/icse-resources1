@@ -250,10 +250,10 @@ export default function ViewerModal() {
 
             {/* Determine the correct download URL: Worker 2 for HTML files (includes banner), Google Drive for others */}
              {(() => {
-           const fileName = file?.name?.toLowerCase() || '';
+           const fileName = File?.name?.toLowerCase() || '';
           const isHtml = fileName.endsWith('.html') || fileName.endsWith('.htm');
           const downloadHref = isHtml
-          ? `https://icse-file-proxy2.bybro.workers.dev/file?id=${file.fileId}&download=true`
+          ? `https://icse-file-proxy2.bybro.workers.dev/file?id=${File.fileId}&download=true`
            : driveDownloadUrl;
 
     return (
