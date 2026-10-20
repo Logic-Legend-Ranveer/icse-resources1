@@ -27,7 +27,7 @@ export default function ContentsBar({ items, activeId, onSelect, variant }: Cont
 
   if (variant === "sidebar") {
     return (
-      <aside className="fixed bottom-0 left-0 top-[108px] z-40 hidden w-68 flex-col gap-2 overflow-y-auto border-r border-border bg-midnight p-3 md:flex">
+      <aside className="fixed bottom-0 left-0 top-[108px] z-40 hidden w-73 flex-col gap-2 overflow-y-auto border-r border-border bg-midnight p-3 md:flex">
         {items.map((item) => (
           <CardButton key={item.id} item={item} isActive={item.id === activeId} onClick={() => onSelect(item.id)} orientation="vertical" />
         ))}
