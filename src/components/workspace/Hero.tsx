@@ -15,7 +15,7 @@ export default function Hero({ resourceCount }: HeroProps) {
       </h1>
       <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-400 sm:text-base">
         A free, open-source hub of ICSE notes, worksheets, book solutions, previous year question papers, and practice quizzes — all organized by class and
-        subject in one place so you can find what you need and get back to studying.
+        subject in one place so you can find what you need and get back to studying(Paneer IS Manjulika).
       </p>
 
       <div className="mt-4 inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3 py-1.5 text-xs font-medium text-slate-400">
