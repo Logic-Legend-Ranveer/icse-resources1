@@ -22,6 +22,7 @@ import QuizSelectionBar from "./components/floating/QuizSelectionBar";
 import ViewerModal from "./components/modals/ViewerModal";
 import QuizModal from "./components/modals/QuizModal";
 import RecentAdditionsModal from "./components/modals/RecentAdditionsModal";
+import ConstellationBackground from './components/layout/ConstellationBackground';
 
 const DEFAULT_TAB_ID: TabId = "syllabus";
 const EMPTY_TREES: Record<TreeTabId, FileItem[]> = { syllabus: [], study: [], quizzes: [], "pyq-prelims": [], "sample-papers": [], "book-solutions": [] };
@@ -149,7 +150,8 @@ function AppShell() {
   const isQuizTab = activeTabId === "quizzes";
 
   return (
-    <div className="min-h-screen bg-midnight">
+    <div className="relative isolate min-h-screen bg-midnight">
+      <ConstellationBackground paused={activeModal !== null} />
       <Navbar activeTabId={activeTabId} onSelectTab={handleSelectTab} searchQuery={searchQuery} onSearchQueryChange={setSearchQuery} />
       <MobileTabDrawer activeTabId={activeTabId} onSelectTab={handleSelectTab} />
       <ContentsBar variant="sidebar" items={contentsBarItems} activeId={activeCardId} onSelect={handleSelectCard} />
