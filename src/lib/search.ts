@@ -49,13 +49,24 @@ export function buildTermGroups(query: string, synonyms: Record<string, string[]
 }
 
 /** 
- * A file/folder matches when its FULL PATH (breadcrumb + item name) contains 
- * at least one phrase from EVERY term group (AND across terms, OR within a group).
+ * A file/folder matches when its FULL PATH contains at least one phrase 
+ * from EVERY term group, ensuring word boundaries block letters 
+ * while allowing numbers and separators.
  */
 export function matchesTermGroups(entry: SearchEntry, termGroups: string[][]): boolean {
-  // Build the full searchable path: all breadcrumb folders + the item's own name
   const fullPathParts = [...entry.breadcrumb, entry.item.name];
   const lowerFullPath = fullPathParts.join(" / ").toLowerCase();
   
-  return termGroups.every((group) => group.some((phrase) => lowerFullPath.includes(phrase)));
+  return termGroups.every((group) => 
+    group.some((phrase) => {
+      // Escape special regex characters in the phrase
+      const escapedPhrase = phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      
+      // (?<![a-z]) ensures no letter precedes the phrase
+      // (?![a-z]) ensures no letter follows the phrase
+      const regex = new RegExp(`(?<![a-z])${escapedPhrase}(?![a-z])`, 'i');
+      
+      return regex.test(lowerFullPath);
+    })
+  );
 }
