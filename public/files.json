@@ -3,13 +3,13 @@
     "name": "Study Assets",
     "type": "folder",
     "fileId": "",
-    "size": 3948212209,
+    "size": 6140298991,
     "children": [
       {
         "name": "Biology",
         "type": "folder",
         "fileId": "",
-        "size": 313073293,
+        "size": 687642229,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -171,14 +171,42 @@
             "name": "Question Banks",
             "type": "folder",
             "fileId": "",
-            "size": 160773396,
+            "size": 535342332,
             "children": [
+              {
+                "name": "Biology - Model Test Papers - Goyal.pdf",
+                "type": "file",
+                "fileId": "1dNLoTYH_I_x4nbZCPlLwC1FHCSpMgT-3",
+                "size": 143548033,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Biology - Question Bank - Educart.pdf",
+                "type": "file",
+                "fileId": "1CBBipMq-VlwrHaHcBTxjhAn4oVJkH6fF",
+                "size": 115963679,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Biology - Question Bank - Nodia.pdf",
+                "type": "file",
+                "fileId": "18zBs2_5pDdNvydFuEnTKkSVpLDzmGEIQ",
+                "size": 15574879,
+                "addedAt": "2026-10-28"
+              },
               {
                 "name": "Biology - Suggestive Questions.pdf",
                 "type": "file",
                 "fileId": "1q6SceEIPnK2guyGHYuRiag27divRjle9",
                 "size": 992918,
                 "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Biology - Together with Biology - Rachna Sagar.pdf",
+                "type": "file",
+                "fileId": "1wd7XcYjZk-Bifaz3CJWFTtTAtAyXtCDy",
+                "size": 99482345,
+                "addedAt": "2026-10-28"
               },
               {
                 "name": "Biology Question Bank - Goyal.pdf",
@@ -385,7 +413,7 @@
         "name": "Chemistry",
         "type": "folder",
         "fileId": "",
-        "size": 346227014,
+        "size": 836742162,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -526,7 +554,7 @@
             "name": "Question banks",
             "type": "folder",
             "fileId": "",
-            "size": 231400384,
+            "size": 721915532,
             "children": [
               {
                 "name": "CFQ-ICSE-Chemistry.pdf",
@@ -536,11 +564,67 @@
                 "addedAt": "2026-09-17"
               },
               {
+                "name": "Chemistry - Model Test Papers - Goyal.pdf",
+                "type": "file",
+                "fileId": "1vCMRmCm89UR_fOMrrRl11TBiJhoMSOtf",
+                "size": 166004984,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Chemistry - Oswal - Top School Preboards.pdf",
+                "type": "file",
+                "fileId": "1N7jcl9DFRhFy8suaB9QLdWy3JpV5OOVg",
+                "size": 13012136,
+                "addedAt": "2026-10-28"
+              },
+              {
                 "name": "Chemistry - Oswal Most Likely Questions.pdf",
                 "type": "file",
                 "fileId": "1j53R3pQO0N_Vg0yNqqpBkAwnabrciJww",
                 "size": 14201121,
                 "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Chemistry - Question Bank - Goyal.pdf",
+                "type": "file",
+                "fileId": "1H0XlZwkJhd0BQZwgj67Z9geCJvyoEAWM",
+                "size": 23736981,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Chemistry - Question Bank - Nodia.pdf",
+                "type": "file",
+                "fileId": "1m013WMlFvY-8OY2ffvxYlZ2iDYHuunMP",
+                "size": 14105329,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Chemistry - Question Bank - Oswal.pdf",
+                "type": "file",
+                "fileId": "1WqNHgWN-g_QiBpqIyZsdpQoNEJ-ly46k",
+                "size": 58906858,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Chemistry - Sample Papers - Arihant.pdf",
+                "type": "file",
+                "fileId": "1rlF7oB6Rz-L3pmshB5l7E2K0aK1gsle3",
+                "size": 41590689,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Chemistry - Self Study.pdf",
+                "type": "file",
+                "fileId": "11xdyJPkixjNDyHIHqx9uZa0StDumg8yW",
+                "size": 96998246,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Chemistry - Viraf J. Dalal.pdf",
+                "type": "file",
+                "fileId": "1FNL4ZGH8XT2jjFaTe8x2G6PEJ-SXxg8H",
+                "size": 76159925,
+                "addedAt": "2026-10-28"
               },
               {
                 "name": "Chemistry MCQs.pdf",
@@ -776,7 +860,7 @@
         "name": "Computer Applications",
         "type": "folder",
         "fileId": "",
-        "size": 340952158,
+        "size": 448165915,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -1227,7 +1311,7 @@
             "name": "Question Banks",
             "type": "folder",
             "fileId": "",
-            "size": 179965512,
+            "size": 287179269,
             "children": [
               {
                 "name": "CFQs-ICSE_Computer-Application-Class-X.pdf",
@@ -1237,11 +1321,32 @@
                 "addedAt": "2026-09-17"
               },
               {
+                "name": "Computer Applications - Gurukul Oswal MCQs.pdf",
+                "type": "file",
+                "fileId": "1U8m5GM0hka-Ff5FsZDmN0kTT2UA7rXGX",
+                "size": 16962233,
+                "addedAt": "2026-10-28"
+              },
+              {
                 "name": "Computer Applications - MCQs.pdf",
                 "type": "file",
                 "fileId": "1SEJxQImoUhlwBcQQguyW-YfuGesa1zwX",
                 "size": 693066,
                 "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Computer Applications - Oswal - Top School Preboards.pdf",
+                "type": "file",
+                "fileId": "1dQLS6Lc52YxAT4VvDUcUArJ3h0EDQ9Nz",
+                "size": 83710493,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Computer Applications Question Bank - Nodia.pdf",
+                "type": "file",
+                "fileId": "16y4fX8BepEunJ5-x0o2UsdzKjpVh7RpI",
+                "size": 6541031,
+                "addedAt": "2026-10-28"
               },
               {
                 "name": "Computer Question Bank - Goyal.pdf",
@@ -1399,7 +1504,7 @@
         "name": "English Language",
         "type": "folder",
         "fileId": "",
-        "size": 791594946,
+        "size": 802445075,
         "children": [
           {
             "name": "Books",
@@ -1527,7 +1632,7 @@
             "name": "Question Banks & Practice Sets",
             "type": "folder",
             "fileId": "",
-            "size": 28872150,
+            "size": 39722279,
             "children": [
               {
                 "name": "CFQ-ICSE-English-Language-X.pdf",
@@ -1535,6 +1640,13 @@
                 "fileId": "1DRVCrBLsAIihqSRVl5Z-Q0NIWyrfn1Kd",
                 "size": 734942,
                 "addedAt": "2026-09-17"
+              },
+              {
+                "name": "English Language - Oswal - Top School Preboards.pdf",
+                "type": "file",
+                "fileId": "1-3aKrhPEFissQO4HABwuoRVb12GQp5VQ",
+                "size": 10850129,
+                "addedAt": "2026-10-28"
               },
               {
                 "name": "English Language Question Bank - Goyal.pdf",
@@ -1734,7 +1846,7 @@
         "name": "English Literature",
         "type": "folder",
         "fileId": "",
-        "size": 589308177,
+        "size": 706535470,
         "children": [
           {
             "name": "English Literature Revision notes.pdf",
@@ -2321,7 +2433,7 @@
             "name": "Question banks",
             "type": "folder",
             "fileId": "",
-            "size": 223870077,
+            "size": 341097370,
             "children": [
               {
                 "name": "CFQ-ICSE-Literature-in-English-X.pdf",
@@ -2364,6 +2476,27 @@
                 "fileId": "1_rh0DSAJQrqlU4D9nBYWFUsQg0GEG77c",
                 "size": 56339249,
                 "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Literature in English - Model Test Papers - Goyal.pdf",
+                "type": "file",
+                "fileId": "1wNgYItsqI0CZp6EZv04A9TtMESdQlEvN",
+                "size": 92740720,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Literature in English - Oswal - Top School Preboards.pdf",
+                "type": "file",
+                "fileId": "1trISQzYm7cPBgx4CyHZnrrojM3ucEjeF",
+                "size": 14542681,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Literature in English - Question Bank - Nodia.pdf",
+                "type": "file",
+                "fileId": "1CBmZR8eJkrVIWhalzUbg3ipiDfFaPOFz",
+                "size": 9943892,
+                "addedAt": "2026-10-28"
               }
             ]
           },
@@ -2947,7 +3080,7 @@
         "name": "Geography",
         "type": "folder",
         "fileId": "",
-        "size": 243631471,
+        "size": 366217552,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -3102,7 +3235,7 @@
             "name": "Question Banks & Books",
             "type": "folder",
             "fileId": "",
-            "size": 140875330,
+            "size": 263461411,
             "children": [
               {
                 "name": "CFQ-ICSE-Geography.pdf",
@@ -3140,11 +3273,39 @@
                 "addedAt": "2026-09-23"
               },
               {
+                "name": "Geography - Oswal - Top School Preboards.pdf",
+                "type": "file",
+                "fileId": "1FmgNwE1xv_ssaLhlPQatyzaxWrGI-g5p",
+                "size": 11107870,
+                "addedAt": "2026-10-28"
+              },
+              {
                 "name": "Geography - Previous Year Maps Solved by Council.pdf",
                 "type": "file",
                 "fileId": "12jyYbd8duV4ZihvroEnl4H54E355okkf",
                 "size": 1281594,
                 "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography - Question Bank - Arihant.pdf",
+                "type": "file",
+                "fileId": "1e7y2oju-20iAC2iaCQVeOQENofIrmGjh",
+                "size": 75976865,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Geography - Question Bank - Educart.pdf",
+                "type": "file",
+                "fileId": "1mo-WcTsOlPq4IxYN6TJNvMlywXJh_fVG",
+                "size": 23302156,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Geography - Question Bank - Nodia.pdf",
+                "type": "file",
+                "fileId": "1ZehysmdKYl55KCBo7pH-AaxckSMDclya",
+                "size": 10833468,
+                "addedAt": "2026-10-28"
               },
               {
                 "name": "Geography - Self-Help by Arun Deep.pdf",
@@ -3166,6 +3327,13 @@
                 "fileId": "11NJBvi54TGm-G2mXl_-5MOuiXxOgDFd2",
                 "size": 7689115,
                 "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Geography - Terms Related to Toposheet.pdf",
+                "type": "file",
+                "fileId": "1_jjPYI3ihOKUvxQXXWXJJi2mXIKiIQbA",
+                "size": 1365722,
+                "addedAt": "2026-10-28"
               },
               {
                 "name": "Geography Question Bank - Oswal.pdf",
@@ -3394,7 +3562,7 @@
         "name": "History & Civics",
         "type": "folder",
         "fileId": "",
-        "size": 254204598,
+        "size": 483729964,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -3634,7 +3802,7 @@
             "name": "Question Banks ",
             "type": "folder",
             "fileId": "",
-            "size": 87814716,
+            "size": 317340082,
             "children": [
               {
                 "name": "CFQ-ICSE_History-and-Civics-X.pdf",
@@ -3642,6 +3810,41 @@
                 "fileId": "1O2GjoWd2fqei6e3golhYxoDKzlXm_0mK",
                 "size": 1315451,
                 "addedAt": "2026-09-17"
+              },
+              {
+                "name": "History & Civics - Goyal Brothers Prakashan.pdf",
+                "type": "file",
+                "fileId": "17JPya53PhoFQKeRppekdT6LkEnM0ATQu",
+                "size": 106544575,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "History & CIvics - Oswal - Top School Preboards.pdf",
+                "type": "file",
+                "fileId": "1oTHrMD8th6z2CpcZE7Ktkk6K2I39esiO",
+                "size": 11027722,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "History & Civics - Question Bank - Educart.pdf",
+                "type": "file",
+                "fileId": "1V_j9gmWBQb3B2CSlzkxMGeIYgEL11JAr",
+                "size": 33317019,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "History & Civics - Question Bank - Nodia.pdf",
+                "type": "file",
+                "fileId": "1REkWHyFpzPM77gaspi5UeWECuoTJW7pz",
+                "size": 10262474,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "History & Civics - Sample Papers - Arihant.pdf",
+                "type": "file",
+                "fileId": "1DJmog8oi1ib_bVcRuyD3Zxt23bjpUd7q",
+                "size": 68373576,
+                "addedAt": "2026-10-28"
               },
               {
                 "name": "History & Civics - Teacher_s Handbook.pdf",
@@ -3827,7 +4030,7 @@
         "name": "Mathematics",
         "type": "folder",
         "fileId": "",
-        "size": 405129801,
+        "size": 583073138,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -4052,7 +4255,7 @@
             "name": "Question Banks & Books",
             "type": "folder",
             "fileId": "",
-            "size": 229745880,
+            "size": 407689217,
             "children": [
               {
                 "name": "CFQ-ICSE-Mathematics-X.pdf",
@@ -4062,6 +4265,13 @@
                 "addedAt": "2026-09-17"
               },
               {
+                "name": "Mathematics - Oswal - Top School Preboards.pdf",
+                "type": "file",
+                "fileId": "1MjmW4g3s81M2Sob_1lP6Zk0m4mDe0drk",
+                "size": 21040663,
+                "addedAt": "2026-10-28"
+              },
+              {
                 "name": "Maths - 100 MCQs Practice Set.pdf",
                 "type": "file",
                 "fileId": "1y2MRyL0fxDGUEkoWr8vKh3a4aMlamMdV",
@@ -4069,11 +4279,32 @@
                 "addedAt": "2026-09-23"
               },
               {
+                "name": "Maths - Model Test Papers - Goyal.pdf",
+                "type": "file",
+                "fileId": "1I-7GiVFOWTzQxG0yvxOOxcudvsoH42wl",
+                "size": 105229360,
+                "addedAt": "2026-10-28"
+              },
+              {
                 "name": "Maths - Olympiad-Level Questions.pdf",
                 "type": "file",
                 "fileId": "1Ac0r6E55LucpCnqA-o8B9NFSzhf1OK2i",
                 "size": 3672996,
                 "addedAt": "2026-09-23"
+              },
+              {
+                "name": "Maths - Question Bank - Nodia.pdf",
+                "type": "file",
+                "fileId": "14iOX50zSMf50HC7nJpXCNKEU7l8w9Q7u",
+                "size": 25241482,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Maths - Sample Papers - Arihant.pdf",
+                "type": "file",
+                "fileId": "1DSedx3Tk-cBDc4hjUoaHZ2H8G62GKFHu",
+                "size": 26431832,
+                "addedAt": "2026-10-28"
               },
               {
                 "name": "Maths - Selina.pdf",
@@ -4259,8 +4490,29 @@
         "name": "Other Featured books and notes",
         "type": "folder",
         "fileId": "",
-        "size": 89343388,
+        "size": 369390875,
         "children": [
+          {
+            "name": "Critical Thinking Questions - Almonds.pdf",
+            "type": "file",
+            "fileId": "1g18Ian8-fYNRb2CeLj6FYDiuaQ49XuzZ",
+            "size": 91669814,
+            "addedAt": "2026-10-28"
+          },
+          {
+            "name": "Gurukul Oswal - Solved Papers - 10 years (2011-2020).pdf",
+            "type": "file",
+            "fileId": "1ccqJmFcXF_hE2DT-4hHA8yhei9F3bya0",
+            "size": 34389142,
+            "addedAt": "2026-10-28"
+          },
+          {
+            "name": "Gurukul Oswal 61 Sample Papers - 2026.pdf",
+            "type": "file",
+            "fileId": "1dlKvdDed1zgXDwIFzyVM_NxGBJGpXLv3",
+            "size": 74876416,
+            "addedAt": "2026-10-28"
+          },
           {
             "name": "Mock Test Papers.pdf",
             "type": "file",
@@ -4274,6 +4526,13 @@
             "fileId": "1AFzX4dDQ-BUMDvn-xqaGYpk8dysRZ1FP",
             "size": 46120105,
             "addedAt": "2026-09-23"
+          },
+          {
+            "name": "Sample Papers All In One - Educart.pdf",
+            "type": "file",
+            "fileId": "1VFhQNW2eLciZzDgtig0ds5Lo592pn47E",
+            "size": 79112115,
+            "addedAt": "2026-10-28"
           }
         ]
       },
@@ -4402,7 +4661,7 @@
         "name": "Physics",
         "type": "folder",
         "fileId": "",
-        "size": 445769649,
+        "size": 727378897,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -4522,7 +4781,7 @@
             "name": "Question Banks",
             "type": "folder",
             "fileId": "",
-            "size": 323089510,
+            "size": 604698758,
             "children": [
               {
                 "name": "CFQ-ICSE-Physics-X-1.pdf",
@@ -4530,6 +4789,48 @@
                 "fileId": "1ShHcQgWzhgSp8iNPSF0xNAqP__tCo1-K",
                 "size": 2346974,
                 "addedAt": "2026-09-17"
+              },
+              {
+                "name": "Physics - All-in-One - Arihant.pdf",
+                "type": "file",
+                "fileId": "13YrPHN2hDM-cMKYIN0UKQjmlI8F5mHNa",
+                "size": 18165395,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Physics - Chapterwise PYQs.pdf",
+                "type": "file",
+                "fileId": "1FvjdC624IhM6UnyZG3zPkubjcrHZwJlE",
+                "size": 1164460,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Physics - Model Test Papers - Goyal.pdf",
+                "type": "file",
+                "fileId": "1R0_DhbiGaMqR1-bTgBpLRQ6nXk8WhVz7",
+                "size": 143762217,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Physics - Oswal - Top School Preboards.pdf",
+                "type": "file",
+                "fileId": "18AuXYlfhkYqNVMb9X4O6NZjp_Ck7L-QE",
+                "size": 18346361,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Physics - Question Bank - Educart.pdf",
+                "type": "file",
+                "fileId": "18e0G39OLZT0G2Md9zPuvcV_UmiF7Z61O",
+                "size": 79063186,
+                "addedAt": "2026-10-28"
+              },
+              {
+                "name": "Physics - Question Bank - Nodia.pdf",
+                "type": "file",
+                "fileId": "1hiVIHrbnG7ci1O8vnm1XaK5XylzQTIYE",
+                "size": 21107629,
+                "addedAt": "2026-10-28"
               },
               {
                 "name": "Physics - Vatsal Handbook.pdf",
