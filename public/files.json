@@ -3,13 +3,13 @@
     "name": "Study Assets",
     "type": "folder",
     "fileId": "",
-    "size": 6140298991,
+    "size": 6229301923,
     "children": [
       {
         "name": "Biology",
         "type": "folder",
         "fileId": "",
-        "size": 687642229,
+        "size": 692451052,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -171,20 +171,20 @@
             "name": "Question Banks",
             "type": "folder",
             "fileId": "",
-            "size": 535342332,
+            "size": 540151155,
             "children": [
               {
                 "name": "Biology - Model Test Papers - Goyal.pdf",
                 "type": "file",
                 "fileId": "1dNLoTYH_I_x4nbZCPlLwC1FHCSpMgT-3",
-                "size": 143548033,
+                "size": 148304896,
                 "addedAt": "2026-10-28"
               },
               {
                 "name": "Biology - Question Bank - Educart.pdf",
                 "type": "file",
                 "fileId": "1CBBipMq-VlwrHaHcBTxjhAn4oVJkH6fF",
-                "size": 115963679,
+                "size": 116015639,
                 "addedAt": "2026-10-28"
               },
               {
@@ -413,7 +413,7 @@
         "name": "Chemistry",
         "type": "folder",
         "fileId": "",
-        "size": 836742162,
+        "size": 844699668,
         "children": [
           {
             "name": "Chapterwise PYQs",
@@ -554,7 +554,7 @@
             "name": "Question banks",
             "type": "folder",
             "fileId": "",
-            "size": 721915532,
+            "size": 729873038,
             "children": [
               {
                 "name": "CFQ-ICSE-Chemistry.pdf",
@@ -567,7 +567,7 @@
                 "name": "Chemistry - Model Test Papers - Goyal.pdf",
                 "type": "file",
                 "fileId": "1vCMRmCm89UR_fOMrrRl11TBiJhoMSOtf",
-                "size": 166004984,
+                "size": 173962490,
                 "addedAt": "2026-10-28"
               },
               {
@@ -1567,6 +1567,13 @@
                     "fileId": "1Mm6UBGn0NdEab7WdQpRTwmG2nUdQP2F_",
                     "size": 312166302,
                     "addedAt": "2026-09-23"
+                  },
+                  {
+                    "name": "SWS - Argumentative Writing.pdf.tmp.pdf",
+                    "type": "file",
+                    "fileId": "1RXxs5oby2eHjqsMr4t_l34rPSZbvHFh8",
+                    "size": 0,
+                    "addedAt": "2026-10-29"
                   },
                   {
                     "name": "SWS - Descriptive Essays.pdf",
@@ -4490,7 +4497,7 @@
         "name": "Other Featured books and notes",
         "type": "folder",
         "fileId": "",
-        "size": 369390875,
+        "size": 445627478,
         "children": [
           {
             "name": "Critical Thinking Questions - Almonds.pdf",
@@ -4526,6 +4533,13 @@
             "fileId": "1AFzX4dDQ-BUMDvn-xqaGYpk8dysRZ1FP",
             "size": 46120105,
             "addedAt": "2026-09-23"
+          },
+          {
+            "name": "PW Toppers Handwritten Notes Full 400+Pages.pdf",
+            "type": "file",
+            "fileId": "1Dqcens8hzCcP__aE0kRBidoe1B80fpPg",
+            "size": 76236603,
+            "addedAt": "2026-10-29"
           },
           {
             "name": "Sample Papers All In One - Educart.pdf",
