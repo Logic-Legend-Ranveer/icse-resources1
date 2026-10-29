@@ -5180,7 +5180,7 @@
     "name": "Sample Papers & PYQs from CICSE",
     "type": "folder",
     "fileId": "",
-    "size": 202263897,
+    "size": 202632775,
     "children": [
       {
         "name": "ICSE PYQ(Official)",
@@ -8389,7 +8389,7 @@
         "name": "ICSE Specimen papers(Official)",
         "type": "folder",
         "fileId": "",
-        "size": 24497736,
+        "size": 24866614,
         "children": [
           {
             "name": "ICSE 2024 Specimen papers",
@@ -8594,7 +8594,7 @@
             "name": "ICSE 2027 Specimen papers",
             "type": "folder",
             "fileId": "",
-            "size": 5155061,
+            "size": 5523939,
             "children": [
               {
                 "name": "ICSE-2027-SPECIMEN-011-ENGLISH-LANGUAGE-QP-MS.pdf",
@@ -8651,6 +8651,13 @@
                 "fileId": "1khYLFHVDhtY-ANsiZAnejWSL04kP8wq_",
                 "size": 655197,
                 "addedAt": "2026-09-17"
+              },
+              {
+                "name": "ICSE-2027-SPECIMEN-661-ROBOTICS-ARTIFICIAL-INTELLIGENCE-QP-MS.pdf",
+                "type": "file",
+                "fileId": "1jIBahx0d9kECSWh5hGIUqHHRkFLy-kw2",
+                "size": 368878,
+                "addedAt": "2026-10-29"
               }
             ]
           }
