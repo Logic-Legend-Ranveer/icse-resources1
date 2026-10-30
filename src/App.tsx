@@ -42,7 +42,7 @@ function AppShell() {
   const [explorerPath, setExplorerPath] = useState<FileItem[]>([]);
   const [selectedQuizIds, setSelectedQuizIds] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState("");
-  const [exceptions, setExceptions] = useState<Record<string, string[]>>({});
+  const [exceptions] = useState<Record<string, string[]>>({});
 
   useEffect(() => {
     let cancelled = false;
