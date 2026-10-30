@@ -86,10 +86,10 @@ function AppShell() {
   const termGroups = buildTermGroups(searchQuery, synonyms);
   return searchIndex
     .filter((entry) => entry.item.type !== "folder")
-    .filter((entry) => matchesTermGroups(entry, termGroups))
+    .filter((entry) => matchesTermGroups(entry, termGroups, searchQuery, exceptions))
     .slice(0, 100);
-}, [isSearching, searchQuery, synonyms, searchIndex]);
-
+}, [isSearching, searchQuery, synonyms, exceptions, searchIndex]);
+  
   function handleSelectTab(tabId: TabId) {
     setSearchQuery("");
     setActiveTabId(tabId);
