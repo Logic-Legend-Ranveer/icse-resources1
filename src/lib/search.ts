@@ -44,7 +44,7 @@ export function buildTermGroups(query: string, synonyms: Record<string, string[]
   const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   return terms.map((term) => {
     const syns = synonyms[term];
-    return syns && syns.length > [0] ? [term, ...syns] : [term];
+    return syns && syns.length > 0 ? [term, ...syns] : [term];
   });
 }
 
