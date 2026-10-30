@@ -46,7 +46,7 @@ function AppShell() {
   useEffect(() => {
     let cancelled = false;
     Promise.all([fetchFilesJson(), fetchQuizManifest(), fetchSynonyms(), fetchExceptions()])
-      .then(([rawFiles, rawQuizzes, syn]) => {
+      .then(([rawFiles, rawQuizzes, syn, exps]) => {
         if (cancelled) return;
         const normalizedRoot = normalizeFileTree(rawFiles);
         setContentTrees({
