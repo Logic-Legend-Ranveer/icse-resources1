@@ -48,10 +48,11 @@ export function buildTermGroups(query: string, synonyms: Record<string, string[]
   });
 }
 
+
 /** 
  * A file/folder matches when its FULL PATH contains at least one phrase 
- * from EVERY term group, ensuring word boundaries block letters 
- * while allowing numbers and separators.
+ * from EVERY term group. Uses a negative lookbehind to ensure no letter 
+ * precedes the search phrase, while allowing letters to follow it.
  */
 export function matchesTermGroups(entry: SearchEntry, termGroups: string[][]): boolean {
   const fullPathParts = [...entry.breadcrumb, entry.item.name];
@@ -62,9 +63,9 @@ export function matchesTermGroups(entry: SearchEntry, termGroups: string[][]): b
       // Escape special regex characters in the phrase
       const escapedPhrase = phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       
-      // (?<![a-z]) ensures no letter precedes the phrase
-      // (?![a-z]) ensures no letter follows the phrase
-      const regex = new RegExp(`(?<![a-z])${escapedPhrase}(?![a-z])`, 'i');
+      // (?<![a-z]) ensures no letter precedes the phrase.
+      // (Omitted negative lookahead so letters CAN follow, e.g. "phy" matches "physics").
+      const regex = new RegExp(`(?<![a-z])${escapedPhrase}`, 'i');
       
       return regex.test(lowerFullPath);
     })
