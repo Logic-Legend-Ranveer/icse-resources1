@@ -44,29 +44,82 @@ export function buildTermGroups(query: string, synonyms: Record<string, string[]
   const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
   return terms.map((term) => {
     const syns = synonyms[term];
-    return syns && syns.length > 0 ? [term, ...syns] : [term];
+    return syns && syns.length > [0] ? [term, ...syns] : [term];
   });
 }
 
+/**
+ * Parses raw text from exceptions.txt into a record of query -> array of lowercased exception strings.
+ * Format: query = exception1, exception2
+ */
+export function parseExceptionsFile(rawText: string): Record<string, string[]> {
+  const exceptionsMap: Record<string, string[]> = {};
+  const lines = rawText.split("\n");
+  
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) continue; // Skip comments and empty lines
+    
+    const parts = trimmed.split("=");
+    if (parts.length === 2) {
+      const queryKey = parts[0].trim().toLowerCase();
+      const exceptionValues = parts[1]
+        .split(",")
+        .map((ex) => ex.trim().toLowerCase())
+        .filter(Boolean);
+      
+      exceptionsMap[queryKey] = exceptionValues;
+    }
+  }
+  
+  return exceptionsMap;
+}
 
 /** 
  * A file/folder matches when its FULL PATH contains at least one phrase 
- * from EVERY term group. Uses a negative lookbehind to ensure no letter 
- * precedes the search phrase, while allowing letters to follow it.
+ * from EVERY term group (with negative lookbehind for preceding letters),
+ * AND none of the query-specific exceptions appear in the path.
  */
-export function matchesTermGroups(entry: SearchEntry, termGroups: string[][]): boolean {
+export function matchesTermGroups(
+  entry: SearchEntry, 
+  termGroups: string[][], 
+  rawQuery: string = "", 
+  exceptions: Record<string, string[]> = {}
+): boolean {
   const fullPathParts = [...entry.breadcrumb, entry.item.name];
   const lowerFullPath = fullPathParts.join(" / ").toLowerCase();
-  
+
+  const cleanQuery = rawQuery.trim().toLowerCase();
+  const queryTerms = cleanQuery.split(/\s+/).filter(Boolean);
+
+  // 1. Check query-specific exceptions based on terms or full query
+  for (const term of queryTerms) {
+    const forbiddenList = exceptions[term];
+    if (forbiddenList && forbiddenList.length > 0) {
+      const hasException = forbiddenList.some((forbiddenWord) => {
+        const escapedForbidden = forbiddenWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const exceptionRegex = new RegExp(`(?<![a-z])${escapedForbidden}(?![a-z])`, 'i');
+        return exceptionRegex.test(lowerFullPath);
+      });
+      if (hasException) return false;
+    }
+  }
+
+  const fullQueryForbidden = exceptions[cleanQuery];
+  if (fullQueryForbidden && fullQueryForbidden.length > 0) {
+    const hasFullException = fullQueryForbidden.some((forbiddenWord) => {
+      const escapedForbidden = forbiddenWord.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const exceptionRegex = new RegExp(`(?<![a-z])${escapedForbidden}(?![a-z])`, 'i');
+      return exceptionRegex.test(lowerFullPath);
+    });
+    if (hasFullException) return false;
+  }
+
+  // 2. Standard term group matching with negative lookbehind for preceding letters
   return termGroups.every((group) => 
     group.some((phrase) => {
-      // Escape special regex characters in the phrase
       const escapedPhrase = phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      
-      // (?<![a-z]) ensures no letter precedes the phrase.
-      // (Omitted negative lookahead so letters CAN follow, e.g. "phy" matches "physics").
       const regex = new RegExp(`(?<![a-z])${escapedPhrase}`, 'i');
-      
       return regex.test(lowerFullPath);
     })
   );
