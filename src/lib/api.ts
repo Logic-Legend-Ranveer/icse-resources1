@@ -67,3 +67,33 @@ export async function fetchSynonyms(): Promise<Record<string, string[]>> {
     return {};
   }
 }
+
+
+/**
+ * Parses public/exceptions.txt — one entry per line, `query = exception1, exception2, …`.
+ * Blank lines and lines starting with `#` are ignored. Returns {} if the file can't be loaded.
+ */
+export async function fetchExceptions(): Promise<Record<string, string[]>> {
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}exceptions.txt`);
+    if (!res.ok) return {};
+    const text = await res.text();
+    const map: Record<string, string[]> = {};
+    for (const rawLine of text.split("\n")) {
+      const line = rawLine.trim();
+      if (!line || line.startsWith("#")) continue;
+      const separatorIndex = line.indexOf("=");
+      if (separatorIndex === -1) continue;
+      const key = line.slice(0, separatorIndex).trim().toLowerCase();
+      const values = line
+        .slice(separatorIndex + 1)
+        .split(",")
+        .map((v) => v.trim().toLowerCase())
+        .filter(Boolean);
+      if (key && values.length > 0) map[key] = values;
+    }
+    return map;
+  } catch {
+    return {};
+  }
+}
