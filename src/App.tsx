@@ -5,7 +5,7 @@ import { TAB_LABELS } from "./data/tabs";
 import type { TabId, TreeTabId } from "./data/tabs";
 import { TAB_SOURCE_FOLDER_NAME } from "./data/tabs";
 import type { FileItem } from "./types";
-import { fetchFilesJson, fetchQuizManifest, fetchSynonyms } from "./lib/api";
+import { fetchFilesJson, fetchQuizManifest, fetchSynonyms, fetchExceptions } from "./lib/api";
 import { buildQuizTree, countFiles, findFolderChildren, getRecentRawFiles, normalizeFileTree } from "./lib/fileTree";
 import { buildSearchIndex, buildTermGroups, matchesTermGroups } from "./lib/search";
 import type { SearchEntry } from "./lib/search";
@@ -37,16 +37,15 @@ function AppShell() {
   const [contentTrees, setContentTrees] = useState<Record<TreeTabId, FileItem[]>>(EMPTY_TREES);
   const [recentFiles, setRecentFiles] = useState<FileItem[]>([]);
   const [synonyms, setSynonyms] = useState<Record<string, string[]>>({});
-
+  const [exceptions, setExceptions] = useState<Record<string, string[]>>({});
   const [activeTabId, setActiveTabId] = useState<TabId>(DEFAULT_TAB_ID);
   const [explorerPath, setExplorerPath] = useState<FileItem[]>([]);
   const [selectedQuizIds, setSelectedQuizIds] = useState<Set<string>>(new Set());
   const [searchQuery, setSearchQuery] = useState("");
-  const [exceptions] = useState<Record<string, string[]>>({});
 
   useEffect(() => {
     let cancelled = false;
-    Promise.all([fetchFilesJson(), fetchQuizManifest(), fetchSynonyms()])
+    Promise.all([fetchFilesJson(), fetchQuizManifest(), fetchSynonyms(), fetchExceptions()])
       .then(([rawFiles, rawQuizzes, syn]) => {
         if (cancelled) return;
         const normalizedRoot = normalizeFileTree(rawFiles);
@@ -60,6 +59,7 @@ function AppShell() {
         });
         setRecentFiles(normalizeFileTree(getRecentRawFiles(rawFiles, 5)));
         setSynonyms(syn);
+        setExceptions(exps);
         setDataStatus("ready");
       })
       .catch((err: Error) => {
