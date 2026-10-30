@@ -1,0 +1,5 @@
+# ==========================================
+# ICSE Smart Search Query Exceptions
+# Format: query = exception1, exception2, exception3
+# ==========================================
+physics = physical, education
